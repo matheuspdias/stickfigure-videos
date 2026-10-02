@@ -872,7 +872,7 @@ def face(c, expr, t, fid, look=0.0, r=52):
 
 
 def figure(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "happy"),), look=0.0, shirt=YELLOW,
-           hair="tuft", fid=0, appear=None, flip_look=None):
+           hair="tuft", fid=0, appear=None, flip_look=None, outfit=None):
     """draw stick figure with feet on ground y. poses/exprs are keyframe lists of (time, name)."""
     a_scale = 1.0
     if appear is not None:
@@ -937,6 +937,7 @@ def figure(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "happy"),), look
                 line(c, hx, hy, hx, hy - 26, 7)
             elif fing == "point_up":
                 line(c, hx, hy, hx, hy - 28, 6)
+        return hx, hy
 
     # legs
     limb(hip, rf, LEN["th"], LEN["sh"], -1, foot=True, side=1)
@@ -954,6 +955,8 @@ def figure(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "happy"),), look
         c.line_to(*pts[3])
         c.close_path()
         fs(c, shirt, 7)
+        if outfit:
+            _torso_outfit(c, outfit, top, bot, perp)
     else:
         c.move_to(*hip); c.line_to(*neck)
         rgb(c, INK); c.set_line_width(lw); c.stroke()
@@ -983,13 +986,107 @@ def figure(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "happy"),), look
         c.arc(0, -4, LEN["head"] + 6, math.pi * 0.95, math.pi * 2.05)
         rgb(c, INK); c.set_line_width(14); c.stroke()
     face(c, expr, t, fid, look)
+    if outfit:
+        _head_outfit(c, outfit, look)
     c.restore()
     # arms
     perp = (math.cos(lean), math.sin(lean))
     rsh = (sh[0] + perp[0] * 26, sh[1] + perp[1] * 26)
     lsh = (sh[0] - perp[0] * 26, sh[1] - perp[1] * 26)
-    limb(rsh, rh, LEN["ua"], LEN["fa"], P.get("rb", -1) or -1, fing=P.get("rf_"))
-    limb(lsh, lh, LEN["ua"], LEN["fa"], P.get("lb", 1) or 1, fing=P.get("lf_"))
+    rhand = limb(rsh, rh, LEN["ua"], LEN["fa"], P.get("rb", -1) or -1, fing=P.get("rf_"))
+    lhand = limb(lsh, lh, LEN["ua"], LEN["fa"], P.get("lb", 1) or 1, fing=P.get("lf_"))
+    if outfit and outfit.get("prop"):
+        side, fn = outfit["prop"]
+        hx, hy = lhand if side == "l" else rhand
+        c.save(); c.translate(hx, hy); fn(c, t, P); c.restore()
+    c.restore()
+
+
+# ---------------------------------------------------------------- figurino de personagem fixo
+def _torso_outfit(c, o, top, bot, perp):
+    tx, ty = top; bx, by = bot
+    def at(k, w):  # ponto no torso: k=0 topo, 1 base; w = deslocamento lateral
+        x = tx + (bx - tx) * k + perp[0] * w
+        y = ty + (by - ty) * k + perp[1] * w
+        return x, y
+    if o.get("vest"):
+        for sx in (-1, 1):
+            poly(c, [at(0, sx * 32), at(0.02, sx * 14), at(0.55, sx * 4), at(1.0, sx * 6), at(1.0, sx * 44)])
+            fs(c, o["vest"], 6)
+        for k in (0.62, 0.78, 0.92):
+            circle(c, *at(k, 9), 4.5, INK, 0)
+    if o.get("suspenders"):
+        for sx in (-1, 1):
+            line(c, *at(0, sx * 22), *at(1.0, sx * 26), 9, o["suspenders"])
+            circle(c, *at(0.97, sx * 26), 5, LGRAY if "LGRAY" in globals() else WHITE, 2)
+    if o.get("collar"):
+        for sx in (-1, 1):
+            poly(c, [at(0, 0), at(0, sx * 22), at(0.12, sx * 14)])
+            fs(c, WHITE, 4)
+    if o.get("tie"):
+        poly(c, [at(0.02, -7), at(0.02, 7), at(0.09, 5), at(0.09, -5)]); fs(c, o["tie"], 4)
+        poly(c, [at(0.09, -5), at(0.09, 5), at(0.62, 10), at(0.70, 0), at(0.62, -10)]); fs(c, o["tie"], 4)
+    if o.get("bowtie"):
+        cx, cy = at(0.03, 0)
+        for sx in (-1, 1):
+            poly(c, [(cx, cy), (cx + sx * 22, cy - 12), (cx + sx * 22, cy + 12)]); fs(c, o["bowtie"], 4)
+        circle(c, cx, cy, 6, o["bowtie"], 3)
+    if o.get("badge"):
+        cx, cy = at(0.35, -20)
+        circle(c, cx, cy, 13, o["badge"], 4)
+        text(c, "$", cx, cy - 1, 18, MARKER, INK)
+
+
+def _head_outfit(c, o, look):
+    r = LEN["head"]
+    hair = o.get("hair")
+    if hair == "side":
+        c.move_to(-r + 4, -18); c.curve_to(-r + 6, -r - 6, 10, -r - 22, r - 6, -r + 14)
+        c.curve_to(10, -r + 4, -20, -r + 10, -r + 4, -18)
+        fs(c, (0.25, 0.18, 0.12), 5)
+    g = o.get("glasses")
+    lx = look * 6
+    if g == "rect":
+        for sx in (-1, 1):
+            rrect(c, sx * 17 + lx - 15, -18, 30, 22, 6)
+            rgb(c, INK); c.set_line_width(4.5); c.stroke()
+        line(c, -2 + lx, -10, 2 + lx, -10, 4)
+    elif g == "round":
+        for sx in (-1, 1):
+            circle(c, sx * 17 + lx, -6, 14, None, 4.5)
+        line(c, -3 + lx, -8, 3 + lx, -8, 4)
+    h = o.get("hat")
+    hc = o.get("hat_col", GREEN)
+    if h == "cap":
+        c.new_sub_path(); c.arc(0, -r + 26, r - 2, math.pi * 1.0, math.pi * 2.0); c.close_path()
+        fs(c, hc, 6)
+        c.move_to(r - 10, -r + 22); c.curve_to(r + 30, -r + 18, r + 46, -r + 26, r + 50, -r + 34)
+        c.line_to(r - 6, -r + 34); c.close_path()
+        fs(c, tuple(v * 0.8 for v in hc), 5)
+        circle(c, 0, -2 * r + 26, 6, hc, 4)
+        if o.get("hat_logo"):
+            text(c, o["hat_logo"], -4, -r - 2, 26, MARKER, INK)
+
+
+def prop_calculator(c, t, P):
+    c.save(); c.translate(0, 18); c.scale(0.32, 0.32); calculator(c, "R$"); c.restore()
+
+
+def prop_coin(c, t, P):
+    c.save(); c.translate(0, -16); c.rotate(math.sin(t * 3) * 0.3); c.scale(0.5, 0.5); coin(c); c.restore()
+
+
+def prop_pointer(c, t, P):
+    line(c, 0, 0, 60, -70, 6, BROWN)
+    circle(c, 60, -70, 6, RED, 0)
+
+
+def prop_tablet(c, t, P):
+    c.save(); c.translate(0, 10); c.rotate(-0.15)
+    rrect(c, -34, -46, 68, 92, 8); fs(c, DGRAY, 5)
+    c.rectangle(-26, -38, 52, 70); rgb(c, (0.85, 0.95, 0.88)); c.fill()
+    c.move_to(-20, 20); c.line_to(-6, 4); c.line_to(6, 12); c.line_to(20, -20)
+    rgb(c, GREEN); c.set_line_width(5); c.stroke()
     c.restore()
 
 
