@@ -58,5 +58,5 @@ def _wrap(fn):
 
 SCENES = [(fwd(s), (fwd(e) if e < 900 else 999.0), _wrap(fn)) for s, e, fn in old.SCENES]
 
-# efeitos discretos: sem os "swish" das entradas deslizantes
-SFX_SKIP = ("anim:up", "anim:left", "anim:right", "arrow")
+# efeitos discretos: só a transição entre cenas (sem som nos ícones)
+SFX_SKIP = ("anim:pop", "anim:drop", "anim:stamp", "anim:fade", "anim:up", "anim:left", "anim:right", "arrow", "appear", "key")
