@@ -44,6 +44,8 @@ def make_sfx(scenes_path, dur, out_wav):
     engine._CUES = None
     if getattr(m, "SFX_OFF", False):
         cues = []
+    skip = set(getattr(m, "SFX_SKIP", ()))
+    cues = [q for q in cues if q[1] not in skip]
     track = sfx.build_track(cues, dur, getattr(m, "SFX_STYLE", SFX_STYLE), getattr(m, "SFX", ()),
                             getattr(m, "AMBIENCE", SFX_AMBIENCE), getattr(m, "SFX_GAIN", 0.5))
     sfx.write_wav(out_wav, track)

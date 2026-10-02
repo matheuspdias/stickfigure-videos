@@ -1,0 +1,4 @@
+# Narração "Carro de 60 mil ganhando 5 mil" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 149.107s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=81df3011-ca08-4aad-959c-d226b3dd4bb2.wav
+# bloco2 128.131s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=07e969df-5495-4f44-900b-eae00f4b522d.wav
+# Junta: bloco1 + 1,0 s de silêncio + bloco2  (total 278,24 s)
