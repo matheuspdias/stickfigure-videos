@@ -36,7 +36,10 @@ Tudo é desenhado em código (pycairo): sem bancos de imagem, sem direitos autor
 - Fundo papel (`PAPER`), traço preto (`INK`), cores de destaque: `GREEN` (dinheiro/positivo), `RED` (custo/erro),
   `YELLOW`, `BLUE`, `ORANGE`, `PURPLE`. Fundos de marca-texto: `LYELLOW`, `LGREEN`, `(1, 0.8, 0.76)` (rosado).
 - Títulos: `MARKER` (Permanent Marker). Rótulos e frases: `HAND` (Patrick Hand).
-- Personagem principal: `hero(...)`, com camiseta amarela e topete. Segundo personagem: `other(...)`, com camiseta azul e cabelo espetado.
+- **Personagem fixo do canal: O Consultor** (`hero(...)`): camisa azul-marinho (`NAVY`), gravata dourada (`GOLD`), óculos retangulares e cabelo de lado. Ele aparece em todos os vídeos.
+  - Objeto na mão é **opcional por cena** (padrão: nenhum): `hero(..., prop=("l", prop_tablet))`. Use o tablet com gráfico para investimento ou crescimento, `prop_calculator` para contas, `prop_coin` para economizar e `prop_pointer` para explicar. Pode trocar de objeto no meio do vídeo, por exemplo com duas chamadas por intervalo de tempo.
+  - Segundo personagem: `other(...)` (camiseta azul, cabelo espetado). Boneco do vídeo piloto: `hero_classic(...)`.
+  - Paleta da marca: azul-marinho + dourado, com verde só para dinheiro e positivo e vermelho para custo e erro.
 - As fontes **não têm** os glifos `≠ ≈ → ↓ ✓`. Use `neq()`, `eq()`, `arrow()`, `check_icon()` ou texto por extenso.
 - Área útil: título em y≈110-150, conteúdo entre y 220 e 1000, bonecos com os pés em y≈960-1060.
 

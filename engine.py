@@ -1096,7 +1096,28 @@ def head_top(y, s):
 
 
 # ---------------------------------------------------------------- SCENE HELPERS
-def hero(c, t, x, y, s, poses, exprs, **kw):
+NAVY = (0.16, 0.24, 0.42)
+GOLD = (0.95, 0.70, 0.18)
+
+# Personagem fixo do canal de finanças: "O Consultor" (camisa azul-marinho, gravata dourada,
+# óculos retangulares, cabelo de lado). Objeto na mão é opcional por cena: prop=("l", prop_tablet) etc.
+CONSULTOR = dict(collar=True, tie=GOLD, glasses="rect", hair="side")
+
+
+def hero(c, t, x, y, s, poses, exprs, prop=None, **kw):
+    """O Consultor. prop: None (padrão) ou ("l"|"r", prop_tablet | prop_calculator | prop_coin | prop_pointer)"""
+    outfit = dict(CONSULTOR)
+    if prop:
+        outfit["prop"] = prop
+    kw.setdefault("shirt", NAVY)
+    kw.setdefault("hair", None)
+    kw.setdefault("fid", 0)
+    kw.setdefault("outfit", outfit)
+    figure(c, t, x, y, s, poses=poses, exprs=exprs, **kw)
+
+
+def hero_classic(c, t, x, y, s, poses, exprs, **kw):
+    """boneco do vídeo piloto (camiseta amarela, topete)"""
     kw.setdefault("shirt", YELLOW)
     kw.setdefault("hair", "tuft")
     kw.setdefault("fid", 0)
