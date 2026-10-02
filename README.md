@@ -74,3 +74,15 @@ Use só **3 ou 4 toques por vídeo**, à mão, nos momentos-chave, com sons sem 
 Outros sons disponíveis em `sfx.py`: `pop thud ding bell click`. Evite `swish whoosh gust`, que são feitos de ruído.
 O volume é ajustado sozinho para ficar 12 dB abaixo do pico da narração (`SFX_DB=...` para mudar).
 O áudio final sai em AAC 256 kbps. Abaixo disso a voz ganha artefatos nos agudos.
+
+## Cortes verticais (TikTok, YouTube Shorts, Reels)
+Depois do vídeo 16:9 pronto:
+```bash
+python cortes.py videos/<slug> out/<slug>.mp4 --audio <mp4 com o áudio final> --titulo "LINHA 1\NLINHA 2"
+```
+- Divide a história em partes de 62 s a 2:50 (o TikTok só paga vídeo com mais de 1 min; o Shorts aceita até 3 min), cortando no início de uma frase e preferindo começo de bloco ou de parágrafo do `roteiro.txt`.
+- Cada parte sai em 1080x1920: fundo com o próprio vídeo desfocado, título e "PARTE X DE N" no topo, o vídeo no meio e legendas grandes palavra por palavra (Montserrat ExtraBold, palavra falada em destaque). No fim entra "CONTINUA NA PARTE X" ou, na última, "HISTÓRIA COMPLETA NO YOUTUBE".
+- Tempos das palavras: `videos/<slug>/palavras.json` se existir; senão são estimados pelas frases e marcas `[palavra@t]` do `narracao_blocos.txt` (quanto mais marcas, melhor a sincronia).
+- Opções: `--partes N`, `--max 170`, `--cortes 160.5,308.2` (manual), `--so 1` (só uma parte, para prévia).
+- Saída: `out/<slug>_parteN.mp4` (~10 MB cada) e `out/<slug>_cortes.txt` com os tempos.
+- Tema (cores, fontes, nome do canal) em `THEME` no `cortes.py`, sobrescrito por `tema_cortes.json` quando existir.
