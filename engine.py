@@ -1168,3 +1168,65 @@ def at(x, y, fn):
     return f
 
 
+
+
+# ---------------------------------------------------------------- objetos novos (vídeo primeiros-100-mil)
+def snowball(c, r=90):
+    """bola de neve (raio r)"""
+    circle(c, 0, 0, r, WHITE, 6)
+    for a, d, rr in ((0.6, 0.45, 0.16), (2.4, 0.55, 0.12), (4.1, 0.35, 0.1), (5.3, 0.6, 0.13)):
+        circle(c, math.cos(a) * r * d, math.sin(a) * r * d, r * rr, LBLUE, 0)
+    c.new_sub_path(); c.arc(0, 0, r * 0.72, 3.6, 4.5)
+    rgb(c, LBLUE); c.set_line_width(max(4, r * 0.06)); c.stroke()
+
+
+def mattress(c):
+    """colchão com notas escondidas embaixo"""
+    for i, dx in enumerate((-70, 10, 85)):
+        c.save(); c.translate(dx, 52); c.rotate(-0.2 + i * 0.18); c.scale(0.55, 0.55); bill(c); c.restore()
+    rrect(c, -170, -50, 340, 95, 30)
+    fs(c, LBLUE, 6)
+    for x in (-100, -30, 40, 110):
+        circle(c, x, -3, 6, INK, 0)
+    line(c, -150, -20, 150, -20, 3, (0.5, 0.65, 0.85))
+
+
+def tree(c, k=1.0):
+    """árvore que cresce: k de 0 (broto) a 1 (árvore com frutos)"""
+    k = clamp01(k)
+    ellipse(c, 0, 8, 120, 18); fs(c, BROWN, 5)
+    h = 40 + 260 * k
+    rrect(c, -8 - 10 * k, -h, 16 + 20 * k, h, 6); fs(c, BROWN, 5)
+    if k < 0.25:
+        for sgn in (-1, 1):
+            ellipse(c, sgn * 22, -h - 6, 24, 12); fs(c, GREEN, 4)
+        return
+    R = 60 + 110 * k
+    for dx, dy, rr in ((-0.55, -0.15, 0.7), (0.55, -0.15, 0.7), (0, -0.55, 0.8), (0, 0.05, 0.75)):
+        circle(c, dx * R, -h - R * 0.4 + dy * R, rr * R, GREEN, 6)
+    if k > 0.85:
+        for dx, dy in ((-0.6, -0.3), (0.5, -0.6), (0.2, 0.0), (-0.15, -0.8), (0.75, -0.05)):
+            circle(c, dx * R, -h - R * 0.4 + dy * R, 15, RED, 4)
+
+
+def gear(c, r=80, col=GOLD, teeth=8):
+    """engrenagem (motor)"""
+    pts = []
+    for i in range(teeth * 2):
+        a0 = i * math.pi / teeth
+        rr = r if i % 2 == 0 else r * 0.78
+        for da in (-0.18, 0.18):
+            pts.append((math.cos(a0 + da) * rr, math.sin(a0 + da) * rr))
+    poly(c, pts); fs(c, col, 6)
+    circle(c, 0, 0, r * 0.3, PAPER, 6)
+
+
+def bar(c, h, w=150, col=GREEN, label=None, top=None, size=44):
+    """barra vertical com base em y=0 e altura h; rótulo embaixo e valor em cima"""
+    if h > 1:
+        rrect(c, -w / 2, -h, w, h, 10); fs(c, col, 6)
+    line(c, -w / 2 - 20, 0, w / 2 + 20, 0, 6)
+    if label:
+        text(c, label, 0, 45, size, HAND)
+    if top:
+        text(c, top, 0, -h - 40, size, MARKER)

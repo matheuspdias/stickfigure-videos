@@ -60,6 +60,7 @@ desenha `fn(c)` centrado em (x, y) a partir de `t0`. `t1` faz o elemento sumir c
 **Objetos** (centrados em 0,0, cerca de 150-300 px):
 `car(col, ghost)`, `bill`, `bills(n)`, `coin`, `gas_pump`, `shield`, `document(title)`, `wrench`, `tire`, `wrench_tire`,
 `parking`, `toll`, `house(big)`, `card`, `bank`, `percent`, `clock(t)`, `calendar(num, top)`, `piggy(col)`, `calculator(disp)`,
+`snowball(r)`, `mattress`, `tree(k)` (0 broto a 1 com frutos), `gear(r, col)`, `bar(h, w, col, label, top)` (barra com base em y=0),
 `check_icon`, `x_icon`, `big_x(s)`, `qmark`, `exclaim`, `bulb`, `sparkle(r)`, `sweat`, `thought(w, h, tx, ty)`, `speech(w, h, tx, ty)`,
 `clipboard(title)`, `subscribe_btn(done)`, `bell`, `cursor`, `envelope`, `donut(pct)`, `speed_lines(t)`, `neq`, `eq`.
 

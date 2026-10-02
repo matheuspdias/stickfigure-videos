@@ -1,0 +1,8 @@
+# Narração "Quanto tempo leva pra juntar R$ 100 mil" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 156.682s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=860d1a24-99d9-4de1-8c19-c64e8157465a.wav
+# bloco2 163.396s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=ac368244-d1db-4d23-a5c8-0f36dcb8f909.wav
+# bloco3 71.628s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6f18eb02-4b6e-4357-a372-47ef2b76fcfb.wav   (Ana x Bruno)
+# bloco4 120.346s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=f693dda1-c427-4d4c-97d7-831a15e4531d.wav
+# Junta: bloco1 + 1 s + bloco2 + 1 s + bloco3 + 1 s + bloco4  (total 515,05 s)
+# offsets absolutos: bloco1 0,00 | bloco2 157,68 | bloco3 322,08 | bloco4 394,71
+# Tempos de frase (absolutos) estão nos comentários de cada cena em scenes.py e em transcricao.txt.
