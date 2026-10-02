@@ -58,5 +58,7 @@ def _wrap(fn):
 
 SCENES = [(fwd(s), (fwd(e) if e < 900 else 999.0), _wrap(fn)) for s, e, fn in old.SCENES]
 
-# efeitos discretos: só a transição entre cenas (sem som nos ícones)
+# só toques pontuais, sem ruído: Erro nº 1, 41% do salário, "o dinheiro continua seu"
+SFX = [(28.45, "tum"), (140.16, "tum"), (235.42, "soft_ding")]
+# (nenhum som automático)
 SFX_SKIP = ("anim:pop", "anim:drop", "anim:stamp", "anim:fade", "anim:up", "anim:left", "anim:right", "arrow", "appear", "key")

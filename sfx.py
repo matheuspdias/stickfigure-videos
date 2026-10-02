@@ -172,8 +172,23 @@ def riser(d=2.0):
     return _norm(x, 0.35)
 
 
+def tum():
+    """impacto grave e suave, sem ruído (destaque de número/revelação)"""
+    d = 0.6
+    x = _sweep(95, 55, d) * _env(int(SR * d), 0.004, 0.14)
+    return _norm(_lp(x, 400), 0.6)
+
+
+def soft_ding():
+    """sininho suave, sem ruído (momento positivo)"""
+    d = 1.4
+    t = _t(d)
+    x = sum(a * np.sin(2 * np.pi * f * t) for f, a in ((880, 1), (1320, 0.35), (1760, 0.12)))
+    return _norm(x * _env(len(t), 0.01, 0.35), 0.28)
+
+
 SOUNDS = dict(pop=pop, thud=thud, swish=swish, whoosh=whoosh, dark_whoosh=dark_whoosh, impact=impact, boom=boom,
-              key=key, click=click, ding=ding, shimmer=shimmer, bell=bell, heartbeat=heartbeat, gust=gust, riser=riser)
+              key=key, click=click, ding=ding, shimmer=shimmer, bell=bell, heartbeat=heartbeat, gust=gust, riser=riser, tum=tum, soft_ding=soft_ding)
 
 
 def ambience_dark(dur):
@@ -190,7 +205,7 @@ def ambience_dark(dur):
 
 
 # ---------------------------------------------------------------- mapeamento evento -> som
-STYLE_LIGHT = {
+STYLE_LIGHT_OLD = {
     "anim:pop": lambda: pop(_rng.uniform(0.85, 1.25)),
     "anim:drop": thud,
     "anim:stamp": thud,
@@ -200,6 +215,8 @@ STYLE_LIGHT = {
     "transition": whoosh,
     "key": key,
 }
+STYLE_LIGHT = {}  # Faz a Conta: sem sons automáticos (o whoosh de ruído soava como chiado na voz)
+
 STYLE_DARK = {
     "anim:pop": lambda: _norm(_lp(pop(_rng.uniform(0.5, 0.7)), 1500), 0.35),
     "anim:drop": thud,

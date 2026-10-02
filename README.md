@@ -67,9 +67,9 @@ Precisa de um objeto novo? Escreva uma função `def objeto(c): ...` no `engine.
 `poly / rrect / circle / ellipse` + `fs(c, cor_preenchimento, espessura)`, contorno `INK` de 5-6 px. Assim ela fica disponível para os próximos vídeos.
 
 ## Efeitos sonoros
-Os efeitos são sintetizados por código (`sfx.py`), sem bancos de som, e entram **automaticamente** no `build`:
-pop quando um elemento surge (`anim="pop"`), pancada nos carimbos e quedas (`stamp`, `drop`), swish nas entradas deslizantes e setas,
-e whoosh na troca de cena. O volume é ajustado sozinho para ficar 12 dB abaixo do pico da narração.
-- Mais alto ou mais baixo: `SFX_DB=8 python render.py build ...` (menor = mais alto).
-- Sons extras no `scenes.py`: `SFX = [(t, "ding"), (t, "boom"), ...]`. Disponíveis: `pop thud swish whoosh dark_whoosh impact boom key click ding shimmer bell heartbeat gust riser`.
-- Desligar os automáticos: `SFX_OFF = True` no `scenes.py`.
+Padrão do Faz a Conta: **nenhum som automático**. O "whoosh" de transição era feito de ruído e soava como chiado por cima da voz, então foi removido.
+Use só **3 ou 4 toques por vídeo**, à mão, nos momentos-chave, com sons sem ruído:
+`SFX = [(t, "tum"), (t, "soft_ding")]`. Use `tum` na revelação de um número importante e `soft_ding` num momento positivo.
+Outros sons disponíveis em `sfx.py`: `pop thud ding bell click`. Evite `swish whoosh gust`, que são feitos de ruído.
+O volume é ajustado sozinho para ficar 12 dB abaixo do pico da narração (`SFX_DB=...` para mudar).
+O áudio final sai em AAC 256 kbps. Abaixo disso a voz ganha artefatos nos agudos.
