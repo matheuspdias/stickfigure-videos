@@ -6,3 +6,150 @@
 # Junta: bloco1 + 1 s + bloco2 + 1 s + bloco3 + 1 s + bloco4  (total 515,05 s)
 # offsets absolutos: bloco1 0,00 | bloco2 157,68 | bloco3 322,08 | bloco4 394,71
 # Tempos de frase (absolutos) estão nos comentários de cada cena em scenes.py e em transcricao.txt.
+# (cortes) frases do roteiro alinhadas às pausas do áudio final (tempo local de cada bloco)
+1|0.00|Se você guardar mil reais por mês, os seus primeiros cem mil reais vão levar mais de seis anos pra chegar. [os@2.47]
+1|7.11|Os próximos cem mil?
+1|8.50|Menos de quatro anos.
+1|10.27|E os seguintes, menos de três. [menos@11.31]
+1|12.85|Você guarda exatamente o mesmo valor todo mês.
+1|16.44|Não ganhou aumento, não acertou nenhuma ação, não fez nada de diferente. [não@19.30]
+1|21.27|E mesmo assim, fica cada vez mais rápido. [fica@22.47]
+1|24.79|Hoje eu vou te mostrar por que isso acontece, quanto tempo você levaria pra juntar os seus cem mil, e o momento exato em que o dinheiro começa a trabalhar mais do que você. [quanto@27.46] [e@30.54]
+1|34.90|Antes de tudo, as regras da nossa conta. [as@35.90]
+1|37.67|Vamos usar alguém que ganha cinco mil reais por mês.
+1|41.02|Essa pessoa vai guardar uma parte do salário todo mês e investir.
+1|45.50|Pra simplificar, vou considerar um investimento rendendo zero vírgula oito por cento ao mês, já descontado o imposto. [vou@46.56] [já@50.95]
+1|52.70|Isso dá uns dez por cento ao ano.
+1|55.16|Hoje, a renda fixa conservadora até paga um pouco mais do que isso, mas eu preferi usar um número mais pé no chão, porque os juros sobem e descem com o tempo. [mas@59.53] [porque@61.93]
+1|64.86|E um detalhe honesto: eu não vou descontar a inflação nessa conta. [eu@66.22]
+1|69.02|A ideia aqui não é prever o futuro com precisão.
+1|72.17|É entender o mecanismo.
+1|74.05|E esse mecanismo tem nome: juros compostos. [juros@75.93]
+1|77.68|Funciona assim.
+1|78.82|No primeiro mês, você coloca mil reais.
+1|81.59|Eles rendem zero vírgula oito por cento, ou seja, oito reais. [ou@84.19] [oito@84.99]
+1|86.21|Parece piada, né?
+1|87.68|No segundo mês, você coloca mais mil.
+1|90.38|Agora são dois mil e oito reais rendendo, e o rendimento já é de dezesseis reais. [e@93.25]
+1|96.21|Ao final do primeiro ano, você colocou doze mil reais do seu bolso, e os juros te deram uns quinhentos e quarenta reais. [e@100.39]
+1|103.81|Desanimador, né?
+1|105.30|É exatamente aqui que muita gente para e fala: investir não vale a pena. [investir@108.87]
+1|110.96|Só que juros compostos são uma bola de neve descendo a montanha.
+1|115.24|No começo ela é pequena e anda devagar.
+1|118.06|Mas cada volta que ela dá, ela pega mais neve. [ela@119.94]
+1|121.57|E quanto maior ela fica, mais neve ela pega a cada volta. [mais@123.30]
+1|125.98|Agora vamos aos cenários.
+1|127.81|Primeiro: guardando dez por cento do salário. [guardando@128.57]
+1|130.94|São quinhentos reais por mês.
+1|133.18|Se você guardasse esse dinheiro debaixo do colchão, sem render nada, levaria duzentos meses pra chegar nos cem mil. [sem@137.16] [levaria@137.16]
+1|140.33|Quase dezessete anos.
+1|142.45|Investindo, esse tempo cai pra uns dez anos. [esse@143.38]
+1|145.78|E olha a divisão: dos cem mil, uns sessenta mil saíram do seu bolso. [dos@147.04] [uns@148.03]
+1|150.59|Os outros quarenta mil foram os juros.
+1|153.25|Os juros te economizaram quase sete anos de vida.
+2|0.00|Segundo cenário: guardando vinte por cento. [guardando@1.44]
+2|3.40|Mil reais por mês.
+2|5.00|No colchão, são cem meses. [são@5.90]
+2|7.53|Oito anos e quatro meses.
+2|9.87|Investindo, seis anos e dois meses. [seis@10.86]
+2|13.32|E o terceiro: guardando trinta por cento. [guardando@14.36]
+2|16.31|Mil e quinhentos reais por mês.
+2|18.44|No colchão, cinco anos e sete meses. [cinco@19.34]
+2|21.76|Investindo, quatro anos e meio. [quatro@22.82]
+2|24.47|Repara numa coisa.
+2|25.84|Quando você passou de dez pra vinte por cento, o tempo caiu de dez anos pra seis. [o@28.62]
+2|31.34|Quase pela metade.
+2|32.84|Nenhum investimento do mundo faz isso por você.
+2|36.04|Nenhuma ação milagrosa, nenhuma criptomoeda, nenhum curso de trader.
+2|40.89|O primeiro motor da riqueza é o aporte.
+2|43.74|É o quanto você coloca todo mês.
+2|46.27|Principalmente no começo, quando a bola de neve ainda é pequena, quem empurra ela é você. [quando@47.79] [quem@49.81]
+2|51.84|Mas agora vem a parte bonita.
+2|53.83|Vamos voltar pro cenário dos mil reais por mês.
+2|56.79|Você levou seis anos e dois meses pra chegar nos cem mil.
+2|60.49|Foi difícil, exigiu disciplina. [exigiu@61.48]
+2|62.88|Só que olha o que acontece nesse ponto: os seus cem mil, sozinhos, rendem uns oitocentos reais por mês. [os@65.12] [sozinhos@65.12]
+2|69.89|É quase o mesmo valor que você guarda!
+2|72.51|Agora você tem dois motores empurrando a bola de neve.
+2|75.82|Você, com os seus mil reais.
+2|77.90|E o dinheiro, com os oitocentos dele.
+2|80.30|Resultado: o segundo bloco de cem mil chega em três anos e dez meses. [o@81.23]
+2|85.40|E o terceiro?
+2|86.40|Uns dois anos e dez meses.
+2|88.63|Você não mudou nada.
+2|90.08|Continuou guardando os mesmos mil reais.
+2|92.75|Quem acelerou foi o dinheiro.
+2|94.71|E tem um momento que eu acho o mais importante de toda essa jornada.
+2|98.67|Eu chamo de ponto de virada.
+2|100.79|É o mês em que os juros passam a render mais do que você guarda.
+2|104.63|No nosso cenário, isso acontece quando o patrimônio chega em cento e vinte e cinco mil reais.
+2|110.00|Nesse ponto, o rendimento do mês é de mil reais.
+2|113.34|Exatamente igual ao seu aporte.
+2|115.80|Daí pra frente, o dinheiro trabalha mais do que você.
+2|119.08|Guardando mil por mês, esse ponto chega em uns sete anos e três meses.
+2|123.95|Grava esse número.
+2|125.16|Os primeiros sete anos são de esforço.
+2|127.67|Depois disso, o jogo vira.
+2|129.88|E se a gente esticasse essa conta até um milhão de reais?
+2|133.59|Guardando os mesmos mil reais por mês, você chega no primeiro milhão em uns vinte e três anos.
+2|139.51|Agora olha a parte que assusta.
+2|141.69|Do seu bolso, saíram uns duzentos e setenta e seis mil reais.
+2|146.00|Os outros setecentos e vinte e quatro mil foram juros.
+2|149.44|Mais de setenta por cento do seu milhão foi o dinheiro trabalhando.
+2|153.55|Não você.
+2|154.61|E vinte e três anos parece muito?
+2|156.70|Se você começa aos vinte e cinco, chega aos quarenta e oito com um milhão.
+2|161.19|Guardando mil reais por mês.
+3|0.00|E aqui entra o ingrediente que ninguém consegue comprar depois: o tempo.
+3|4.57|Deixa eu te contar a história de duas pessoas.
+3|8.40|A Ana começou aos vinte e cinco anos.
+3|11.03|Guardou mil reais por mês durante dez anos, e aos trinta e cinco parou. [e@15.48]
+3|16.17|Nunca mais colocou um centavo.
+3|18.72|Só deixou o dinheiro lá, rendendo. [rendendo@20.10]
+3|21.09|Ela colocou do bolso cento e vinte mil reais.
+3|24.68|Já o Bruno achou que ainda era cedo.
+3|27.12|Começou só aos trinta e cinco, guardando os mesmos mil reais por mês.
+3|31.75|Só que ele não parou.
+3|33.28|Guardou por trinta anos seguidos, até os sessenta e cinco. [até@35.84]
+3|37.55|Ele colocou do bolso trezentos e sessenta mil reais.
+3|41.62|Três vezes mais que a Ana.
+3|43.79|Agora, aos sessenta e cinco anos, quem tem mais dinheiro? [aos@44.47] [quem@46.24]
+3|47.60|O Bruno chega com uns dois milhões e oitenta mil reais.
+3|51.40|Muito dinheiro.
+3|52.83|Mas a Ana, que guardou só por dez anos, chega com uns três milhões e meio. [chega@55.70]
+3|58.13|Ela colocou três vezes menos e terminou com quase um milhão e meio a mais.
+3|63.64|A diferença entre os dois não foi o salário, nem o investimento.
+3|67.71|Foram os dez anos que o dinheiro da Ana teve a mais pra crescer.
+4|0.00|Então por que tão pouca gente chega lá?
+4|2.90|Porque a maioria desiste justamente na fase mais lenta.
+4|7.20|Nos primeiros anos, a bola de neve é pequena.
+4|9.86|Você olha o extrato, vê que rendeu quarenta, cinquenta reais no mês, e pensa: pra que tanto sacrifício? [cinquenta@13.72] [e@13.72] [pra@14.59]
+4|16.39|Aí aparece uma viagem, um celular novo, um carro, e o dinheiro some. [um@19.99] [e@19.99]
+4|21.29|O problema é que a parte boa da curva vem depois.
+4|24.79|E ela só vem pra quem atravessou a parte chata.
+4|27.74|É como plantar uma árvore.
+4|29.20|Nos primeiros anos parece que nada acontece.
+4|31.92|Mas ninguém arranca uma árvore porque ela ainda não deu fruto.
+4|35.78|Então, como atravessar essa fase?
+4|37.70|Três atitudes práticas.
+4|39.62|Primeira: comece agora, mesmo que seja pouco. [comece@40.34] [mesmo@41.45]
+4|42.88|Se não dá pra guardar mil, guarda duzentos. [guarda@44.24]
+4|45.44|O que você não consegue recuperar depois é o tempo que a bola ficou parada.
+4|49.84|Segunda: aumente o percentual a cada aumento de salário. [aumente@50.72]
+4|53.69|Ganhou quinhentos reais a mais?
+4|55.32|Manda metade pro investimento.
+4|57.19|A gente viu que passar de dez pra vinte por cento corta anos da sua meta.
+4|61.90|Terceira: deixe no automático. [deixe@62.72]
+4|64.25|Programe a transferência pro dia do pagamento, antes do dinheiro virar gasto. [antes@66.87]
+4|68.61|Não dependa da força de vontade no fim do mês, porque no fim do mês não sobra nada. [porque@71.35]
+4|73.84|E um bônus: antes de pensar em rentabilidade, monte a sua reserva de emergência, num investimento conservador e com liquidez diária. [antes@74.88] [num@78.79]
+4|81.97|É ela que impede você de vender tudo no primeiro imprevisto e recomeçar do zero.
+4|86.87|Recapitulando.
+4|87.90|Os primeiros cem mil são os mais difíceis porque, no começo, quem faz tudo é você.
+4|93.19|Mas a cada bloco o dinheiro trabalha mais, até chegar o ponto de virada, em que ele passa a render mais do que você guarda. [até@95.91] [em@97.81]
+4|100.53|Agora me conta aqui nos comentários: quanto você consegue guardar por mês hoje? [quanto@102.49]
+4|104.96|Eu vou escolher alguns de vocês e fazer a conta completa num próximo vídeo.
+4|109.11|E se você tá pensando em trocar de carro, assiste antes o vídeo de quanto dá pra gastar num carro com o seu salário. [assiste@111.18]
+4|115.16|Ele tá aqui na tela.
+4|116.46|Aqui no Faz a Conta, a gente faz a conta. [a@117.80]
+4|119.34|Até a próxima.
