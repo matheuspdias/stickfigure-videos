@@ -1,4 +1,64 @@
 # Narração "Carro de 60 mil ganhando 5 mil" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
-# bloco1 149.107s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=81df3011-ca08-4aad-959c-d226b3dd4bb2.wav
-# bloco2 128.131s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=07e969df-5495-4f44-900b-eae00f4b522d.wav
+# HeyGen bloco1 149.107s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=81df3011-ca08-4aad-959c-d226b3dd4bb2.wav
+# HeyGen bloco2 128.131s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=07e969df-5495-4f44-900b-eae00f4b522d.wav
 # Junta: bloco1 + 1,0 s de silêncio + bloco2  (total 278,24 s)
+# (cortes) frases em bloco único de 278,24 s: tempos da transcrição do piloto pelo mapa A de scenes.py, alinhados aos silêncios do áudio final
+# bloco1 278.24s (áudio final já juntado)
+1|0.03|Você ganha R$ 5.000 por mês e está pensando em comprar um carro de R$ 60.000.
+1|5.64|Parece possível, certo?
+1|7.49|Mas e se eu te disser que o preço do carro é provavelmente a parte menos importante dessa conta?
+1|13.70|Porque um carro de R$ 60.000 não custa apenas R$ 60.000.
+1|17.91|E dependendo da sua situação financeira, comprar esse carro pode ser uma decisão tranquila, [comprar@20.43]
+1|23.47|ou pode transformar o seu salário em uma corrida para chegar até o fim do mês.
+1|28.38|O primeiro erro é pensar assim.
+1|30.42|Eu ganho R$ 5.000, então se a parcela do carro for R$ 1.000, está tudo certo. [então@31.57]
+1|35.45|Só que o carro não termina na parcela.
+1|38.08|Você ainda precisa pagar o combustível, seguro, IPVA, manutenção, [seguro@41.20] [manutenção@42.10]
+1|44.93|e dependendo de onde mora, estacionamento e pedágio.
+1|47.02|Então vamos fazer essa conta de verdade.
+1|49.59|Vamos imaginar uma pessoa que recebe R$ 5.000 por mês.
+1|53.35|Ela encontrou um carro usado por R$ 60.000.
+1|56.08|Para facilitar nossa simulação, vamos imaginar que ela tem R$ 20.000 para dar de entrada e financiar os R$ 40.000 restantes. [vamos@58.01]
+1|64.11|A parcela vai depender da taxa de juros, prazo e instituição financeira.
+1|69.12|Então não existe uma parcela universal.
+1|71.67|Mas é justamente por isso que você não deveria olhar para apenas o valor anunciado na concessionária.
+1|77.34|Agora vamos imaginar que essa pessoa tem uma parcela de aproximadamente R$ 1.000.
+1|82.47|Já foram 20% do salário.
+1|84.73|Mas ainda temos combustível.
+1|86.56|Se ela gastar, por exemplo, R$ 500 por mês com combustível, já chegamos a R$ 1.500. [já@90.47]
+1|92.45|Agora entram seguro, IPVA e manutenção. [IPVA@94.23]
+1|96.16|E aqui está um detalhe importante.
+1|98.22|Alguns desses gastos não chegam todos os meses.
+1|101.34|O IPVA pode ser anual.
+1|103.27|Uma manutenção pode acontecer de repente.
+1|105.91|Por isso, faz sentido transformar esses gastos em uma média mensal para enxergar os custos reais.
+1|111.72|Quanto realmente esse carro custa por mês?
+1|114.47|Vamos supor apenas como exemplo.
+1|116.64|Parcela R$ 1.000, combustível R$ 500, seguro R$ 250, IPVA R$ 150 por mês considerando o valor anual dividido em 12 meses, [combustível@117.53] [seguro@119.58] [IPVA@120.52]
+1|128.31|manutenção e pneus R$ 150 por mês em média.
+1|132.11|Isso já dá aproximadamente R$ 2.050 por mês.
+1|136.29|Ou seja, aquele carro de R$ 60.000 está consumindo cerca de 41% do seu salário de R$ 5.000. [aquele@137.03]
+1|143.12|E isso antes de considerar estacionamento, pedágio ou qualquer outro gasto inesperado.
+1|150.16|E aqui chegamos à pergunta mais interessante.
+1|153.38|Então quanto posso gastar em um carro?
+1|156.67|Não existe um número mágico que funcione para todo mundo.
+1|160.41|Uma pessoa que ganha R$ 5.000 pode ter aluguel baixo, nenhuma dívida e uma boa reserva financeira.
+1|167.06|Outra pessoa que ganha os mesmos R$ 5.000 pode estar pagando um aluguel mais caro, cartão, empréstimo e ainda não ter nenhuma reserva de emergência. [cartão@173.65]
+1|176.48|As duas ganham exatamente a mesma coisa, mas não têm a mesma capacidade de comprar um carro. [mas@179.40]
+1|182.40|Então em vez de perguntar qual carro consigo financiar, talvez seja melhor perguntar [talvez@186.47]
+1|188.54|quanto do meu orçamento eu consigo comprometer sem destruir minha vida financeira.
+1|193.80|Porque conseguir pagar uma parcela não significa necessariamente conseguir manter o carro.
+1|199.85|E existe uma diferença enorme entre essas duas coisas.
+1|203.28|Quer fazer um teste simples antes de comprar e saber se você conseguiria manter esse carro?
+1|208.41|Durante alguns meses simule que você já tenha um carro.
+1|211.91|Se você acredita que gastaria R$ 1.800 por mês com parcela, combustível, seguro e outros custos, separe esse dinheiro todos os meses. [separe@219.17]
+1|221.84|Se você conseguir fazer isso sem precisar usar cartão, entrar no cheque especial ou deixar de pagar suas contas, [entrar@225.06]
+1|228.48|você começa a ter uma visão muito melhor de como esse carro afetaria o seu orçamento.
+1|233.64|E ainda existe uma vantagem, o dinheiro que você separou continua sendo seu. [o@235.39]
+1|238.71|Então, quanto você pode gastar em um carro ganhando R$ 5.000? [quanto@239.50]
+1|243.05|A resposta não é simplesmente R$ 50.000, R$ 60.000 ou qualquer outro número.
+1|248.62|O valor que você consegue comprar é diferente do valor que você consegue manter.
+1|253.64|E antes de olhar para o carro dos seus sonhos, talvez seja melhor olhar primeiro para o seu orçamento. [talvez@256.49]
+1|259.61|Se você quiser, no próximo vídeo eu posso fazer uma conta ainda mais interessante.
+1|264.65|Quanto você precisa ganhar por mês para manter um carro de R$ 60.000, R$ 80.000 ou R$ 100.000?
+1|271.44|Se esse tipo de conteúdo te interessa, se inscreve no canal e comenta aqui embaixo qual carro você gostaria de comprar.
