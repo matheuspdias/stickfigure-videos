@@ -1,8 +1,9 @@
 {
-  "brand": "FAZ A CONTA",
-  "title_font": "Permanent Marker",
-  "title_col": "&H2EB3F2&",
-  "cap_font": "Montserrat ExtraBold",
-  "hl_col": "&H2EB3F2&",
-  "dark": 0.35
+ "brand": "FAZ A CONTA",
+ "title_font": "Permanent Marker",
+ "title_col": "&H2EB3F2&",
+ "cap_font": "Montserrat ExtraBold",
+ "hl_col": "&H2EB3F2&",
+ "dark": 0.35,
+ "capa_bg": "#182442"
 }
