@@ -26,7 +26,8 @@ Tudo é desenhado em código (pycairo): sem bancos de imagem, sem direitos autor
    ```
    Escolha tempos perto do **fim** de cada cena, quando todos os elementos já apareceram.
    Verifique sobreposições, textos cortados e elementos pequenos demais.
-6. Renderizar o vídeo final:
+6. Encerramento sem narração (Tela final do YouTube): junte os blocos com `python juntar_blocos.py saida.wav b1.mp3 b2.mp3 ... --cauda 15` e deixe a última cena com áreas livres (vídeo à esquerda, inscrever-se à direita).
+7. Renderizar o vídeo final:
    ```bash
    python render.py build videos/<slug>/scenes.py audio.mp3 out/<slug>.mp4
    ```
@@ -62,7 +63,9 @@ desenha `fn(c)` centrado em (x, y) a partir de `t0`. `t1` faz o elemento sumir c
 `parking`, `toll`, `house(big)`, `card`, `bank`, `percent`, `clock(t)`, `calendar(num, top)`, `piggy(col)`, `calculator(disp)`,
 `snowball(r)`, `mattress`, `tree(k)` (0 broto a 1 com frutos), `gear(r, col)`, `bar(h, w, col, label, top)` (barra com base em y=0),
 `check_icon`, `x_icon`, `big_x(s)`, `qmark`, `exclaim`, `bulb`, `sparkle(r)`, `sweat`, `thought(w, h, tx, ty)`, `speech(w, h, tx, ty)`,
-`clipboard(title)`, `subscribe_btn(done)`, `bell`, `cursor`, `envelope`, `donut(pct)`, `speed_lines(t)`, `neq`, `eq`.
+`clipboard(title)`, `subscribe_btn(done)`, `bell`, `cursor`, `envelope`, `donut(pct)`, `speed_lines(t)`, `neq`, `eq`,
+`beach_chair(sun)` (viver de renda), `cart` (carrinho, inflação), `finish_flag(h)` (chegada, base em y=0), `lever(k, col, label)` (alavanca),
+`video_card(title, sub, icon=...)` (miniatura de vídeo) e `play_btn(r)`.
 
 Precisa de um objeto novo? Escreva uma função `def objeto(c): ...` no `engine.py`, centrada em (0, 0), usando
 `poly / rrect / circle / ellipse` + `fs(c, cor_preenchimento, espessura)`, contorno `INK` de 5-6 px. Assim ela fica disponível para os próximos vídeos.

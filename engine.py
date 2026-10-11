@@ -1230,3 +1230,70 @@ def bar(c, h, w=150, col=GREEN, label=None, top=None, size=44):
         text(c, label, 0, 45, size, HAND)
     if top:
         text(c, top, 0, -h - 40, size, MARKER)
+
+
+# ---------------------------------------------------------------- objetos novos (vídeo viver-de-renda)
+def beach_chair(c, sun=True):
+    """cadeira de praia com guarda-sol (viver de renda / liberdade)"""
+    line(c, 40, 70, 40, -170, 7, BROWN)
+    poly(c, [(-90, -150), (40, -215), (170, -150)]); fs(c, GOLD, 6)
+    poly(c, [(-90, -150), (40, -215), (-10, -150)]); fs(c, NAVY, 6)
+    poly(c, [(-130, 70), (-60, -20), (-40, -10), (-110, 70)]); fs(c, BROWN, 0)
+    line(c, -130, 70, -60, -20, 7); line(c, -40, 70, -110, -10, 7)
+    poly(c, [(-115, -5), (-40, -60), (-20, -45), (-95, 10)]); fs(c, LBLUE, 6)
+    poly(c, [(-95, 10), (40, 10), (40, 30), (-95, 30)]); fs(c, LBLUE, 6)
+    ellipse(c, -10, 80, 200, 16); fs(c, LYELLOW, 4)
+    if sun:
+        circle(c, 160, -60, 40, YELLOW, 6)
+
+
+def cart(c, col=LGRAY):
+    """carrinho de supermercado"""
+    line(c, -140, -90, -105, -90, 7)
+    poly(c, [(-105, -90), (-80, 30), (100, 30), (125, -60)]); fs(c, col, 6)
+    for x in (-50, 0, 50):
+        line(c, x, -75, x + 5, 30, 4, DGRAY)
+    line(c, -95, -25, 112, -25, 4, DGRAY)
+    line(c, -80, 30, -70, 60, 6); line(c, -70, 60, 95, 60, 6)
+    circle(c, -55, 82, 16, INK, 0); circle(c, 75, 82, 16, INK, 0)
+
+
+def finish_flag(c, h=220):
+    """bandeira quadriculada de chegada (mastro com base em y=0)"""
+    line(c, 0, 0, 0, -h, 7)
+    w, hh, n = 150, 96, 5
+    cw, ch = w / n, hh / 3
+    for i in range(n):
+        for j in range(3):
+            c.rectangle(i * cw, -h + j * ch, cw, ch)
+            rgb(c, INK if (i + j) % 2 == 0 else WHITE); c.fill()
+    c.rectangle(0, -h, w, hh); rgb(c, INK); c.set_line_width(5); c.stroke()
+
+
+def lever(c, k=0.0, col=GOLD, label=None):
+    """alavanca: k de 0 (para cima à esquerda) a 1 (empurrada)"""
+    rrect(c, -110, 20, 220, 50, 12); fs(c, LGRAY, 6)
+    a = -0.6 + 1.2 * clamp01(k)
+    x2, y2 = math.sin(a) * 190, 30 - math.cos(a) * 190
+    line(c, 0, 30, x2, y2, 14)
+    circle(c, x2, y2, 30, col, 6)
+    circle(c, 0, 30, 16, DGRAY, 5)
+    if label:
+        text(c, label, 0, 120, 44, HAND)
+
+
+def video_card(c, title, sub=None, w=760, h=430, icon=None):
+    """cartão de vídeo (miniatura) com faixa de título"""
+    rrect(c, -w / 2, -h / 2, w, h, 24); fs(c, WHITE, 7)
+    rrect(c, -w / 2, h / 2 - 110, w, 110, 0); rgb(c, NAVY); c.fill()
+    rrect(c, -w / 2, -h / 2, w, h, 24); rgb(c, INK); c.set_line_width(7); c.stroke()
+    if icon:
+        c.save(); c.translate(0, -50); icon(c); c.restore()
+    text(c, title, 0, h / 2 - 58, 46, MARKER, WHITE)
+    if sub:
+        text(c, sub, 0, -h / 2 + 50, 38, HAND, DGRAY)
+
+
+def play_btn(c, r=60):
+    circle(c, 0, 0, r, RED, 6)
+    poly(c, [(-r * 0.3, -r * 0.42), (r * 0.48, 0), (-r * 0.3, r * 0.42)]); fs(c, WHITE, 0)

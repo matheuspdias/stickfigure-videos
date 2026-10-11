@@ -1,0 +1,167 @@
+# Narração "Quanto você precisa pra viver de renda" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 132.911s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=1713a585-1ff0-4ac0-bd08-68ac178cfcdf.wav
+# bloco2 150.204s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=d6bd7aaa-c02d-4a7c-80b3-42d3fb1719ab.wav
+# bloco3 141.949s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=a8865122-2b0e-4318-aab7-73f510c930d4.wav
+# bloco4 184.477s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=d3f43766-5ca4-432d-9a24-ac6e9a59cd33.wav
+# Junta: blocos com 1 s de silêncio + 15 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.00 | bloco2 133.91 | bloco3 285.12 | bloco4 428.06 | fim da fala 612.54
+1|0.00|Pra viver com cinco mil reais por mês sem trabalhar, você não precisa de cinco milhões. [mês@1.84] [cinco@4.56]
+1|5.76|Nem de dois.
+1|6.88|Com a taxa de juros de hoje, a conta rápida diz que uns quinhentos e quarenta mil reais já resolveriam. [a@8.52] [e@10.52]
+1|12.92|Só que essa conta tem uma pegadinha.
+1|15.36|E é ela que separa quem vive de renda de verdade de quem fica mais pobre a cada ano sem perceber. [de@17.00] [mais@19.12]
+1|21.92|Hoje eu vou te mostrar quanto você precisa ter de verdade, e em quanto tempo você chega lá. [precisa@23.84] [tempo@26.48]
+1|28.00|Esse vídeo é a continuação do vídeo dos primeiros cem mil. [dos@30.16]
+1|31.64|Lá, a gente parou no ponto de virada, o momento em que o dinheiro passa a render mais do que você guarda. [virada@33.28] [passa@35.24] [guarda@36.88]
+1|37.60|Hoje a gente vai até o fim da estrada: a independência financeira. [da@39.28]
+1|42.48|E dessa vez, com uma diferença importante.
+1|45.44|Naquele vídeo eu não descontei a inflação.
+1|48.48|Hoje, eu desconto.
+1|50.40|Primeiro, a conta básica.
+1|52.44|A taxa Selic, que é a taxa básica de juros do Brasil, está em treze vírgula setenta e cinco por cento ao ano. [básica@54.16] [treze@56.40] [ao@58.64]
+1|59.40|Foi a decisão do Copom em setembro.
+1|61.68|Num investimento conservador de longo prazo, o imposto de renda leva quinze por cento do rendimento. [imposto@64.48] [do@66.64]
+1|67.72|Sobra perto de onze vírgula sete por cento ao ano. [cento@70.08]
+1|71.12|Isso dá uns zero vírgula noventa e três por cento ao mês. [três@73.44]
+1|75.12|Agora é só dividir.
+1|76.80|Pra tirar três mil reais por mês, você precisaria de uns trezentos e vinte e cinco mil reais. [você@78.80] [e@81.04]
+1|82.67|Pra tirar cinco mil, uns quinhentos e quarenta mil. [quarenta@84.88]
+1|85.88|E pra tirar dez mil, pouco mais de um milhão. [de@88.20]
+1|89.33|Parece muito mais perto do que você imaginava, né? [imaginava@91.32]
+1|92.48|Pois é.
+1|93.28|Agora vem a pegadinha.
+1|95.09|A pegadinha se chama inflação.
+1|97.79|Nos últimos doze meses, os preços subiram quatro vírgula cinquenta e oito por cento. [quatro@100.40]
+1|103.15|Imagina que você juntou os quinhentos e quarenta mil, e todo mês saca os cinco mil reais de rendimento. [quarenta@105.07] [cinco@107.28]
+1|109.00|O seu patrimônio continua lá, parado em quinhentos e quarenta mil. [quinhentos@111.48]
+1|113.08|Só que o pão, o aluguel e a conta de luz não ficaram parados. [a@114.80]
+1|117.60|Daqui a dez anos, os seus cinco mil vão comprar o que três mil e duzentos compram hoje. [mil@119.60] [e@121.36]
+1|123.16|Em vinte anos, o que dois mil compram hoje. [compram@125.36]
+1|126.52|Você não perdeu nenhum real.
+1|128.36|Você perdeu poder de compra.
+1|130.40|E sem perceber, ficou mais pobre.
+2|0.00|Por isso existem dois juros.
+2|2.40|O juro nominal é o número que aparece no extrato: onze vírgula sete por cento. [aparece@4.08] [cento@6.96]
+2|7.72|O juro real é o que sobra depois de descontar a inflação. [depois@9.64]
+2|11.64|E é só esse pedaço que você pode gastar. [pode@13.44]
+2|14.44|O resto precisa ficar no investimento, pra corrigir o patrimônio e manter o seu poder de compra. [corrigir@16.96] [poder@18.96]
+2|20.16|Hoje, esse juro real até é alto, perto de seis vírgula oito por cento ao ano. [perto@22.56] [ao@24.56]
+2|25.44|Mas ele muda o tempo todo.
+2|27.40|Em dois mil e vinte e um, a Selic chegou a dois por cento ao ano, e o juro real ficou negativo. [a@28.52] [ao@30.40] [negativo@32.16]
+2|33.32|Quem montou o plano da aposentadoria em cima de um juro alto viu a conta virar de uma hora pra outra. [cima@35.16] [conta@36.72]
+2|39.00|E aí entra a regra mais famosa desse assunto: a regra dos quatro por cento. [desse@41.12] [cento@43.68]
+2|44.44|Ela nasceu de um estudo americano dos anos noventa. [anos@46.24]
+2|47.40|Os pesquisadores testaram, com dados históricos, quanto uma pessoa podia sacar por ano de uma carteira de ações e títulos sem o dinheiro acabar em trinta anos. [uma@50.72] [uma@52.72] [o@55.16]
+2|57.44|A resposta foi: quatro por cento do patrimônio no primeiro ano, corrigindo esse valor pela inflação nos anos seguintes. [patrimônio@59.84] [pela@62.56]
+2|64.80|Na prática, a conta fica simples.
+2|67.12|Pega o quanto você gasta por ano e multiplica por vinte e cinco. [e@69.12]
+2|71.24|Vamos refazer.
+2|72.40|Três mil por mês dá trinta e seis mil por ano. [seis@74.20]
+2|75.52|Vezes vinte e cinco, novecentos mil reais.
+2|78.80|Cinco mil por mês, sessenta mil por ano. [ano@81.20]
+2|81.72|Vezes vinte e cinco, um milhão e meio. [meio@83.76]
+2|84.44|E dez mil por mês?
+2|86.08|Três milhões de reais.
+2|88.08|Olha a diferença.
+2|89.28|A conta rápida dizia quinhentos e quarenta mil pros cinco mil reais. [mil@91.84]
+2|93.60|A conta honesta diz quase três vezes isso. [isso@96.20]
+2|96.88|E a versão brasileira?
+2|98.32|Aqui, os títulos públicos atrelados à inflação, como o Tesouro IPCA mais, pagam hoje entre seis e sete por cento acima da inflação. [como@101.44] [entre@104.32] [da@106.60]
+2|107.60|Tirando o imposto, sobra perto de cinco por cento real. [por@110.00]
+2|111.28|Daria pra multiplicar por vinte, em vez de vinte e cinco. [de@113.48]
+2|114.72|Os cinco mil reais por mês sairiam com um milhão e duzentos. [com@116.92]
+2|118.92|Só que essas taxas mudam.
+2|120.64|Só na segunda-feira passada, elas caíram quase zero vírgula sete ponto de um dia pro outro. [zero@123.36] [pro@125.60]
+2|126.52|E quem para de trabalhar cedo precisa que o dinheiro dure quarenta, cinquenta anos, não trinta. [que@128.48] [não@131.36]
+2|132.48|Então aqui no canal eu vou fazer assim: pra juntar o dinheiro, considero cinco por cento ao ano acima da inflação, já descontado o imposto. [assim@134.12] [por@136.96] [já@139.44]
+2|141.16|Pra meta, uso a regra dos quatro por cento, com margem de segurança. [por@143.20]
+2|145.76|Tudo em dinheiro de hoje, e com o aporte corrigido pela inflação todo ano. [o@147.39]
+3|0.00|Agora a pergunta que importa: quanto tempo leva? [leva@2.88]
+3|3.68|Vamos com três aportes.
+3|5.44|Quinhentos, mil e dois mil reais por mês. [mês@8.32]
+3|9.04|Começando do zero.
+3|10.48|Meta de três mil reais de renda, ou seja, novecentos mil de patrimônio. [ou@12.60]
+3|15.28|Investindo quinhentos por mês, você chega lá em quarenta e três anos e meio. [em@17.76]
+3|19.84|Com mil reais, trinta e um anos e sete meses. [e@21.92]
+3|23.16|E com dois mil, vinte e um anos e cinco meses. [anos@24.80]
+3|26.72|Meta de cinco mil reais de renda, um milhão e meio. [um@28.80]
+3|30.16|Com quinhentos por mês, cinquenta e três anos. [anos@32.56]
+3|33.28|Com mil, quarenta anos e três meses.
+3|36.24|Com dois mil, vinte e oito anos e nove meses. [e@38.24]
+3|39.56|E a meta de dez mil reais de renda, três milhões. [de@41.20]
+3|43.40|Com quinhentos por mês, sessenta e seis anos. [anos@45.76]
+3|46.44|Com mil, cinquenta e três.
+3|48.36|E com dois mil, quarenta anos e três meses. [três@50.56]
+3|51.76|Agora olha a tabela inteira com calma.
+3|54.36|Tem uma coisa curiosa aqui.
+3|56.08|Quem investe mil reais pra ter cinco mil de renda leva exatamente o mesmo tempo de quem investe dois mil pra ter dez mil. [mil@58.40] [tempo@60.88] [ter@62.88]
+3|64.08|Quarenta anos e três meses.
+3|66.40|Não é coincidência.
+3|67.92|Dobrar o aporte tem o mesmo efeito que cortar a meta pela metade. [que@70.32]
+3|72.48|E isso quer dizer que existem duas alavancas. [alavancas@74.32]
+3|75.40|A primeira é o quanto você coloca.
+3|77.80|A segunda é o quanto você precisa.
+3|80.48|E quase todo mundo só olha pra primeira. [primeira@82.48]
+3|83.28|Porque é aqui que vem a virada.
+3|85.28|Imagina alguém que gasta cinco mil por mês e investe mil. [mês@87.28]
+3|89.00|A meta dele é um milhão e meio, e ele leva quarenta anos e três meses. [meio@90.56] [três@92.72]
+3|93.92|Agora essa pessoa corta mil reais do custo de vida. [custo@96.16]
+3|97.20|Troca de carro por um mais barato, renegocia o aluguel, cancela o que não usa. [renegocia@99.20] [usa@101.60]
+3|102.16|E passa a viver bem com quatro mil. [mil@103.92]
+3|104.56|Repara que esse corte age duas vezes.
+3|107.28|Primeiro, a meta cai: quatro mil vezes doze, vezes vinte e cinco, dá um milhão e duzentos. [doze@110.04] [milhão@112.08]
+3|113.48|Trezentos mil reais a menos de patrimônio necessário, só por cortar mil reais por mês. [necessário@115.92] [mês@118.56]
+3|119.24|E segundo, aquele mil que deixou de ser gasto vai pro investimento. [ser@121.36]
+3|123.32|O aporte dobra, de mil pra dois mil. [mil@125.76]
+3|126.64|Resultado: o tempo cai de quarenta anos pra vinte e cinco anos e cinco meses. [pra@129.20] [meses@130.96]
+3|131.88|Quinze anos de liberdade, comprados com mil reais de corte por mês. [reais@134.56]
+3|136.36|Cada real que você deixa de gastar todo mês vale trezentos reais a menos na sua meta. [todo@138.40] [na@141.12]
+4|0.00|Pra deixar isso bem claro, deixa eu te apresentar duas pessoas. [te@2.12]
+4|3.84|O Diego e a Júlia.
+4|5.60|Os dois têm trinta anos, os dois ganham dez mil reais líquidos por mês, e os dois começam do zero. [ganham@8.00] [e@10.72]
+4|12.72|O Diego gosta de um padrão mais alto. [alto@14.56]
+4|15.20|Ele gasta oito mil reais por mês e quer continuar gastando isso quando parar de trabalhar. [e@17.36] [de@19.52]
+4|20.48|Sobram dois mil pra investir.
+4|22.64|A Júlia descobriu que vive bem com quatro mil. [quatro@24.64]
+4|25.60|Ela não passa aperto, só não gasta com o que não faz diferença pra ela. [com@27.56] [ela@28.96]
+4|29.60|Sobram seis mil pra investir.
+4|31.84|Quem chega primeiro?
+4|33.20|A meta do Diego é oito mil vezes doze, vezes vinte e cinco: dois milhões e quatrocentos mil reais. [vezes@35.44] [milhões@38.32]
+4|40.92|A meta da Júlia é a metade: um milhão e duzentos. [um@42.96]
+4|44.52|E a Júlia ainda investe três vezes mais por mês. [mais@46.96]
+4|48.36|O Diego leva trinta e seis anos e cinco meses. [e@50.40]
+4|51.68|Ele fica livre aos sessenta e seis.
+4|53.96|A Júlia leva doze anos e três meses. [meses@56.24]
+4|56.92|Ela fica livre aos quarenta e dois.
+4|59.20|São vinte e quatro anos de diferença.
+4|61.84|Mesmo salário, mesma idade, mesmo investimento.
+4|65.60|E quando a Júlia chega lá, o Diego tem uns quatrocentos mil reais. [diego@67.12]
+4|69.56|Dá pra tirar uns mil e trezentos por mês. [por@71.20]
+4|72.24|Longe dos oito mil que ele quer.
+4|74.20|E isso não é uma história sobre viver na miséria. [viver@75.64]
+4|76.92|A Júlia não come mal nem vive trancada em casa. [trancada@78.56]
+4|79.88|A questão é saber quanto custa a vida que te faz bem. [vida@81.92]
+4|83.48|Cada mil reais por mês que você coloca no seu padrão de vida não custa só mil reais. [coloca@85.28] [custa@87.20]
+4|88.96|Custa trezentos mil de patrimônio e alguns anos de trabalho a mais. [anos@91.76]
+4|93.56|Então, como colocar isso em prática?
+4|95.92|Três atitudes.
+4|97.28|Primeira: descubra o seu número.
+4|99.84|Some os seus gastos dos últimos três meses, tire a média, multiplique por doze e depois por vinte e cinco. [meses@101.84] [e@104.72]
+4|106.68|Esse é o patrimônio que você precisa pra viver do jeito que vive hoje. [pra@108.48]
+4|110.84|Sem esse número, você não sabe nem pra onde está indo. [pra@112.64]
+4|114.12|Segunda: ataque os gastos fixos e proteja os aumentos. [os@117.28]
+4|118.40|Um corte no aluguel, no carro ou nas assinaturas vale pra sempre, todo mês, sem esforço. [nas@120.48] [sem@123.52]
+4|124.64|E quando a sua renda subir, mande pelo menos metade do aumento pro investimento antes de ela virar padrão de vida. [pelo@126.45] [antes@129.04]
+4|131.12|Terceira: invista protegido da inflação e refaça a conta todo ano. [a@134.72]
+4|136.32|Corrija o seu aporte pela inflação, prefira investimentos que acompanham a inflação no longo prazo, e confira se a sua meta ainda faz sentido. [investimentos@138.88] [prazo@141.28] [ainda@143.32]
+4|144.72|E antes de tudo isso, tenha a sua reserva de emergência, pra não precisar mexer no investimento no primeiro imprevisto. [sua@146.56] [mexer@148.92]
+4|151.60|Recapitulando.
+4|152.72|A conta rápida engana porque esquece a inflação. [inflação@155.20]
+4|156.20|A conta honesta é o seu gasto anual vezes vinte e cinco. [anual@158.00]
+4|159.71|E o caminho até lá depende de duas alavancas: quanto você investe, e quanto você precisa pra viver bem. [duas@161.47] [você@164.91]
+4|166.75|A segunda é a mais rápida.
+4|168.91|Agora me conta aqui nos comentários: qual é o seu número? [é@171.11]
+4|172.19|E se você ainda está na fase dos primeiros cem mil, assiste o vídeo de quanto tempo leva pra juntar cem mil reais. [dos@173.71] [de@176.07] [mil@178.19]
+4|179.15|Ele está aqui na tela.
+4|180.51|Aqui no Faz a Conta, a gente faz a conta. [faz@182.35]
+4|183.39|Até a próxima.

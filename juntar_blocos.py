@@ -1,6 +1,8 @@
 """Junta os blocos de narração em um único .wav, com 1,0 s de silêncio entre eles.
 
-    python juntar_blocos.py saida.wav bloco1.mp3 bloco2.mp3 ...
+    python juntar_blocos.py saida.wav bloco1.mp3 bloco2.mp3 ... [--cauda 15]
+
+--cauda N acrescenta N segundos de silêncio no fim (encerramento sem narração para a Tela final do YouTube).
 
 IMPORTANTE: todas as entradas (inclusive o silêncio do anullsrc) são forçadas para float 44,1 kHz mono.
 Sem isso o filtro concat do ffmpeg pode negociar áudio de 8 bits, o que cria um chiado que só aparece
@@ -21,7 +23,7 @@ def decode(path):
     return np.frombuffer(r.stdout, np.float32)
 
 
-def join(out, blocks, gap=1.0):
+def join(out, blocks, gap=1.0, tail=0.0):
     args, chains, order = [], [], []
     for i, b in enumerate(blocks):
         args += ["-i", b]
@@ -34,6 +36,10 @@ def join(out, blocks, gap=1.0):
         order.append(f"[a{i}]")
         if i < n - 1:
             order.append(f"[s{i}]")
+    if tail > 0:
+        args += ["-f", "lavfi", "-t", str(tail), "-i", f"anullsrc=r={SR}:cl=mono"]
+        chains.append(f"[{n + 1}:a]{FMT}[tail]")
+        order.append("[tail]")
     graph = ";".join(chains) + ";" + "".join(order) + f"concat=n={len(order)}:v=0:a=1"
     subprocess.run(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", graph, "-c:a", "pcm_s16le", out], check=True)
     # conferência
@@ -51,4 +57,8 @@ def join(out, blocks, gap=1.0):
 
 
 if __name__ == "__main__":
-    join(sys.argv[1], sys.argv[2:])
+    a = sys.argv[1:]
+    tail = 0.0
+    if "--cauda" in a:
+        i = a.index("--cauda"); tail = float(a[i + 1]); del a[i:i + 2]
+    join(a[0], a[1:], tail=tail)
