@@ -2,7 +2,7 @@
  "serie": "ALUGAR OU COMPRAR?",
  "partes": [
   {"t": 96.0, "gancho": ["R$ 395 MIL", "SÓ DE JUROS"]},
-  {"t": 212.0, "gancho": ["+ DE R$ 1 MILHÃO", "DE ALUGUEL", "JOGADO FORA?"]},
+  {"t": 213.3, "gancho": ["+ DE R$ 1 MILHÃO", "DE ALUGUEL", "JOGADO FORA?"]},
   {"t": 336.0, "gancho": ["QUEM CHEGA", "MAIS RICO", "EM 30 ANOS?"]},
   {"t": 458.0, "gancho": ["NO MCMV", "A CONTA VIRA"]}
  ]
