@@ -1,0 +1,48 @@
+TÍTULO (recomendado)
+Alugar ou comprar? A conta que quase ninguém faz
+
+Alternativas
+- Aluguel é dinheiro jogado fora? Fiz a conta de 30 anos
+- Comprador x Inquilino: quem tem mais dinheiro depois de 30 anos?
+
+THUMBNAIL recomendada: alugar_thumb_B (a frase que todo mundo já ouviu, sem entregar o resultado); A (placar 2,49 x 2,06 mi) serve para teste A/B.
+
+DESCRIÇÃO
+"Aluguel é dinheiro jogado fora." Será? Neste vídeo a gente coloca um apartamento de R$ 300 mil na ponta do lápis e faz uma corrida de 30 anos entre o Comprador (entrada de 20% e financiamento) e o Inquilino (que investe a entrada e a diferença entre parcela e aluguel). Você vai ver o custo real de comprar (juros, ITBI, cartório, manutenção), o custo real de alugar, quem chega na frente, os 3 números que fazem a balança virar e como o Minha Casa Minha Vida muda o resultado. No fim: o que a planilha não mostra e quando cada escolha faz sentido.
+
+Premissas (pesquisadas em outubro de 2026): financiamento SBPE a 11,5% ao ano (média das taxas de Caixa, Itaú, Bradesco, Santander e BB), sistema SAC em 30 anos, sem TR e sem seguros (o que favorece levemente quem compra). ITBI + cartório e registro de 4%. Manutenção de 0,5% do valor do imóvel por ano. IPTU e condomínio ficam de fora porque, na maioria dos contratos, o inquilino também paga. Aluguel de 6% do valor do imóvel por ano (índice FipeZap, julho de 2026). Imóvel e aluguel subindo 4,5% ao ano (inflação). Investimento rendendo 10% ao ano já descontado o imposto (CDI hoje perto de 13,65%; Selic de 13,75%). Quem gasta menos com moradia no mês investe a diferença. Minha Casa Minha Vida faixa 3 (regras de abril de 2026): renda até R$ 9.600, imóvel até R$ 400 mil, juros até 7,66% ao ano e financiamento de 65% no Sul e Sudeste. Conteúdo educativo, não é recomendação de investimento.
+
+Capítulos
+0:00 Aluguel é dinheiro jogado fora?
+0:33 O cenário: apartamento de R$ 300 mil
+0:45 Qual juro? Sistema SAC
+1:15 O custo real de comprar
+2:43 O custo real de alugar
+3:34 A vantagem que ninguém põe na conta
+4:02 A corrida de 30 anos
+4:53 A virada do ano 11
+5:16 A linha de chegada
+5:50 Os 3 números que viram a balança
+6:49 Minha Casa Minha Vida
+7:38 O que a planilha não mostra
+8:40 Quando comprar e quando alugar
+9:11 Os dois são o preço de morar
+
+Assista também: Quanto tempo leva pra juntar R$ 100 mil?
+
+TELA FINAL (últimos 15 s, de 9:37 a 9:52): vídeo "primeiros R$ 100 mil" na área da esquerda (acima de "assista também") e inscrever-se à direita (acima de "inscreva-se").
+
+TAGS
+alugar ou comprar, aluguel ou financiamento, vale a pena comprar imóvel, aluguel é dinheiro jogado fora, financiamento imobiliário, SAC, juros do financiamento, Minha Casa Minha Vida, MCMV faixa 3, ITBI, FipeZap, investir a diferença, educação financeira, finanças pessoais, Faz a Conta
+
+CORTES VERTICAIS (planejados; ainda não renderizados)
+Comando: python cortes.py videos/alugar-ou-comprar out/alugar-ou-comprar.mp4 --audio out/alugar-ou-comprar.mp4 --titulo "ALUGAR OU\NCOMPRAR?" --cortes 163.4,292.7,409.1
+Parte 1 (0:00-2:43, 163 s): "Aluguel é dinheiro jogado fora." O custo real de comprar.
+  Post: Aluguel é dinheiro jogado fora? Antes de responder, olha quanto o comprador paga só de juros. #financas #dinheiro #imoveis #fazaconta
+Parte 2 (2:43-4:53, 129 s): "Agora o outro lado." Custo de alugar e o começo da corrida.
+  Post: O inquilino paga mais de R$ 1 milhão de aluguel em 30 anos. Mas tem um detalhe que quase ninguém coloca na conta. #financas #aluguel #investimentos #fazaconta
+Parte 3 (4:53-6:49, 116 s): "E aí acontece uma coisa que muita gente esquece." A virada, a chegada e os 3 números.
+  Post: Comprador x Inquilino em 30 anos: quem chega com mais patrimônio? (e os 3 números que viram o jogo) #financas #imoveis #dinheiro #fazaconta
+Parte 4 (6:49-9:37, 168 s): "E isso nos leva ao Minha Casa Minha Vida." MCMV, o que a planilha não mostra e quando cada um faz sentido.
+  Post: No Minha Casa Minha Vida a conta vira do avesso. E o que nenhuma planilha mostra. #financas #minhacasaminhavida #imoveis #fazaconta
+Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz).

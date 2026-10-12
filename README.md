@@ -66,6 +66,8 @@ desenha `fn(c)` centrado em (x, y) a partir de `t0`. `t1` faz o elemento sumir c
 `clipboard(title)`, `subscribe_btn(done)`, `bell`, `cursor`, `envelope`, `donut(pct)`, `speed_lines(t)`, `neq`, `eq`,
 `beach_chair(sun)` (viver de renda), `cart` (carrinho, inflação), `finish_flag(h)` (chegada, base em y=0), `lever(k, col, label)` (alavanca),
 `video_card(title, sub, icon=...)` (miniatura de vídeo) e `play_btn(r)`.
+Novos (alugar-ou-comprar): `apartment(col, sign, floors)` (prédio, base em y=0; `sign="ALUGA-SE"`), `balance(tilt, lfn, rfn)` (balança de dois pratos),
+`brick` (tijolo), `moving_box` (caixa de mudança) e `house_key(col)` (chave).
 
 Precisa de um objeto novo? Escreva uma função `def objeto(c): ...` no `engine.py`, centrada em (0, 0), usando
 `poly / rrect / circle / ellipse` + `fs(c, cor_preenchimento, espessura)`, contorno `INK` de 5-6 px. Assim ela fica disponível para os próximos vídeos.

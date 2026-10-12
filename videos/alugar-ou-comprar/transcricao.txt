@@ -1,0 +1,159 @@
+(0:00.00) "Aluguel é dinheiro jogado fora."
+(0:02.80) Você com certeza já ouviu essa frase.
+(0:05.44) De pai, de tio, de vizinho.
+(0:08.00) E ela parece fazer sentido, né?
+(0:09.84) Todo mês você paga, e no final não fica com nada.
+(0:13.20) Mas e se eu te mostrar que quem alugou pode terminar trinta anos depois com mais patrimônio do que quem comprou?
+(0:20.56) E que, mudando um único número, acontece exatamente o contrário?
+(0:25.20) Hoje a gente vai fazer a conta que quase ninguém faz.
+(0:28.80) Sem torcida pra nenhum dos lados.
+(0:30.80) Quem decide é a matemática.
+(0:33.12) Vamos montar o cenário.
+(0:34.56) Um apartamento de trezentos mil reais.
+(0:37.20) Você dá uma entrada de vinte por cento, sessenta mil reais, e financia os outros duzentos e quarenta mil em trinta anos.
+(0:44.88) Qual juro?
+(0:45.76) Eu pesquisei as taxas dos cinco maiores bancos em outubro de dois mil e vinte e seis.
+(0:50.52) Elas vão de uns dez vírgula três a doze por cento ao ano, mais TR.
+(0:55.44) A média fica perto de onze e meio.
+(0:57.92) É essa que eu vou usar.
+(0:59.20) E vou usar o sistema SAC, o mais comum no Brasil, em que a parcela começa alta e vai caindo com o tempo.
+(1:05.84) Pra simplificar, eu vou ignorar a TR e os seguros obrigatórios.
+(1:10.08) Isso deixa a conta um pouquinho mais favorável pra quem compra.
+(1:13.44) Guarda essa informação.
+(1:14.88) Agora, o custo real de comprar.
+(1:17.44) Primeiro, a parcela.
+(1:19.04) Ela começa em uns dois mil oitocentos e cinquenta reais.
+(1:22.72) E aqui vem o número que assusta.
+(1:24.80) Somando trinta anos de parcelas, você devolve os duzentos e quarenta mil emprestados, mais uns trezentos e noventa e cinco mil reais só de juros.
+(1:34.28) Dinheiro que vai pro banco e não volta.
+(1:37.04) Segundo, o custo pra tirar o imóvel do papel.
+(1:40.24) O ITBI, que é o imposto de transmissão, costuma ficar entre dois e três por cento.
+(1:46.12) Somando cartório e registro, dá uns quatro por cento.
+(1:49.52) Doze mil reais, pagos na hora, que não viram tijolo nenhum.
+(1:53.72) Terceiro, IPTU e condomínio.
+(1:56.48) Esses são uma pegadinha.
+(1:58.08) Parecem custo só de quem compra, mas na maioria dos contratos de aluguel quem paga IPTU e condomínio é o inquilino.
+(2:05.56) Então eles aparecem dos dois lados e se cancelam.
+(2:08.72) Vou deixar de fora.
+(2:10.08) Quarto, manutenção.
+(2:11.76) Quem é dono paga o vazamento, a pintura, a reforma do banheiro daqui a quinze anos.
+(2:17.12) Vou estimar meio por cento do valor do imóvel por ano.
+(2:20.32) Uns cento e vinte e cinco reais por mês no começo, subindo com o tempo.
+(2:24.48) Em trinta anos, isso soma uns noventa mil reais.
+(2:28.00) Resumindo: juros, impostos e manutenção.
+(2:31.56) Em trinta anos, o comprador gasta quase quinhentos mil reais com coisas que não viram patrimônio.
+(2:37.56) Ou seja: comprar também tem o seu dinheiro jogado fora.
+(2:41.36) Ele só tem outro nome.
+(2:43.59) Agora o outro lado.
+(2:45.67) Quanto custa morar num apartamento igual, só que alugado?
+(2:49.43) O índice FipeZap mede quanto um imóvel rende de aluguel por ano, em relação ao preço dele.
+(2:55.19) Em julho de dois mil e vinte e seis, essa rentabilidade estava em torno de seis por cento ao ano.
+(3:00.63) Meio por cento por mês.
+(3:02.23) Num imóvel de trezentos mil, dá um aluguel de mil e quinhentos reais.
+(3:06.39) E o aluguel sobe.
+(3:07.59) Nos últimos tempos, ele vem subindo bem acima da inflação.
+(3:11.23) Mas no longo prazo, eu vou supor que ele acompanha o valor do imóvel, e que o imóvel sobe junto com a inflação: quatro e meio por cento ao ano.
+(3:19.43) Daqui a trinta anos, o aluguel desse mesmo apartamento estaria em uns cinco mil e quatrocentos reais.
+(3:25.71) Somando tudo, o inquilino paga mais de um milhão de reais de aluguel.
+(3:30.39) Um milhão!
+(3:31.59) Parece que o tio tinha razão, né?
+(3:33.59) Calma.
+(3:34.31) Porque o inquilino tem uma vantagem que quase ninguém coloca na conta.
+(3:38.55) Ele não deu os sessenta mil de entrada.
+(3:41.03) Nem pagou os doze mil de ITBI e cartório.
+(3:44.15) São setenta e dois mil reais que continuam no bolso dele.
+(3:48.23) E se ele investir?
+(3:49.51) Pra isso, vou usar um rendimento de dez por cento ao ano, já descontado o imposto.
+(3:54.63) Hoje o CDI está em uns treze vírgula seis por cento, então dez por cento é um número pé no chão pra trinta anos.
+(4:01.91) Então vamos à corrida.
+(4:03.59) De um lado, o Comprador.
+(4:05.51) Do outro, o Inquilino.
+(4:07.27) A regra é justa: os dois têm a mesma renda e separam o mesmo valor pra moradia.
+(4:12.63) Quem gastar menos no mês investe a diferença.
+(4:15.67) No começo, o Comprador paga uns dois mil oitocentos e cinquenta de parcela, mais a manutenção.
+(4:21.55) O Inquilino paga mil e quinhentos de aluguel.
+(4:24.19) A diferença, quase mil e quinhentos reais por mês, vai pro investimento do Inquilino.
+(4:29.43) Ano um.
+(4:30.18) O Comprador tem o apartamento, menos o que ainda deve ao banco.
+(4:33.99) Patrimônio de uns oitenta e um mil.
+(4:36.19) O Inquilino tem uns noventa e sete mil investidos.
+(4:39.35) Inquilino na frente.
+(4:40.79) Ano cinco.
+(4:41.75) Comprador com cento e setenta e quatro mil.
+(4:44.39) Inquilino com duzentos e oito mil.
+(4:46.79) Ano dez.
+(4:47.67) Comprador com trezentos e seis mil.
+(4:50.15) Inquilino com trezentos e setenta mil.
+(4:52.95) E aí acontece uma coisa que muita gente esquece.
+(4:56.23) Lá pelo ano onze, a parcela do SAC caiu tanto, e o aluguel subiu tanto, que a situação se inverte.
+(5:02.79) Agora quem gasta menos por mês é o Comprador.
+(5:05.87) E pela regra, a diferença vai pro investimento dele.
+(5:09.19) Ano vinte.
+(5:10.15) Comprador com setecentos e oitenta e seis mil.
+(5:13.11) Inquilino com novecentos e sessenta mil.
+(5:15.95) E na linha de chegada, ano trinta.
+(5:18.26) O Comprador tem um apartamento quitado, valendo um milhão cento e vinte mil, mais uns novecentos e quarenta mil investidos.
+(5:26.18) Total: dois milhões e sessenta mil reais.
+(5:29.90) O Inquilino chega com dois milhões e quatrocentos e noventa mil.
+(5:34.06) Quatrocentos e vinte e cinco mil a mais.
+(5:36.74) Um detalhe honesto: esses são valores do futuro.
+(5:40.22) Descontando a inflação, em dinheiro de hoje, seria algo como quinhentos e cinquenta mil contra seiscentos e sessenta e cinco mil.
+(5:47.90) A vantagem continua lá.
+(5:50.42) Então alugar é melhor?
+(5:52.66) Não necessariamente.
+(5:54.18) Essa conta depende de três números.
+(5:56.66) Mexa em qualquer um deles e a balança pode virar.
+(6:00.02) Número um: o juro do financiamento.
+(6:02.50) Na nossa conta, onze e meio por cento.
+(6:05.10) Se ele cair pra menos de dez por cento ao ano, o Comprador passa na frente.
+(6:09.62) Número dois: o aluguel em relação ao valor do imóvel.
+(6:13.30) Usamos seis por cento ao ano.
+(6:15.34) Se na sua cidade o aluguel passa de seis e meio por cento do valor do imóvel, comprar começa a ganhar.
+(6:21.30) Se fica perto de quatro ou cinco por cento, como em muitos bairros caros, alugar ganha com folga.
+(6:27.86) Número três: o rendimento do investimento.
+(6:30.66) Usamos dez por cento ao ano, líquido.
+(6:33.30) Abaixo de uns nove por cento, o Comprador vence.
+(6:36.50) Acima, o Inquilino abre vantagem.
+(6:38.94) E tem um quarto número escondido: quanto o imóvel valoriza.
+(6:42.98) Usamos a inflação.
+(6:44.30) Se ele valorizar uns cinco por cento por ano ou mais, a balança vai pro Comprador.
+(6:49.30) E isso nos leva ao Minha Casa Minha Vida.
+(6:52.54) Desde abril de dois mil e vinte e seis, a faixa três atende famílias com renda de até nove mil e seiscentos reais, em imóveis de até quatrocentos mil.
+(7:01.33) O nosso apartamento cabe.
+(7:02.86) E o juro fica em até uns sete vírgula sete por cento ao ano.
+(7:06.54) O porém: no Sul e no Sudeste, o programa financia só uns sessenta e cinco por cento.
+(7:11.94) Então a entrada sobe pra cento e cinco mil, e o Inquilino, pela mesma regra, começa com cento e dezessete mil investidos.
+(7:19.54) Refazendo a corrida, a primeira parcela cai pra uns mil setecentos e cinquenta.
+(7:24.26) O Comprador passa o Inquilino já no terceiro ano.
+(7:27.41) E no ano trinta, chega com dois milhões e seiscentos e oitenta mil, contra dois milhões e cento e noventa mil do Inquilino.
+(7:34.86) Mudou um número, o juro, e o resultado virou do avesso.
+(7:38.74) Agora, o que a planilha não mostra.
+(7:41.30) Primeiro: segurança.
+(7:42.94) Ninguém te pede o imóvel de volta, ninguém te dá trinta dias pra sair.
+(7:47.17) Pra quem tem filho na escola do bairro, isso vale muito.
+(7:50.54) Segundo: liberdade.
+(7:52.22) O inquilino muda de cidade por um emprego melhor sem precisar vender nada.
+(7:56.70) E vender imóvel leva tempo e custa caro.
+(7:59.66) Terceiro: a valorização é uma aposta.
+(8:02.45) O imóvel pode subir mais que a inflação, ou ficar parado por dez anos.
+(8:07.09) E o quarto, o mais importante: a vantagem do Inquilino só existe se ele investir a diferença.
+(8:13.34) Todo mês.
+(8:14.18) Por trinta anos.
+(8:15.50) Na vida real, a maioria não faz isso.
+(8:17.97) A diferença vira carro, viagem, delivery.
+(8:21.18) Se o Inquilino gastar a diferença e só deixar a entrada rendendo, os dois praticamente empatam.
+(8:26.95) E se ele gastar até a entrada, chega com zero, enquanto o Comprador tem um imóvel de um milhão e cem mil.
+(8:34.47) Nesse caso, o financiamento funciona como uma poupança forçada.
+(8:38.55) E isso tem valor.
+(8:39.99) Então, quando comprar faz sentido?
+(8:42.63) Quando você quer ficar muitos anos no mesmo lugar, consegue um juro baixo, como no Minha Casa Minha Vida, o aluguel da sua região é caro em relação ao preço dos imóveis, ou quando você sabe que não teria disciplina pra investir todo mês.
+(8:56.63) E quando alugar faz sentido?
+(8:58.79) Quando o juro do financiamento está alto, o aluguel é barato em relação ao preço do imóvel, você valoriza mobilidade e, principalmente, quando você investe a diferença todo santo mês.
+(9:10.95) Aluguel não é dinheiro jogado fora.
+(9:13.75) E juros também não.
+(9:15.27) Os dois são o preço de morar.
+(9:17.67) A pergunta certa não é alugar ou comprar.
+(9:20.91) É qual dos dois te deixa com mais dinheiro, com os seus números.
+(9:25.23) E se você quer ver o que acontece quando alguém investe todo mês, com disciplina, assista o vídeo sobre quanto tempo leva pra juntar os primeiros cem mil.
+(9:34.23) Ele tá aparecendo aqui na tela.
+(9:36.11) Até o próximo.

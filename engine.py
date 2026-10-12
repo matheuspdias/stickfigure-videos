@@ -1297,3 +1297,67 @@ def video_card(c, title, sub=None, w=760, h=430, icon=None):
 def play_btn(c, r=60):
     circle(c, 0, 0, r, RED, 6)
     poly(c, [(-r * 0.3, -r * 0.42), (r * 0.48, 0), (-r * 0.3, r * 0.42)]); fs(c, WHITE, 0)
+
+
+# ---------------------------------------------------------------- objetos novos (vídeo alugar-ou-comprar)
+def apartment(c, col=LYELLOW, sign=None, floors=5):
+    """prédio de apartamentos (base em y=0, ~220 x 360); sign: texto de placa (ex.: "ALUGA-SE")"""
+    w, fh = 220, 62
+    h = floors * fh + 50
+    c.rectangle(-w / 2, -h, w, h); fs(c, col, 6)
+    c.rectangle(-w / 2 - 12, -h - 18, w + 24, 22); fs(c, DGRAY, 5)
+    for f in range(floors):
+        y = -h + 22 + f * fh
+        for x in (-78, -18, 42):
+            c.rectangle(x, y, 38, 32); fs(c, LBLUE, 4)
+    c.rectangle(-22, -44, 44, 44); fs(c, BROWN, 5)
+    if sign:
+        line(c, w / 2 - 20, -110, w / 2 + 40, -150, 5)
+        c.save(); c.translate(w / 2 + 70, -170); c.rotate(-0.08)
+        tw = text_w(c, sign, 34) + 30
+        rrect(c, -tw / 2, -28, tw, 56, 8); fs(c, WHITE, 5)
+        text(c, sign, 0, 0, 34, MARKER, RED)
+        c.restore()
+
+
+def balance(c, tilt=0.0, lfn=None, rfn=None):
+    """balança de dois pratos; tilt de -1 (esquerda desce) a 1 (direita desce); lfn/rfn desenham sobre os pratos"""
+    a = 0.22 * max(-1.0, min(1.0, tilt))
+    poly(c, [(-70, 150), (70, 150), (0, 110)]); fs(c, NAVY, 6)
+    line(c, 0, 120, 0, -110, 10)
+    circle(c, 0, -110, 16, GOLD, 5)
+    for sgn, fn in ((-1, lfn), (1, rfn)):
+        ex, ey = sgn * 230 * math.cos(a), -110 + sgn * 230 * math.sin(a)
+        line(c, ex, ey, ex - 70, ey + 120, 4); line(c, ex, ey, ex + 70, ey + 120, 4)
+        ellipse(c, ex, ey + 122, 95, 18); fs(c, GOLD, 5)
+        if fn:
+            c.save(); c.translate(ex, ey + 105); fn(c); c.restore()
+    line(c, -230 * math.cos(a), -110 - 230 * math.sin(a), 230 * math.cos(a), -110 + 230 * math.sin(a), 12)
+
+
+def brick(c):
+    """tijolo"""
+    poly(c, [(-90, -20), (-60, -50), (110, -50), (80, -20)]); fs(c, (0.80, 0.42, 0.30), 5)
+    poly(c, [(80, -20), (110, -50), (110, 10), (80, 40)]); fs(c, (0.62, 0.30, 0.22), 5)
+    c.rectangle(-90, -20, 170, 60); fs(c, (0.86, 0.48, 0.34), 5)
+    for x in (-45, 0, 45):
+        circle(c, x, 10, 9, (0.62, 0.30, 0.22), 0)
+
+
+def moving_box(c):
+    """caixa de mudança"""
+    c.rectangle(-100, -60, 200, 120); fs(c, (0.86, 0.70, 0.48), 6)
+    poly(c, [(-100, -60), (-130, -100), (-30, -100), (0, -60)]); fs(c, (0.80, 0.62, 0.40), 5)
+    poly(c, [(100, -60), (130, -100), (30, -100), (0, -60)]); fs(c, (0.80, 0.62, 0.40), 5)
+    c.rectangle(-25, -60, 50, 120); rgb(c, (0.95, 0.85, 0.62)); c.fill()
+    line(c, -25, -60, -25, 60, 4); line(c, 25, -60, 25, 60, 4)
+    text(c, "MUDANÇA", 0, 20, 30, MARKER, DGRAY)
+
+
+def house_key(c, col=GOLD):
+    """chave (de casa)"""
+    circle(c, -70, 0, 42, col, 7)
+    circle(c, -70, 0, 15, PAPER, 5)
+    rrect(c, -30, -12, 140, 24, 6); fs(c, col, 6)
+    for x, h in ((70, 34), (96, 24)):
+        c.rectangle(x - 8, 10, 16, h); fs(c, col, 5)

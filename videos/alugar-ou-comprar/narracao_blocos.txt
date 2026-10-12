@@ -1,0 +1,166 @@
+# Narração "Alugar ou comprar? A conta que quase ninguém faz" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 162.586s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=904aa164-b8e2-4079-b396-5b1c3d428c05.wav
+# bloco2 185.835s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=4998b9ba-e296-4a6c-ab60-cdfc244d9591.wav
+# bloco3 226.560s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5ffa3f4d-c33a-465c-b827-07e43091110d.wav
+# Junta: blocos com 1 s de silêncio + 15 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.00 | bloco2 163.59 | bloco3 350.42 | fim da fala 576.98
+# bloco|início local|frase [palavra@t local]
+1|0.00|"Aluguel é dinheiro jogado fora."
+1|2.80|Você com certeza já ouviu essa frase.
+1|5.44|De pai, de tio, de vizinho.
+1|8.00|E ela parece fazer sentido, né?
+1|9.84|Todo mês você paga, e no final não fica com nada. [não@11.88]
+1|13.20|Mas e se eu te mostrar que quem alugou pode terminar trinta anos depois com mais patrimônio do que quem comprou? [quem@14.96] [com@18.08]
+1|20.56|E que, mudando um único número, acontece exatamente o contrário? [exatamente@23.44]
+1|25.20|Hoje a gente vai fazer a conta que quase ninguém faz. [que@26.88]
+1|28.80|Sem torcida pra nenhum dos lados.
+1|30.80|Quem decide é a matemática.
+1|33.12|Vamos montar o cenário.
+1|34.56|Um apartamento de trezentos mil reais.
+1|37.20|Você dá uma entrada de vinte por cento, sessenta mil reais, e financia os outros duzentos e quarenta mil em trinta anos. [cento@38.96] [outros@41.64] [anos@44.08]
+1|44.88|Qual juro?
+1|45.76|Eu pesquisei as taxas dos cinco maiores bancos em outubro de dois mil e vinte e seis. [bancos@48.00] [vinte@49.56]
+1|50.52|Elas vão de uns dez vírgula três a doze por cento ao ano, mais TR. [a@52.64] [tr@54.72]
+1|55.44|A média fica perto de onze e meio. [meio@57.28]
+1|57.92|É essa que eu vou usar.
+1|59.20|E vou usar o sistema SAC, o mais comum no Brasil, em que a parcela começa alta e vai caindo com o tempo. [mais@61.20] [parcela@62.80] [o@65.08]
+1|65.84|Pra simplificar, eu vou ignorar a TR e os seguros obrigatórios. [e@68.40]
+1|70.08|Isso deixa a conta um pouquinho mais favorável pra quem compra. [favorável@71.84]
+1|73.44|Guarda essa informação.
+1|74.88|Agora, o custo real de comprar.
+1|77.44|Primeiro, a parcela.
+1|79.04|Ela começa em uns dois mil oitocentos e cinquenta reais. [e@81.36]
+1|82.72|E aqui vem o número que assusta.
+1|84.80|Somando trinta anos de parcelas, você devolve os duzentos e quarenta mil emprestados, mais uns trezentos e noventa e cinco mil reais só de juros. [os@87.76] [uns@90.52] [reais@92.32]
+1|94.28|Dinheiro que vai pro banco e não volta. [volta@96.16]
+1|97.04|Segundo, o custo pra tirar o imóvel do papel. [do@99.36]
+1|100.24|O ITBI, que é o imposto de transmissão, costuma ficar entre dois e três por cento. [transmissão@102.24] [por@105.12]
+1|106.12|Somando cartório e registro, dá uns quatro por cento. [por@108.56]
+1|109.52|Doze mil reais, pagos na hora, que não viram tijolo nenhum. [não@111.84]
+1|113.72|Terceiro, IPTU e condomínio.
+1|116.48|Esses são uma pegadinha.
+1|118.08|Parecem custo só de quem compra, mas na maioria dos contratos de aluguel quem paga IPTU e condomínio é o inquilino. [na@120.40] [paga@122.48]
+1|125.56|Então eles aparecem dos dois lados e se cancelam. [se@127.68]
+1|128.72|Vou deixar de fora.
+1|130.08|Quarto, manutenção.
+1|131.76|Quem é dono paga o vazamento, a pintura, a reforma do banheiro daqui a quinze anos. [pintura@133.84] [quinze@136.08]
+1|137.12|Vou estimar meio por cento do valor do imóvel por ano. [do@139.12]
+1|140.32|Uns cento e vinte e cinco reais por mês no começo, subindo com o tempo. [por@141.84] [tempo@143.84]
+1|144.48|Em trinta anos, isso soma uns noventa mil reais. [mil@146.88]
+1|148.00|Resumindo: juros, impostos e manutenção.
+1|151.56|Em trinta anos, o comprador gasta quase quinhentos mil reais com coisas que não viram patrimônio. [quinhentos@154.00] [viram@156.40]
+1|157.56|Ou seja: comprar também tem o seu dinheiro jogado fora. [dinheiro@160.00]
+1|161.36|Ele só tem outro nome.
+2|0.00|Agora o outro lado.
+2|2.08|Quanto custa morar num apartamento igual, só que alugado? [que@4.56]
+2|5.84|O índice FipeZap mede quanto um imóvel rende de aluguel por ano, em relação ao preço dele. [rende@8.56] [ao@10.40]
+2|11.60|Em julho de dois mil e vinte e seis, essa rentabilidade estava em torno de seis por cento ao ano. [e@12.80] [de@15.04]
+2|17.04|Meio por cento por mês.
+2|18.64|Num imóvel de trezentos mil, dá um aluguel de mil e quinhentos reais. [aluguel@20.56]
+2|22.80|E o aluguel sobe.
+2|24.00|Nos últimos tempos, ele vem subindo bem acima da inflação. [acima@26.16]
+2|27.64|Mas no longo prazo, eu vou supor que ele acompanha o valor do imóvel, e que o imóvel sobe junto com a inflação: quatro e meio por cento ao ano. [que@29.52] [e@31.48] [a@33.04] [ao@35.04]
+2|35.84|Daqui a trinta anos, o aluguel desse mesmo apartamento estaria em uns cinco mil e quatrocentos reais. [mesmo@38.00] [e@40.40]
+2|42.12|Somando tudo, o inquilino paga mais de um milhão de reais de aluguel. [um@44.64]
+2|46.80|Um milhão!
+2|48.00|Parece que o tio tinha razão, né?
+2|50.00|Calma.
+2|50.72|Porque o inquilino tem uma vantagem que quase ninguém coloca na conta. [quase@52.68]
+2|54.96|Ele não deu os sessenta mil de entrada. [entrada@56.64]
+2|57.44|Nem pagou os doze mil de ITBI e cartório. [e@59.56]
+2|60.56|São setenta e dois mil reais que continuam no bolso dele. [continuam@63.04]
+2|64.64|E se ele investir?
+2|65.92|Pra isso, vou usar um rendimento de dez por cento ao ano, já descontado o imposto. [dez@67.84] [o@70.08]
+2|71.04|Hoje o CDI está em uns treze vírgula seis por cento, então dez por cento é um número pé no chão pra trinta anos. [vírgula@72.88] [cento@75.36] [pra@76.96]
+2|78.32|Então vamos à corrida.
+2|80.00|De um lado, o Comprador.
+2|81.92|Do outro, o Inquilino.
+2|83.68|A regra é justa: os dois têm a mesma renda e separam o mesmo valor pra moradia. [a@85.56] [valor@87.76]
+2|89.04|Quem gastar menos no mês investe a diferença. [diferença@91.16]
+2|92.08|No começo, o Comprador paga uns dois mil oitocentos e cinquenta de parcela, mais a manutenção. [mil@94.40] [a@96.96]
+2|97.96|O Inquilino paga mil e quinhentos de aluguel. [aluguel@99.92]
+2|100.60|A diferença, quase mil e quinhentos reais por mês, vai pro investimento do Inquilino. [por@103.12]
+2|105.84|Ano um.
+2|106.59|O Comprador tem o apartamento, menos o que ainda deve ao banco. [que@108.96]
+2|110.40|Patrimônio de uns oitenta e um mil.
+2|112.60|O Inquilino tem uns noventa e sete mil investidos. [mil@114.56]
+2|115.76|Inquilino na frente.
+2|117.20|Ano cinco.
+2|118.16|Comprador com cento e setenta e quatro mil. [mil@120.32]
+2|120.80|Inquilino com duzentos e oito mil.
+2|123.20|Ano dez.
+2|124.08|Comprador com trezentos e seis mil.
+2|126.56|Inquilino com trezentos e setenta mil.
+2|129.36|E aí acontece uma coisa que muita gente esquece. [gente@131.44]
+2|132.64|Lá pelo ano onze, a parcela do SAC caiu tanto, e o aluguel subiu tanto, que a situação se inverte. [sac@134.56] [tanto@136.96]
+2|139.20|Agora quem gasta menos por mês é o Comprador. [o@141.28]
+2|142.28|E pela regra, a diferença vai pro investimento dele. [investimento@144.40]
+2|145.60|Ano vinte.
+2|146.56|Comprador com setecentos e oitenta e seis mil. [mil@149.04]
+2|149.52|Inquilino com novecentos e sessenta mil.
+2|152.36|E na linha de chegada, ano trinta.
+2|154.67|O Comprador tem um apartamento quitado, valendo um milhão cento e vinte mil, mais uns novecentos e quarenta mil investidos. [um@157.63] [uns@159.95]
+2|162.59|Total: dois milhões e sessenta mil reais.
+2|166.31|O Inquilino chega com dois milhões e quatrocentos e noventa mil. [quatrocentos@168.64]
+2|170.47|Quatrocentos e vinte e cinco mil a mais. [mais@172.27]
+2|173.15|Um detalhe honesto: esses são valores do futuro. [futuro@175.63]
+2|176.63|Descontando a inflação, em dinheiro de hoje, seria algo como quinhentos e cinquenta mil contra seiscentos e sessenta e cinco mil. [seria@179.07] [contra@181.63]
+2|184.31|A vantagem continua lá.
+3|0.00|Então alugar é melhor?
+3|2.24|Não necessariamente.
+3|3.76|Essa conta depende de três números.
+3|6.24|Mexa em qualquer um deles e a balança pode virar. [balança@8.00]
+3|9.60|Número um: o juro do financiamento.
+3|12.08|Na nossa conta, onze e meio por cento. [cento@14.00]
+3|14.68|Se ele cair pra menos de dez por cento ao ano, o Comprador passa na frente. [por@16.24] [na@18.24]
+3|19.20|Número dois: o aluguel em relação ao valor do imóvel. [valor@21.60]
+3|22.88|Usamos seis por cento ao ano.
+3|24.92|Se na sua cidade o aluguel passa de seis e meio por cento do valor do imóvel, comprar começa a ganhar. [de@26.64] [valor@28.08]
+3|30.88|Se fica perto de quatro ou cinco por cento, como em muitos bairros caros, alugar ganha com folga. [por@32.72] [alugar@35.20]
+3|37.44|Número três: o rendimento do investimento.
+3|40.24|Usamos dez por cento ao ano, líquido.
+3|42.88|Abaixo de uns nove por cento, o Comprador vence. [comprador@44.80]
+3|46.08|Acima, o Inquilino abre vantagem.
+3|48.52|E tem um quarto número escondido: quanto o imóvel valoriza. [o@51.07]
+3|52.56|Usamos a inflação.
+3|53.88|Se ele valorizar uns cinco por cento por ano ou mais, a balança vai pro Comprador. [por@55.60] [pro@57.84]
+3|58.88|E isso nos leva ao Minha Casa Minha Vida. [minha@61.04]
+3|62.12|Desde abril de dois mil e vinte e seis, a faixa três atende famílias com renda de até nove mil e seiscentos reais, em imóveis de até quatrocentos mil. [e@63.36] [com@65.76] [seiscentos@67.36] [mil@70.48]
+3|70.91|O nosso apartamento cabe.
+3|72.44|E o juro fica em até uns sete vírgula sete por cento ao ano. [sete@73.84]
+3|76.12|O porém: no Sul e no Sudeste, o programa financia só uns sessenta e cinco por cento. [o@78.28] [cinco@80.40]
+3|81.52|Então a entrada sobe pra cento e cinco mil, e o Inquilino, pela mesma regra, começa com cento e dezessete mil investidos. [cinco@83.32] [regra@85.52] [investidos@88.00]
+3|89.12|Refazendo a corrida, a primeira parcela cai pra uns mil setecentos e cinquenta. [pra@91.60]
+3|93.84|O Comprador passa o Inquilino já no terceiro ano. [terceiro@95.84]
+3|96.99|E no ano trinta, chega com dois milhões e seiscentos e oitenta mil, contra dois milhões e cento e noventa mil do Inquilino. [milhões@98.88] [dois@101.60] [do@103.60]
+3|104.44|Mudou um número, o juro, e o resultado virou do avesso. [resultado@106.40]
+3|108.32|Agora, o que a planilha não mostra.
+3|110.88|Primeiro: segurança.
+3|112.52|Ninguém te pede o imóvel de volta, ninguém te dá trinta dias pra sair. [ninguém@114.60]
+3|116.75|Pra quem tem filho na escola do bairro, isso vale muito. [bairro@118.28]
+3|120.12|Segundo: liberdade.
+3|121.80|O inquilino muda de cidade por um emprego melhor sem precisar vender nada. [emprego@123.52]
+3|126.28|E vender imóvel leva tempo e custa caro. [caro@128.56]
+3|129.24|Terceiro: a valorização é uma aposta.
+3|132.03|O imóvel pode subir mais que a inflação, ou ficar parado por dez anos. [inflação@133.68]
+3|136.67|E o quarto, o mais importante: a vantagem do Inquilino só existe se ele investir a diferença. [vantagem@139.04] [investir@141.48]
+3|142.92|Todo mês.
+3|143.76|Por trinta anos.
+3|145.08|Na vida real, a maioria não faz isso. [isso@147.04]
+3|147.55|A diferença vira carro, viagem, delivery.
+3|150.76|Se o Inquilino gastar a diferença e só deixar a entrada rendendo, os dois praticamente empatam. [só@152.64] [praticamente@154.96]
+3|156.53|E se ele gastar até a entrada, chega com zero, enquanto o Comprador tem um imóvel de um milhão e cem mil. [chega@158.85] [um@161.29] [mil@163.41]
+3|164.05|Nesse caso, o financiamento funciona como uma poupança forçada. [poupança@166.53]
+3|168.13|E isso tem valor.
+3|169.57|Então, quando comprar faz sentido?
+3|172.21|Quando você quer ficar muitos anos no mesmo lugar, consegue um juro baixo, como no Minha Casa Minha Vida, o aluguel da sua região é caro em relação ao preço dos imóveis, ou quando você sabe que não teria disciplina pra investir todo mês. [mesmo@174.21] [no@176.69] [da@178.81] [ao@180.61] [sabe@182.85] [todo@185.25]
+3|186.21|E quando alugar faz sentido?
+3|188.37|Quando o juro do financiamento está alto, o aluguel é barato em relação ao preço do imóvel, você valoriza mobilidade e, principalmente, quando você investe a diferença todo santo mês. [o@190.73] [preço@192.53] [principalmente@196.01] [santo@199.33]
+3|200.53|Aluguel não é dinheiro jogado fora.
+3|203.33|E juros também não.
+3|204.85|Os dois são o preço de morar.
+3|207.25|A pergunta certa não é alugar ou comprar. [comprar@209.65]
+3|210.49|É qual dos dois te deixa com mais dinheiro, com os seus números. [mais@212.29]
+3|214.81|E se você quer ver o que acontece quando alguém investe todo mês, com disciplina, assista o vídeo sobre quanto tempo leva pra juntar os primeiros cem mil. [acontece@215.89] [disciplina@218.61] [leva@221.61]
+3|223.81|Ele tá aparecendo aqui na tela.
+3|225.69|Até o próximo.
