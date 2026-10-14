@@ -97,6 +97,7 @@ com um gancho no começo. Nada de "PARTE X DE N": quem chega pelo Para Você no 
  {"id": "custo-real", "inicio": 74.5, "fim": 161.0, "titulo": "ALUGAR OU\\NCOMPRAR?",
   "gancho": "Esse apartamento de trezentos mil vai te custar quase setecentos.",
   "gancho_audio": [0.0, 4.1], "gancho_tela": "NÃO CUSTA\\NR$ 300 MIL", "gancho_t": 96.0,
+  "titulo_post": "Título curto do Shorts/Reels",
   "capa": ["NÃO CUSTA", "R$ 300 MIL"], "post": "Gancho do post... #financas #dinheiro #fazaconta"}
 ]}
 ```
@@ -109,7 +110,7 @@ python capas.py videos/<slug> out/<slug>.mp4 --grade
   Abre com o gancho falado sobre o quadro `gancho_t` parado, com `gancho_tela` grande na tela; depois entra o
   trecho e, no fim, "VÍDEO COMPLETO NO YOUTUBE". Sem `--ganchos`, o texto do gancho fica nos primeiros 3,5 s.
 - `inicio` e `fim` são ajustados sozinhos para o silêncio antes da frase mais próxima (até 2 s).
-- Saída: `out/<slug>_corte_<id>.mp4` e `out/<slug>_cortes.txt` (duração, avisos fora de 62 s a 2:58 e o post).
+- Saída: `out/<slug>_corte_<id>.mp4` e `out/<slug>_cortes.txt` (duração, avisos fora de 62 s a 2:58, título do Shorts e descrição).
   `--so <id>` gera só um corte.
 - **Modo antigo** (partes em sequência, "PARTE X DE N"): sem `cortes.json`, ou com `--sequencial`. Opções:
   `--partes N`, `--max 170`, `--cortes 160.5,308.2`, `--so 1`.
