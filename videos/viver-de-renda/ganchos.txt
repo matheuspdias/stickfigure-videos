@@ -1,0 +1,6 @@
+# Bloco de ganchos dos cortes (HeyGen, Calm Carlos, eleven_v4) - 32,7 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5957ac3d-99b0-4a88-a4b6-e49e50e928f0.wav
+pegadinha   | 0.0-7.5   | Dá pra viver de renda com quinhentos e quarenta mil reais? A conta rápida diz que sim. Só que ela esconde uma pegadinha.
+conta-honesta | 9.2-16.0 | Pra viver com cinco mil reais por mês, você não precisa de quinhentos mil. Precisa de quase três vezes isso.
+corte-mil   | 17.4-23.2 | Cortar mil reais de gasto por mês pode te dar quinze anos de liberdade. Eu te mostro a conta.
+diego-julia | 24.6-32.6 | Mesmo salário, mesma idade. Ela parou de trabalhar vinte e quatro anos antes dele. E a diferença está num número só.
