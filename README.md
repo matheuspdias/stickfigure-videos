@@ -81,19 +81,45 @@ O volume é ajustado sozinho para ficar 12 dB abaixo do pico da narração (`SFX
 O áudio final sai em AAC 256 kbps. Abaixo disso a voz ganha artefatos nos agudos.
 
 ## Cortes verticais (TikTok, YouTube Shorts, Reels)
-Depois do vídeo 16:9 pronto:
-```bash
-python cortes.py videos/<slug> out/<slug>.mp4 --audio <mp4 com o áudio final> --titulo "LINHA 1\NLINHA 2"
+O padrão são **cortes selecionados e independentes**: 3 a 5 trechos fortes do vídeo, cada um entendido sozinho,
+com um gancho no começo. Nada de "PARTE X DE N": quem chega pelo Para Você no meio de uma série pula o vídeo.
+
+1. **Escolher os trechos** (já no roteiro): parágrafos que se entendem sem o resto do vídeo, entregam uma
+   conclusão e somam de 1 a 3 min. Critério: alguém que nunca viu o canal entende o assunto nos primeiros 5 s?
+   O trecho fecha com uma resposta? Tem mais de 1 min? Os melhores costumam ser as contas com número chocante.
+2. **Gancho de cada corte**: uma frase de 4 a 7 s, escrita para quem não viu o vídeo ("Esse apartamento de
+   trezentos mil vai te custar quase setecentos."). Todos os ganchos vão num **bloco extra no HeyGen**, um depois
+   do outro com `[long pause]` entre eles; guarde os `word_timestamps` para saber onde cada um começa e termina.
+3. `python cortes.py videos/<slug> --frases` lista as frases com o tempo (¶ = começo de parágrafo).
+4. Crie `videos/<slug>/cortes.json` (formato completo no topo do `cortes.py`):
+```json
+{"serie": "ALUGAR OU COMPRAR?", "cortes": [
+ {"id": "custo-real", "inicio": 74.5, "fim": 161.0, "titulo": "ALUGAR OU\\NCOMPRAR?",
+  "gancho": "Esse apartamento de trezentos mil vai te custar quase setecentos.",
+  "gancho_audio": [0.0, 4.1], "gancho_tela": "NÃO CUSTA\\NR$ 300 MIL", "gancho_t": 96.0,
+  "capa": ["NÃO CUSTA", "R$ 300 MIL"], "post": "Gancho do post... #financas #dinheiro #fazaconta"}
+]}
 ```
-- Divide a história em partes de 62 s a 2:50 (o TikTok só paga vídeo com mais de 1 min; o Shorts aceita até 3 min), cortando no início de uma frase e preferindo começo de bloco ou de parágrafo do `roteiro.txt`.
-- Cada parte sai em 1080x1920: fundo com o próprio vídeo desfocado, título e "PARTE X DE N" no topo, o vídeo no meio e legendas grandes palavra por palavra (Montserrat ExtraBold, palavra falada em destaque). No fim entra "CONTINUA NA PARTE X" ou, na última, "HISTÓRIA COMPLETA NO YOUTUBE".
-- Tempos das palavras: `videos/<slug>/palavras.json` se existir; senão são estimados pelas frases e marcas `[palavra@t]` do `narracao_blocos.txt` (quanto mais marcas, melhor a sincronia).
-- Opções: `--partes N`, `--max 170`, `--cortes 160.5,308.2` (manual), `--so 1` (só uma parte, para prévia).
-- Saída: `out/<slug>_parteN.mp4` (~10 MB cada) e `out/<slug>_cortes.txt` com os tempos.
+5. Gere:
+```bash
+python cortes.py videos/<slug> out/<slug>.mp4 --audio <mp4 com o áudio final> --ganchos <bloco_ganchos.mp3>
+python capas.py videos/<slug> out/<slug>.mp4 --grade
+```
+- Cada corte (1080x1920): fundo desfocado, título do corte no topo, o vídeo no meio, legendas palavra por palavra.
+  Abre com o gancho falado sobre o quadro `gancho_t` parado, com `gancho_tela` grande na tela; depois entra o
+  trecho e, no fim, "VÍDEO COMPLETO NO YOUTUBE". Sem `--ganchos`, o texto do gancho fica nos primeiros 3,5 s.
+- `inicio` e `fim` são ajustados sozinhos para o silêncio antes da frase mais próxima (até 2 s).
+- Saída: `out/<slug>_corte_<id>.mp4` e `out/<slug>_cortes.txt` (duração, avisos fora de 62 s a 2:58 e o post).
+  `--so <id>` gera só um corte.
+- **Modo antigo** (partes em sequência, "PARTE X DE N"): sem `cortes.json`, ou com `--sequencial`. Opções:
+  `--partes N`, `--max 170`, `--cortes 160.5,308.2`, `--so 1`.
 - Tema (cores, fontes, nome do canal) em `THEME` no `cortes.py`, sobrescrito por `tema_cortes.json` quando existir.
 
 ## Capas dos cortes
-Depois dos cortes, crie `videos/<slug>/capas.json` (uma entrada por parte, na mesma ordem dos cortes):
+Com `cortes.json`, as capas saem dele (chave `capa` de cada corte; a cena é `gancho_t`): primeira linha grande no
+topo, a cena no meio e as outras linhas embaixo, sem "PARTE X DE N". Saída `out/capas/<slug>_capa_<id>.png`.
+
+Modo antigo: depois dos cortes, crie `videos/<slug>/capas.json` (uma entrada por parte, na mesma ordem dos cortes):
 ```json
 {"serie": "NOME CURTO DA SÉRIE", "partes": [{"t": 155, "gancho": ["LINHA 1", "LINHA 2", "LINHA 3"]}]}
 ```
