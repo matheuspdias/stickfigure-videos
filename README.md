@@ -128,3 +128,14 @@ e rode `python capas.py videos/<slug> out/<slug>.mp4 --grade`.
 - `t` é o segundo do vídeo 16:9 com a cena da capa (personagem + número ou imagem forte daquela parte); `gancho` tem 1 a 3 linhas curtas (a primeira sai na cor de destaque).
 - Cada capa (1080x1920): série, "PARTE X DE N" grande, a cena e o gancho, sobre o quadro desfocado. O essencial fica entre y 240 e 1680 (a grade do TikTok corta topo e rodapé).
 - Saída: `out/capas/<slug>_capa_parteN.png` e `out/capas/<slug>_capas_grade.png` (para conferir). Cores e fontes vêm do tema (`tema_cortes.json`, chave extra `capa_bg` para a cor do fundo).
+
+## Vídeo só para TikTok (vertical nativo, sem versão longa)
+Quando o vídeo é só para TikTok/Shorts/Reels, ele é desenhado direto em **1080x1920**:
+1. No `scenes.py`, declare `VERTICAL = True` (logo depois do `from engine import *`). O `render.py` lê isso e liga
+   `SF_VERTICAL=1`, que deixa `W, H = 1080, 1920`; `title()` centraliza em `W / 2`; as grades de prévia saem 4x2.
+2. Layout vertical: título y~250, palco y 360-1290 (pés dos bonecos em ~1290), legendas em y~1460, abaixo de 1500
+   fica a interface do TikTok. Nada importante em x > 930 (botões da direita). Modelo: `videos/reserva-emergencia/`.
+3. `python render.py build videos/<slug>/scenes.py <narracao.wav> out/<slug>_base.mp4`
+4. `python tiktok.py videos/<slug> out/<slug>_base.mp4 out/<slug>_tiktok.mp4` queima as legendas palavra por palavra
+   (precisa de `videos/<slug>/palavras.json` com os word_timestamps do HeyGen).
+5. Capa: um `capa.py` com `VERTICAL = True` e `SCENES = [(0, 999, capa)]`, renderizada com `render.py stills`.

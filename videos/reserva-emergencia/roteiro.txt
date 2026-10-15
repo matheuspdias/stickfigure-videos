@@ -1,0 +1,28 @@
+RESERVA DE EMERGÊNCIA (TikTok nativo, 1080x1920, ~76 s, sem versão longa)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, 76,43 s.
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=dccbd602-a108-4c63-82ce-3775477f5ca1.wav
+
+Premissas (pesquisadas em 15/10/2026):
+- Seguro-desemprego 2026: teto R$ 2.518,65, piso R$ 1.621,00 (vigência 11/01/2026).
+- 3 a 5 parcelas, conforme o tempo de trabalho.
+- Primeira parcela liberada em até 30 dias corridos após o pedido.
+- Custo de vida do exemplo: aluguel 1.200 + mercado 800 + luz/internet/celular 1.000 = R$ 3.000/mês.
+- R$ 2.000 / R$ 3.000 por mês = 20 dias. Reserva da Ana: 6 x 3.000 = R$ 18.000.
+
+Se você fosse demitido hoje, quantos dias conseguiria pagar o aluguel?
+
+Esse é o Lucas. Sexta-feira, cinco da tarde: demitido.
+
+Só que as contas não ficam sabendo. Aluguel, mil e duzentos. Mercado, oitocentos. Luz, internet, celular. No total, três mil reais por mês.
+
+O Lucas tem dois mil reais guardados. Isso dá uns vinte dias. Depois disso, cada dia do calendário fica no vermelho.
+
+"Mas tem o seguro-desemprego!" Tem, sim. Só que ele tem teto: no máximo dois mil, quinhentos e dezoito reais por mês, não importa quanto você ganhava. São de três a cinco parcelas, conforme o tempo de trabalho. E a primeira pode levar até trinta dias pra cair, depois do pedido. Ajuda, mas não cobre tudo.
+
+Agora, a Ana. Mesma empresa, mesma demissão. Só que ela tem seis meses de custo de vida guardados: dezoito mil reais. Ela procura emprego com calma. Sem cartão de crédito. Sem empréstimo.
+
+A diferença entre os dois não é o salário. É a reserva.
+
+A regra cabe numa frase: de três a seis meses do seu custo de vida, num lugar seguro e com liquidez diária.
+
+E você? Quantos meses aguentaria? Comenta aí.

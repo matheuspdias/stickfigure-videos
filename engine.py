@@ -1,6 +1,9 @@
-import cairo, math, random
+import cairo, math, random, os
 
-W, H, FPS = 1920, 1080, 30
+# formato: 16:9 (YouTube) por padrão; SF_VERTICAL=1 deixa o quadro 1080x1920 (TikTok nativo).
+# O render.py liga sozinho quando o scenes.py tem VERTICAL = True.
+VERTICAL = os.environ.get("SF_VERTICAL") == "1"
+W, H, FPS = (1080, 1920, 30) if VERTICAL else (1920, 1080, 30)
 
 INK = (0.11, 0.11, 0.12)
 PAPER = (0.984, 0.972, 0.945)
@@ -1133,9 +1136,9 @@ def other(c, t, x, y, s, poses, exprs, **kw):
 
 def title(c, t, t0, s, y=120, size=64, col=INK, bg=None, anim="up"):
     if bg:
-        show(c, t, t0, 960, y, lambda c: hl(c, s, 0, 0, size, bg, col), anim=anim)
+        show(c, t, t0, W / 2, y, lambda c: hl(c, s, 0, 0, size, bg, col), anim=anim)
     else:
-        show(c, t, t0, 960, y, lambda c: text(c, s, 0, 0, size, MARKER, col), anim=anim)
+        show(c, t, t0, W / 2, y, lambda c: text(c, s, 0, 0, size, MARKER, col), anim=anim)
 
 
 def T(s, size=48, col=INK, font=HAND):
