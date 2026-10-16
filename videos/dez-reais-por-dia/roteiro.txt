@@ -1,0 +1,35 @@
+R$ 10 POR DIA TE DEIXA MILIONÁRIO? (TikTok nativo, 1080x1920, sem versão longa)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco.
+
+Premissas (mesmas do vídeo "primeiros 100 mil"):
+- R$ 10 por dia = R$ 300 por mês, aportados no fim de cada mês.
+- 0,8% ao mês líquido de imposto (~10,03% ao ano). Sem inflação na conta.
+
+Contas (FV = 300 * ((1,008^n - 1) / 0,008)):
+- 10 anos (120 meses): R$ 60.065   | do bolso R$ 36.000
+- 20 anos (240 meses): R$ 216.339  | do bolso R$ 72.000
+- 25 anos (300 meses): R$ 371.941
+- 30 anos (360 meses): R$ 622.924  | do bolso R$ 108.000
+- 35 anos (420 meses): R$ 1.027.758 | do bolso R$ 126.000 -> juros R$ 901.758 = 87,7%
+- Chega em R$ 1 milhão no mês 417 (34 anos e 9 meses).
+- Só os anos 30 a 35 somam R$ 404.834, mais que os primeiros 25 anos inteiros (R$ 371.941).
+- Inflação: a 4% ao ano, R$ 1.027.758 daqui a 35 anos compram o que ~R$ 260 mil compram hoje.
+
+Dez reais por dia. Um lanche. Isso pode virar um milhão de reais.
+
+Dez reais por dia são trezentos reais por mês. Vamos investir rendendo zero vírgula oito por cento ao mês, já sem o imposto. Uns dez por cento ao ano.
+
+Em dez anos, você tem uns sessenta mil reais.
+Em vinte anos, duzentos e dezesseis mil.
+Em trinta anos, seiscentos e vinte mil.
+E em trinta e cinco anos... um milhão de reais.
+
+Repara na curva. Só os últimos cinco anos colocaram mais de quatrocentos mil. Mais do que os primeiros vinte e cinco anos juntos.
+
+E agora a parte que assusta. Do seu bolso, saíram só cento e vinte e seis mil reais. Quase noventa por cento desse milhão foram juros.
+
+Mas vou ser honesto com você. São trinta e cinco anos. E a inflação vai comer uma boa parte desse milhão.
+
+Só que tem gente que olha isso e fala: então não vale a pena. Quem pensa assim e não começa chega daqui a trinta e cinco anos com zero reais. Não tem um milhão, não tem seiscentos mil, não tem nem sessenta mil. Tem zero.
+
+Quantos anos você tem? Comenta que eu te digo com quantos você chega lá.

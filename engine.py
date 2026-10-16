@@ -1364,3 +1364,15 @@ def house_key(c, col=GOLD):
     rrect(c, -30, -12, 140, 24, 6); fs(c, col, 6)
     for x, h in ((70, 34), (96, 24)):
         c.rectangle(x - 8, 10, 16, h); fs(c, col, 5)
+
+
+# ---------------------------------------------------------------- objetos novos (vídeo dez-reais-por-dia)
+def sandwich(c):
+    """lanche (hambúrguer): gasto pequeno do dia a dia"""
+    c.new_path(); c.arc(0, -20, 120, 3.1416, 0); c.close_path(); fs(c, ORANGE, 6)   # pão de cima
+    for x, y in ((-55, -75), (0, -95), (50, -70), (-20, -55), (75, -45)):
+        ellipse(c, x, y, 9, 5); rgb(c, LYELLOW); c.fill()
+    poly(c, [(-130, -10), (-95, 12), (-60, -6), (-25, 14), (10, -6), (45, 14), (80, -6), (130, 12), (130, -18), (-130, -18)])
+    fs(c, GREEN, 5)                                                                  # alface
+    rrect(c, -125, 8, 250, 34, 16); fs(c, BROWN, 6)                                  # carne
+    rrect(c, -120, 46, 240, 48, 20); fs(c, ORANGE, 6)                                # pão de baixo
