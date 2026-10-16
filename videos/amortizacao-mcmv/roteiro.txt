@@ -1,0 +1,35 @@
+AMORTIZAÇÃO NO MINHA CASA MINHA VIDA (TikTok nativo, 1080x1920, sem versão longa)
+Responde aos comentários do vídeo "Alugar ou comprar?" pedindo explicação sobre amortização.
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco.
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6917714d-dda9-456c-94ac-ba31665ea445.wav (78,29 s)
+
+Premissas (conferidas em 16/10/2026):
+- MCMV faixa 3: 7,66% a.a. para cotista do FGTS (8,16% para não cotista), + TR. Fonte: Tribuna do Sertão, 20/08/2026.
+- Imóvel R$ 300.000, entrada 20% (R$ 60.000), financiado R$ 240.000, 360 meses, SAC.
+- Taxa mensal efetiva: (1,0766)^(1/12) - 1 = 0,617% a.m. Sem TR, sem seguros (MIP/DFI) e sem taxa de administração.
+
+Contas (simulação mês a mês, contas.py):
+- Sem amortizar: total pago R$ 507.268 (1ª parcela ~R$ 2.147). Mais que o dobro dos R$ 240 mil.
+- + R$ 200/mês reduzindo prazo: quita em 277 meses (83 meses = 6,9 anos antes), total R$ 445.762 -> economia R$ 61.506 (~62 mil).
+- R$ 10.000 extra no mês 1:  reduzindo prazo economiza R$ 21.717 (~22 mil); reduzindo parcela, R$ 11.105 (~11 mil).
+- R$ 10.000 extra no ano 20 (meses 229 a 240), reduzindo prazo: R$ 7.650 a R$ 6.972 (~7 mil).
+
+Duzentos reais a mais por mês, e você paga sessenta e dois mil a menos no seu apartamento.
+
+Vocês pediram nos comentários do vídeo "alugar ou comprar", então bora fazer a conta.
+
+Apartamento de trezentos mil pelo Minha Casa Minha Vida, faixa três. Vinte por cento de entrada. Duzentos e quarenta mil financiados em trinta anos, na tabela SAC, a sete vírgula seis seis por cento ao ano.
+
+No fim, sem contar TR e seguro, você paga uns quinhentos e sete mil reais. Mais que o dobro do que pegou emprestado.
+
+Amortizar é pagar um valor extra que vai direto pra dívida. E sobre esse dinheiro, você nunca mais paga juros.
+
+Agora, a conta. Se todo mês você colocar só duzentos reais a mais, você quita quase sete anos antes. E paga uns sessenta e dois mil reais a menos.
+
+Mas tem uma pegadinha. Quando você amortiza, o banco pergunta: quer reduzir o prazo ou a parcela?
+
+Os mesmos dez mil reais, logo no começo. Reduzindo o prazo, você economiza uns vinte e dois mil. Reduzindo a parcela, só onze mil. Metade.
+
+E quanto mais cedo você amortiza, mais economiza. Os mesmos dez mil, lá no ano vinte, economizam só uns sete mil.
+
+Você escolheria prazo ou parcela? Comenta aí.
