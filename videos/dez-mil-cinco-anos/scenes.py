@@ -143,7 +143,7 @@ def s03(c, t):  # 15.9 - 20.7 6º bitcoin
 
 def s04(c, t):  # 20.7 - 28.7 5º IFIX
     rank_scene(c, t, "ifix", 5, 20.9, 21.9, 26.7, "R$ 14.400", "+44%", "fundos imobiliários",
-               sub="índice IFIX, rendimentos reinvestidos", t_sub=24.6,
+               sub="média do mercado (IFIX), com rendimentos", t_sub=24.6,
                hero_kw=dict(poses=[(0, "think"), (26.7, "thumb")], exprs=[(0, "think"), (26.7, "happy")], look=-1))
 
 
@@ -173,7 +173,7 @@ def s06(c, t):  # 36.1 - 43.0 3º Tesouro IPCA+
 
 def s07(c, t):  # 43.0 - 49.0 2º Ibovespa
     rank_scene(c, t, "ibov", 2, 43.2, 44.2, 47.0, "R$ 16.700", "+67%", "Ibovespa",
-               sub="a bolsa, com dividendos", t_sub=45.8,
+               sub="média da bolsa (Ibovespa), com dividendos", t_sub=45.8,
                hero_kw=dict(poses=[(0, "relax"), (47.0, "arms_up")], exprs=[(0, "neutral"), (47.0, "grin")], look=-1))
 
 
