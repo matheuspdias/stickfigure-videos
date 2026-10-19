@@ -1,0 +1,28 @@
+R$ 1 MILHÃO AGORA OU R$ 10 MIL POR MÊS PRA SEMPRE? (TikTok nativo, 1080x1920, ~81,6 s, sem versão longa)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, 81,63 s.
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=4995b980-fc87-4420-af5d-3c499f439a9a.wav
+
+Premissas (pesquisadas em 19/10/2026):
+- Rendimento 0,8% ao mês líquido (10,03% a.a.), mesma do vídeo dos 100 mil.
+- Inflação 4% a.a. (Focus de 13/10/2026: IPCA 5,22% 2026, 4,30% 2027, 3,79% 2028, 3,50% 2029).
+- 10 mil fixos, sem correção. Em dinheiro de hoje: 10 anos R$ 6.756, 20 anos R$ 4.564, 30 anos R$ 3.083.
+- Juro real: 1,1003/1,04 - 1 = 5,80% a.a. = 0,471% a.m. -> saque real do milhão R$ 4.711/mês, corrigido.
+- Cruzamento: 10.000/1,04^t = 4.711 -> t = 19,2 anos.
+- Segunda virada: VP de 10 mil/mês perpétuo a 0,8% = 10.000/0,008 = R$ 1.250.000.
+  Gasto real sustentável: 1.250.000 x 0,471% = R$ 5.889/mês corrigido. Investindo a sobra, o fundo
+  chega a ~R$ 864 mil em dinheiro de hoje no ano 30 e nunca zera (simulado mês a mês).
+- Ponto de equilíbrio por prazo: 10 mil/mês por 16,8 anos valem R$ 1 milhão a 0,8%.
+
+Um milhão de reais agora, ou dez mil por mês pra sempre? Escolhe antes de eu fazer a conta.
+
+Primeira conta. Um milhão rendendo zero vírgula oito por cento ao mês dá oito mil reais por mês, sem mexer no principal. Dez mil é mais. Fácil, né?
+
+Só que tem a inflação. Os dez mil nunca sobem. Com a inflação a quatro por cento ao ano, em dez anos eles compram o que seis mil e setecentos compram hoje. Em vinte, uns quatro mil e quinhentos. Em trinta, uns três mil.
+
+Já o milhão: sacando só o juro real, ele rende uns quatro mil e setecentos por mês, corrigidos pela inflação, pra sempre. E o milhão continua seu. Lá pelo ano dezenove, ele passa a render mais que os dez mil.
+
+Então o milhão ganha? Calma, tem uma segunda virada. Dez mil por mês pra sempre, a zero vírgula oito por cento, valem um milhão e duzentos e cinquenta mil reais hoje. Quem recebe os dez mil, gasta quase seis mil corrigidos e investe o resto, gasta mais que o dono do milhão, pra sempre. E em trinta anos ainda tem mais de oitocentos mil guardados, em dinheiro de hoje.
+
+A resposta é disciplina. Quem guarda a sobra dos primeiros anos fica com os dez mil. Quem ia gastar tudo, todo mês, melhor pegar o milhão.
+
+E aí, qual você escolheu? Mudou de ideia? Comenta.
