@@ -1,0 +1,44 @@
+{
+  "slug": "decimo-terceiro",
+  "publicar_em": "2026-10-20T09:00:00-03:00",
+  "audio_blocos": [
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=bf124831-dfcd-4339-8282-ad9a63a91e11.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=341a6aa6-83a6-4241-8e02-32c5867439b7.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=b0a4c0ec-f2f0-4f32-80bf-6e0e6e9bf51b.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=7e8de21a-abb2-452b-8134-8410205b7aa5.wav"
+  ],
+  "duracoes": [
+    136.594,
+    170.945,
+    113.162,
+    87.171
+  ],
+  "cauda": 15,
+  "titulo": "O que fazer com o 13º salário? A conta que quase ninguém faz",
+  "thumbnail": "videos/decimo-terceiro/thumb/decimo_thumb_A.png",
+  "categoria": "27",
+  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=ab6b7792-0075-4e4b-bf15-361564791dd9.wav",
+  "ganchos_duracao": 25.887,
+  "descricao": "O 13º salário está chegando, e a maioria vai gastar tudo em poucas semanas. Neste vídeo a gente faz a conta: quanto cai de verdade (o 13º não vem inteiro), por que quitar o cartão rende até 14 vezes mais do que investir no Tesouro Selic, quanto o 13º rende guardado na reserva de emergência, e como só o 13º, investido todo ano, pode virar cerca de R$ 183 mil em 30 anos. No fim, a armadilha de janeiro e a ordem certa para usar o seu 13º.\n\nPremissas: Selic de 13,75% ao ano (Copom, 16/9/2026), IPCA de 4,58% em 12 meses (setembro de 2026), juro médio do rotativo do cartão de 444,9% ao ano e do parcelado de 192,1% ao ano (Banco Central, agosto de 2026), tabela do INSS de 2026 e isenção de IR para quem ganha até R$ 5 mil por mês. Exemplo com salário de R$ 3.000 (13º líquido de cerca de R$ 2.750). Investimento a 5% ao ano acima da inflação, já descontado o imposto, com aporte corrigido pela inflação; valores em dinheiro de hoje. Estimativa do Dieese referente a 2025. Conteúdo educativo, não é recomendação de investimento.\n\nCapítulos\n0:00 O que fazer com o 13º\n0:32 R$ 369 bilhões chegando de uma vez\n0:53 O 13º não vem inteiro\n1:17 Exemplo: quanto a Ana recebe\n1:48 E o imposto de renda?\n2:17 Os três destinos\n2:34 1. Dívida cara: o cartão de crédito\n3:00 Quitar rende quanto?\n3:42 A lei que limita os juros\n4:14 2. Reserva de emergência\n5:09 3. Investir pro longo prazo\n5:21 Ana x Bruno\n6:00 Quanto o 13º vira em 30 anos\n6:24 E o Bruno?\n6:45 Investir 80% e curtir 20%\n7:03 A armadilha de janeiro\n7:40 A ordem certa\n8:15 E você, o que vai fazer?\n\nNarração gerada com voz de IA.\n\n#DecimoTerceiro #FinancasPessoais #FazAConta",
+  "tags": [
+    "décimo terceiro",
+    "13º salário",
+    "decimo terceiro salario 2026",
+    "o que fazer com o 13",
+    "primeira parcela do 13",
+    "segunda parcela do 13",
+    "desconto inss 13 salario",
+    "imposto de renda 13 salario",
+    "dívida do cartão",
+    "rotativo do cartão",
+    "juros do cartão",
+    "reserva de emergência",
+    "tesouro selic",
+    "cdb liquidez diária",
+    "investir o 13",
+    "juros compostos",
+    "educação financeira",
+    "finanças pessoais",
+    "faz a conta"
+  ]
+}

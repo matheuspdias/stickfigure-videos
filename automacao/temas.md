@@ -8,6 +8,7 @@ O Matheus pode mexer à vontade: mover ideias, apagar, marcar como proibido.
 - Quanto tempo leva pra juntar R$ 100 mil? (`primeiros-100-mil`)
 - Quanto você precisa pra viver de renda? (`viver-de-renda`), continuação do de 100 mil
 - Alugar ou comprar? A conta que quase ninguém faz (`alugar-ou-comprar`)
+- O que fazer com o 13º salário (`decimo-terceiro`), out/2026
 
 ## Já feitos só no TikTok (podem virar vídeo longo, com conta mais completa)
 - Reserva de emergência: se você fosse demitido hoje, quantos dias pagaria as contas? (`reserva-emergencia`)
