@@ -140,3 +140,6 @@ Quando o vídeo é só para TikTok/Shorts/Reels, ele é desenhado direto em **10
 4. `python tiktok.py videos/<slug> out/<slug>_base.mp4 out/<slug>_tiktok.mp4` queima as legendas palavra por palavra
    (precisa de `videos/<slug>/palavras.json` com os word_timestamps do HeyGen).
 5. Capa: um `capa.py` com `VERTICAL = True` e `SCENES = [(0, 999, capa)]`, renderizada com `render.py stills`.
+
+## Publicação automática
+O canal pode rodar sozinho no YouTube: uma tarefa agendada do Claude faz o vídeo longo de segunda e quinta e coloca em `fila/`, e o GitHub Actions renderiza, envia agendado para as 9h e agenda 3 Shorts. Configuração e uso em `automacao/README.md`; instruções da tarefa em `automacao/AUTOMATICO.md`.
