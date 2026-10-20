@@ -1,0 +1,29 @@
+[publicar] baixando bloco 1/4
+[publicar] baixando bloco 2/4
+[publicar] baixando bloco 3/4
+[publicar] baixando bloco 4/4
+[publicar] bloco 1: 136.59s
+[publicar] bloco 2: 170.95s
+[publicar] bloco 3: 113.16s
+[publicar] bloco 4: 87.17s
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/decimo-terceiro/bloco1.wav: 136.594s, início 0.000s, diferença -102 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/decimo-terceiro/bloco2.wav: 170.945s, início 137.594s, diferença -102 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/decimo-terceiro/bloco3.wav: 113.162s, início 309.540s, diferença -102 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/decimo-terceiro/bloco4.wav: 87.171s, início 423.702s, diferença -102 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/decimo-terceiro_narracao.wav 525.873s
+[publicar] renderizando (pode levar de 15 a 40 min)
+efeitos sonoros: 39 eventos, volume 0.59
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/decimo-terceiro.mp4 37 MB
+[publicar] render pronto em 5.7 min
+[publicar] vídeo: 8.8 min, 37 MB
+[publicar] enviando decimo-terceiro.mp4: 42%
+[publicar] enviando decimo-terceiro.mp4: 84%
+[publicar] enviado: https://youtu.be/h5RB7KaKhkE  (publica em 2026-10-20T09:00:00-03:00)
+[publicar] AVISO: thumbnail não foi aceita (<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=h5RB7KaKhkE&alt=json&uploadType=media returned "The thumbnail can't be set for the specified video. The request might not be properly authorized.". Details: "[{'message': "The thumbnail can't be set for the specified video. The request might not be properly authorized.", 'domain': 'youtube.thumbnail', 'reason': 'forbidden', 'location': 'videoId', 'locationType': 'parameter'}]">). Canal precisa estar verificado por telefone para thumbnail personalizada.
+Traceback (most recent call last):
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/automacao/publicar.py", line 406, in <module>
+    main()
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/automacao/publicar.py", line 387, in main
+    registrar(a.fila, m, vid, quando, avisos)
+    ^^^^^^^^^
+NameError: name 'registrar' is not defined
