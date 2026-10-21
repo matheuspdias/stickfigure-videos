@@ -1,0 +1,123 @@
+# Narração "À vista ou parcelado sem juros?" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 153.626s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=66a06f4b-1272-4544-9605-8f3de692551f.wav
+# bloco2 189.336s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6c4dbe1a-4fd6-423e-a57b-b805c50feae9.wav
+# bloco3 179.122s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=d7dbd49f-d332-41fa-8fc8-0bdb63ecba44.wav
+# Junta: blocos com 1 s de silêncio + 15 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.000 | bloco2 154.626 | bloco3 344.962 | fim da fala 524.084 | total 539.084
+# Formato: bloco | início local (s) | frase [palavra@t local]
+1|0.00|A Black Friday deste ano cai no dia vinte e sete de novembro. [dia@2.00]
+1|4.08|E, numa loja qualquer, você vai dar de cara com uma escolha assim: uma televisão de três mil reais. [de@6.08] [televisão@8.12]
+1|10.40|Dez vezes de trezentos, sem juros.
+1|13.16|Ou à vista, no Pix, com dez por cento de desconto: dois mil e setecentos reais. [por@15.36] [setecentos@17.52]
+1|18.96|Qual das duas sai mais barato?
+1|20.96|Muita gente responde rápido: parcelado, porque o dinheiro fica rendendo. [dinheiro@23.92]
+1|25.28|Outros dizem: à vista, porque desconto é desconto. [desconto@28.20]
+1|28.96|Hoje eu vou fazer essa conta com você, com os juros de hoje. [você@30.72]
+1|32.80|E no final eu te passo uma regra simples pra decidir em dez segundos, na frente do vendedor. [regra@34.16] [na@36.84]
+1|38.32|Antes, um número que mostra o tamanho desse assunto. [desse@40.64]
+1|41.68|Segundo a Abecs, a associação das empresas de cartão, só no primeiro trimestre deste ano os brasileiros parcelaram sem juros trezentos e noventa bilhões de reais. [de@44.20] [ano@46.88] [e@50.24]
+1|52.68|Isso é quarenta e três por cento de tudo o que passou no cartão de crédito. [de@54.64] [de@56.32]
+1|57.16|Quase metade.
+1|58.68|Parcelar virou o jeito normal de comprar no Brasil. [no@60.92]
+1|61.80|Agora, vamos começar pela pergunta que quase ninguém faz: o sem juros é mesmo sem juros? [ninguém@64.32] [sem@67.12]
+1|68.08|Pensa numa televisão de três mil reais, que sai por dois mil e setecentos à vista. [que@70.44] [à@72.24]
+1|73.08|Se a loja aceita receber dois mil e setecentos hoje, o preço de verdade dela é dois mil e setecentos. [e@74.96] [dela@77.48]
+1|79.72|Quem escolhe o parcelado paga três mil.
+1|82.36|São trezentos reais a mais, só que espalhados em dez meses, e por isso ninguém sente. [espalhados@84.56] [ninguém@86.96]
+1|88.04|Dá pra transformar isso numa taxa de juros. [juros@90.00]
+1|90.72|É como se a loja te emprestasse dois mil e setecentos reais e você devolvesse em dez parcelas de trezentos. [dois@92.32] [devolvesse@94.48]
+1|97.20|Fazendo a conta, isso dá quase dois por cento ao mês. [por@99.36]
+1|100.64|Uns vinte e seis por cento ao ano. [ano@102.24]
+1|102.76|E quanto rende o seu dinheiro numa aplicação segura? [aplicação@104.48]
+1|105.72|A Selic está em treze vírgula setenta e cinco por cento ao ano. [e@108.24]
+1|109.92|Numa aplicação de liquidez diária que paga cem por cento do CDI, já descontado o imposto de renda, sobra menos de nove décimos de um por cento ao mês. [cem@112.24] [o@114.52] [nove@116.64] [mês@118.56]
+1|119.25|Ou seja: com dez por cento de desconto à vista, o sem juros cobra mais do que o dobro do que o seu dinheiro consegue render. [desconto@121.24] [mais@123.52] [o@124.80]
+1|126.52|O juro não sumiu.
+1|128.08|Ele só foi escondido dentro do preço.
+1|130.44|E por que a loja faz isso?
+1|132.24|Porque, quando você parcela no cartão, a loja não recebe tudo na hora. [loja@134.48]
+1|136.53|Ela recebe aos poucos, ou paga uma taxa pra adiantar esse dinheiro, além da taxa da maquininha. [taxa@138.80] [taxa@141.20]
+1|142.44|No Pix, o dinheiro cai na hora e quase sem custo. [e@144.48]
+1|146.04|Por isso tanta loja topa dar desconto à vista: pra ela, receber hoje vale mais. [à@148.24] [mais@150.80]
+1|151.40|E pra você também deveria valer.
+2|0.00|Mas aí vem o argumento do outro lado, e ele é bom: se eu parcelo, o meu dinheiro fica aplicado e rendendo. [lado@1.76] [parcelo@4.00] [rendendo@6.40]
+2|7.32|Então vamos colocar isso na conta, com duas pessoas. [duas@9.40]
+2|10.68|A Carla e o Diego querem a mesma televisão de três mil reais. [mesma@12.56]
+2|15.40|Os dois têm exatamente três mil guardados, numa aplicação que rende cem por cento do CDI. [numa@18.48] [do@20.64]
+2|21.64|A Carla paga à vista, no Pix: dois mil e setecentos. [dois@24.24]
+2|26.08|Sobram trezentos reais, que ficam aplicados.
+2|29.40|O Diego parcela em dez vezes de trezentos, sem juros. [trezentos@31.68]
+2|33.80|Ele deixa os três mil aplicados e, todo mês, tira trezentos pra pagar a parcela. [todo@36.04] [parcela@38.24]
+2|39.28|Nos primeiros meses, o dinheiro dele rende bastante, porque ainda tem muito saldo. [bastante@41.64]
+2|44.32|Mas a cada mês o saldo cai, e o rendimento cai junto. [e@46.52]
+2|48.32|No primeiro mês, os três mil rendem uns trinta e dois reais, antes do imposto. [uns@50.56] [imposto@52.64]
+2|53.60|No último, com só trezentos aplicados, rendem uns três reais. [uns@56.92]
+2|58.52|E tem imposto de renda sobre o rendimento de cada resgate: vinte e dois e meio por cento no que fica até seis meses, vinte por cento no que fica até um ano. [rendimento@60.08] [e@62.80] [até@64.24] [que@66.88]
+2|68.48|Dez meses depois, a televisão está paga nos dois casos. [nos@71.08]
+2|72.52|Quanto sobrou pra cada um?
+2|74.28|O Diego, com todo aquele rendimento, termina com uns cento e quarenta e oito reais. [com@77.04] [reais@78.48]
+2|79.40|A Carla, com os trezentos que sobraram do desconto, aplicados pelo mesmo tempo, termina com uns trezentos e vinte e sete. [do@81.80] [com@85.04]
+2|87.24|A Carla fica com quase cento e oitenta reais a mais. [oitenta@89.12]
+2|91.04|Mesmo com o dinheiro do Diego rendendo o tempo todo, o desconto ganhou. [o@93.04]
+2|95.68|Isso quer dizer que pagar à vista sempre ganha? [sempre@97.44]
+2|98.72|Não.
+2|99.48|Depende do tamanho do desconto.
+2|101.64|Pensa nas dez parcelas de trezentos daquela televisão de três mil. [televisão@104.44]
+2|105.96|Pra pagar todas elas, você não precisa ter três mil hoje. [ter@108.56]
+2|110.04|Bastam uns dois mil oitocentos e sessenta e quatro aplicados, porque o rendimento cobre o resto. [e@112.64] [o@115.28]
+2|116.16|Isso dá um desconto de uns quatro e meio por cento. [e@118.00]
+2|119.48|Esse é o ponto de virada.
+2|121.16|Se a loja der menos que isso à vista, por exemplo três por cento, parcelar e deixar o dinheiro rendendo sai melhor. [à@122.76] [parcelar@125.68] [melhor@128.00]
+2|128.80|Nesse caso, quem parcela termina com cento e quarenta e oito reais, e quem paga à vista, com só noventa e oito. [e@131.52] [paga@133.36] [oito@135.36]
+2|136.12|Se o desconto passar disso, à vista ganha. [ganha@138.64]
+2|139.36|E quanto maior o desconto, maior a vantagem. [vantagem@141.68]
+2|142.76|Com quinze por cento à vista, quem paga no Pix termina com quase quinhentos reais, contra os mesmos cento e quarenta e oito de quem parcela. [paga@144.80] [reais@147.20] [e@149.57]
+2|151.24|E aqui vem a regra pra usar na frente do vendedor. [na@152.96]
+2|154.60|Pega o número de parcelas e divide por dois. [por@156.76]
+2|157.84|Esse é o desconto, em porcentagem, a partir do qual vale pagar à vista. [partir@160.40]
+2|162.51|Em dez vezes, a metade é cinco: se o desconto à vista for de cinco por cento ou mais, pague à vista. [se@165.31] [cinco@166.83] [vista@168.83]
+2|169.71|Em seis vezes, a metade é três: desconto de três por cento ou mais, à vista. [desconto@172.55] [à@174.99]
+2|176.03|Em doze vezes, seis por cento.
+2|178.67|Com os juros de hoje, essa regra funciona muito bem nas compras de seis a doze parcelas. [funciona@180.35] [a@182.83]
+2|184.39|E quando ela manda pagar à vista, pode confiar: o à vista ganha mesmo. [pode@186.19]
+3|0.00|Só que essa conta tem uma condição que muita gente esquece. [que@1.92]
+3|3.92|Ela só vale se o dinheiro já existe e está guardado. [existe@6.00]
+3|8.16|Se você parcela porque não tem os três mil, o seu dinheiro não está rendendo nada. [três@10.16] [rendendo@11.96]
+3|13.12|Você está comprando com o salário dos próximos dez meses. [próximos@15.04]
+3|16.88|E aí a pergunta muda.
+3|18.48|Não é mais à vista ou parcelado.
+3|21.20|É: essa compra cabe no meu mês?
+3|24.16|E é aí que mora a armadilha.
+3|26.24|Uma parcela de trezentos parece pequena.
+3|29.16|Mas olha o que acontece com o Diego depois de uma Black Friday animada. [Diego@30.40]
+3|33.12|A televisão: trezentos por mês.
+3|35.76|Um celular de dois mil e quatrocentos em doze vezes: duzentos. [em@37.84]
+3|40.16|Uma geladeira de três mil e seiscentos em doze vezes: mais trezentos. [em@42.56]
+3|45.28|Uma air fryer: cem.
+3|47.36|Um tênis: mais cem.
+3|49.36|Cada uma, sozinha, parece pouco.
+3|52.08|Juntas, são mil reais por mês, por quase um ano. [quase@54.72]
+3|56.08|Se o Diego ganha quatro mil, um quarto do salário já tem dono antes do mês começar. [quarto@58.16] [do@60.48]
+3|61.68|Basta um imprevisto pra fatura não fechar.
+3|64.48|E quem não paga a fatura inteira cai no rotativo do cartão, que cobra uns quinze por cento ao mês. [cai@66.16] [uns@68.36]
+3|70.16|Deixar mil reais no rotativo por um mês só custa uns cento e cinquenta reais de juros. [mês@72.40] [reais@74.40]
+3|75.68|Isso apaga, de uma vez, todo o rendimento que o Diego ganhou parcelando a televisão. [rendimento@77.84] [televisão@79.92]
+3|80.88|Então, como decidir na Black Friday?
+3|83.60|Cinco passos.
+3|84.80|Primeiro: pesquise o preço antes.
+3|87.60|Acompanhe o produto algumas semanas antes da Black Friday, pra saber se o desconto é desconto mesmo, e não um preço que subiu em novembro pra cair no dia. [Black@90.28] [é@92.04] [que@94.00] [dia@95.84]
+3|96.56|Segundo: pergunte sempre o preço à vista.
+3|99.76|Desde dois mil e dezessete, a lei permite que a loja cobre preços diferentes no Pix, no dinheiro e no cartão. [permite@101.60] [no@104.08]
+3|106.48|Ela não é obrigada a dar desconto, mas muitas dão, e às vezes só pra quem pergunta. [mas@108.60] [pra@110.72]
+3|111.92|Terceiro: use a regra da metade.
+3|114.56|Desconto maior que a metade do número de parcelas, pague à vista. [de@116.64]
+3|118.72|Desconto menor, pode parcelar.
+3|120.96|E um detalhe: se o seu cartão devolve uma parte em cashback ou pontos, e o Pix não devolve nada, some isso ao lado do parcelado. [devolve@122.72] [e@125.52] [isso@127.76]
+3|129.44|Um cartão que devolve um por cento, por exemplo, empurra a régua um ponto pra cima: em dez vezes, o à vista passa a valer a partir de uns cinco e meio por cento de desconto. [por@131.39] [pra@133.76] [vista@135.92] [uns@137.56] [desconto@138.96]
+3|139.84|Quarto: só parcele com o dinheiro já guardado, separado e rendendo. [guardado@142.64]
+3|145.28|Parcelar o que você não tem não é estratégia, é dívida. [é@147.24]
+3|149.44|Quinto: antes de passar o cartão, some as parcelas que você já tem. [as@152.08]
+3|154.04|A pergunta certa não é quanto custa a parcela, é quanto do seu salário já está comprometido. [a@156.21] [já@158.80]
+3|160.21|E se você vai usar parte do décimo terceiro nessas compras, tem um vídeo aqui no canal que mostra o melhor destino pra esse dinheiro, e por que quitar o cartão vem antes de tudo. [décimo@161.81] [aqui@164.25] [destino@166.13] [quitar@168.13]
+3|170.77|Agora me conta aqui nos comentários: qual foi o maior desconto que você já conseguiu só por perguntar o preço à vista? [foi@173.01] [conseguiu@175.01] [vista@177.01]
+3|177.85|Até o próximo vídeo.

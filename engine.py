@@ -1376,3 +1376,69 @@ def sandwich(c):
     fs(c, GREEN, 5)                                                                  # alface
     rrect(c, -125, 8, 250, 34, 16); fs(c, BROWN, 6)                                  # carne
     rrect(c, -120, 46, 240, 48, 20); fs(c, ORANGE, 6)                                # pão de baixo
+
+
+# ---------------------------------------------------------------- objetos novos (a-vista-ou-parcelado)
+def tv(c, screen=LBLUE, label=None, size=46):
+    """televisão de tela plana com pé (centro na tela); label opcional na tela"""
+    poly(c, [(-40, 120), (40, 120), (70, 150), (-70, 150)]); fs(c, DGRAY, 5)
+    c.rectangle(-12, 100, 24, 24); fs(c, DGRAY, 4)
+    rrect(c, -170, -110, 340, 215, 12); fs(c, INK, 6)
+    rrect(c, -152, -94, 304, 182, 6); fs(c, screen, 3)
+    line(c, -120, -60, -60, -80, 6, WHITE)
+    if label:
+        text(c, label, 0, 0, size, MARKER, INK)
+
+
+def phone(c, col=NAVY):
+    """celular"""
+    rrect(c, -62, -115, 124, 230, 18); fs(c, col, 6)
+    rrect(c, -48, -92, 96, 172, 6); fs(c, LBLUE, 3)
+    circle(c, 0, 98, 8, LGRAY, 3)
+    rrect(c, -16, -106, 32, 6, 3); rgb(c, LGRAY); c.fill()
+
+
+def fridge(c, col=WHITE):
+    """geladeira duas portas"""
+    rrect(c, -85, -150, 170, 300, 14); fs(c, col, 6)
+    line(c, -85, -45, 85, -45, 6)
+    rrect(c, 55, -125, 10, 55, 4); fs(c, LGRAY, 4)
+    rrect(c, 55, -20, 10, 80, 4); fs(c, LGRAY, 4)
+    c.rectangle(-70, 150, 22, 12); fs(c, DGRAY, 3)
+    c.rectangle(48, 150, 22, 12); fs(c, DGRAY, 3)
+
+
+def air_fryer(c, col=DGRAY):
+    """fritadeira elétrica (air fryer)"""
+    rrect(c, -85, -105, 170, 210, 40); fs(c, col, 6)
+    rrect(c, -62, -80, 124, 44, 10); fs(c, LGRAY, 4)
+    circle(c, 0, -58, 12, ORANGE, 3)
+    rrect(c, -75, 0, 150, 90, 20); fs(c, (0.25, 0.25, 0.28), 5)
+    rrect(c, -30, 30, 60, 20, 8); fs(c, LGRAY, 4)
+
+
+def sneaker(c, col=RED):
+    """tênis"""
+    c.move_to(-130, 40); c.line_to(-125, -30); c.curve_to(-100, -45, -60, -40, -40, -70)
+    c.line_to(10, -60); c.curve_to(40, -15, 100, -10, 135, 15); c.line_to(135, 40); c.close_path()
+    fs(c, col, 6)
+    rrect(c, -138, 30, 280, 26, 10); fs(c, WHITE, 6)
+    for i in range(3):
+        line(c, -30 + i * 18, -50 + i * 8, 0 + i * 18, -40 + i * 8, 5, WHITE)
+
+
+def pos_machine(c, col=NAVY):
+    """maquininha de cartão"""
+    rrect(c, -75, -120, 150, 240, 20); fs(c, col, 6)
+    rrect(c, -55, -100, 110, 70, 8); fs(c, (0.80, 0.92, 0.76), 4)
+    for r in range(3):
+        for k in range(3):
+            rrect(c, -50 + k * 36, -10 + r * 34, 28, 24, 5); fs(c, LGRAY, 3)
+    c.rectangle(-60, -150, 120, 32); fs(c, WHITE, 5)
+
+
+def pix_tag(c, s="PIX", col=GREEN, size=54):
+    """etiqueta 'PIX' (pagamento à vista), texto genérico, sem logo"""
+    w = text_w(c, s, size) + 60
+    rrect(c, -w / 2, -42, w, 84, 42); fs(c, col, 6)
+    text(c, s, 0, 0, size, MARKER, WHITE)

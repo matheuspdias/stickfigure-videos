@@ -1,0 +1,20 @@
+{"serie": "À VISTA OU PARCELADO?", "cortes": [
+ {"id": "juros-escondidos", "inicio": 61.80, "fim": 130.44, "titulo": "O SEM JUROS\\NTEM JUROS?",
+  "gancho": "Esse parcelado sem juros esconde juros de vinte e seis por cento ao ano. Olha essa conta.",
+  "gancho_audio": [0.0, 5.62], "gancho_tela": "SEM JUROS?\\N26% AO ANO", "gancho_t": 102.4,
+  "capa": ["\"SEM JUROS\"", "ESCONDE 26% AO ANO"],
+  "titulo_post": "O \"sem juros\" que esconde 26% ao ano",
+  "post": "TV de R$ 3.000 em 10x sem juros ou R$ 2.700 à vista no Pix? A diferença vira juros de quase 2% ao mês. #financaspessoais #dinheiro #blackfriday #cartaodecredito #fazaconta"},
+ {"id": "carla-diego", "inicio": 165.31, "fim": 250.31, "titulo": "À VISTA OU\\NPARCELADO?",
+  "gancho": "Ela pagou à vista. Ele parcelou e deixou o dinheiro rendendo. Adivinha quem terminou com mais?",
+  "gancho_audio": [7.26, 13.30], "gancho_tela": "QUEM TERMINOU\\NCOM MAIS?", "gancho_t": 245.1,
+  "capa": ["À VISTA x PARCELADO", "QUEM GANHOU?"],
+  "titulo_post": "Pagou à vista ou parcelou rendendo: quem ganhou?",
+  "post": "Os dois tinham R$ 3.000 aplicados a 100% do CDI. Um pagou à vista com 10% de desconto, o outro parcelou em 10x. Olha quanto sobrou. #financaspessoais #dinheiro #investimentos #blackfriday #fazaconta"},
+ {"id": "regra-metade", "inicio": 250.31, "fim": 344.96, "titulo": "A REGRA\\NDA METADE",
+  "gancho": "À vista ou parcelado sem juros? Tem uma regra que decide em dez segundos. É só dividir por dois.",
+  "gancho_audio": [14.78, 21.70], "gancho_tela": "PARCELAS ÷ 2\\NDECIDE", "gancho_t": 316.1,
+  "capa": ["À VISTA OU PARCELADO?", "É SÓ DIVIDIR POR 2"],
+  "titulo_post": "À vista ou parcelado? A regra de 10 segundos",
+  "post": "Divida o número de parcelas por dois: se o desconto à vista for maior que isso, pague à vista. Vale com os juros de hoje. #financaspessoais #dinheiro #blackfriday #dicasdedinheiro #fazaconta"}
+]}

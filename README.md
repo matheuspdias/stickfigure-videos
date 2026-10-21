@@ -69,6 +69,7 @@ desenha `fn(c)` centrado em (x, y) a partir de `t0`. `t1` faz o elemento sumir c
 Novos (alugar-ou-comprar): `apartment(col, sign, floors)` (prédio, base em y=0; `sign="ALUGA-SE"`), `balance(tilt, lfn, rfn)` (balança de dois pratos),
 `brick` (tijolo), `moving_box` (caixa de mudança) e `house_key(col)` (chave).
 Novo (dez-reais-por-dia): `sandwich` (lanche/hambúrguer, gasto pequeno do dia a dia).
+Novos (a-vista-ou-parcelado): `tv(screen, label)` (televisão), `phone` (celular), `fridge` (geladeira), `air_fryer`, `sneaker` (tênis), `pos_machine` (maquininha de cartão) e `pix_tag(s)` (etiqueta "PIX" genérica, sem logo).
 
 Precisa de um objeto novo? Escreva uma função `def objeto(c): ...` no `engine.py`, centrada em (0, 0), usando
 `poly / rrect / circle / ellipse` + `fs(c, cor_preenchimento, espessura)`, contorno `INK` de 5-6 px. Assim ela fica disponível para os próximos vídeos.

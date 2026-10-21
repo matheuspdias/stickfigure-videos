@@ -1,0 +1,5 @@
+# Bloco de ganchos dos cortes (HeyGen, Calm Carlos, eleven_v4) - 21,786 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5e637fb9-a74d-4508-85df-10cfdda0a850.wav
+juros-escondidos | 0.00-5.62   | Esse parcelado sem juros esconde juros de vinte e seis por cento ao ano. Olha essa conta.
+carla-diego      | 7.26-13.30  | Ela pagou à vista. Ele parcelou e deixou o dinheiro rendendo. Adivinha quem terminou com mais?
+regra-metade     | 14.78-21.70 | À vista ou parcelado sem juros? Tem uma regra que decide em dez segundos. É só dividir por dois.

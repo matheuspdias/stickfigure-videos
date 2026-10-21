@@ -1,0 +1,40 @@
+{
+  "slug": "a-vista-ou-parcelado",
+  "publicar_em": "2026-10-22T09:00:00-03:00",
+  "audio_blocos": [
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=66a06f4b-1272-4544-9605-8f3de692551f.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6c4dbe1a-4fd6-423e-a57b-b805c50feae9.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=d7dbd49f-d332-41fa-8fc8-0bdb63ecba44.wav"
+  ],
+  "duracoes": [
+    153.626,
+    189.336,
+    179.122
+  ],
+  "cauda": 15,
+  "titulo": "À vista ou parcelado sem juros? A conta que a loja não mostra",
+  "descricao": "Na Black Friday você vai ver muito isso: 10x sem juros ou um desconto à vista no Pix. Qual sai mais barato? Neste vídeo a gente faz a conta com os juros de hoje: quanto de juros fica escondido no \"sem juros\" quando a loja dá desconto à vista, o que acontece quando você parcela e deixa o dinheiro rendendo (Carla x Diego), o ponto de virada do desconto e a regra da metade para decidir em 10 segundos na frente do vendedor. No fim, a armadilha das parcelas que se acumulam e 5 passos para comprar melhor na Black Friday.\n\nPremissas: Selic de 13,75% ao ano (Copom, 16/9/2026) e CDI de 13,65% ao ano; dinheiro aplicado a 100% do CDI com liquidez diária, com IR pela tabela regressiva da renda fixa (22,5% até 180 dias e 20% de 181 a 360 dias); parcelas a cada 30 dias, a primeira 30 dias após a compra; exemplo de uma TV de R$ 3.000 em 10x de R$ 300 ou R$ 2.700 à vista (10% de desconto). Dados de parcelado sem juros da Abecs (1º trimestre de 2026: R$ 390,5 bilhões, 43,2% das compras no cartão de crédito). Rotativo do cartão de cerca de 15% ao mês (444,9% ao ano, Banco Central, agosto de 2026). Black Friday em 27/11/2026. Lei 13.455/2017 (preço diferente por forma de pagamento). Valores arredondados; contas feitas em 21/10/2026. Conteúdo educativo, não é recomendação de investimento.\n\nCapítulos\n0:00 À vista ou parcelado na Black Friday?\n0:38 R$ 390 bilhões parcelados sem juros\n1:01 O \"sem juros\" é mesmo sem juros?\n1:42 Quanto rende o seu dinheiro\n2:10 Por que a loja dá desconto no Pix\n2:34 \"Mas o meu dinheiro fica rendendo\"\n2:45 Carla x Diego\n3:43 Quanto sobrou pra cada um\n4:10 O ponto de virada do desconto\n5:05 A regra da metade\n5:44 A condição que muita gente esquece\n6:09 A armadilha das parcelas\n7:05 5 passos para a Black Friday\n8:25 E o seu 13º?\n\nNarração gerada com voz de IA.\n\n#BlackFriday #FinancasPessoais #FazAConta",
+  "tags": [
+    "à vista ou parcelado",
+    "parcelado sem juros",
+    "desconto à vista",
+    "pix ou cartão",
+    "black friday 2026",
+    "compensa parcelar",
+    "juros embutidos",
+    "parcelar e deixar rendendo",
+    "cdi",
+    "selic",
+    "tesouro selic",
+    "cdb liquidez diária",
+    "rotativo do cartão",
+    "cartão de crédito",
+    "educação financeira",
+    "finanças pessoais",
+    "faz a conta"
+  ],
+  "thumbnail": "videos/a-vista-ou-parcelado/thumb/parcelado_thumb_A.png",
+  "categoria": "27",
+  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5e637fb9-a74d-4508-85df-10cfdda0a850.wav",
+  "ganchos_duracao": 21.786
+}
