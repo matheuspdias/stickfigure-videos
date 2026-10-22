@@ -22,3 +22,5 @@ Premissas (pesquisadas em 21/10/2026):
   Não inclui VR, plano de saúde, seguro-desemprego, multa de 40% do FGTS.
 
 Roteiro: ver fala.txt.
+
+Áudio (88,27 s): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=78c13ac3-836c-4695-847a-859232f69599.wav
