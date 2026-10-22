@@ -11,7 +11,7 @@ Premissas (pesquisadas em 21/10/2026):
   13º líquido 4.498,49. FGTS 8% x (12 salários + 13º + 1/3) = 5.333,33.
   Ano: 11 x 4.498,49 + 5.300,29 + 4.498,49 + 5.333,33 = 64.615,50 (~5.384,62/mês).
 - PJ 7.000: faturamento anual 84.000 > teto MEI (81.000; aumento ainda não aprovado),
-  e programação/desenvolvimento nem está entre as atividades permitidas ao MEI.
+  e várias profissões (programador, médico, advogado, designer...) nem podem ser MEI.
   Simples Nacional, faixa 1 (até 180 mil em 12 meses): Anexo III 6% com fator R >= 28%; Anexo V 15,5% abaixo disso.
   Pró-labore 28% = 1.960 (acima do mínimo de 1.621); INSS 11% = 215,60; IR sobre pró-labore zero.
   DAS 6% = 420. Contador 300.
