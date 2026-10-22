@@ -145,3 +145,7 @@ Quando o vídeo é só para TikTok/Shorts/Reels, ele é desenhado direto em **10
 
 ## Publicação automática
 O canal pode rodar sozinho no YouTube: uma tarefa agendada do Claude faz o vídeo longo de segunda e quinta e coloca em `fila/`, e o GitHub Actions renderiza, envia agendado para as 9h e agenda 3 Shorts. Configuração e uso em `automacao/README.md`; instruções da tarefa em `automacao/AUTOMATICO.md`.
+Novos (pov-fatura-janeiro): `sofa_back(c, col)` e `sofa_front(c, col)` (sofá em duas partes: desenhe o boneco entre elas e ele parece sentado; base em y=0),
+`gift` (presente), `roast` (ceia), `tshirt(col)` (roupa), `suitcase(col)` (mala de viagem), `pencil(col)` (material escolar) e `boleto(title, col, val)` (guia de imposto com código de barras).
+Formato POV (vídeo só para TikTok): faixa "POV: ..." fixa no topo, o boneco principal é VOCÊ (pessoa comum) e O Consultor só entra na virada. Modelo: `videos/pov-fatura-janeiro/`.
+Dica: na Permanent Marker o ponto de milhar some depois do "2" ("R$ 2.100" vira "2100"): use `"R$ 2 .100"` (espaço fino).

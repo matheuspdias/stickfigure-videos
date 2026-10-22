@@ -1442,3 +1442,94 @@ def pix_tag(c, s="PIX", col=GREEN, size=54):
     w = text_w(c, s, size) + 60
     rrect(c, -w / 2, -42, w, 84, 42); fs(c, col, 6)
     text(c, s, 0, 0, size, MARKER, WHITE)
+
+
+# ---------------------------------------------------------------- objetos novos (pov-fatura-janeiro)
+SOFA = (0.55, 0.42, 0.72)
+
+
+def sofa_back(c, col=SOFA, w=460):
+    """sofá, parte de trás (desenhe antes do boneco). Base no chão em y=0, centrado em x=0"""
+    rrect(c, -w / 2 + 30, -250, w - 60, 170, 30); fs(c, col, 6)                    # encosto
+    rrect(c, -w / 2 + 40, -120, w - 80, 50, 14); fs(c, tuple(min(1, v + 0.12) for v in col), 5)  # assento
+
+
+def sofa_front(c, col=SOFA, w=460):
+    """sofá, frente e braços (desenhe depois do boneco para esconder as pernas: parece sentado)"""
+    rrect(c, -w / 2 + 30, -90, w - 60, 72, 12); fs(c, col, 6)                     # frente do assento
+    for sx in (-1, 1):
+        rrect(c, sx * (w / 2 - 30) - 40, -170, 80, 152, 26); fs(c, col, 6)       # braços
+    for sx in (-1, 1):
+        rrect(c, sx * (w / 2 - 70) - 12, -20, 24, 22, 4); fs(c, BROWN, 4)        # pés
+
+
+def gift(c, col=RED, ribbon_col=GOLD):
+    """caixa de presente"""
+    c.rectangle(-100, -40, 200, 140); fs(c, col, 6)
+    c.rectangle(-115, -85, 230, 50); fs(c, col, 6)
+    c.rectangle(-16, -85, 32, 185); fs(c, ribbon_col, 5)
+    for sx in (-1, 1):
+        c.new_path(); c.save(); c.translate(sx * 38, -108); c.scale(1.0, 0.6)
+        c.arc(0, 0, 40, 0, 6.2832); c.restore(); fs(c, ribbon_col, 5)
+    circle(c, 0, -95, 14, ribbon_col, 5)
+
+
+def roast(c):
+    """ceia: frango/peru assado numa travessa"""
+    ellipse(c, 0, 55, 170, 34); fs(c, WHITE, 6)
+    ellipse(c, 0, 0, 120, 75); fs(c, (0.82, 0.52, 0.22), 6)
+    for sx in (-1, 1):
+        c.save(); c.translate(sx * 100, -45); c.rotate(sx * 0.6)
+        rrect(c, -14, -50, 28, 60, 12); fs(c, (0.82, 0.52, 0.22), 5)
+        circle(c, 0, -58, 14, WHITE, 5)
+        c.restore()
+    for x, y in ((-60, 0), (10, -25), (50, 15)):
+        ellipse(c, x, y, 22, 8); rgb(c, (0.95, 0.72, 0.42)); c.fill()
+
+
+def tshirt(c, col=WHITE):
+    """camiseta (roupa do Ano Novo)"""
+    poly(c, [(-60, -100), (-25, -100), (-10, -80), (10, -80), (25, -100), (60, -100), (125, -50), (95, -5),
+             (70, -25), (70, 110), (-70, 110), (-70, -25), (-95, -5), (-125, -50)])
+    fs(c, col, 6)
+    c.new_path(); c.arc(0, -100, 25, 0, 3.1416); rgb(c, INK); c.set_line_width(5); c.stroke()
+
+
+def suitcase(c, col=BLUE):
+    """mala de viagem"""
+    rrect(c, -40, -150, 80, 50, 14); rgb(c, INK); c.set_line_width(10); c.stroke()
+    rrect(c, -110, -110, 220, 210, 24); fs(c, col, 6)
+    for x in (-55, 55):
+        line(c, x, -110, x, 100, 6)
+    for x in (-70, 70):
+        circle(c, x, 112, 14, DGRAY, 5)
+
+
+def pencil(c, col=YELLOW):
+    """lápis (material escolar), na diagonal"""
+    c.save(); c.rotate(-0.7)
+    c.rectangle(-130, -22, 210, 44); fs(c, col, 6)
+    poly(c, [(80, -22), (140, 0), (80, 22)]); fs(c, (0.95, 0.85, 0.66), 6)
+    poly(c, [(122, -7), (140, 0), (122, 7)]); fs(c, INK, 3)
+    rrect(c, -165, -22, 40, 44, 10); fs(c, PINK, 6)
+    c.restore()
+
+
+def boleto(c, title="IPVA", col=RED, val=None):
+    """boleto/guia de imposto com código de barras"""
+    c.save(); c.rotate(-0.04)
+    rrect(c, -120, -150, 240, 300, 10); fs(c, WHITE, 6)
+    c.rectangle(-117, -147, 234, 64); rgb(c, col); c.fill()
+    text(c, title, 0, -112, 52, MARKER, WHITE)
+    for y in (-55, -25):
+        line(c, -90, y, 90, y, 6, GRAY)
+    if val:
+        text(c, val, 0, 25, 50, MARKER, col)
+    x = -95
+    i = 0
+    while x < 95:
+        w = 3 + (i * 7) % 6
+        c.rectangle(x, 75, w, 50); rgb(c, INK); c.fill()
+        x += w + 4 + (i * 5) % 4
+        i += 1
+    c.restore()
