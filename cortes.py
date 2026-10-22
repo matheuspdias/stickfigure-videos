@@ -220,6 +220,9 @@ def esc(s):
 def chunks(words, maxw=3, maxc=20):
     out, cur = [], []
     for w in words:
+        # a palavra que estouraria a largura abre um grupo novo (antes ela ficava e a legenda saía da tela)
+        if cur and len(" ".join(x["w"] for x in cur + [w])) > maxc:
+            out.append(cur); cur = []
         cur.append(w)
         txt = " ".join(x["w"] for x in cur)
         if len(cur) >= maxw or len(txt) >= maxc or re.search(r"[.!?,:;]$", w["w"]):
