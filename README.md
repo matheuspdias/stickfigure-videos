@@ -111,6 +111,7 @@ python capas.py videos/<slug> out/<slug>.mp4 --grade
 - Cada corte (1080x1920): fundo desfocado, título do corte no topo, o vídeo no meio, legendas palavra por palavra.
   Abre com o gancho falado sobre o quadro `gancho_t` parado, com `gancho_tela` grande na tela; depois entra o
   trecho e, no fim, "VÍDEO COMPLETO NO YOUTUBE". Sem `--ganchos`, o texto do gancho fica nos primeiros 3,5 s.
+- Silêncios acima de 0,25 s dentro do trecho são encurtados para 0,25 s (detectados no áudio; as legendas acompanham). `--pausa-max 0` desliga.
 - `inicio` e `fim` são ajustados sozinhos para o silêncio antes da frase mais próxima (até 2 s).
 - Saída: `out/<slug>_corte_<id>.mp4` e `out/<slug>_cortes.txt` (duração, avisos fora de 62 s a 2:58, título do Shorts e descrição).
   `--so <id>` gera só um corte.

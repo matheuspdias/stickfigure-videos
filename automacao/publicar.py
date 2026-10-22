@@ -19,6 +19,7 @@ Formato do fila/<slug>.json (o modo automático escreve; veja automacao/AUTOMATI
   "tags": ["...", "..."],
   "thumbnail": "videos/voynich/thumb/voynich_thumb_A.png",
   "categoria": "27",          # 27 = Educação (padrão)
+  "pausa_blocos": 0.4,        # silêncio entre os blocos (padrão 1,0 s se ausente; o Faz a Conta usa 0,4)
   "cauda": 5,                 # segundos sem narração no fim, para a Tela final do YouTube (mínimo 5)
   "playlist": "",             # opcional: id de playlist
   "substituir": "<video_id>"  # opcional: refaz um vídeo já agendado. Depois de enviar o novo, deixa o antigo
@@ -137,7 +138,8 @@ def produzir(m, cenas, audios_locais=None):
 
     narracao = os.path.join(RAIZ, "out", f"{slug}_narracao.wav")
     cauda = ["--cauda", str(m["cauda"])] if m.get("cauda") else []
-    subprocess.run([sys.executable, os.path.join(RAIZ, "juntar_blocos.py"), narracao, *blocos, *cauda], check=True, cwd=RAIZ)
+    pausa = ["--pausa", str(m["pausa_blocos"])] if m.get("pausa_blocos") is not None else []
+    subprocess.run([sys.executable, os.path.join(RAIZ, "juntar_blocos.py"), narracao, *blocos, *pausa, *cauda], check=True, cwd=RAIZ)
 
     video = os.path.join(RAIZ, "out", f"{slug}.mp4")
     log("renderizando (pode levar de 15 a 40 min)")

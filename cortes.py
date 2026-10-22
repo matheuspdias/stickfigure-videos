@@ -72,8 +72,12 @@ MAX_PART = 170.0       # 2:50
 def read_blocks(vdir):
     """frases com início absoluto, a partir de narracao_blocos.txt"""
     path = os.path.join(vdir, "narracao_blocos.txt")
-    durs, rows = {}, []
+    durs, rows, gap = {}, [], 1.0
     for ln in open(path, encoding="utf-8"):
+        g = re.match(r"#\s*pausa_blocos\s+([\d.]+)", ln)
+        if g:
+            gap = float(g[1])
+            continue
         m = re.match(r"#\s*bloco(\d+)\s+([\d.]+)s", ln)
         if m:
             durs[int(m[1])] = float(m[2])
@@ -85,8 +89,8 @@ def read_blocks(vdir):
     off, acc = {}, 0.0
     for b in sorted(durs):
         off[b] = acc
-        acc += durs[b] + 1.0
-    total = acc - 1.0
+        acc += durs[b] + gap
+    total = acc - gap
     sents = []
     for b, t, txt in rows:
         anchors = [(w, float(x) + off[b]) for w, x in re.findall(r"(\S+?)@([\d.]+)", " ".join(re.findall(r"\[([^\]]*@[^\]]*)\]", txt)))]
@@ -298,6 +302,47 @@ def fmt(t):
 # ------------------------------------------------------------------ modo cortes selecionados
 CARD_LEN = 2.6     # cartão final
 HOOK_PAD = 0.35    # respiro entre o gancho e o trecho
+PAUSA_MAX = 0.25   # nos cortes selecionados, silêncios maiores que isso são encurtados para isso (0 desliga)
+FPS_V = 30.0
+
+
+def silent_segments(audio, t0, t1, pmax, db=-38):
+    """trechos que ficam, pelo silêncio real do áudio (ffmpeg silencedetect): cada silêncio maior que pmax
+    é encurtado para pmax (metade de cada lado). Tempos presos à grade de quadros."""
+    q = lambda x: round(x * FPS_V) / FPS_V  # noqa: E731
+    t0, t1 = q(t0), q(t1)
+    r = subprocess.run(["ffmpeg", "-nostdin", "-v", "info", "-ss", f"{t0:.3f}", "-t", f"{t1 - t0:.3f}", "-i", audio,
+                        "-vn", "-af", f"silencedetect=noise={db}dB:d={pmax:.2f}", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    sil, start = [], None
+    for ln in r.stderr.splitlines():
+        m = re.search(r"silence_start: ([\d.]+)", ln)
+        if m:
+            start = float(m[1])
+        m = re.search(r"silence_end: ([\d.]+)", ln)
+        if m and start is not None:
+            sil.append((start + t0, float(m[1]) + t0)); start = None
+    segs, a = [], t0
+    for s0, s1 in sil:
+        c0, c1 = q(s0 + pmax / 2), q(s1 - pmax / 2)
+        if c1 - c0 >= 2 / FPS_V and c0 > a and c1 < t1:
+            segs.append((a, c0)); a = c1
+    segs.append((a, t1))
+    return segs
+
+
+def remap(segs):
+    """função que leva um tempo do vídeo original para o tempo do corte já sem as pausas (a partir de segs[0][0])"""
+    def f(x):
+        acc = 0.0
+        for a, b in segs:
+            if x < a:
+                return acc
+            if x <= b:
+                return acc + (x - a)
+            acc += b - a
+        return acc
+    return f
 TEXT_HOOK = 3.5    # duração do gancho só em texto (sem áudio)
 
 
@@ -393,20 +438,27 @@ def build_ass_corte(path, words, t0, t1, title, hook, hook_dur):
     open(path, "w", encoding="utf-8").write(ass_head() + "\n".join(ev) + "\n")
 
 
-def render_corte(video, audio, ass, t0, t1, out, hook_src=None, hook_rng=None, hook_t=None, hook_dur=0.0, tmp=None):
+def render_corte(video, audio, ass, t0, t1, out, hook_src=None, hook_rng=None, hook_t=None, hook_dur=0.0, tmp=None, segs=None):
     vw = int(W * ZOOM) // 2 * 2
     vh = int(vw * 9 / 16) // 2 * 2
     dark = THEME["dark"]
 
-    def frame_chain(src, tag):
-        return (f"[{src}]split[{tag}a][{tag}b];[{tag}a]scale={vw}:{vh},crop={W}:{vh}[{tag}fg];"
+    def frame_chain(src, tag, pre=""):
+        return (f"[{src}]{pre}split[{tag}a][{tag}b];[{tag}a]scale={vw}:{vh},crop={W}:{vh}[{tag}fg];"
                 f"[{tag}b]scale=-2:{H // 4},crop={W // 4}:{H // 4},boxblur=12:2,scale={W}:{H},"
                 f"eq=brightness=-{dark}:saturation=0.8[{tag}bg];[{tag}bg][{tag}fg]overlay=0:{VID_Y},fps=30,setsar=1[{tag}v]")
 
     seg = t1 - t0
     afmt = "aresample=48000,aformat=sample_fmts=fltp:sample_rates=48000:channel_layouts=stereo"
     ins = ["-ss", f"{t0:.3f}", "-t", f"{seg:.3f}", "-i", video, "-ss", f"{t0:.3f}", "-t", f"{seg:.3f}", "-i", audio]
-    main_a = f"[1:a]{afmt},afade=t=in:d=0.15,afade=t=out:st={max(0, seg - 0.4):.2f}:d=0.4[ma]"
+    vsel, asel = "", ""
+    if segs and len(segs) > 1:
+        # encurta as pausas: mantém só os trechos de segs (tempos relativos ao início do corte)
+        expr = "+".join(f"between(t,{a - t0:.4f},{b - t0 - 0.0005:.4f})" for a, b in segs)
+        vsel = f"select='{expr}',setpts=N/FRAME_RATE/TB,"
+        asel = f"aselect='{expr}',asetpts=N/SR/TB,"
+        seg = sum(b - a for a, b in segs)
+    main_a = f"[1:a]{asel}{afmt},afade=t=in:d=0.15,afade=t=out:st={max(0, seg - 0.4):.2f}:d=0.4[ma]"
     if hook_dur > 0:
         still = os.path.join(tmp, "gancho.png")
         subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", f"{hook_t:.3f}", "-i", video,
@@ -415,7 +467,7 @@ def render_corte(video, audio, ass, t0, t1, out, hook_src=None, hook_rng=None, h
         ins += ["-loop", "1", "-framerate", "30", "-t", f"{hook_dur:.3f}", "-i", still,
                 "-ss", f"{max(0, g0 - 0.05):.3f}", "-t", f"{g1 - g0 + 0.1:.3f}", "-i", hook_src]
         graph = ";".join([
-            frame_chain("2:v", "h"), frame_chain("0:v", "m"),
+            frame_chain("2:v", "h"), frame_chain("0:v", "m", vsel),
             f"[3:a]{afmt},afade=t=in:d=0.05,afade=t=out:st={max(0, g1 - g0 - 0.05):.2f}:d=0.1,"
             f"apad=whole_dur={hook_dur:.3f}[ha]",
             main_a,
@@ -424,7 +476,7 @@ def render_corte(video, audio, ass, t0, t1, out, hook_src=None, hook_rng=None, h
         ])
         amap = "[ca]"
     else:
-        graph = ";".join([frame_chain("0:v", "m"), main_a, f"[mv]ass={ass}:fontsdir={FONTS}[v]"])
+        graph = ";".join([frame_chain("0:v", "m", vsel), main_a, f"[mv]ass={ass}:fontsdir={FONTS}[v]"])
         amap = "[ma]"
     subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", *ins, "-filter_complex", graph, "-map", "[v]", "-map", amap,
                     "-c:v", "libx264", "-preset", "medium", "-crf", "27", "-maxrate", "1.6M", "-bufsize", "3.2M",
@@ -443,9 +495,20 @@ def run_selecao(a, slug, sents, total, words, spec):
         t0 = snap(float(c["inicio"]), sents, total)
         t1 = min(snap(float(c["fim"]), sents, total, end=True), total + 0.6)
         rng = c.get("gancho_audio")
+        segs = None
+        if a.pausa_max > 0 and os.path.exists(os.path.join(a.vdir, "palavras.json")):
+            segs = silent_segments(a.audio or a.video, t0, t1, a.pausa_max)
+        orig_len = t1 - t0
+        if segs and len(segs) > 1:
+            t0, t1 = segs[0][0], segs[-1][1]
+            f = remap(segs)
+            cw = [dict(w, t0=t0 + f(w["t0"]), t1=t0 + f(w["t1"])) for w in words if segs[0][0] - 0.05 <= w["t0"] <= t1]
+            t1_corte = t0 + f(t1)
+        else:
+            segs, cw, t1_corte = None, words, t1
         spoken = bool(a.ganchos and rng)
         hook_dur = (rng[1] - rng[0]) + HOOK_PAD if spoken else 0.0
-        dur = hook_dur + (t1 - t0)
+        dur = hook_dur + (t1_corte - t0)
         first = next((s["text"] for s in sents if s["t"] >= t0 - 0.3), "")
         warn = []
         if dur < 62:
@@ -454,6 +517,8 @@ def run_selecao(a, slug, sents, total, words, spec):
             warn.append("AVISO: mais de 2:58, passa do limite do Shorts")
         if c.get("gancho") and not spoken:
             warn.append("gancho só em texto (sem --ganchos ou sem gancho_audio)")
+        if segs:
+            warn.append(f"pausas encurtadas: -{orig_len - (t1_corte - t0):.1f} s")
         notes += [f"=== {cid}: {fmt(t0)} - {fmt(t1)} do vídeo | {dur:.0f} s no corte" + (" | " + "; ".join(warn) if warn else ""),
                   f"Gancho: {c.get('gancho', '(nenhum)')}",
                   f"Trecho começa em: {first}",
@@ -463,11 +528,11 @@ def run_selecao(a, slug, sents, total, words, spec):
             continue
         title = c.get("titulo") or a.titulo or slug.replace("-", " ").upper()
         ass = os.path.join(ROOT, "out", f"{slug}_corte_{cid}.ass")
-        build_ass_corte(ass, words, t0, t1, title, c.get("gancho_tela") or c.get("gancho"), hook_dur)
+        build_ass_corte(ass, cw, t0, t1_corte, title, c.get("gancho_tela") or c.get("gancho"), hook_dur)
         out = os.path.join(ROOT, "out", f"{slug}_corte_{cid}.mp4")
         with tempfile.TemporaryDirectory() as tmp:
             render_corte(a.video, a.audio or a.video, ass, t0, t1, out, hook_src=a.ganchos, hook_rng=rng,
-                         hook_t=float(c.get("gancho_t", t0 + 0.5)), hook_dur=hook_dur, tmp=tmp)
+                         hook_t=float(c.get("gancho_t", t0 + 0.5)), hook_dur=hook_dur, tmp=tmp, segs=segs)
         print(out, f"{os.path.getsize(out) / 1024 / 1024:.1f} MB", f"{probe_dur(out):.1f} s")
     open(os.path.join(ROOT, "out", f"{slug}_cortes.txt"), "w", encoding="utf-8").write("\n".join(notes) + "\n")
     print("\n".join(notes))
@@ -485,6 +550,8 @@ def main():
     ap.add_argument("--partes", type=int, default=None)
     ap.add_argument("--max", type=float, default=MAX_PART)
     ap.add_argument("--cortes", default=None, help="tempos de corte manuais, separados por vírgula")
+    ap.add_argument("--pausa-max", type=float, default=PAUSA_MAX,
+                    help="cortes selecionados: encurta silêncios maiores que isso (s); 0 desliga")
     ap.add_argument("--so", default=None, help="renderiza só esta parte (número no modo sequencial, id no selecionado)")
     a = ap.parse_args()
     slug = os.path.basename(os.path.normpath(a.vdir))

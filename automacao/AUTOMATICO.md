@@ -43,12 +43,13 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 ### 3. Narração
 - `create_speech` com a voz oficial (VOZ.md: Calm Carlos), um bloco por chamada, até ~4.500 caracteres, em paralelo.
 - De cada resposta guarde o **link do áudio**, a **duração** e os `word_timestamps`.
-- `narracao_blocos.txt`, `transcricao.txt` e `palavras.json` como na skill. Offset de cada bloco = soma das durações anteriores + 1,0 s por bloco. A cauda de 5 s entra **depois** do último bloco (o publicador passa `--cauda 5` ao `juntar_blocos.py`). O Matheus pediu 5 s em vez de 15 s (22/10/2026): é o mínimo da Tela final do YouTube.
+- `narracao_blocos.txt`, `transcricao.txt` e `palavras.json` como na skill. Offset de cada bloco = soma das durações anteriores + **0,4 s** por bloco (silêncio entre blocos; o Matheus pediu menos pausa em 22/10/2026). Ponha `# pausa_blocos 0.4` no cabeçalho do `narracao_blocos.txt` (o `cortes.py` lê daí). A cauda de 5 s entra **depois** do último bloco (o publicador passa `--cauda 5` ao `juntar_blocos.py`). O Matheus pediu 5 s em vez de 15 s (22/10/2026): é o mínimo da Tela final do YouTube.
 
 ### 3b. Cortes (Shorts) e bloco de ganchos
 - Ao escrever o roteiro, escolha **3 trechos** com os três testes da skill (entende-se sozinho nos primeiros 5 s, fecha com uma resposta ou conclusão, dura **de 65 s a 2:40** contando o gancho; acima de 3 min o YouTube não trata como Short e o corte fica de fora). Os melhores: contas com número chocante e comparações com resultado. O mais forte primeiro: ele sai no dia seguinte ao vídeo longo.
 - Para cada um, o gancho (4 a 7 s, números por extenso), o `gancho_tela` e as linhas da `capa`, como na skill.
 - **Um** bloco extra no HeyGen com os 3 ganchos separados por `[long pause]` (mesma voz e configuração). Guarde link, duração e `word_timestamps`; anote início e fim de cada gancho (folga de 0,1 s) em `videos/<slug>/ganchos.txt`.
+- Os Shorts saem com os silêncios acima de 0,25 s encurtados (o `cortes.py` faz isso sozinho pelo áudio, com as legendas acompanhando). Por isso cada corte fica alguns segundos mais curto: mire em pelo menos 70 s de trecho.
 - Depois das cenas prontas, confira os tempos com `python cortes.py videos/<slug> --frases` e escreva `videos/<slug>/cortes.json` (formato da skill), com `titulo_post` (título do Short, até ~60 caracteres, com o número que surpreende) e `post` (1 ou 2 frases + 3 a 5 hashtags como #financaspessoais #dinheiro #fazaconta).
 
 ### 4. Cenas e revisão
@@ -70,6 +71,7 @@ Escreva `fila/<slug>.json`:
   "publicar_em": "2026-10-26T09:00:00-03:00",
   "audio_blocos": ["<link do bloco 1>", "<link do bloco 2>"],
   "duracoes": [132.911, 150.204],
+  "pausa_blocos": 0.4,
   "cauda": 5,
   "titulo": "<título escolhido>",
   "descricao": "<descrição completa>",

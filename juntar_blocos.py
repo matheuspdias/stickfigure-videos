@@ -1,6 +1,8 @@
-"""Junta os blocos de narração em um único .wav, com 1,0 s de silêncio entre eles.
+"""Junta os blocos de narração em um único .wav, com silêncio entre eles (1,0 s, ou o valor de --pausa).
 
-    python juntar_blocos.py saida.wav bloco1.mp3 bloco2.mp3 ... [--cauda 15]
+    python juntar_blocos.py saida.wav bloco1.mp3 bloco2.mp3 ... [--pausa 0.4] [--cauda 5]
+
+--pausa N silêncio entre os blocos (padrão 1,0 s; o Faz a Conta usa 0,4 s desde 26/10/2026).
 
 --cauda N acrescenta N segundos de silêncio no fim (encerramento sem narração para a Tela final do YouTube).
 
@@ -58,7 +60,9 @@ def join(out, blocks, gap=1.0, tail=0.0):
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    tail = 0.0
+    tail, gap = 0.0, 1.0
     if "--cauda" in a:
         i = a.index("--cauda"); tail = float(a[i + 1]); del a[i:i + 2]
-    join(a[0], a[1:], tail=tail)
+    if "--pausa" in a:
+        i = a.index("--pausa"); gap = float(a[i + 1]); del a[i:i + 2]
+    join(a[0], a[1:], gap=gap, tail=tail)
