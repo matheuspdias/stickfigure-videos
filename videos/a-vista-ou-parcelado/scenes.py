@@ -1,6 +1,6 @@
 """À vista com desconto ou parcelado sem juros? A conta da Black Friday.
 Narração Calm Carlos (HeyGen, ElevenLabs v4), 3 blocos.
-Tempos absolutos: bloco1 0,000 | bloco2 154,626 | bloco3 344,962 | fim da fala 524,084 | +15 s de tela final.
+Tempos absolutos: bloco1 0,000 | bloco2 154,626 | bloco3 344,962 | fim da fala 524,084 | +5 s de tela final (era 15 s; reduzido a pedido em 22/10).
 Premissas (21/10/2026): Selic 13,75% (Copom 16/9/2026), CDI 13,65%, IR regressivo da renda fixa (22,5% até 180 dias,
 20% até 360), Abecs 1T26 (R$ 390,5 bi parcelados sem juros, 43,2% do cartão), rotativo ~15% ao mês (444,9% a.a., BC ago/2026).
 Contas em contas.py."""
@@ -625,7 +625,7 @@ def s48(c, t):  # b3 177.85 - END  assinatura
     hero(c, t, 960, 1010, 1.0, [(0, "present"), (b3(178.5), "wave")], [(0, "happy"), (b3(178.5), "grin")], appear=b3(177.9))
 
 
-def s49(c, t):  # END - fim (15 s)  Tela final do YouTube: sem narração, áreas livres
+def s49(c, t):  # END - fim (5 s)  Tela final do YouTube: sem narração, áreas livres
     # Áreas livres: vídeo à esquerda (x 170-950, y 300-740) e inscrever-se à direita (~1450, 520).
     show(c, t, END + 0.1, 960, 130, lambda c: text(c, "FAZ A CONTA", 0, 0, 84, MARKER, NAVY), anim="fade")
     show(c, t, END + 0.4, 560, 800, T("assista também", 46, DGRAY), anim="fade")

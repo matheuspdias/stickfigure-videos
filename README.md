@@ -26,7 +26,7 @@ Tudo é desenhado em código (pycairo): sem bancos de imagem, sem direitos autor
    ```
    Escolha tempos perto do **fim** de cada cena, quando todos os elementos já apareceram.
    Verifique sobreposições, textos cortados e elementos pequenos demais.
-6. Encerramento sem narração (Tela final do YouTube): junte os blocos com `python juntar_blocos.py saida.wav b1.mp3 b2.mp3 ... --cauda 15` e deixe a última cena com áreas livres (vídeo à esquerda, inscrever-se à direita).
+6. Encerramento sem narração (Tela final do YouTube): junte os blocos com `python juntar_blocos.py saida.wav b1.mp3 b2.mp3 ... --cauda 5` (5 s, o mínimo da Tela final; padrão do canal desde 22/10/2026) e deixe a última cena com áreas livres (vídeo à esquerda, inscrever-se à direita).
 7. Renderizar o vídeo final:
    ```bash
    python render.py build videos/<slug>/scenes.py audio.mp3 out/<slug>.mp4

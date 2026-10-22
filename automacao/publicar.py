@@ -19,8 +19,11 @@ Formato do fila/<slug>.json (o modo automático escreve; veja automacao/AUTOMATI
   "tags": ["...", "..."],
   "thumbnail": "videos/voynich/thumb/voynich_thumb_A.png",
   "categoria": "27",          # 27 = Educação (padrão)
-  "cauda": 15,                # segundos sem narração no fim, para a Tela final do YouTube
-  "playlist": ""              # opcional: id de playlist
+  "cauda": 5,                 # segundos sem narração no fim, para a Tela final do YouTube (mínimo 5)
+  "playlist": "",             # opcional: id de playlist
+  "substituir": "<video_id>"  # opcional: refaz um vídeo já agendado. Depois de enviar o novo, deixa o antigo
+                              # privado e sem agendamento, e troca o link "Vídeo completo" dos Shorts dele.
+                              # Use com "shorts": false e "shorts_anteriores" (copiado de fila/publicados/).
 }
 
 Credenciais (secrets do repositório): YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
@@ -355,6 +358,41 @@ def enviar_shorts(m, video, yt, vid_longo, quando_longo):
     return shorts, avisos
 
 
+def substituir(yt, m, vid_novo):
+    """deixa o vídeo antigo privado (sem publishAt) e aponta os Shorts dele para o vídeo novo"""
+    avisos, antigo = [], m["substituir"]
+    try:
+        r = yt.videos().list(part="status", id=antigo).execute()
+        if r.get("items"):
+            st = r["items"][0]["status"]
+            corpo = {"id": antigo, "status": {"privacyStatus": "private", "embeddable": st.get("embeddable", True),
+                                             "selfDeclaredMadeForKids": False}}
+            yt.videos().update(part="status", body=corpo).execute()
+            log(f"vídeo antigo https://youtu.be/{antigo} ficou privado e sem agendamento (pode excluir no Studio)")
+        else:
+            avisos.append(f"vídeo antigo {antigo} não encontrado (já excluído?)")
+    except Exception as e:  # noqa: BLE001
+        avisos.append(f"não consegui tirar o vídeo antigo {antigo} do agendamento ({e}): deixe privado ou exclua no Studio")
+    for sh in m.get("shorts_anteriores") or []:
+        try:
+            r = yt.videos().list(part="snippet", id=sh["video_id"]).execute()
+            if not r.get("items"):
+                continue
+            sn = r["items"][0]["snippet"]
+            desc = sn.get("description", "").replace(f"youtu.be/{antigo}", f"youtu.be/{vid_novo}")
+            corpo = {"id": sh["video_id"], "snippet": {"title": sn["title"], "description": desc,
+                                                       "categoryId": sn.get("categoryId", "27"), "tags": sn.get("tags", []),
+                                                       "defaultLanguage": sn.get("defaultLanguage", "pt-BR"),
+                                                       "defaultAudioLanguage": sn.get("defaultAudioLanguage", "pt-BR")}}
+            yt.videos().update(part="snippet", body=corpo).execute()
+            log(f"Short {sh['id']}: link do vídeo completo trocado para https://youtu.be/{vid_novo}")
+        except Exception as e:  # noqa: BLE001
+            avisos.append(f"Short {sh.get('id')}: não troquei o link do vídeo completo ({e})")
+    for a in avisos:
+        log("AVISO:", a)
+    return avisos
+
+
 def registrar(caminho, m, vid, quando, avisos, shorts=()):
     """tira o vídeo da fila e guarda em fila/publicados/ (o workflow faz o commit)"""
     destino_dir = os.path.join(RAIZ, "fila", "publicados")
@@ -409,13 +447,15 @@ def main():
         log(f"vídeo longo já enviado: https://youtu.be/{vid}")
     else:
         vid, quando, avisos = enviar(m, video, yt)
+        if m.get("substituir"):
+            avisos += substituir(yt, m, vid)
     # o vídeo longo já subiu: registra antes dos Shorts, para nunca reenviar o longo se algo falhar depois
     registrar(a.fila, m, vid, quando, avisos)
     caminho_pub = os.path.join(RAIZ, "fila", "publicados", os.path.basename(a.fila))
     shorts, avisos_s = enviar_shorts(m, video, yt, vid, quando)
     with open(caminho_pub, encoding="utf-8") as f:
         reg = json.load(f)
-    reg["shorts"], reg["avisos"] = shorts, avisos + avisos_s
+    reg["shorts"], reg["avisos"] = shorts or m.get("shorts_anteriores") or [], avisos + avisos_s
     with open(caminho_pub, "w", encoding="utf-8") as f:
         json.dump(reg, f, ensure_ascii=False, indent=2)
         f.write("\n")
