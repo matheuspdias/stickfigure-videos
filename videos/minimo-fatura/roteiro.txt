@@ -1,0 +1,30 @@
+PAGAR O MÍNIMO DA FATURA (TikTok nativo, 1080x1920, 67,2 s, sem versão longa)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, 67,16 s, breaks antes de "novecentos e oitenta" e "mil oitocentos e dezenove".
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=fd40e20f-4155-410d-854d-47596f3e17f5.wav
+
+Premissas (pesquisadas em 23/10/2026):
+- BC, agosto/2026 (pessoa física): rotativo 15,18% a.m. (444,9% a.a.); cartão parcelado 9,34% a.m. (192,1% a.a.).
+- Pagamento mínimo: livre, definido por cada banco desde 2018 (antes era 15%). R$ 150 = exemplo.
+- Rotativo só até o vencimento da fatura seguinte (Res. CMN 4.549/2017); depois, parcelamento com juros menores.
+- Teto: Lei 14.690/2023 (sancionada 03/10/2023), vigente desde jan/2024: juros + encargos não passam do valor original da dívida.
+  Aqui a dívida é o que foi pro rotativo (R$ 850): no máximo R$ 1.700 + R$ 150 já pagos = R$ 1.850 no total.
+- Contas (sem IOF nem tarifas):
+  850 x 1,1518 = 979,03 (~980)
+  12x a 9,34% sobre 979,03: parcela 139,07 -> 1.668,87 + 150 = 1.818,87 (~1.819)
+  24x: parcela 103,59 -> 2.486,23 + 150 = 2.636,23 (passaria de 2.600; com o teto, máx. 1.850)
+
+Pagar o mínimo do cartão parece que te salva. Mas transforma mil reais em quase dois mil.
+
+A fatura veio: mil reais. Você paga o mínimo, cento e cinquenta, e respira aliviado.
+
+Só que os oitocentos e cinquenta que sobraram vão pro rotativo. Juros médios de quinze por cento ao mês. No mês seguinte, já são novecentos e oitenta.
+
+E o rotativo só pode durar uma fatura. Depois disso, o banco te passa pro parcelado da fatura, a uns nove por cento ao mês. Doze parcelas de cento e trinta e nove reais.
+
+Somando tudo, você pagou mil oitocentos e dezenove reais. Por uma fatura de mil.
+
+E em vinte e quatro vezes? Passaria de dois mil e seiscentos. Só que, desde dois mil e vinte e quatro, a lei limita os juros e encargos ao valor da dívida. Ela pode, no máximo, dobrar. E dobrar já é um desastre.
+
+O que fazer? Se não dá pra pagar a fatura inteira, negocie um parcelamento direto com o banco antes de cair no rotativo. E compare a taxa.
+
+Você já pagou só o mínimo? Comenta sem vergonha.
