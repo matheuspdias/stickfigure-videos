@@ -1,11 +1,6 @@
 {
   "slug": "reserva-de-emergencia",
   "publicar_em": "2026-10-26T09:00:00-03:00",
-  "audio_blocos": [
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0b5125e4-ae46-407b-bab4-a5bdcfb80048.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=391bcdd0-1207-42a7-a4fc-6ea767024670.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=2255f926-bd36-4c25-8093-a556698b53aa.wav"
-  ],
   "duracoes": [
     160.679,
     163.344,
@@ -35,6 +30,36 @@
   ],
   "thumbnail": "videos/reserva-de-emergencia/thumb/reserva_thumb_B.png",
   "categoria": "27",
-  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=03544b52-2718-4352-a377-f2ea312c0661.wav",
-  "ganchos_duracao": 24.921
+  "ganchos_duracao": 24.921,
+  "video_id": "5xDG5GyiyCc",
+  "url": "https://youtu.be/5xDG5GyiyCc",
+  "agendado_para": "2026-10-26T09:00:00-03:00",
+  "enviado_em": "2026-10-25T16:25:22-03:00",
+  "avisos": [],
+  "shorts": [
+    {
+      "id": "camila-bruno",
+      "video_id": "EU0OvPud4e0",
+      "url": "https://youtu.be/EU0OvPud4e0",
+      "titulo": "Mesma demissão: ela sobrou com R$ 7 mil, ele deve R$ 15 mil #Shorts",
+      "duracao": 148.2,
+      "agendado_para": "2026-10-27T12:00:00-03:00"
+    },
+    {
+      "id": "quanto-tempo",
+      "video_id": "QrQnYDnCPi0",
+      "url": "https://youtu.be/QrQnYDnCPi0",
+      "titulo": "R$ 400 por mês: quanto tempo até ter 6 meses de reserva? #Shorts",
+      "duracao": 107.2,
+      "agendado_para": "2026-10-28T12:00:00-03:00"
+    },
+    {
+      "id": "seguro-teto",
+      "video_id": "8v_hiCtmzIo",
+      "url": "https://youtu.be/8v_hiCtmzIo",
+      "titulo": "Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses) #Shorts",
+      "duracao": 110.7,
+      "agendado_para": "2026-10-29T12:00:00-03:00"
+    }
+  ]
 }

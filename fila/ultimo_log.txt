@@ -1,23 +1,60 @@
-[publicar] baixando bloco 1/3
-[publicar] baixando bloco 2/3
-[publicar] baixando bloco 3/3
-[publicar] bloco 1: 153.63s
-[publicar] bloco 2: 189.34s
-[publicar] bloco 3: 179.12s
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/a-vista-ou-parcelado/bloco1.wav: 153.626s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/a-vista-ou-parcelado/bloco2.wav: 189.336s, início 154.626s, diferença -102 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/a-vista-ou-parcelado/bloco3.wav: 179.122s, início 344.962s, diferença -102 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/a-vista-ou-parcelado_narracao.wav 529.083s
-[publicar] renderizando (pode levar de 15 a 40 min)
-efeitos sonoros: 48 eventos, volume 0.60
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/a-vista-ou-parcelado.mp4 40 MB
-[publicar] render pronto em 7.6 min
-[publicar] vídeo: 8.8 min, 40 MB
-[publicar] enviando a-vista-ou-parcelado.mp4: 39%
-[publicar] enviando a-vista-ou-parcelado.mp4: 79%
-[publicar] enviado: https://youtu.be/6iyeZWNHu08  (publica em 2026-10-22T09:00:00-03:00)
-[publicar] thumbnail definida
-[publicar] vídeo antigo https://youtu.be/jHceuP_BDVY ficou privado e sem agendamento (pode excluir no Studio)
-[publicar] Short juros-escondidos: link do vídeo completo trocado para https://youtu.be/6iyeZWNHu08
-[publicar] Short carla-diego: link do vídeo completo trocado para https://youtu.be/6iyeZWNHu08
-[publicar] Short regra-metade: link do vídeo completo trocado para https://youtu.be/6iyeZWNHu08
+=== quanto-tempo: 2:40 - 4:22 do vídeo | 107 s no corte | pausas encurtadas: -1.7 s
+Gancho: Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
+Trecho começa em: Agora, quanto você precisa ter guardado?
+Título (Shorts): R$ 400 por mês: quanto tempo até ter 6 meses de reserva?
+Descrição: Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta
+
+=== seguro-teto: 0:51 - 2:35 do vídeo | 111 s no corte | pausas encurtadas: -0.6 s
+Gancho: Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.
+Trecho começa em: Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados.
+Título (Shorts): Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)
+Descrição: Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta
+
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/reserva-de-emergencia_corte_quanto-tempo.mp4 5.2 MB 107.2 s
+Cortes selecionados de reserva-de-emergencia (3 cortes independentes)
+Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
+
+=== camila-bruno: 5:27 - 7:51 do vídeo | 148 s no corte | pausas encurtadas: -4.1 s
+Gancho: Mesmo salário, mesma demissão. Ela terminou com dinheiro guardado. Ele terminou devendo quinze mil reais.
+Trecho começa em: A Camila e o Bruno trabalham na mesma empresa.
+Título (Shorts): Mesma demissão: ela sobrou com R$ 7 mil, ele deve R$ 15 mil
+Descrição: Os dois ganhavam R$ 4.000 e ficaram 8 meses sem emprego. Ela tinha reserva; ele usou o cheque especial a 8% ao mês. #financaspessoais #dinheiro #reservadeemergencia #chequeespecial #fazaconta
+
+=== quanto-tempo: 2:40 - 4:22 do vídeo | 107 s no corte | pausas encurtadas: -1.7 s
+Gancho: Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
+Trecho começa em: Agora, quanto você precisa ter guardado?
+Título (Shorts): R$ 400 por mês: quanto tempo até ter 6 meses de reserva?
+Descrição: Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta
+
+=== seguro-teto: 0:51 - 2:35 do vídeo | 111 s no corte | pausas encurtadas: -0.6 s
+Gancho: Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.
+Trecho começa em: Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados.
+Título (Shorts): Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)
+Descrição: Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta
+
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/reserva-de-emergencia_corte_seguro-teto.mp4 5.5 MB 110.7 s
+Cortes selecionados de reserva-de-emergencia (3 cortes independentes)
+Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
+
+=== camila-bruno: 5:27 - 7:51 do vídeo | 148 s no corte | pausas encurtadas: -4.1 s
+Gancho: Mesmo salário, mesma demissão. Ela terminou com dinheiro guardado. Ele terminou devendo quinze mil reais.
+Trecho começa em: A Camila e o Bruno trabalham na mesma empresa.
+Título (Shorts): Mesma demissão: ela sobrou com R$ 7 mil, ele deve R$ 15 mil
+Descrição: Os dois ganhavam R$ 4.000 e ficaram 8 meses sem emprego. Ela tinha reserva; ele usou o cheque especial a 8% ao mês. #financaspessoais #dinheiro #reservadeemergencia #chequeespecial #fazaconta
+
+=== quanto-tempo: 2:40 - 4:22 do vídeo | 107 s no corte | pausas encurtadas: -1.7 s
+Gancho: Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
+Trecho começa em: Agora, quanto você precisa ter guardado?
+Título (Shorts): R$ 400 por mês: quanto tempo até ter 6 meses de reserva?
+Descrição: Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta
+
+=== seguro-teto: 0:51 - 2:35 do vídeo | 111 s no corte | pausas encurtadas: -0.6 s
+Gancho: Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.
+Trecho começa em: Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados.
+Título (Shorts): Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)
+Descrição: Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta
+
+[publicar] cortes prontos em 3.3 min
+[publicar] Short camila-bruno (148s): https://youtu.be/EU0OvPud4e0  (publica em 27/10 12:00)
+[publicar] Short quanto-tempo (107s): https://youtu.be/QrQnYDnCPi0  (publica em 28/10 12:00)
+[publicar] Short seguro-teto (111s): https://youtu.be/8v_hiCtmzIo  (publica em 29/10 12:00)
