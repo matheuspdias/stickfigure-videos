@@ -1,0 +1,5 @@
+# Bloco de ganchos dos cortes (HeyGen, Calm Carlos, eleven_v4) - 24,921 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=03544b52-2718-4352-a377-f2ea312c0661.wav
+camila-bruno  | 0.00-7.54   | Mesmo salário, mesma demissão. Ela terminou com dinheiro guardado. Ele terminou devendo quinze mil reais.
+quanto-tempo  | 9.26-16.42  | Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
+seguro-teto   | 17.82-24.74 | Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.

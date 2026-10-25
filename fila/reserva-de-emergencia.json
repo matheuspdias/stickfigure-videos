@@ -1,0 +1,40 @@
+{
+  "slug": "reserva-de-emergencia",
+  "publicar_em": "2026-10-26T09:00:00-03:00",
+  "audio_blocos": [
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0b5125e4-ae46-407b-bab4-a5bdcfb80048.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=391bcdd0-1207-42a7-a4fc-6ea767024670.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=2255f926-bd36-4c25-8093-a556698b53aa.wav"
+  ],
+  "duracoes": [
+    160.679,
+    163.344,
+    233.587
+  ],
+  "pausa_blocos": 0.4,
+  "cauda": 5,
+  "titulo": "Demitido hoje: quanto tempo você aguentaria? A conta da reserva de emergência",
+  "descricao": "Se você fosse demitido hoje, quantos meses conseguiria pagar as contas? Neste vídeo a gente faz a conta: quanto tempo um desempregado leva pra voltar ao trabalho, quanto o seguro-desemprego paga de verdade (e por quanto tempo), quanto ter de reserva de emergência e quanto tempo leva pra juntar guardando R$ 400 por mês. No fim, Camila x Bruno: mesmo salário, mesma demissão, 8 meses sem emprego. Ela volta com R$ 7.390 guardados; ele, devendo R$ 15.423 no cheque especial.\n\nPremissas: Selic de 13,75% ao ano (Copom, 16/9/2026) e CDI de 13,65% ao ano; reserva aplicada a 100% do CDI com liquidez diária, com IR pela tabela regressiva da renda fixa; aportes de R$ 400 no fim de cada mês. Seguro-desemprego pela tabela de 2026 (vigente desde 11/1/2026): teto de R$ 2.518,65 para salário médio acima de R$ 3.703,99, 5 parcelas para quem trabalhou 24 meses ou mais. Exemplo: salário de R$ 4.000 e custo de vida de R$ 3.200 por mês; FGTS e verbas rescisórias fora da conta. Cheque especial a 8% ao mês e empréstimo pessoal a 8,55% ao mês (Procon-SP, pesquisa de 2/10/2026). Tempo de procura de emprego: IBGE, PNAD Contínua do 1º trimestre de 2026 (6,6 milhões de desocupados; 21,2% há menos de 1 mês, 51,4% de 1 mês a 1 ano, 27,4% há 1 ano ou mais). IPCA de 4,58% em 12 meses (setembro de 2026). Valores arredondados; contas feitas em 25/10/2026. Conteúdo educativo, não é recomendação de investimento.\n\nCapítulos\n0:00 Se você fosse demitido hoje\n0:49 Quanto tempo leva pra voltar ao trabalho\n1:20 O seguro-desemprego tem limite\n1:27 A conta da Camila\n2:25 E o FGTS?\n2:41 Quanto ter de reserva de emergência\n3:14 Quanto tempo leva pra juntar\n4:22 Como acelerar com o 13º\n4:36 Onde deixar a reserva\n5:24 Camila x Bruno: demitidos no mesmo dia\n6:13 O cheque especial\n7:26 E a Camila?\n8:01 3 atitudes práticas\n8:46 Recapitulando\n\nAssista também: O que fazer com o 13º salário\n\nNarração gerada com voz de IA.\n\n#ReservaDeEmergencia #FinancasPessoais #FazAConta",
+  "tags": [
+    "reserva de emergência",
+    "quanto ter de reserva de emergência",
+    "seguro-desemprego 2026",
+    "teto do seguro-desemprego",
+    "demitido o que fazer",
+    "cheque especial",
+    "juros do cheque especial",
+    "empréstimo pessoal",
+    "CDI",
+    "Selic",
+    "liquidez diária",
+    "Tesouro Selic",
+    "quanto tempo para juntar dinheiro",
+    "educação financeira",
+    "finanças pessoais",
+    "faz a conta"
+  ],
+  "thumbnail": "videos/reserva-de-emergencia/thumb/reserva_thumb_B.png",
+  "categoria": "27",
+  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=03544b52-2718-4352-a377-f2ea312c0661.wav",
+  "ganchos_duracao": 24.921
+}

@@ -1,0 +1,20 @@
+{"serie": "RESERVA DE EMERGÊNCIA", "cortes": [
+ {"id": "camila-bruno", "inicio": 327.3, "fim": 471.6, "titulo": "DEMITIDOS NO\\NMESMO DIA",
+  "gancho": "Mesmo salário, mesma demissão. Ela terminou com dinheiro guardado. Ele terminou devendo quinze mil reais.",
+  "gancho_audio": [0.0, 7.54], "gancho_tela": "MESMA DEMISSÃO\\N-R$ 15 MIL", "gancho_t": 400.5,
+  "capa": ["MESMA DEMISSÃO", "ELE FICOU DEVENDO R$ 15 MIL"],
+  "titulo_post": "Mesma demissão: ela sobrou com R$ 7 mil, ele deve R$ 15 mil",
+  "post": "Os dois ganhavam R$ 4.000 e ficaram 8 meses sem emprego. Ela tinha reserva; ele usou o cheque especial a 8% ao mês. #financaspessoais #dinheiro #reservadeemergencia #chequeespecial #fazaconta"},
+ {"id": "quanto-tempo", "inicio": 160.9, "fim": 262.3, "titulo": "QUANTO TEMPO\\NPRA JUNTAR?",
+  "gancho": "Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.",
+  "gancho_audio": [9.26, 16.42], "gancho_tela": "R$ 400 POR MÊS\\NQUANTO TEMPO?", "gancho_t": 226.8,
+  "capa": ["R$ 400 POR MÊS", "QUANTO TEMPO ATÉ 6 MESES DE RESERVA?"],
+  "titulo_post": "R$ 400 por mês: quanto tempo até ter 6 meses de reserva?",
+  "post": "Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta"},
+ {"id": "seguro-teto", "inicio": 51.7, "fim": 155.8, "titulo": "E SE VOCÊ FOSSE\\NDEMITIDO HOJE?",
+  "gancho": "Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.",
+  "gancho_audio": [17.82, 24.74], "gancho_tela": "SEGURO MÁXIMO\\NR$ 2.518", "gancho_t": 113.6,
+  "capa": ["SEGURO-DESEMPREGO", "NO MÁXIMO R$ 2.518"],
+  "titulo_post": "Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)",
+  "post": "Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta"}
+]}

@@ -1,0 +1,152 @@
+# Narração "Se você fosse demitido hoje, quanto tempo aguentaria?" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 160.679s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0b5125e4-ae46-407b-bab4-a5bdcfb80048.wav
+# bloco2 163.344s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=391bcdd0-1207-42a7-a4fc-6ea767024670.wav
+# bloco3 233.587s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=2255f926-bd36-4c25-8093-a556698b53aa.wav
+# pausa_blocos 0.4
+# Junta: blocos com 0,4 s de silêncio + 5 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.000 | bloco2 161.079 | bloco3 324.823 | fim da fala 558.410 | total 563.410
+# Formato: bloco | início local (s) | frase [palavra@t local]
+1|0.00|Se você fosse demitido hoje, quantos meses conseguiria pagar as suas contas? [conseguiria@2.96]
+1|4.88|Pensa rápido.
+1|5.84|Aluguel, mercado, luz, internet, transporte.
+1|10.08|Se o salário parasse de cair na conta amanhã, até quando você aguentaria? [conta@11.84]
+1|15.04|Pra muita gente, a resposta honesta é: nem um mês. [nem@17.92]
+1|19.12|E isso não é falta de esforço.
+1|21.20|É que quase ninguém fez essa conta com calma. [com@23.20]
+1|24.08|Hoje a gente vai fazer.
+1|26.08|Eu vou te mostrar quanto tempo um desempregado leva pra voltar ao trabalho, quanto o seguro-desemprego paga de verdade, quanto você precisa ter guardado e quanto tempo leva pra juntar. [desempregado@27.84] [o@30.67] [precisa@34.00] [pra@36.64]
+1|37.44|E no final, duas pessoas com o mesmo salário perdem o emprego no mesmo dia. [mesmo@39.52] [dia@42.16]
+1|42.80|Uma termina com dinheiro sobrando.
+1|45.04|A outra termina devendo mais de quinze mil reais. [mil@47.68]
+1|48.96|Primeiro, um número que pouca gente conhece.
+1|51.92|Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados. [o@54.80] [mil@57.52]
+1|59.00|Desses, só um em cada cinco estava procurando emprego há menos de um mês. [procurando@61.60]
+1|64.00|Metade estava procurando entre um mês e um ano. [um@66.40]
+1|67.12|E mais de um em cada quatro já estava procurando há mais de um ano. [já@69.12] [ano@70.88]
+1|71.48|Ou seja: perder o emprego e voltar no mês seguinte é a exceção, não a regra. [no@73.84] [a@76.20]
+1|77.00|O mais comum é passar alguns meses sem salário. [sem@79.36]
+1|80.36|Aí muita gente pensa: mas tem o seguro-desemprego. [seguro-desemprego@82.48]
+1|83.84|Tem, e ele ajuda bastante.
+1|85.84|Só que ele tem limite.
+1|87.44|Vamos pegar um exemplo.
+1|88.80|A Camila ganha quatro mil reais por mês de salário. [mês@90.96]
+1|92.08|O custo de vida dela, tudo somado, é de três mil e duzentos reais por mês. [é@94.36] [por@96.16]
+1|96.92|E ela trabalhou mais de dois anos de carteira assinada. [de@98.88]
+1|100.08|Pela tabela deste ano, quem ganhava mais de três mil e setecentos reais recebe o valor máximo do seguro: dois mil, quinhentos e dezoito reais por mês. [de@102.48] [o@104.88] [quinhentos@107.36]
+1|109.72|Não importa se o salário era quatro mil ou dez mil. [mil@111.60]
+1|113.09|O teto é esse.
+1|114.32|E como a Camila trabalhou mais de dois anos, ela recebe cinco parcelas. [dois@116.04]
+1|119.00|Cinco meses, e acabou.
+1|120.84|Então faz a conta.
+1|122.13|O custo de vida é três mil e duzentos. [e@123.76]
+1|124.76|O seguro paga dois mil, quinhentos e dezoito. [dezoito@126.88]
+1|127.80|Todo mês faltam quase setecentos reais.
+1|130.67|E do sexto mês em diante, falta tudo: três mil e duzentos por mês. [tudo@132.76]
+1|135.48|E repara que essa é a situação boa. [boa@137.44]
+1|138.13|Quem pede demissão ou é mandado embora por justa causa não recebe seguro. [por@140.40]
+1|142.93|Quem é autônomo ou PJ também não.
+1|145.80|E o FGTS?
+1|147.12|Ele pode ajudar, mas não dá pra contar com ele: muita gente já usou, e quem aderiu ao saque-aniversário não saca o saldo quando é demitido. [contar@149.24] [e@151.76] [o@154.40]
+1|156.00|Por isso, nesta conta, eu vou deixar o FGTS e a rescisão de fora. [o@158.12]
+2|0.00|Agora, quanto você precisa ter guardado?
+2|2.88|A regra mais usada é ter de três a seis meses do seu custo de vida numa reserva de emergência. [três@4.88] [de@7.04]
+2|9.28|E presta atenção numa palavra: custo de vida. [vida@11.96]
+2|12.56|Não é o salário.
+2|13.80|É quanto você gasta pra viver um mês. [mês@15.64]
+2|16.37|Pra quem gasta três mil e duzentos por mês, como a Camila, seis meses dão dezenove mil e duzentos reais. [por@18.08] [dão@20.48]
+2|23.00|E se a sua renda é instável, se você é autônomo, PJ ou trabalha por comissão, o ideal é ir mais longe: doze meses. [se@24.68] [por@27.12] [longe@29.12]
+2|31.16|Porque ninguém te paga seguro-desemprego.
+2|33.76|Agora vem a parte que assusta.
+2|35.80|Quanto tempo leva pra juntar esses dezenove mil e duzentos? [mil@38.40]
+2|39.64|A Camila consegue guardar quatrocentos reais por mês. [mês@42.32]
+2|43.12|Dez por cento do salário.
+2|44.80|Sem render nada, ela levaria quarenta e oito meses. [oito@47.12]
+2|48.20|Quatro anos.
+2|49.44|Mas ela não vai deixar parado.
+2|51.41|Vamos colocar numa aplicação segura, de liquidez diária, rendendo cem por cento do CDI. [diária@53.92]
+2|56.84|Com a Selic em treze vírgula setenta e cinco por cento ao ano, já descontando o imposto de renda, ela chega lá em quarenta meses. [e@58.88] [descontando@60.48] [lá@62.64]
+2|64.32|Três anos e quatro meses.
+2|66.56|Dos dezenove mil e duzentos, dezesseis mil saíram do bolso dela. [saíram@69.28]
+2|70.80|Os outros três mil e duzentos vieram dos juros. [dos@72.84]
+2|73.84|Os juros, sozinhos, pagaram um mês inteiro de reserva. [de@76.84]
+2|77.92|Três anos e quatro meses parece muito.
+2|80.60|E é por isso que muita gente desiste antes de começar. [desiste@82.24]
+2|83.89|Só que olha o outro lado: com oito meses guardando quatrocentos reais, a Camila já tem um mês inteiro de custo de vida. [oito@85.60] [já@88.60] [de@90.36]
+2|91.15|E com um ano e dez meses, já tem três meses. [já@92.92]
+2|94.56|Cada mês guardado é um mês a mais de tranquilidade. [mais@96.40]
+2|97.88|Você não precisa ter a reserva inteira pra ela começar a te proteger. [pra@99.76]
+2|101.44|E dá pra acelerar.
+2|102.76|Se a Camila colocar o décimo terceiro inteiro na reserva todo fim de ano, ela chega nos seis meses em pouco mais de dois anos. [inteiro@104.76] [ela@106.96] [mais@108.96]
+2|110.52|Lá no vídeo do décimo terceiro, a reserva vinha logo depois de quitar as dívidas caras. [reserva@112.32] [dívidas@114.40]
+2|115.68|Agora, onde deixar esse dinheiro?
+2|118.20|A reserva de emergência tem três regras.
+2|121.00|Primeira: liquidez diária.
+2|123.12|Você precisa conseguir sacar no mesmo dia, sem multa e sem esperar vencimento. [sem@125.64]
+2|128.08|Segunda: baixo risco.
+2|130.12|É dinheiro que não pode cair justamente quando você precisa dele. [quando@132.56]
+2|134.28|Nada de ações, nada de cripto, nada de coisa que oscila. [de@136.80]
+2|138.16|Terceira: render pelo menos o CDI.
+2|141.04|Títulos públicos atrelados à Selic e aplicações de renda fixa com liquidez diária, cobertas pelo FGC, são os caminhos mais comuns. [de@143.92] [pelo@146.56]
+2|149.49|Deixar parado na conta corrente é perder pra inflação, que está em quatro e meio por cento ao ano. [pra@151.68] [meio@153.44]
+2|154.84|E um detalhe que ajuda muito: deixe a reserva separada da conta do dia a dia. [a@157.00] [a@159.08]
+2|159.63|Dinheiro que você vê todo dia acaba virando gasto. [virando@162.19]
+3|0.00|Agora, a história que eu prometi.
+3|2.64|A Camila e o Bruno trabalham na mesma empresa. [mesma@4.68]
+3|5.76|Os dois ganham quatro mil reais.
+3|8.40|Os dois gastam três mil e duzentos por mês. [por@10.56]
+3|11.56|E os dois são demitidos no mesmo dia. [dia@14.00]
+3|14.60|A diferença é uma só: a Camila tem a reserva de dezenove mil e duzentos reais. [tem@17.28] [duzentos@19.24]
+3|20.68|O Bruno não tem nada guardado.
+3|23.24|E os dois levam oito meses pra conseguir um emprego novo. [conseguir@25.36]
+3|26.96|Lembra?
+3|27.68|Isso está dentro do caso mais comum, de um mês a um ano. [de@29.96]
+3|31.76|Nos primeiros cinco meses, o seguro paga dois mil, quinhentos e dezoito pra cada um. [dois@34.24] [um@36.56]
+3|37.12|Falta quase setecentos por mês.
+3|39.72|Depois, nos três meses seguintes, falta tudo: três mil e duzentos por mês. [três@43.36]
+3|45.64|Somando, faltam uns treze mil reais pra cada um. [cada@48.24]
+3|49.08|O Bruno cobre esse buraco do jeito mais fácil: no cheque especial. [mais@51.04]
+3|53.60|Ele já está ali, na conta, sem pedir nada pra ninguém. [pedir@55.68]
+3|57.36|Só que o cheque especial cobra oito por cento ao mês. [por@59.52]
+3|60.88|No quinto mês, o Bruno já deve quatro mil reais. [quatro@62.96]
+3|64.48|No sexto, quando o seguro acaba, a dívida pula pra sete mil e quinhentos. [dívida@66.72]
+3|69.56|E no oitavo mês, quando ele finalmente volta a trabalhar, ele deve quinze mil, quatrocentos e vinte e três reais. [volta@72.08] [quatrocentos@74.68]
+3|77.20|Ele usou treze mil.
+3|78.96|Deve quinze mil e quatrocentos.
+3|81.48|Mais de dois mil e quatrocentos reais só de juros, em oito meses. [só@83.92]
+3|86.52|E o pior vem agora.
+3|88.12|Oito por cento de quinze mil e quatrocentos são mil, duzentos e trinta e quatro reais de juros por mês. [quatrocentos@89.88] [quatro@92.72]
+3|95.12|Isso é três vezes o que ele conseguia guardar antes. [conseguia@96.72]
+3|98.56|Se ele pagar quatrocentos reais por mês, a dívida não diminui nunca. [a@101.16]
+3|103.32|Ela continua crescendo.
+3|105.32|Mesmo trocando por um empréstimo pessoal, que também custa uns oito e meio por cento ao mês, e pagando mil e quinhentos reais todo mês, ele leva mais de dois anos pra quitar. [também@107.87] [cento@109.60] [quinhentos@111.57] [de@114.24]
+3|116.20|E paga quase trinta e nove mil reais, por causa de uma dívida de treze. [reais@118.32] [treze@120.56]
+3|121.48|E a Camila?
+3|122.48|Ela passou os mesmos oito meses tirando o mesmo dinheiro da reserva. [o@124.92]
+3|126.92|Só que o que ficou lá continuou rendendo. [rendendo@128.84]
+3|129.76|No oitavo mês, ela volta a trabalhar com sete mil, trezentos e noventa reais ainda guardados. [com@132.08] [ainda@134.80]
+3|136.20|E nenhuma dívida.
+3|137.76|Mesmo salário, mesmos gastos, mesma demissão.
+3|141.64|No fim, a diferença de patrimônio entre os dois passa de vinte e dois mil reais. [os@143.84] [mil@145.84]
+3|147.00|A reserva não deixou a Camila rica.
+3|149.52|Ela fez uma coisa mais importante: impediu que oito meses difíceis virassem anos de dívida. [que@152.48] [dívida@155.36]
+3|156.24|Então, pra começar a sua, três atitudes práticas. [práticas@159.12]
+3|160.32|Primeira: descubra o seu custo de vida de verdade. [de@162.88]
+3|164.04|Pegue os extratos dos últimos três meses e some tudo. [e@166.56]
+3|167.84|É esse número, e não o salário, que define a sua meta. [que@170.04]
+3|171.80|Segunda: automatize.
+3|173.71|Programe uma transferência pra reserva no dia em que o salário cai. [em@176.23]
+3|177.55|O que sobra no fim do mês quase nunca sobra. [quase@179.07]
+3|180.99|Terceira: comece pela meta de um mês.
+3|184.19|Um mês de custo de vida guardado já muda a forma como você dorme. [já@186.11]
+3|188.51|Depois três.
+3|189.71|Depois seis.
+3|190.91|E lembre: reserva de emergência é pra emergência. [emergência@193.55]
+3|194.75|Perder o emprego, um problema de saúde, um conserto urgente. [um@197.19]
+3|198.67|Promoção de Black Friday não é emergência.
+3|201.95|Recapitulando: um em cada quatro desempregados procura emprego há mais de um ano. [emprego@205.39]
+3|207.07|O seguro paga no máximo dois mil, quinhentos e dezoito reais, por no máximo cinco meses. [quinhentos@209.19] [cinco@211.71]
+3|212.91|A reserva ideal é de três a seis meses do seu custo de vida. [seis@214.95]
+3|217.07|E não ter reserva pode transformar um buraco de treze mil reais em quase trinta e nove mil pagos ao banco. [buraco@219.23] [trinta@221.63]
+3|224.15|Agora me conta: se você fosse demitido hoje, quantos meses você aguentaria? [hoje@226.51]
+3|229.07|Escreve aqui nos comentários.
+3|230.70|E se esse vídeo te ajudou, se inscreve no Faz a Conta. [inscreve@232.23]
