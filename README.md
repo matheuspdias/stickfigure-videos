@@ -148,4 +148,5 @@ O canal pode rodar sozinho no YouTube: uma tarefa agendada do Claude faz o víde
 Novos (pov-fatura-janeiro): `sofa_back(c, col)` e `sofa_front(c, col)` (sofá em duas partes: desenhe o boneco entre elas e ele parece sentado; base em y=0),
 `gift` (presente), `roast` (ceia), `tshirt(col)` (roupa), `suitcase(col)` (mala de viagem), `pencil(col)` (material escolar) e `boleto(title, col, val)` (guia de imposto com código de barras).
 Formato POV (vídeo só para TikTok): faixa "POV: ..." fixa no topo, o boneco principal é VOCÊ (pessoa comum) e O Consultor só entra na virada. Modelo: `videos/pov-fatura-janeiro/`.
+Novos (planta-mcmv): `crane(col)` (grua de obra, base em y=0, lança para a esquerda) e `gavel` (martelo de juiz, Justiça).
 Dica: na Permanent Marker o ponto de milhar some depois do "2" ("R$ 2.100" vira "2100"): use `"R$ 2 .100"` (espaço fino).

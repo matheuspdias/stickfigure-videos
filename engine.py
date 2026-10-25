@@ -1533,3 +1533,24 @@ def boleto(c, title="IPVA", col=RED, val=None):
         x += w + 4 + (i * 5) % 4
         i += 1
     c.restore()
+
+
+def crane(c, col=YELLOW):
+    """grua de obra (base em y=0, ~300 x 460, mastro em x=0, lança para a esquerda)"""
+    c.rectangle(-18, -440, 36, 440); fs(c, col, 5)
+    for y in range(-420, 0, 60):
+        line(c, -18, y, 18, y + 60, 4)
+    c.rectangle(-230, -470, 300, 30); fs(c, col, 5)
+    c.rectangle(40, -470, 40, 60); fs(c, DGRAY, 4)
+    line(c, -200, -440, -200, -330, 4)
+    c.rectangle(-222, -330, 44, 34); fs(c, BROWN, 4)
+    poly(c, [(-18, -470), (0, -520), (18, -470)]); fs(c, col, 5)
+
+
+def gavel(c):
+    """martelo de juiz (Justiça)"""
+    c.save(); c.rotate(-0.6)
+    rrect(c, -18, -40, 36, 190, 10); fs(c, BROWN, 6)
+    rrect(c, -80, -110, 160, 80, 16); fs(c, (0.55, 0.36, 0.20), 6)
+    c.restore()
+    rrect(c, -110, 120, 220, 40, 10); fs(c, (0.55, 0.36, 0.20), 6)

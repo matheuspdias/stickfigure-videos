@@ -1,0 +1,42 @@
+TUDO QUE NINGUÉM TE CONTA ANTES DE FINANCIAR NA PLANTA (TikTok nativo, 1080x1920, ~2 min, sem versão longa)
+Foco: Minha Casa Minha Vida, crédito associativo da Caixa. Informar, não comparar com aluguel nem dizer se vale a pena.
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, 152,27 s.
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=a6d69ab3-f08a-42c4-86fc-6c603d02dec5.wav
+(No texto enviado ao HeyGen, as siglas INCC, ITBI e STJ foram soletradas com espaços.)
+
+Premissas (pesquisadas em 25/10/2026):
+- MCMV urbano (Portaria MCID 333/2026): faixa 1 até R$ 3.200, faixa 2 de R$ 3.200,01 a R$ 5.000, faixa 3 até R$ 9.600. Faixa 2: juros de 4,75% a 7% a.a.
+- Evolução de obra (fase de construção): juros + TR sobre o valor já liberado à construtora, mais seguros (MIP/DFI) e taxa de administração quando houver. Não amortiza a dívida. Sobe conforme a obra avança. Termina com a conclusão/habite-se e o início da amortização.
+- STJ, Tema 996 (REsp 1.729.593), contratos MCMV faixas 1,5, 2 e 3: é ilícita a cobrança de juros de obra ou encargo equivalente após o prazo de entrega do contrato (incluída a tolerância); atraso gera indenização em forma de aluguel e troca do INCC pelo IPCA.
+- Entrada parcelada com a construtora: corrigida mensalmente, em geral pelo INCC, até as chaves. INCC-M acumulado em 12 meses até set/2026: 6,61% (FGV).
+- Registro: Lei 11.977/2009, art. 43, desconto de 90% (3 a 6 salários mínimos) ou 80% (6 a 10) nos emolumentos, primeiro imóvel pelo programa. ITBI é municipal: algumas cidades dão desconto ou isenção.
+
+Exemplo (contas.py): imóvel R$ 250 mil, renda R$ 4 mil (faixa 2).
+- Caixa financia R$ 160 mil, SAC, 35 anos, 6% a.a. -> 1ª parcela ~R$ 1.230 com seguros (~30% da renda), última ~R$ 430.
+- FGTS + subsídio: R$ 54 mil (exemplo). Entrada com a construtora: R$ 36 mil = 36 x R$ 1.000, corrigida pelo INCC (~6,6% a.a.) -> ~R$ 1.200 no mês 36.
+- Evolução de obra (10% liberado no início, curva S até 100% no mês 36): ~R$ 90 no mês 1, ~R$ 470 no mês 18, ~R$ 850 no mês 36 (~70% da parcela oficial).
+- Pior mês: R$ 1.200 + R$ 850 = ~R$ 2.050, mais que a parcela do financiamento e metade da renda.
+
+Você vai comprar apartamento na planta? Tem uma parcela que ninguém te conta. E no fim da obra, você pode pagar bem mais do que a parcela do financiamento.
+
+Primeiro, o caminho. Você simula, o crédito é aprovado e você assina. Aí vem a obra, uns dois ou três anos. Depois, as chaves. E só então começa o financiamento de verdade.
+
+A entrada. No Minha Casa Minha Vida, dá pra usar o FGTS e o subsídio, que depende da sua faixa de renda. O que sobra, muita construtora parcela durante a obra. Só que corrigido pelo INCC, a inflação da construção. Sobe todo mês.
+
+Um exemplo. Apartamento de duzentos e cinquenta mil, renda de quatro mil. A Caixa financia cento e sessenta mil. FGTS e subsídio cobrem cinquenta e quatro mil. O resto vira trinta e seis parcelas de mil reais com a construtora.
+
+Agora, a surpresa: a evolução de obra. Enquanto o prédio sobe, a Caixa vai liberando dinheiro pra construtora. E você paga juros sobre o que já foi liberado. Sem abater nada da dívida.
+
+No começo, é pouco: menos de cem reais. Mas a cada etapa da obra, sobe. No último mês, chega a uns oitocentos e cinquenta. Já é setenta por cento da parcela oficial, que vai ser de uns mil e duzentos.
+
+E é aqui que aperta. A parcela da entrada também subiu com o INCC: já está perto de mil e duzentos. Somando as duas, mais de dois mil reais por mês. Mais que a parcela do financiamento. Metade da renda.
+
+E se a obra atrasar? A cobrança pode continuar vindo. Mas, no Minha Casa Minha Vida, o STJ já decidiu: depois do prazo do contrato, contando a tolerância, ela não pode ser cobrada. Leia essa cláusula.
+
+Depois das chaves, a evolução para e começa a parcela do financiamento. Na tabela SAC, ela começa mais alta e vai caindo. E chegam o condomínio, o IPTU, a mudança e os móveis.
+
+Tem mais: ITBI e registro. No programa, o registro tem desconto, e algumas cidades aliviam o ITBI. E a parcela ainda carrega seguros e taxas.
+
+Antes de assinar: peça a simulação da evolução de obra mês a mês. Some a entrada com a evolução no pior mês. Tenha uma reserva pra obra. E leia a cláusula de atraso.
+
+Você comprou na planta? A evolução de obra te pegou de surpresa? Comenta aí.
