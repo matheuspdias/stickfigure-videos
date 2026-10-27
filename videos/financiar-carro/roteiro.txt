@@ -1,0 +1,36 @@
+O QUE NINGUÉM TE CONTA ANTES DE FINANCIAR UM CARRO (TikTok nativo, 1080x1920, ~2 min, sem versão longa)
+Série "O que ninguém te conta antes de...", episódio 2 (ep. 1: videos/planta-mcmv).
+Objetivo: informar quem vai financiar, sem dizer se vale a pena. Tom de quem avisa um amigo.
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco. No texto enviado ao HeyGen, as siglas IOF, CET e IPVA foram soletradas com espaços.
+
+Premissas (pesquisadas em 27/10/2026):
+- Taxa média do BCB para aquisição de veículos PF: 26,42% a.a. em ago/2026 (~1,97% a.m.); jan/2026 foi 27,7% a.a. Na fala: "perto de vinte e seis por cento ao ano".
+- IOF crédito PF (Decreto 6.306/2007): 0,0082% ao dia (teto de 365 dias, ~3% a.a.) + 0,38% adicional fixo.
+- Tarifa de cadastro: válida, mas só no início do relacionamento com o banco (Res. CMN 3.919/2010; STJ Súmula 566).
+- Registro do contrato: ressarcimento válido, salvo serviço não prestado ou valor excessivo (STJ Tema 958).
+- Seguro: o consumidor não pode ser obrigado a contratar seguro com o banco ou com seguradora indicada por ele (STJ Tema 972); venda casada é prática abusiva (CDC, art. 39, I).
+- Desvalorização típica: 10% a 20% no 1º ano, ~8% a 12% ao ano depois (modelo: 15% e 10%).
+
+Exemplo (contas.py): carro R$ 60 mil, entrada 20% (R$ 12 mil), financia R$ 48 mil a 1,973% a.m.
+- 48x: parcela ~R$ 1.556; total ~R$ 74.700; juros ~R$ 26.700; IOF ~R$ 1.500.
+- 36x: parcela ~R$ 1.875, juros ~R$ 19.500. 60x: parcela ~R$ 1.372, juros ~R$ 34.300 (mesma taxa). Diferença: ~R$ 500 a menos por mês, ~R$ 14.800 a mais de juros.
+- Desvalorização x dívida: com 20% de entrada em 48x a dívida fica sempre abaixo do valor do carro. Sem entrada em 60x, a dívida fica acima do valor do carro até ~mês 19 (ex.: mês 12 carro R$ 51.000, dívida R$ 52.900). Por isso o roteiro diz "com pouca entrada e prazo longo".
+- Custos fora da parcela: no vídeo carro-5000-v2, combustível 500 + seguro 250 + IPVA 150 + manutenção 150 = R$ 1.050/mês.
+
+Você vai financiar um carro? O banco te mostra a parcela. Ninguém te mostra o resto.
+
+Primeiro: a taxa do anúncio não é o que você paga. Em cima dela vêm o IOF, a tarifa de cadastro, o registro do contrato e, muitas vezes, seguros embutidos. Tudo junto é o CET, o Custo Efetivo Total. Compare sempre pelo CET, nunca só pela taxa.
+
+Um exemplo. Carro de sessenta mil, vinte por cento de entrada. Você financia quarenta e oito mil, em quarenta e oito vezes, com a taxa média do Banco Central: perto de vinte e seis por cento ao ano. A parcela fica em uns mil quinhentos e sessenta. No fim, você pagou quase setenta e cinco mil. Quase vinte e sete mil só de juros. E ainda tem o IOF: nesse exemplo, uns mil e quinhentos.
+
+Na hora de assinar, costuma aparecer o seguro prestamista, que quita a dívida se acontecer algo com você. Às vezes, outros produtos junto. Parece obrigatório. Não é. Venda casada é proibida. Você pode recusar, ou contratar com outra seguradora.
+
+Agora, a desvalorização. Um carro costuma perder de dez a vinte por cento no primeiro ano. Com vinte por cento de entrada, você fica no azul. Mas com pouca entrada e prazo longo, a dívida cai mais devagar que o valor do carro. Sem entrada, em sessenta vezes, você passa mais ou menos um ano e meio devendo mais do que o carro vale. Se precisar vender, não quita. E se der perda total, o seguro paga o valor do carro, não o que você deve.
+
+E tem o que não está na parcela. Seguro do carro, que alguns contratos pedem. IPVA, licenciamento, emplacamento no zero quilômetro, manutenção e combustível. No vídeo do carro de sessenta mil, isso passava de mil reais por mês, além da parcela.
+
+E a parcela que cabe no bolso? Esticar o prazo deixa a parcela menor, mas o total dispara. Os mesmos quarenta e oito mil: em trinta e seis vezes, a parcela é de uns mil oitocentos e setenta, e os juros, uns dezenove mil e quinhentos. Em sessenta vezes, a parcela cai pra uns mil trezentos e setenta. Mas os juros passam de trinta e quatro mil. Quinhentos reais a menos por mês. Quase quinze mil a mais no total.
+
+Antes de assinar: peça o CET por escrito. Simule em mais de um banco. Recuse o que você não quer contratar. E some parcela, seguro, IPVA e manutenção antes de fechar.
+
+Você já financiou carro? O que te pegou de surpresa? Comenta aí.
