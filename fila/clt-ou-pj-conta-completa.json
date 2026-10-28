@@ -1,0 +1,42 @@
+{
+  "slug": "clt-ou-pj-conta-completa",
+  "publicar_em": "2026-10-29T09:00:00-03:00",
+  "audio_blocos": [
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0e2b04b5-b115-425f-aa65-b3b790aaaf6b.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=84f252e2-fc57-457a-a72d-2a779b1c5f6a.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=80c0a0e8-74fa-4f1e-95ac-7e1e9fbfe871.wav"
+  ],
+  "duracoes": [
+    172.016,
+    172.8,
+    214.335
+  ],
+  "pausa_blocos": 0.4,
+  "cauda": 5,
+  "titulo": "CLT de R$ 5 mil ou PJ de R$ 7 mil? A conta completa de 2026",
+  "descricao": "A Marina recebeu duas propostas para o mesmo trabalho: CLT de R$ 5.000 ou PJ de R$ 7.000. Parece que o PJ ganha R$ 2 mil a mais, mas a conta do ano inteiro conta outra história. Neste vídeo a gente faz a conta completa com as regras de 2026: INSS, imposto de renda (isento até R$ 5 mil), 13º, férias com 1/3 e FGTS na CLT; Simples Nacional, fator R, pró-labore, INSS e contador no PJ. Com um mês de férias sem faturar, os R$ 2 mil a mais viram R$ 131 por mês. E, sem o fator R, o PJ de R$ 7 mil termina o ano com quase R$ 5.300 a menos que a CLT. No fim: quanto um PJ precisa pedir pra empatar (e por que os benefícios mudam tudo).\n\nPremissas: regras de 2026, contas feitas em 28/10/2026. CLT: salário de R$ 5.000; INSS pela tabela de 2026 (R$ 501,51; teto R$ 8.475,55); IR pela Lei 15.270/2025 (isento até R$ 5.000 por mês, inclusive no 13º; nas férias de R$ 6.666,67 vale o redutor parcial); FGTS de 8% sobre 12 salários, 13º e férias com 1/3; ano = 11 salários líquidos + férias + 13º + FGTS = R$ 64.615. PJ: faturamento de R$ 7.000 por mês no Simples Nacional, Anexo III a 6% com fator R (pró-labore de 28% = R$ 1.960, INSS de 11%) ou Anexo V a 15,5% sem fator R (pró-labore de 1 salário mínimo, R$ 1.621); contador de R$ 300 por mês (valor de exemplo); 30 dias de férias sem faturar, com pró-labore, INSS e contador pagos os 12 meses; lucro distribuído isento. MEI: teto de R$ 81 mil em 2026. Seguro-desemprego 2026: teto de R$ 2.518,65, 5 parcelas. Benefícios de exemplo: vale-refeição de R$ 600 e plano de saúde de R$ 400 por mês. Valores arredondados. Cada caso tem detalhes (atividade, município, outros clientes): confirme com um contador. Conteúdo educativo, não é recomendação de investimento.\n\nCapítulos\n0:00 Duas propostas: CLT de R$ 5 mil ou PJ de R$ 7 mil\n0:46 As regras da conta (2026)\n1:10 O contracheque da CLT\n1:30 Os salários que ninguém põe na conta\n2:26 Quanto a CLT paga no ano\n2:52 A proposta PJ: dá pra ser MEI?\n3:24 O fator R\n3:45 Quanto sobra pro PJ\n4:34 E as férias do PJ?\n5:13 Sem o fator R, o PJ ganha menos\n5:45 A rede de proteção da CLT\n6:32 Quanto o PJ precisa pedir\n6:56 E os benefícios?\n7:32 PJ é ruim?\n7:59 3 atitudes práticas\n8:45 Recapitulando\n\nAssista também: Demitido hoje: quanto tempo você aguentaria? A conta da reserva de emergência\n\nNarração gerada com voz de IA.\n\n#CLTouPJ #FinancasPessoais #FazAConta",
+  "tags": [
+    "clt ou pj",
+    "clt x pj",
+    "vale a pena ser pj",
+    "quanto pedir como pj",
+    "pj ou clt qual compensa",
+    "fator r",
+    "simples nacional anexo iii",
+    "pró-labore",
+    "imposto de renda 2026",
+    "isenção ir 5 mil",
+    "inss 2026",
+    "fgts",
+    "13º salário",
+    "férias",
+    "mei 2026",
+    "educação financeira",
+    "finanças pessoais",
+    "faz a conta"
+  ],
+  "thumbnail": "videos/clt-ou-pj-conta-completa/thumb/cltpj_thumb_A.png",
+  "categoria": "27",
+  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0e648a4e-54de-437c-9ba4-6f82be92c8f0.wav",
+  "ganchos_duracao": 25.469
+}

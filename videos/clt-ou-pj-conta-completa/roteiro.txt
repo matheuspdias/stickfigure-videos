@@ -1,0 +1,84 @@
+### BLOCO 1
+A Marina recebeu duas propostas para o mesmo trabalho. Na primeira, carteira assinada, cinco mil reais por mês. Na segunda, como PJ, sete mil reais por mês.
+
+Dois mil a mais. Parece que não tem nem o que pensar, né?
+
+Só que tem. Quando você faz a conta do ano inteiro, com imposto, férias, décimo terceiro e FGTS, essa diferença de dois mil reais por mês encolhe tanto que quase some. E, dependendo de um detalhe que muita gente nem conhece, o PJ de sete mil ganha menos que o CLT de cinco.
+
+Hoje a gente vai fazer essa conta do jeito certo, com as regras de dois mil e vinte e seis. E no final eu te mostro quanto a mais um PJ precisa pedir pra valer a pena de verdade.
+
+Antes, as regras do jogo. Eu vou usar a tabela do INSS deste ano e a nova regra do imposto de renda, que desde janeiro isenta quem ganha até cinco mil reais por mês. Do lado PJ, eu vou usar o Simples Nacional, que é o caminho mais comum pra quem presta serviço. E vou deixar de fora vale-refeição, plano de saúde e outros benefícios. Eles entram mais pra frente.
+
+Começando pela CLT. Cinco mil reais de salário na carteira. Desse valor, sai o INSS: quinhentos e um reais. E o imposto de renda? Zero. Com a regra nova, quem ganha até cinco mil reais não paga nada. Então a Marina recebe, todo mês, quatro mil, quatrocentos e noventa e oito reais.
+
+Só que a CLT tem uns salários que ninguém coloca na conta quando compara proposta.
+
+O primeiro é o décimo terceiro. É mais um salário inteiro no fim do ano. Mais quatro mil e quinhentos reais na mão.
+
+O segundo são as férias. Você tira trinta dias, recebe o salário normal e ainda ganha um terço a mais. Mesmo com o desconto maior nesse mês, as férias rendem cinco mil e trezentos reais líquidos.
+
+E o terceiro é o FGTS. Todo mês, a empresa deposita oito por cento do seu salário numa conta no seu nome. Também sobre o décimo terceiro e sobre as férias. No ano, são cinco mil, trezentos e trinta e três reais. Você não vê esse dinheiro no contracheque, mas ele é seu.
+
+Repara numa coisa. No ano, a empresa não te paga doze salários. Paga treze salários e um terço, fora o FGTS. É por isso que comparar só o valor do mês engana tanto.
+
+Somando tudo, o salário líquido de onze meses, as férias, o décimo terceiro e o FGTS, a Marina CLT leva sessenta e quatro mil, seiscentos e quinze reais por ano. Dividindo por doze, dá cinco mil, trezentos e oitenta e cinco reais por mês.
+
+Ou seja: cinco mil de CLT não são cinco mil. Valem quase cinco mil e quatrocentos por mês. Guarda esse número.
+
+### BLOCO 2
+Agora, a proposta PJ: sete mil reais por mês pra fazer o mesmo trabalho.
+
+A primeira pergunta é: dá pra ser MEI, que paga um imposto fixo bem baixinho? Na maioria dos casos, não. Este ano, o teto do MEI é de oitenta e um mil reais por ano, e sete mil por mês dão oitenta e quatro mil. E, mesmo com o teto subindo nos próximos anos, várias profissões que mais recebem proposta PJ, como programador, designer, advogado e engenheiro, nem podem ser MEI.
+
+Então a Marina abre uma empresa no Simples Nacional. E aqui mora o detalhe que muda tudo: o tal do fator R.
+
+Funciona assim. Se a empresa pagar pra dona um pró-labore de pelo menos vinte e oito por cento do faturamento, o imposto fica em seis por cento. Se pagar menos, o imposto pula pra quinze e meio por cento.
+
+Com vinte e oito por cento, o pró-labore da Marina é de mil, novecentos e sessenta reais. Sobre ele, ela paga onze por cento de INSS: duzentos e quinze reais. O imposto da empresa, seis por cento de sete mil, fica em quatrocentos e vinte. E tem o contador, que vou considerar em trezentos reais por mês.
+
+E o imposto de renda? Sobre o pró-labore, zero, porque ele fica abaixo de cinco mil. E o resto do dinheiro sai da empresa como distribuição de lucro, que nesse valor continua isenta.
+
+Sete mil, menos quatrocentos e vinte, menos duzentos e quinze, menos trezentos. Sobram seis mil e sessenta e quatro reais por mês. No ano, setenta e dois mil e oitocentos. Contra sessenta e quatro mil e seiscentos da CLT. O PJ ganhou fácil. Certo?
+
+Calma. Faltou uma coisa: as férias.
+
+PJ não tem férias pagas. Se a Marina parar trinta dias pra descansar, ela não fatura nesse mês. Mas o contador, o pró-labore e o INSS continuam. E não tem décimo terceiro nem FGTS.
+
+Refazendo a conta com onze meses de faturamento, o ano da Marina PJ fecha em sessenta e seis mil, cento e noventa e três reais. A CLT dava sessenta e quatro mil, seiscentos e quinze.
+
+A diferença? Mil, quinhentos e setenta e sete reais por ano. Cento e trinta e um reais por mês. Aqueles dois mil a mais viraram cento e trinta.
+
+E agora, o detalhe que eu prometi no começo. Imagina que a Marina não sabia do fator R e o contador colocou um pró-labore de um salário mínimo. O imposto vai pra quinze e meio por cento: mil e oitenta e cinco reais por mês, em vez de quatrocentos e vinte.
+
+Com esse imposto e trinta dias de férias, o ano dela cai pra cinquenta e nove mil, trezentos e vinte e cinco reais. Quase cinco mil e trezentos a menos que a CLT de cinco mil. Ela ganha "dois mil a mais" e, no fim do ano, termina com menos.
+
+### BLOCO 3
+E tem a parte que a conta do dinheiro não mostra: a rede de proteção.
+
+Se a Marina CLT, depois de dois anos, for demitida sem justa causa, ela recebe a multa de quarenta por cento sobre o FGTS: mais de quatro mil reais. E ainda tem direito a cinco parcelas de seguro-desemprego, no teto deste ano: dois mil, quinhentos e dezoito reais cada. Mais de doze mil e quinhentos reais ao todo.
+
+A Marina PJ, se o contrato acabar, recebe zero. Não tem aviso prévio, nem multa, nem seguro. E tem a aposentadoria: o CLT contribui pro INSS sobre o salário inteiro. Ela contribui só sobre o pró-labore, que é menos da metade disso. Lá na frente, o benefício também tende a ser menor.
+
+Então, quanto um PJ precisa pedir pra valer a pena?
+
+Só pra empatar no dinheiro, com o imposto de seis por cento e um mês de férias, o PJ precisa faturar uns seis mil, oitocentos e quarenta reais. Trinta e sete por cento a mais que o salário CLT. Sem o fator R, o empate sobe pra sete mil, quinhentos e setenta. Cinquenta e um por cento a mais.
+
+E se a vaga CLT tiver benefícios? Vamos supor seiscentos reais de vale-refeição e um plano de saúde que custaria quatrocentos reais por mês. Mil reais por mês que a Marina PJ teria que pagar do próprio bolso. Aí o empate vai pra oito mil reais. Sessenta por cento a mais.
+
+Ou seja, a regra de bolso é essa: o PJ tem que pagar pelo menos trinta e cinco a quarenta por cento a mais só pra empatar. Com benefícios bons na CLT, pode passar de cinquenta. Abaixo disso, a proposta PJ parece maior, mas não é.
+
+Isso quer dizer que PJ é ruim? Não. Tem muita gente que ganha bem mais como PJ, atende vários clientes e gosta da liberdade. A questão é comparar a proposta certa, com a conta certa.
+
+E essa conta também serve pra negociar. Se a empresa te oferece PJ, mostrar que sete mil de PJ equivalem a pouco mais de cinco mil de carteira assinada é um argumento bem mais forte do que só pedir um aumento.
+
+Então, três atitudes práticas.
+
+Primeira: compare o ano, não o mês. Pegue as duas propostas e faça a conta de doze meses, com férias, décimo terceiro, FGTS e benefícios. Salário de mês contra salário de mês engana.
+
+Segunda: se for PJ, pergunte ao contador sobre o fator R antes de emitir a primeira nota. Essa conversa pode valer mais de sete mil reais por ano.
+
+Terceira: se for PJ, seja o seu próprio RH. Separe todo mês o dinheiro das suas férias, do seu décimo terceiro e da sua reserva de emergência, porque ninguém vai depositar isso por você. Se você não tem reserva, assiste o vídeo que eu fiz sobre isso: quanto tempo você aguentaria se perdesse a renda hoje.
+
+Recapitulando. Cinco mil de CLT valem quase cinco mil e quatrocentos por mês, contando décimo terceiro, férias e FGTS. Sete mil de PJ, com um mês de férias, viram cinco mil e quinhentos. Uma diferença de cento e trinta reais por mês, e sem rede de proteção. E, sem o fator R, o PJ ganha menos que a CLT.
+
+E você, é CLT ou PJ? Trocaria? Me conta nos comentários. Se essa conta te ajudou, se inscreve no canal e manda esse vídeo pra quem está entre duas propostas. Até o próximo.

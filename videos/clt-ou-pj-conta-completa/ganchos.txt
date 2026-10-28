@@ -1,0 +1,5 @@
+# Bloco de ganchos dos cortes (HeyGen, Calm Carlos, eleven_v4) - 25,469 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0e648a4e-54de-437c-9ba4-6f82be92c8f0.wav
+pj-7-mil       | 0.00-8.58   | Sete mil de PJ parece muito mais que cinco mil de CLT. No fim do ano, a diferença cai pra cento e trinta reais por mês.
+quanto-pedir   | 10.18-17.86 | Vai trocar a carteira assinada por PJ? Se a proposta não for pelo menos trinta e cinco por cento maior, você perde dinheiro.
+clt-invisivel  | 18.98-25.38 | Quem ganha cinco mil de carteira assinada não ganha cinco mil. Ganha quase cinco mil e quatrocentos.

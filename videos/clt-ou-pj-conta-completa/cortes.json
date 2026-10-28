@@ -1,0 +1,20 @@
+{"serie": "CLT OU PJ?", "cortes": [
+ {"id": "pj-7-mil", "inicio": 172.2, "fim": 313.5, "titulo": "R$ 7 MIL DE PJ\\NOU R$ 5 MIL DE CLT?",
+  "gancho": "Sete mil de PJ parece muito mais que cinco mil de CLT. No fim do ano, a diferença cai pra cento e trinta reais por mês.",
+  "gancho_audio": [0.0, 8.58], "gancho_tela": "+R$ 2.000?\\NVIRAM R$ 130", "gancho_t": 313.0,
+  "capa": ["PJ DE R$ 7 MIL", "SÓ R$ 130 A MAIS QUE CLT DE R$ 5 MIL"],
+  "titulo_post": "PJ de R$ 7 mil x CLT de R$ 5 mil: só R$ 130 de diferença",
+  "post": "Com imposto, INSS, contador e um mês de férias sem faturar, os R$ 2 mil a mais do PJ viram R$ 131 por mês (regras de 2026). #financaspessoais #dinheiro #clt #pj #fazaconta"},
+ {"id": "quanto-pedir", "inicio": 345.4, "fim": 452.1, "titulo": "QUANTO O PJ\\NPRECISA PEDIR?",
+  "gancho": "Vai trocar a carteira assinada por PJ? Se a proposta não for pelo menos trinta e cinco por cento maior, você perde dinheiro.",
+  "gancho_audio": [10.18, 17.86], "gancho_tela": "VIROU PJ?\\NPEÇA +35%", "gancho_t": 414.5,
+  "capa": ["CLT VIRANDO PJ?", "PEÇA PELO MENOS 35% A MAIS"],
+  "titulo_post": "Virar PJ? Só vale com 35% a mais (a conta de 2026)",
+  "post": "Sem multa do FGTS, sem seguro-desemprego e sem benefícios: pra empatar com um CLT de R$ 5 mil, o PJ precisa faturar uns R$ 6.840. #financaspessoais #dinheiro #clt #pj #fazaconta"},
+ {"id": "clt-invisivel", "inicio": 70.4, "fim": 172.2, "titulo": "R$ 5 MIL DE CLT\\NVALEM QUANTO?",
+  "gancho": "Quem ganha cinco mil de carteira assinada não ganha cinco mil. Ganha quase cinco mil e quatrocentos.",
+  "gancho_audio": [18.98, 25.38], "gancho_tela": "R$ 5 MIL DE CLT\\N= R$ 5.400", "gancho_t": 171.5,
+  "capa": ["R$ 5 MIL DE CLT", "VALEM QUASE R$ 5.400"],
+  "titulo_post": "Salário CLT de R$ 5 mil vale quase R$ 5.400 por mês",
+  "post": "13º, férias com 1/3 e FGTS: no ano, a CLT paga 13 salários e 1/3. Por isso R$ 5 mil na carteira valem mais do que parece. #financaspessoais #dinheiro #clt #salario #fazaconta"}
+]}
