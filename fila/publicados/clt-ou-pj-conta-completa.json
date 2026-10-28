@@ -1,11 +1,6 @@
 {
   "slug": "clt-ou-pj-conta-completa",
   "publicar_em": "2026-10-29T09:00:00-03:00",
-  "audio_blocos": [
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0e2b04b5-b115-425f-aa65-b3b790aaaf6b.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=84f252e2-fc57-457a-a72d-2a779b1c5f6a.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=80c0a0e8-74fa-4f1e-95ac-7e1e9fbfe871.wav"
-  ],
   "duracoes": [
     172.016,
     172.8,
@@ -37,6 +32,36 @@
   ],
   "thumbnail": "videos/clt-ou-pj-conta-completa/thumb/cltpj_thumb_A.png",
   "categoria": "27",
-  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0e648a4e-54de-437c-9ba4-6f82be92c8f0.wav",
-  "ganchos_duracao": 25.469
+  "ganchos_duracao": 25.469,
+  "video_id": "kNgxCsSeJzM",
+  "url": "https://youtu.be/kNgxCsSeJzM",
+  "agendado_para": "2026-10-29T09:00:00-03:00",
+  "enviado_em": "2026-10-28T16:24:35-03:00",
+  "avisos": [],
+  "shorts": [
+    {
+      "id": "pj-7-mil",
+      "video_id": "0k4_Vl_INd0",
+      "url": "https://youtu.be/0k4_Vl_INd0",
+      "titulo": "PJ de R$ 7 mil x CLT de R$ 5 mil: só R$ 130 de diferença #Shorts",
+      "duracao": 150.3,
+      "agendado_para": "2026-10-30T12:00:00-03:00"
+    },
+    {
+      "id": "quanto-pedir",
+      "video_id": "I1Ctv38nKiM",
+      "url": "https://youtu.be/I1Ctv38nKiM",
+      "titulo": "Virar PJ? Só vale com 35% a mais (a conta de 2026) #Shorts",
+      "duracao": 114.7,
+      "agendado_para": "2026-10-31T12:00:00-03:00"
+    },
+    {
+      "id": "clt-invisivel",
+      "video_id": "_INf1RcHHBs",
+      "url": "https://youtu.be/_INf1RcHHBs",
+      "titulo": "Salário CLT de R$ 5 mil vale quase R$ 5.400 por mês #Shorts",
+      "duracao": 108.5,
+      "agendado_para": "2026-11-01T12:00:00-03:00"
+    }
+  ]
 }

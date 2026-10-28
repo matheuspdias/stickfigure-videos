@@ -1,60 +1,60 @@
-=== quanto-tempo: 2:40 - 4:22 do vídeo | 107 s no corte | pausas encurtadas: -1.7 s
-Gancho: Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
-Trecho começa em: Agora, quanto você precisa ter guardado?
-Título (Shorts): R$ 400 por mês: quanto tempo até ter 6 meses de reserva?
-Descrição: Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta
+=== quanto-pedir: 5:45 - 7:32 do vídeo | 112 s no corte | pausas encurtadas: -3.1 s
+Gancho: Vai trocar a carteira assinada por PJ? Se a proposta não for pelo menos trinta e cinco por cento maior, você perde dinheiro.
+Trecho começa em: E tem a parte que a conta do dinheiro não mostra: a rede de proteção.
+Título (Shorts): Virar PJ? Só vale com 35% a mais (a conta de 2026)
+Descrição: Sem multa do FGTS, sem seguro-desemprego e sem benefícios: pra empatar com um CLT de R$ 5 mil, o PJ precisa faturar uns R$ 6.840. #financaspessoais #dinheiro #clt #pj #fazaconta
 
-=== seguro-teto: 0:51 - 2:35 do vídeo | 111 s no corte | pausas encurtadas: -0.6 s
-Gancho: Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.
-Trecho começa em: Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados.
-Título (Shorts): Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)
-Descrição: Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta
+=== clt-invisivel: 1:10 - 2:52 do vídeo | 108 s no corte | pausas encurtadas: -0.8 s
+Gancho: Quem ganha cinco mil de carteira assinada não ganha cinco mil. Ganha quase cinco mil e quatrocentos.
+Trecho começa em: Começando pela CLT.
+Título (Shorts): Salário CLT de R$ 5 mil vale quase R$ 5.400 por mês
+Descrição: 13º, férias com 1/3 e FGTS: no ano, a CLT paga 13 salários e 1/3. Por isso R$ 5 mil na carteira valem mais do que parece. #financaspessoais #dinheiro #clt #salario #fazaconta
 
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/reserva-de-emergencia_corte_quanto-tempo.mp4 5.2 MB 107.2 s
-Cortes selecionados de reserva-de-emergencia (3 cortes independentes)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/clt-ou-pj-conta-completa_corte_quanto-pedir.mp4 5.4 MB 114.7 s
+Cortes selecionados de clt-ou-pj-conta-completa (3 cortes independentes)
 Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
 
-=== camila-bruno: 5:27 - 7:51 do vídeo | 148 s no corte | pausas encurtadas: -4.1 s
-Gancho: Mesmo salário, mesma demissão. Ela terminou com dinheiro guardado. Ele terminou devendo quinze mil reais.
-Trecho começa em: A Camila e o Bruno trabalham na mesma empresa.
-Título (Shorts): Mesma demissão: ela sobrou com R$ 7 mil, ele deve R$ 15 mil
-Descrição: Os dois ganhavam R$ 4.000 e ficaram 8 meses sem emprego. Ela tinha reserva; ele usou o cheque especial a 8% ao mês. #financaspessoais #dinheiro #reservadeemergencia #chequeespecial #fazaconta
+=== pj-7-mil: 2:52 - 5:13 do vídeo | 149 s no corte | pausas encurtadas: -1.6 s
+Gancho: Sete mil de PJ parece muito mais que cinco mil de CLT. No fim do ano, a diferença cai pra cento e trinta reais por mês.
+Trecho começa em: Agora, a proposta PJ: sete mil reais por mês pra fazer o mesmo trabalho.
+Título (Shorts): PJ de R$ 7 mil x CLT de R$ 5 mil: só R$ 130 de diferença
+Descrição: Com imposto, INSS, contador e um mês de férias sem faturar, os R$ 2 mil a mais do PJ viram R$ 131 por mês (regras de 2026). #financaspessoais #dinheiro #clt #pj #fazaconta
 
-=== quanto-tempo: 2:40 - 4:22 do vídeo | 107 s no corte | pausas encurtadas: -1.7 s
-Gancho: Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
-Trecho começa em: Agora, quanto você precisa ter guardado?
-Título (Shorts): R$ 400 por mês: quanto tempo até ter 6 meses de reserva?
-Descrição: Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta
+=== quanto-pedir: 5:45 - 7:32 do vídeo | 112 s no corte | pausas encurtadas: -3.1 s
+Gancho: Vai trocar a carteira assinada por PJ? Se a proposta não for pelo menos trinta e cinco por cento maior, você perde dinheiro.
+Trecho começa em: E tem a parte que a conta do dinheiro não mostra: a rede de proteção.
+Título (Shorts): Virar PJ? Só vale com 35% a mais (a conta de 2026)
+Descrição: Sem multa do FGTS, sem seguro-desemprego e sem benefícios: pra empatar com um CLT de R$ 5 mil, o PJ precisa faturar uns R$ 6.840. #financaspessoais #dinheiro #clt #pj #fazaconta
 
-=== seguro-teto: 0:51 - 2:35 do vídeo | 111 s no corte | pausas encurtadas: -0.6 s
-Gancho: Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.
-Trecho começa em: Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados.
-Título (Shorts): Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)
-Descrição: Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta
+=== clt-invisivel: 1:10 - 2:52 do vídeo | 108 s no corte | pausas encurtadas: -0.8 s
+Gancho: Quem ganha cinco mil de carteira assinada não ganha cinco mil. Ganha quase cinco mil e quatrocentos.
+Trecho começa em: Começando pela CLT.
+Título (Shorts): Salário CLT de R$ 5 mil vale quase R$ 5.400 por mês
+Descrição: 13º, férias com 1/3 e FGTS: no ano, a CLT paga 13 salários e 1/3. Por isso R$ 5 mil na carteira valem mais do que parece. #financaspessoais #dinheiro #clt #salario #fazaconta
 
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/reserva-de-emergencia_corte_seguro-teto.mp4 5.5 MB 110.7 s
-Cortes selecionados de reserva-de-emergencia (3 cortes independentes)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/clt-ou-pj-conta-completa_corte_clt-invisivel.mp4 5.5 MB 108.5 s
+Cortes selecionados de clt-ou-pj-conta-completa (3 cortes independentes)
 Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
 
-=== camila-bruno: 5:27 - 7:51 do vídeo | 148 s no corte | pausas encurtadas: -4.1 s
-Gancho: Mesmo salário, mesma demissão. Ela terminou com dinheiro guardado. Ele terminou devendo quinze mil reais.
-Trecho começa em: A Camila e o Bruno trabalham na mesma empresa.
-Título (Shorts): Mesma demissão: ela sobrou com R$ 7 mil, ele deve R$ 15 mil
-Descrição: Os dois ganhavam R$ 4.000 e ficaram 8 meses sem emprego. Ela tinha reserva; ele usou o cheque especial a 8% ao mês. #financaspessoais #dinheiro #reservadeemergencia #chequeespecial #fazaconta
+=== pj-7-mil: 2:52 - 5:13 do vídeo | 149 s no corte | pausas encurtadas: -1.6 s
+Gancho: Sete mil de PJ parece muito mais que cinco mil de CLT. No fim do ano, a diferença cai pra cento e trinta reais por mês.
+Trecho começa em: Agora, a proposta PJ: sete mil reais por mês pra fazer o mesmo trabalho.
+Título (Shorts): PJ de R$ 7 mil x CLT de R$ 5 mil: só R$ 130 de diferença
+Descrição: Com imposto, INSS, contador e um mês de férias sem faturar, os R$ 2 mil a mais do PJ viram R$ 131 por mês (regras de 2026). #financaspessoais #dinheiro #clt #pj #fazaconta
 
-=== quanto-tempo: 2:40 - 4:22 do vídeo | 107 s no corte | pausas encurtadas: -1.7 s
-Gancho: Guardando quatrocentos reais por mês, quanto tempo leva pra ter seis meses de reserva? A resposta assusta.
-Trecho começa em: Agora, quanto você precisa ter guardado?
-Título (Shorts): R$ 400 por mês: quanto tempo até ter 6 meses de reserva?
-Descrição: Reserva de emergência é de 3 a 6 meses do seu custo de vida, não do salário. Guardando R$ 400 por mês a 100% do CDI, olha quanto tempo leva. #financaspessoais #dinheiro #reservadeemergencia #investimentos #fazaconta
+=== quanto-pedir: 5:45 - 7:32 do vídeo | 112 s no corte | pausas encurtadas: -3.1 s
+Gancho: Vai trocar a carteira assinada por PJ? Se a proposta não for pelo menos trinta e cinco por cento maior, você perde dinheiro.
+Trecho começa em: E tem a parte que a conta do dinheiro não mostra: a rede de proteção.
+Título (Shorts): Virar PJ? Só vale com 35% a mais (a conta de 2026)
+Descrição: Sem multa do FGTS, sem seguro-desemprego e sem benefícios: pra empatar com um CLT de R$ 5 mil, o PJ precisa faturar uns R$ 6.840. #financaspessoais #dinheiro #clt #pj #fazaconta
 
-=== seguro-teto: 0:51 - 2:35 do vídeo | 111 s no corte | pausas encurtadas: -0.6 s
-Gancho: Perdeu o emprego? O seguro-desemprego paga no máximo dois mil e quinhentos reais. E só por cinco meses.
-Trecho começa em: Segundo o IBGE, no começo deste ano o Brasil tinha seis milhões e seiscentos mil desempregados.
-Título (Shorts): Seguro-desemprego paga no máximo R$ 2.518 (por 5 meses)
-Descrição: Mais de 1 em cada 4 desempregados procura emprego há mais de um ano, e o seguro tem teto e prazo. Faz a conta do seu buraco. #financaspessoais #dinheiro #segurodesemprego #reservadeemergencia #fazaconta
+=== clt-invisivel: 1:10 - 2:52 do vídeo | 108 s no corte | pausas encurtadas: -0.8 s
+Gancho: Quem ganha cinco mil de carteira assinada não ganha cinco mil. Ganha quase cinco mil e quatrocentos.
+Trecho começa em: Começando pela CLT.
+Título (Shorts): Salário CLT de R$ 5 mil vale quase R$ 5.400 por mês
+Descrição: 13º, férias com 1/3 e FGTS: no ano, a CLT paga 13 salários e 1/3. Por isso R$ 5 mil na carteira valem mais do que parece. #financaspessoais #dinheiro #clt #salario #fazaconta
 
-[publicar] cortes prontos em 3.3 min
-[publicar] Short camila-bruno (148s): https://youtu.be/EU0OvPud4e0  (publica em 27/10 12:00)
-[publicar] Short quanto-tempo (107s): https://youtu.be/QrQnYDnCPi0  (publica em 28/10 12:00)
-[publicar] Short seguro-teto (111s): https://youtu.be/8v_hiCtmzIo  (publica em 29/10 12:00)
+[publicar] cortes prontos em 3.1 min
+[publicar] Short pj-7-mil (150s): https://youtu.be/0k4_Vl_INd0  (publica em 30/10 12:00)
+[publicar] Short quanto-pedir (115s): https://youtu.be/I1Ctv38nKiM  (publica em 31/10 12:00)
+[publicar] Short clt-invisivel (109s): https://youtu.be/_INf1RcHHBs  (publica em 01/11 12:00)
