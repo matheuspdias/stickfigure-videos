@@ -250,9 +250,9 @@ def s08(c, t):  # 49.3 - 60.3  dia 12: assinaturas 100 -> -50; você no chão
         show(c, t, 51.6 + i * 0.3, x, y, lambda c, lab=lab: hl(c, lab, 0, 0, 36, LBLUE), anim="pop", d=0.25,
              rot=r, t1=t1)
     # o saldo no vermelho, grande no meio
-    show(c, t, 55.11, 540, 800, lambda c: text(c, "-R$ 50", 0, 0, 200, MARKER, RED, outline=WHITE, ow=18),
+    show(c, t, 55.11, 560, 730, lambda c: text(c, "-R$ 50", 0, 0, 200, MARKER, RED, outline=WHITE, ow=18),
          anim="stamp", d=0.35)
-    show(c, t, 55.6, 540, 960, M("no vermelho", 64, RED), anim="up")
+    show(c, t, 55.6, 600, 875, M("no vermelho", 64, RED), anim="up")
     if t < 57.27:
         you(c, t, YX, [(0, "relax"), (53.2, "head")], [(0, "worried"), (53.2, "shocked"), (55.2, "desperate")],
             look=0.6)
