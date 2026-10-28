@@ -1,0 +1,40 @@
+POV: O SALÁRIO CAIU DIA 5 E NO DIA 12 JÁ ACABOU (TikTok nativo, 1080x1920, 96,3 s, formato POV)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, 96,26 s, pausas com <break time="0.6s"/> antes dos valores.
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=f56b6167-433c-4695-bf82-7695640f4fbd.wav
+
+Formato (igual ao pov-fatura-janeiro): texto POV fixo no topo durante a parte de cena (0 a 60,3 s).
+O bonequinho principal é VOCÊ (camiseta laranja). O Consultor só entra na virada (60,4 s).
+Calendário no canto avançando dia a dia; saldo grande caindo a cada cena.
+
+Contas (salário líquido R$ 3.000):
+- Dia 5 aluguel 1.000 -> 2.000 | dia 6 fatura 700 -> 1.300 | dia 7 luz+internet+celular 300 -> 1.000
+- Dia 8 mercado 500 -> 500 | dia 9 delivery+Uber 200 -> 300 | dia 10 parcela do celular 250 -> 50
+- Dia 12 assinaturas 100 -> -50
+- Fixo: 1.000 + 700 + 300 + 500 = 2.500 (sobravam 500)
+- Vazamento: 200 + 250 + 100 = 550/mês = 6.600/ano. Conferência: 2.500 + 550 = 3.050 = 3.000 + 50 no vermelho.
+
+Dia cinco. Plim! Caiu o salário: três mil reais. Você comemora como se tivesse ganhado na Mega-Sena.
+
+Mesmo dia. Aluguel... mil reais. Sobram dois mil. Tranquilo.
+
+Dia seis. A fatura do cartão... setecentos. Sobram mil e trezentos.
+
+Dia sete. Luz, internet e celular... trezentos. Sobram mil. Ainda dá.
+
+Dia oito. Mercado... quinhentos. E olha que você nem comprou besteira. Sobram quinhentos.
+
+Dia nove. "Só hoje" um delivery. "Só hoje" um Uber. E mais um "só hoje"... duzentos reais. Sobram trezentos.
+
+Dia dez. A parcela do celular novo... duzentos e cinquenta. Sobram cinquenta reais.
+
+Dia doze. As assinaturas que você nem lembra que tem... cem reais. Saldo: menos cinquenta.
+
+[sighs] Você deita no chão. E fica por lá mesmo.
+
+Aí chega o Consultor e separa tudo em dois montes. Aluguel, cartão, contas da casa e mercado: isso é fixo. Dá dois mil e quinhentos. Sobravam quinhentos.
+
+O resto foi vazamento. Delivery, Uber, a parcela do celular e as assinaturas... quinhentos e cinquenta por mês. Em um ano, seis mil e seiscentos reais.
+
+A regra cabe numa frase: no dia cinco, antes de tudo, separe uma parte pra você, nem que seja cinquenta reais. E coloque um limite nos vazamentos.
+
+Que dia o seu salário acaba? Comenta aí. E marca aquele amigo do dia doze.
