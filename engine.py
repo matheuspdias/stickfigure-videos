@@ -1554,3 +1554,18 @@ def gavel(c):
     rrect(c, -80, -110, 160, 80, 16); fs(c, (0.55, 0.36, 0.20), 6)
     c.restore()
     rrect(c, -110, 120, 220, 40, 10); fs(c, (0.55, 0.36, 0.20), 6)
+
+
+def padlock(c, col=GOLD, open_=False):
+    """cadeado (dinheiro bloqueado/garantia); open_=True desenha aberto"""
+    c.save()
+    if open_:
+        c.translate(38, -18)
+    c.new_sub_path(); c.arc_negative(0, -40, 58, 0, 3.14159)
+    rgb(c, INK); c.set_line_width(22); c.stroke()
+    c.new_sub_path(); c.arc_negative(0, -40, 58, 0, 3.14159)
+    rgb(c, LGRAY); c.set_line_width(10); c.stroke()
+    c.restore()
+    rrect(c, -90, -40, 180, 150, 18); fs(c, col, 6)
+    circle(c, 0, 20, 18, INK, 0)
+    rrect(c, -7, 25, 14, 45, 5); rgb(c, INK); c.fill()

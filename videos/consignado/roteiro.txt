@@ -1,0 +1,36 @@
+O QUE NINGUÉM TE CONTA ANTES DE PEGAR UM EMPRÉSTIMO CONSIGNADO (TikTok nativo, 1080x1920, ~2 min, sem versão longa)
+Série "O que ninguém te conta antes de...", episódio 3 (ep. 1: videos/planta-mcmv; ep. 2: videos/financiar-carro).
+Objetivo: informar quem está pensando em pegar, sem dizer se deve ou não. Tom de quem avisa um amigo.
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco. No texto enviado ao HeyGen, as siglas CLT, FGTS e CET foram soletradas com espaços.
+
+Premissas (pesquisadas em 29/10/2026):
+- Crédito do Trabalhador (consignado CLT): lançado em 21/03/2025; ofertas pelo app Carteira de Trabalho Digital (resposta dos bancos em até 24 h) e pelos canais dos bancos. Parcela descontada direto na folha.
+- Margem consignável: até 35% da remuneração disponível (salário líquido). Exemplo: R$ 2.500 na mão -> até R$ 875/mês; sobra R$ 1.625.
+- Taxa média BCB, ago/2026: consignado privado CLT 3,79% a.m. (56,3% a.a., SGS 20744); crédito pessoal não consignado 6,39% a.m. (110,2% a.a., SGS 20742). Na fala: "perto de três vírgula oito por cento ao mês" e "passa de seis".
+- Limites de juros: desde abr/2026 (Res. CGCONSIG 2) há taxa de referência e os bancos não podem cobrar muito acima dela; desde jun/2026 (Res. CGCONSIG 3 e Portaria MTE 1.115/2026) teto de 1,99% a.m. nos contratos com garantia de FGTS.
+- Garantia de FGTS (opcional, desde jun/2026): até 10% do saldo do FGTS (quem está no saque-rescisão) + até 100% da multa rescisória (40%) + até 35% das verbas rescisórias. Não há saque automático; na demissão com saldo devedor, esses valores podem ficar bloqueados para quitar a dívida. Pedido de demissão: sem multa, ficam os 10% e até 35% das verbas.
+- Demissão: só a parcela do mês pode ser descontada da rescisão (limite de 35% das verbas); o restante segue por boleto ou negociação com o banco; em novo emprego CLT, o desconto volta para a folha do novo empregador (pode haver ~1 mês sem desconto; aí, boleto). A dívida não some.
+- Troca de emprego: o novo empregador não precisa ter convênio com o banco; o desconto migra via eSocial/Portal Emprega Brasil.
+- Portabilidade: disponível desde 2025 (entre bancos desde 06/06/2025), pelo app ou site do banco de destino.
+
+Exemplo (contas.py): R$ 5.000 em 24x a 3,79% a.m. (Price, sem IOF)
+- parcela ~R$ 321; total ~R$ 7.700; juros ~R$ 2.700 (54% do valor).
+- Mesma conta a 6,39% a.m. (pessoal): parcela ~R$ 413, juros ~R$ 4.900. Com teto de 1,99% (garantia FGTS): parcela ~R$ 264, juros ~R$ 1.340.
+
+Apareceu um empréstimo consignado liberado no seu app? Antes de aceitar, você precisa saber disso.
+
+Consignado é assim: a parcela sai direto do seu salário, antes de cair na conta. Você não escolhe pagar. Já vem descontado.
+
+Por isso o juro é menor. Pro banco, o risco de calote é pequeno. A taxa média do consignado CLT está perto de três vírgula oito por cento ao mês. No empréstimo pessoal comum, passa de seis. Mas menor não quer dizer barato. Cinco mil reais em vinte e quatro vezes, com a taxa média: a parcela fica em uns trezentos e vinte. No fim, você pagou uns sete mil e setecentos. Quase dois mil e setecentos só de juros. Mais da metade do que você pegou.
+
+Agora, a margem consignável. É o limite do salário que pode ir pra parcelas: até trinta e cinco por cento. Num salário de dois mil e quinhentos na mão, são até oitocentos e setenta e cinco reais por mês saindo antes de você ver o dinheiro. Sobram mil seiscentos e vinte e cinco pra aluguel, comida e todo o resto.
+
+E tem a parte do FGTS. No consignado CLT, você pode dar como garantia até dez por cento do saldo do FGTS e até cem por cento da multa rescisória. Em troca, o juro tem um teto mais baixo. Mas se você for demitido devendo, esse dinheiro pode ficar bloqueado pra quitar a dívida. Justamente o dinheiro que te seguraria sem emprego.
+
+E se você mudar de emprego ou for demitido? A dívida não some. Na demissão, a parcela do mês pode ser descontada da rescisão. O que sobrar, você paga por boleto ou negocia com o banco. Arrumou outro emprego com carteira? O desconto volta, agora no novo salário.
+
+Cuidado com golpe. Ligação ou mensagem oferecendo consignado, pedindo seus dados ou um depósito antes pra liberar o dinheiro. Banco não pede pagamento pra liberar empréstimo. Na dúvida, entre você mesmo no app da Carteira de Trabalho Digital ou no app do seu banco.
+
+Antes de aceitar: compare pelo CET, o custo efetivo total. Simule em mais de um lugar. Some a parcela ao seu orçamento real. E use pra trocar dívida cara, como cartão ou cheque especial, não pra consumo. Se já pegou, dá pra levar a dívida pra outro banco com juro menor: é a portabilidade.
+
+Você já pegou consignado? Te ajudou ou te apertou? Comenta aí.
