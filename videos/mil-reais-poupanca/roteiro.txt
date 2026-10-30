@@ -1,0 +1,29 @@
+MIL REAIS NA POUPANÇA POR UM ANO (TikTok nativo, 1080x1920, alvo 40-50 s, sem versão longa)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, pausa de 1 s depois do gancho (<break time="1.0s"/>).
+
+Premissas (pesquisadas em 29/10/2026, juros de hoje mantidos constantes):
+- Selic meta 13,75% a.a. (Copom de 16/09/2026; próxima reunião 4/11/2026). CDI 13,65% a.a.
+- Poupança (Selic > 8,5%): 0,5% a.m. + TR. TR 2026 entre 0,162% e 0,174% a.m.; usada 0,167% a.m.
+  Mensal = 1,005 x 1,00167 - 1 = 0,6678% -> 8,315% a.a. Isenta de IR.
+- IR renda fixa: tabela regressiva vigente; 365 dias cai na faixa de 361 a 720 dias = 17,5%. Acima de 720 dias = 15%.
+- CDB 100% do CDI (liquidez diária): 1.000 x 13,65% = 136,50 bruto; x 0,825 = 112,61 líquido.
+- Tesouro Selic: Selic + 0,0736% (Tesouro Selic 2031, set/2026). Custódia B3 0,20% a.a., isenta até R$ 10 mil por CPF no Tesouro Selic.
+  1.000: 137,34 bruto, custódia 0, x 0,825 = 113,30 líquido.
+
+Resultados em 1 ano:
+- R$ 1.000: poupança 83,15 | CDB 112,61 | Tesouro Selic 113,30 | dif CDB - poupança 29,46
+- R$ 10.000: poupança 831,50 | CDB 1.126,12 | Tesouro Selic ~1.131,89 (custódia ~R$ 1,37 sobre o que passa de 10 mil) | dif 294,62
+- R$ 10.000 por 5 anos, aplicação única: poupança 4.908,84 | CDB (IR 15%) 7.616,33 | dif 2.707,49
+  (renovando todo ano com IR de 17,5%, a dif seria 2.140,98; a narração diz "passa de dois mil e quinhentos" para a aplicação única)
+
+ROTEIRO
+Mil reais parados na poupança por um ano. Chuta quanto rendeu.
+[pausa 1 s, "?" grande]
+Oitenta e três reais. Isso com os juros de hoje.
+Agora, os mesmos mil reais num CDB de liquidez diária, que paga cem por cento do CDI. Já descontado o imposto: cento e doze reais.
+No Tesouro Selic: cento e treze. E até dez mil reais, não tem taxa de custódia.
+Parece pouca diferença, né? Uns trinta reais.
+Mas com dez mil, são quase trezentos reais a mais por ano.
+E em cinco anos, a diferença passa de dois mil e quinhentos reais.
+Os três são seguros pra reserva. A diferença é só onde você deixa.
+Seu dinheiro tá onde? Comenta. E segue que amanhã tem mais conta.
