@@ -1,0 +1,40 @@
+O QUE NINGUÉM TE CONTA ANTES DE ENTRAR NUM CONSÓRCIO (TikTok nativo, 1080x1920, ~2 min, sem versão longa)
+Série "O que ninguém te conta antes de...", episódio 4 (ep. 1: videos/planta-mcmv; ep. 2: videos/financiar-carro; ep. 3: videos/consignado).
+Objetivo: informar quem está pensando em entrar, sem dizer se deve ou não. Tom de quem avisa um amigo. Fechamento pensado para converter em seguidores.
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco. No texto enviado ao HeyGen, as siglas INCC e IPCA foram soletradas com espaços.
+Na tela, entre 3 e 5 s (sem narração): "📌 Série: O que ninguém te conta — ep. 4" (o alfinete é desenhado, a fonte não tem emoji).
+
+Premissas (pesquisadas em 29/10/2026):
+- Consórcio não tem juros, mas cobra taxa de administração (faixa comum 12% a 20% da carta; o exemplo usa 15%) e fundo de reserva (1% a 3%; o exemplo usa 2%), diluídos nas parcelas. Seguro (prestamista/vida) aparece em boa parte dos contratos; varia e fica fora da conta.
+- Correção: a carta e as parcelas são reajustadas, em geral uma vez por ano, pelo índice do contrato. Imóvel: geralmente INCC. Veículo: preço do bem de referência ou índice como IPCA/INPC. Depois de usar a carta, as parcelas continuam reajustadas.
+- Contemplação: por sorteio ou lance, nas assembleias; não há data garantida.
+- Lance embutido: usa parte da própria carta (na maioria dos grupos, até ~30%); se ganha, recebe a carta menos o lance. A taxa de administração é calculada sobre a carta inteira.
+- Desistência/exclusão (Lei 11.795/2008, arts. 22, 30 e 31): a cota excluída continua concorrendo aos sorteios; se sorteada, recebe; se não, até 60 dias após o encerramento do grupo (Circular BCB 3.432). Volta o que foi pago ao fundo comum (pelo percentual do valor do bem); taxa de administração e seguro não voltam; o contrato pode prever multa (cláusula penal; vários tribunais exigem prova de prejuízo ao grupo). Devolução imediata não é o entendimento predominante; grupos antigos (antes da lei): 30 dias após o encerramento (STJ, REsp 1.119.300).
+- Autorização: só administradora autorizada pelo Banco Central pode operar; consulta grátis no site do BC por nome ou CNPJ (lista de administradoras de consórcio em funcionamento).
+- Financiamento de veículo PF: taxa média BCB ago/2026 = 26,42% a.a. (~1,97% a.m., SGS 20749).
+
+Exemplo (contas.py): carta de R$ 50 mil (veículo), 60 meses
+- Taxas: 15% + 2% = 17% = R$ 8.500. Total R$ 58.500. Parcela R$ 975 (sem seguro, sem correção).
+- Custo anual equivalente no melhor caso (contemplado no 1º mês): ~0,57% a.m. = ~7% a.a. Financiamento de R$ 50 mil em 60x a 26,42% a.a.: parcela ~R$ 1.429, total ~R$ 85.700, juros ~R$ 35.700.
+- Correção de exemplo, 5% ao ano: no 2º ano, carta ~R$ 52.500 e parcela ~R$ 1.024 (sobe uns R$ 50).
+- Lance embutido de 30%: R$ 15 mil; recebe R$ 35 mil.
+
+Consórcio não tem juros? Antes de assinar, você precisa saber disso.
+
+Não tem juros, mas tem taxa. A taxa de administração e o fundo de reserva. Às vezes, seguro também. Numa carta de cinquenta mil reais, em sessenta meses, com quinze por cento de administração e dois de fundo de reserva, são oito mil e quinhentos reais de taxa. A parcela fica em uns novecentos e setenta e cinco.
+
+Parece pouco. No melhor caso, se você for contemplado logo no primeiro mês, isso equivale a uns sete por cento ao ano. O financiamento de carro está perto de vinte e seis por cento ao ano. Então é mais barato, mas não é de graça.
+
+Segundo: a carta é corrigida, geralmente uma vez por ano. No de imóvel, costuma ser pelo INCC. No de carro, pelo preço do carro ou por um índice como o IPCA. A carta sobe, e a sua parcela sobe junto.
+
+Terceiro: contemplação é sorteio. Todo mês, alguém do grupo é contemplado. Pode ser você no primeiro mês. Pode ser no último. Ninguém sabe.
+
+Quer sair antes? Aí entra o lance. O dinheiro sai do seu bolso, ou vem do lance embutido, que usa parte da própria carta. Lance embutido de quinze mil, numa carta de cinquenta: você recebe só trinta e cinco mil.
+
+E se desistir? O dinheiro não volta na hora. Sua cota continua nos sorteios. Se for sorteada, você recebe. Se não, só no fim do grupo. E com desconto: a taxa de administração não volta, e o contrato pode prever multa.
+
+Cuidado com golpe. Consórcio contemplado garantido, carta contemplada à venda barata, pagamento via Pix pra pessoa física. Consórcio sério não garante data de contemplação.
+
+Antes de assinar: confira se a administradora é autorizada pelo Banco Central. Some todas as taxas. Entenda o índice de correção. Leia as regras de desistência.
+
+Segue que o episódio cinco sai semana que vem. Qual você quer: MEI ou cartão de crédito? Comenta.
