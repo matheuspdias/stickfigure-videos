@@ -1,0 +1,39 @@
+{
+  "slug": "dez-reais-um-milhao",
+  "publicar_em": "2026-11-02T09:00:00-03:00",
+  "audio_blocos": [
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6fd600c1-aa2b-4a2a-a497-ed00078eee82.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=e5c3a8e0-6150-4c81-b274-41a2465ae906.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0a0b25e9-b083-40fc-a442-a2ccfbeaabf5.wav"
+  ],
+  "duracoes": [
+    157.649,
+    176.457,
+    201.273
+  ],
+  "pausa_blocos": 0.4,
+  "cauda": 5,
+  "titulo": "R$ 10 por dia vira R$ 1 milhão? A conta completa (com inflação)",
+  "descricao": "Dez reais por dia, o preço de um lanche, viram um milhão de reais? Viram: R$ 300 por mês rendendo uns 10% ao ano chegam a R$ 1,03 milhão em 35 anos, e só R$ 126 mil saem do seu bolso. Quase 90% são juros. Mas tem três detalhes que quase ninguém conta. A inflação: em dinheiro de hoje, esse milhão vale uns R$ 260 mil (e o jeito simples de resolver é corrigir o aporte todo ano). O tempo: tirar 5 anos do prazo faz o valor por dia subir 65%. E a história da Ana e do Bruno: ela guardou R$ 10 por dia só dos 25 aos 35, ele guardou dos 35 aos 60, e aos 60 ela tem R$ 284 mil a mais, tendo colocado menos da metade.\n\nPremissas: contas feitas em 01/11/2026. R$ 10 por dia = R$ 300 por mês (30 dias), aportados no fim de cada mês. Rendimento de 0,8% ao mês já sem imposto de renda (~10,03% ao ano), constante por 35 anos; referência de hoje: Selic de 13,75% ao ano (Copom de 16/09/2026), CDI ~13,65% e CDB de 100% do CDI com IR de 15% (acima de 720 dias, tabela regressiva vigente) rendendo ~11,6% ao ano líquido. Inflação de 4% ao ano (IPCA de 12 meses até setembro de 2026: 4,58%; meta: 3%). Aporte corrigido: R$ 300 reajustados em 4% a cada 12 meses. Poupança: 0,5% ao mês + TR (~0,167% ao mês) = ~8,32% ao ano, isenta de IR, com a regra de hoje (Selic acima de 8,5%). Ana: R$ 300 por mês dos 25 aos 35 anos e depois só rendendo até os 60; Bruno: R$ 300 por mês dos 35 aos 60. Juros e inflação variam de verdade ao longo dos anos; valores arredondados. Conteúdo educativo, não é recomendação de investimento.\n\nCapítulos\n0:00 R$ 10 por dia vira R$ 1 milhão?\n0:41 As regras da conta\n0:57 Por que 10% ao ano\n1:16 A conta: 5, 10, 20, 30 e 35 anos\n1:56 Os últimos 5 anos valem mais que os 25 primeiros\n2:15 Quanto saiu do seu bolso\n2:37 Detalhe 1: a inflação\n3:22 Corrigindo os R$ 10 todo ano\n4:02 R$ 1 milhão de verdade\n4:14 Detalhe 2: o tempo\n5:02 Renda fixa x poupança\n5:34 Detalhe 3: Ana x Bruno\n7:00 Passou dos 35? Não desanima\n7:35 3 atitudes práticas\n8:14 Recapitulando\n\nAssista também: Quanto tempo leva pra juntar R$ 100 mil? e Quanto você precisa pra viver de renda?\n\nNarração gerada com voz de IA.\n\n#JurosCompostos #FinancasPessoais #FazAConta",
+  "tags": [
+    "r$ 10 por dia",
+    "10 reais por dia",
+    "como juntar 1 milhão",
+    "juros compostos",
+    "quanto investir por mês",
+    "investir 300 reais por mês",
+    "inflação",
+    "ipca",
+    "poupança ou cdb",
+    "renda fixa",
+    "selic 2026",
+    "começar a investir cedo",
+    "educação financeira",
+    "finanças pessoais",
+    "faz a conta"
+  ],
+  "thumbnail": "videos/dez-reais-um-milhao/thumb/milhao_thumb_A.png",
+  "categoria": "27",
+  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5bd0cd23-1be5-4ba7-927b-d56ab3d809a1.wav",
+  "ganchos_duracao": 24.111
+}

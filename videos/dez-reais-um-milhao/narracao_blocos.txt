@@ -1,0 +1,152 @@
+# Narração "R$ 10 por dia vira R$ 1 milhão? A conta completa" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 157.649s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6fd600c1-aa2b-4a2a-a497-ed00078eee82.wav
+# bloco2 176.457s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=e5c3a8e0-6150-4c81-b274-41a2465ae906.wav
+# bloco3 201.273s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0a0b25e9-b083-40fc-a442-a2ccfbeaabf5.wav
+# pausa_blocos 0.4
+# Junta: blocos com 0,4 s de silêncio + 5 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.000 | bloco2 158.049 | bloco3 334.906 | fim da fala 536.180 | total 541.180
+# Formato: bloco | início local (s) | frase [palavra@t local]
+1|0.00|Dez reais por dia.
+1|1.76|Um lanche, um café com pão de queijo, uma corrida de aplicativo. [queijo@3.72]
+1|6.16|Quase todo mundo gasta isso sem nem perceber.
+1|9.44|Agora, e se esses dez reais fossem guardados todo dia? [guardados@11.88]
+1|13.60|Será que eles viram um milhão de reais?
+1|16.32|Viram.
+1|17.04|Mas tem três detalhes nessa conta que quase ninguém te conta. [quase@19.32]
+1|21.28|Um deles é a inflação, que come uma parte enorme desse milhão. [uma@23.48]
+1|25.56|O outro é o tempo, que pesa muito mais do que o valor que você guarda. [muito@27.81] [você@29.12]
+1|30.13|E o terceiro é uma história de duas pessoas, a Ana e o Bruno, com um resultado que parece errado. [duas@31.88] [com@34.44]
+1|36.84|Mas não é.
+1|37.76|Hoje a gente vai fazer essa conta completa, do jeito honesto. [completa@39.64]
+1|41.92|Antes, as regras do jogo.
+1|44.00|Dez reais por dia dão trezentos reais por mês. [por@46.48]
+1|47.44|Esse dinheiro vai pra um investimento de renda fixa, rendendo zero vírgula oito por cento ao mês, já descontado o imposto de renda. [renda@49.28] [cento@52.16] [de@54.32]
+1|55.12|Isso dá uns dez por cento ao ano.
+1|57.48|E por que dez por cento?
+1|59.12|Porque hoje a Selic está em treze vírgula setenta e cinco por cento. [vírgula@61.28]
+1|63.56|Um CDB que paga cem por cento do CDI rende uns onze e meio por cento ao ano, já sem o imposto. [do@65.44] [por@67.28]
+1|69.92|Só que juro alto assim não dura trinta e cinco anos. [trinta@72.24]
+1|73.72|Então eu uso um número um pouco mais pé no chão. [mais@75.20]
+1|76.48|Vamos lá.
+1|77.28|Trezentos reais por mês, todo mês, sem falhar.
+1|81.24|Em cinco anos, você tem vinte e três mil reais. [três@83.24]
+1|84.80|Saíram do seu bolso dezoito mil.
+1|87.20|Os juros colocaram só cinco mil.
+1|89.76|É pouco, e é aqui que a maioria desiste. [maioria@91.36]
+1|92.84|Em dez anos, sessenta mil reais.
+1|95.76|Do seu bolso, trinta e seis mil.
+1|98.16|Em vinte anos, duzentos e dezesseis mil.
+1|101.44|Em trinta anos, seiscentos e vinte e três mil. [três@104.08]
+1|105.00|E em trinta e cinco anos, um milhão e vinte e sete mil reais. [milhão@106.88]
+1|109.72|Repara no formato dessa curva.
+1|111.92|Nos primeiros anos, ela quase não sai do chão. [do@114.16]
+1|114.96|Depois, ela dispara.
+1|117.12|Só os últimos cinco anos, do ano trinta ao ano trinta e cinco, colocaram quatrocentos e cinco mil reais nessa conta. [trinta@119.32] [quatrocentos@121.72]
+1|124.96|Mais do que os primeiros vinte e cinco anos inteiros juntos. [cinco@126.60]
+1|128.88|Perto do fim, esse dinheiro rende mais de oito mil reais por mês sozinho. [de@131.04]
+1|133.92|Sem você fazer nada.
+1|135.56|E agora a parte que mais assusta.
+1|138.28|De todo esse milhão, quanto saiu do seu bolso? [seu@140.24]
+1|141.36|Cento e vinte e seis mil reais.
+1|143.80|Só isso.
+1|144.68|O resto, oitocentos e noventa e oito mil reais, são juros. [mil@147.28]
+1|149.36|Quase noventa por cento do total.
+1|151.84|Então sim: dez reais por dia viram um milhão. [um@154.48]
+1|155.44|Mas agora vêm os três detalhes.
+2|0.00|Primeiro detalhe: a inflação.
+2|2.56|Daqui a trinta e cinco anos, um milhão de reais não vai comprar o que um milhão compra hoje. [milhão@4.40] [que@6.72]
+2|8.48|Vamos supor uma inflação de quatro por cento ao ano. [cento@10.64]
+2|11.64|É um pouco abaixo dos quatro e meio por cento dos últimos doze meses, e um pouco acima da meta do Banco Central, que é de três. [meio@13.28] [e@15.64] [Banco@17.20]
+2|19.24|Com quatro por cento ao ano, os preços quase quadruplicam em trinta e cinco anos. [preços@20.96]
+2|24.56|Aquele lanche de dez reais vai custar uns trinta e nove reais e cinquenta centavos. [uns@26.76]
+2|29.88|Então aquele um milhão e vinte e sete mil reais, em dinheiro de hoje, vale uns duzentos e sessenta mil reais. [sete@31.72] [vale@34.08]
+2|37.16|É dinheiro?
+2|38.16|É.
+2|38.72|Mas não é um milhão.
+2|40.36|Quem te mostra só a conta do milhão está te contando metade da história. [milhão@41.92]
+2|44.76|E tem um jeito simples de resolver isso.
+2|47.20|Em vez de guardar sempre os mesmos dez reais, você corrige o valor pela inflação uma vez por ano. [dez@49.16] [inflação@51.48]
+2|53.56|Se os preços subiram quatro por cento, os dez reais viram dez e quarenta. [os@55.84]
+2|58.28|No ano seguinte, dez e oitenta e dois.
+2|60.75|E assim por diante.
+2|62.08|Pro seu bolso, o esforço continua o mesmo: é sempre o preço de um lanche. [mesmo@64.20]
+2|66.68|Só que a conta muda bastante.
+2|68.93|Fazendo assim, em trinta e cinco anos você chega a um milhão e quinhentos e vinte e cinco mil reais. [você@71.12] [e@73.44]
+2|75.48|Em dinheiro de hoje, isso vale uns trezentos e oitenta e sete mil reais. [trezentos@77.36]
+2|80.32|Cento e vinte e seis mil a mais do que guardando sempre o mesmo valor. [mais@81.76]
+2|84.52|E se a meta for um milhão de verdade, com o poder de compra de hoje? [de@85.84] [de@87.72]
+2|88.64|Aí o valor por dia sobe pra uns vinte e seis reais, corrigidos todo ano pela inflação, por trinta e cinco anos. [uns@90.40] [ano@93.12]
+2|96.44|Segundo detalhe: o tempo pesa mais do que o valor. [que@99.32]
+2|100.28|Olha quanto você precisa guardar por dia pra chegar a um milhão de reais, dependendo do prazo. [pra@102.72] [dependendo@104.64]
+2|106.04|Em trinta e cinco anos, uns dez reais por dia. [reais@107.92]
+2|109.28|Em trinta anos, dezesseis.
+2|111.52|Em vinte e cinco anos, vinte e sete.
+2|114.24|Em vinte anos, quarenta e seis reais por dia. [por@116.96]
+2|118.00|Repara: tirar só cinco anos do prazo, de trinta e cinco pra trinta, faz o valor por dia subir sessenta e cinco por cento. [de@120.88] [o@122.80] [cinco@124.92]
+2|126.12|E com quinze anos a menos, ele quase quintuplica. [quase@128.08]
+2|129.88|E aquele começo que parece não render nada?
+2|132.64|É ele que dá tempo pra curva disparar lá na frente. [disparar@134.36]
+2|136.20|Começar cinco anos depois custa justamente aqueles últimos cinco anos: quatrocentos e cinco mil reais a menos no final. [últimos@139.36] [reais@142.48]
+2|144.36|E o lugar onde o dinheiro fica também pesa. [também@146.00]
+2|147.32|Se esses mesmos trezentos reais por mês ficassem na poupança, que hoje rende uns oito vírgula três por cento ao ano, sem imposto, em trinta e cinco anos você teria uns seiscentos e noventa mil reais. [ficassem@149.64] [oito@152.04] [sem@154.16] [você@156.40]
+2|159.64|Trezentos e trinta e sete mil a menos.
+2|162.59|Uma diferença de menos de dois pontos por ano, que no fim vira um terço do resultado. [por@164.99] [terço@166.91]
+2|168.43|E não precisa ser nada sofisticado: uma renda fixa simples, segura, que renda pelo menos o CDI, já faz essa diferença. [renda@170.91] [menos@173.87]
+3|0.00|Terceiro detalhe, e esse é o que mais surpreende. [mais@2.24]
+3|3.60|A Ana e o Bruno.
+3|5.24|A Ana começa a guardar dez reais por dia aos vinte e cinco anos. [por@7.28]
+3|9.56|Ela guarda por dez anos, até os trinta e cinco. [trinta@11.68]
+3|12.84|Aí a vida aperta: casamento, filho, financiamento.
+3|17.16|Ela para de guardar.
+3|18.80|Nunca mais coloca um real.
+3|20.92|Só deixa o dinheiro lá, rendendo.
+3|23.08|O Bruno passou os vinte anos dele sem guardar nada. [sem@25.12]
+3|26.52|Aos trinta e cinco, ele acorda e começa.
+3|29.60|Dez reais por dia, todo dia, sem falhar, até os sessenta anos. [falhar@32.24]
+3|34.80|Vinte e cinco anos guardando.
+3|36.76|Do bolso, a Ana colocou trinta e seis mil reais. [seis@38.92]
+3|40.44|O Bruno colocou noventa mil.
+3|42.72|Duas vezes e meia mais.
+3|44.64|Quem chega aos sessenta com mais dinheiro?
+3|46.88|A Ana.
+3|47.60|E com folga.
+3|48.88|O Bruno chega aos sessenta com trezentos e setenta e dois mil reais. [e@51.20]
+3|53.48|A Ana, que parou de guardar aos trinta e cinco, chega com seiscentos e cinquenta e seis mil. [trinta@55.20] [cinquenta@57.68]
+3|59.32|Duzentos e oitenta e quatro mil reais a mais que o Bruno, tendo colocado menos da metade. [a@61.64] [menos@63.68]
+3|65.04|Por quê?
+3|65.84|Porque os sessenta mil da Ana tiveram vinte e cinco anos sozinhos pra crescer. [vinte@67.92]
+3|70.60|O Bruno colocou mais dinheiro, mas deu menos tempo pra ele. [menos@72.96]
+3|74.43|Pra empatar com a Ana, o Bruno teria que guardar quase dezoito reais por dia, em vez de dez. [teria@76.08] [dia@78.56]
+3|80.19|E se a Ana não tivesse parado?
+3|82.12|Ela chegaria aos sessenta com um milhão e vinte e sete mil. [e@84.40]
+3|85.92|Agora, presta atenção, porque essa história não é pra quem já passou dos trinta e cinco ficar desanimado. [é@88.64] [e@90.16]
+3|91.88|O Bruno também chegou a trezentos e setenta e dois mil reais. [setenta@94.40]
+3|96.36|Quem não começa chega aos sessenta com zero.
+3|99.40|A lição não é que é tarde.
+3|101.20|É que o melhor dia pra começar é sempre o mais cedo que você conseguir. [é@103.04]
+3|105.56|E se dez reais por dia parecem muito agora? [muito@107.55]
+3|108.48|Comece com cinco.
+3|109.84|Em trinta e cinco anos, cinco reais por dia viram uns quinhentos e catorze mil. [por@112.00]
+3|114.88|Metade do milhão, com metade do esforço.
+3|117.64|O importante é a curva começar.
+3|120.28|Então, três atitudes práticas.
+3|122.64|Primeira: automatize.
+3|124.56|Programa uma transferência de trezentos reais no dia que o salário cai. [dia@127.28]
+3|128.68|Dinheiro que fica na conta corrente some sem você perceber. [sem@131.04]
+3|132.52|Segunda: corrija o valor todo ano.
+3|135.16|Quando vier o reajuste do salário, aumenta o aporte pelo menos pela inflação. [o@137.60]
+3|140.00|É isso que separa os duzentos e sessenta mil dos trezentos e oitenta e sete mil. [sessenta@141.92] [sete@144.20]
+3|145.08|Terceira: não mexa.
+3|146.93|A parte mais forte da curva está no fim. [no@148.96]
+3|149.56|Quem saca no meio do caminho corta justamente os anos que mais rendem. [justamente@151.60]
+3|153.96|Se você ainda não tem uma reserva de emergência, comece por ela, pra não precisar mexer nesse dinheiro. [de@155.68] [precisar@158.20]
+3|160.00|Recapitulando.
+3|161.20|Dez reais por dia, rendendo uns dez por cento ao ano, viram um milhão em trinta e cinco anos. [por@163.52] [em@165.68]
+3|167.24|Do seu bolso saem só cento e vinte e seis mil. [vinte@169.21]
+3|170.44|Mas, com a inflação, esse milhão vale uns duzentos e sessenta mil de hoje. [uns@173.04]
+3|175.64|Corrigindo o valor todo ano, você chega a trezentos e oitenta e sete mil de hoje. [a@178.04] [de@180.28]
+3|181.16|E a Ana, que guardou só dez anos, termina com duzentos e oitenta e quatro mil a mais que o Bruno, que guardou vinte e cinco. [anos@183.08] [quatro@185.40] [que@187.28]
+3|188.96|E você, começaria com quantos anos?
+3|191.64|Me conta nos comentários.
+3|193.24|Se essa conta te ajudou, se inscreve no canal e manda esse vídeo pra alguém que acha que dez reais não fazem diferença. [no@195.24] [alguém@196.84] [fazem@198.92]
+3|200.32|Até o próximo.

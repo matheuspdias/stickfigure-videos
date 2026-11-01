@@ -1,0 +1,41 @@
+TÍTULO (recomendado)
+R$ 10 por dia vira R$ 1 milhão? A conta completa (com inflação)
+
+Alternativas
+- Guardar R$ 10 por dia te deixa milionário? A conta que ninguém mostra
+- Ana guardou 10 anos, Bruno 25: quem ficou mais rico? (R$ 10 por dia)
+
+DESCRIÇÃO
+Dez reais por dia, o preço de um lanche, viram um milhão de reais? Viram: R$ 300 por mês rendendo uns 10% ao ano chegam a R$ 1,03 milhão em 35 anos, e só R$ 126 mil saem do seu bolso. Quase 90% são juros. Mas tem três detalhes que quase ninguém conta. A inflação: em dinheiro de hoje, esse milhão vale uns R$ 260 mil (e o jeito simples de resolver é corrigir o aporte todo ano). O tempo: tirar 5 anos do prazo faz o valor por dia subir 65%. E a história da Ana e do Bruno: ela guardou R$ 10 por dia só dos 25 aos 35, ele guardou dos 35 aos 60, e aos 60 ela tem R$ 284 mil a mais, tendo colocado menos da metade.
+
+Premissas: contas feitas em 01/11/2026. R$ 10 por dia = R$ 300 por mês (30 dias), aportados no fim de cada mês. Rendimento de 0,8% ao mês já sem imposto de renda (~10,03% ao ano), constante por 35 anos; referência de hoje: Selic de 13,75% ao ano (Copom de 16/09/2026), CDI ~13,65% e CDB de 100% do CDI com IR de 15% (acima de 720 dias, tabela regressiva vigente) rendendo ~11,6% ao ano líquido. Inflação de 4% ao ano (IPCA de 12 meses até setembro de 2026: 4,58%; meta: 3%). Aporte corrigido: R$ 300 reajustados em 4% a cada 12 meses. Poupança: 0,5% ao mês + TR (~0,167% ao mês) = ~8,32% ao ano, isenta de IR, com a regra de hoje (Selic acima de 8,5%). Ana: R$ 300 por mês dos 25 aos 35 anos e depois só rendendo até os 60; Bruno: R$ 300 por mês dos 35 aos 60. Juros e inflação variam de verdade ao longo dos anos; valores arredondados. Conteúdo educativo, não é recomendação de investimento.
+
+Capítulos
+0:00 R$ 10 por dia vira R$ 1 milhão?
+0:41 As regras da conta
+0:57 Por que 10% ao ano
+1:16 A conta: 5, 10, 20, 30 e 35 anos
+1:56 Os últimos 5 anos valem mais que os 25 primeiros
+2:15 Quanto saiu do seu bolso
+2:37 Detalhe 1: a inflação
+3:22 Corrigindo os R$ 10 todo ano
+4:02 R$ 1 milhão de verdade
+4:14 Detalhe 2: o tempo
+5:02 Renda fixa x poupança
+5:34 Detalhe 3: Ana x Bruno
+7:00 Passou dos 35? Não desanima
+7:35 3 atitudes práticas
+8:14 Recapitulando
+
+Assista também: Quanto tempo leva pra juntar R$ 100 mil? e Quanto você precisa pra viver de renda?
+
+Narração gerada com voz de IA.
+
+#JurosCompostos #FinancasPessoais #FazAConta
+
+TELA FINAL (últimos 5 s, de 8:56 a 9:01): vídeo sugerido na área da esquerda (acima de "assista também") e inscrever-se à direita (acima de "inscreva-se").
+
+TAGS
+r$ 10 por dia, 10 reais por dia, como juntar 1 milhão, juros compostos, quanto investir por mês, investir 300 reais por mês, inflação, ipca, poupança ou cdb, renda fixa, selic 2026, começar a investir cedo, educação financeira, finanças pessoais, faz a conta
+
+THUMBNAIL escolhida: thumb/milhao_thumb_A.png (R$ 1 milhão riscado: "vale R$ 260 mil?"). Alternativa: milhao_thumb_B.png (Ana 10 anos x Bruno 25 anos).

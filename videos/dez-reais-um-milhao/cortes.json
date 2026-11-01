@@ -1,0 +1,20 @@
+{"serie": "R$ 10 POR DIA", "cortes": [
+ {"id": "ana-bruno", "inicio": 339.9, "fim": 440.3, "titulo": "ANA x BRUNO:\\NQUEM FICOU MAIS RICO?",
+  "gancho": "A Ana guardou dez reais por dia durante dez anos. O Bruno, durante vinte e cinco. Quem ficou mais rico?",
+  "gancho_audio": [0.0, 7.22], "gancho_tela": "10 ANOS x 25 ANOS\\NQUEM GANHOU?", "gancho_t": 399.3,
+  "capa": ["10 ANOS x 25 ANOS", "QUEM FICOU MAIS RICO?"],
+  "titulo_post": "Guardou 10 anos e ganhou de quem guardou 25",
+  "post": "Ana guardou R$ 10 por dia dos 25 aos 35 e parou. Bruno guardou dos 35 aos 60. Aos 60, ela tem R$ 284 mil a mais, tendo colocado menos da metade. #financaspessoais #dinheiro #juroscompostos #fazaconta"},
+ {"id": "milhao-bolso", "inicio": 43.8, "fim": 155.2, "titulo": "R$ 10 POR DIA\\NVIRA R$ 1 MILHÃO?",
+  "gancho": "Dez reais por dia viram um milhão de reais. E só cento e vinte e seis mil saem do seu bolso.",
+  "gancho_audio": [9.26, 15.54], "gancho_tela": "R$ 10 POR DIA\\N= R$ 1 MILHÃO", "gancho_t": 151.2,
+  "capa": ["R$ 10 POR DIA", "VIRA R$ 1 MILHÃO?"],
+  "titulo_post": "R$ 10 por dia vira R$ 1 milhão (só R$ 126 mil são seus)",
+  "post": "R$ 300 por mês a uns 10% ao ano: R$ 1 milhão em 35 anos. Do seu bolso saem R$ 126 mil; quase 90% são juros. #financaspessoais #dinheiro #juroscompostos #fazaconta"},
+ {"id": "milhao-inflacao", "inicio": 160.4, "fim": 254.3, "titulo": "O MILHÃO QUE\\NVALE R$ 260 MIL",
+  "gancho": "Aquele um milhão que você junta em trinta e cinco anos? Em dinheiro de hoje, ele vale uns duzentos e sessenta mil.",
+  "gancho_audio": [17.02, 23.94], "gancho_tela": "R$ 1 MILHÃO\\N= R$ 260 MIL", "gancho_t": 201.8,
+  "capa": ["R$ 1 MILHÃO EM 35 ANOS", "VALE R$ 260 MIL DE HOJE"],
+  "titulo_post": "Seu R$ 1 milhão em 35 anos vale R$ 260 mil hoje",
+  "post": "Com inflação de 4% ao ano, os preços quase quadruplicam em 35 anos. O jeito simples de proteger a meta: corrigir o aporte pela inflação todo ano. #financaspessoais #inflacao #dinheiro #fazaconta"}
+]}

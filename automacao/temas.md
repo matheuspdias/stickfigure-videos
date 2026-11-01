@@ -12,6 +12,7 @@ O Matheus pode mexer à vontade: mover ideias, apagar, marcar como proibido.
 - À vista ou parcelado sem juros? A conta da Black Friday (`a-vista-ou-parcelado`), out/2026
 - Demitido hoje: quanto tempo você aguentaria? A conta da reserva de emergência (`reserva-de-emergencia`), out/2026 (versão longa do TikTok `reserva-emergencia`)
 - CLT de R$ 5 mil ou PJ de R$ 7 mil? A conta completa de 2026 (`clt-ou-pj-conta-completa`), out/2026 (versão longa do TikTok `clt-ou-pj`)
+- R$ 10 por dia vira R$ 1 milhão? A conta completa, com inflação e a história da Ana e do Bruno (`dez-reais-um-milhao`), nov/2026 (versão longa do TikTok `dez-reais-por-dia`)
 
 ## Já feitos só no TikTok (podem virar vídeo longo, com conta mais completa)
 - Reserva de emergência: se você fosse demitido hoje, quantos dias pagaria as contas? (`reserva-emergencia`)
