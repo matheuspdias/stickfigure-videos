@@ -1,11 +1,6 @@
 {
   "slug": "dez-reais-um-milhao",
   "publicar_em": "2026-11-02T09:00:00-03:00",
-  "audio_blocos": [
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=6fd600c1-aa2b-4a2a-a497-ed00078eee82.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=e5c3a8e0-6150-4c81-b274-41a2465ae906.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=0a0b25e9-b083-40fc-a442-a2ccfbeaabf5.wav"
-  ],
   "duracoes": [
     157.649,
     176.457,
@@ -34,6 +29,36 @@
   ],
   "thumbnail": "videos/dez-reais-um-milhao/thumb/milhao_thumb_A.png",
   "categoria": "27",
-  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5bd0cd23-1be5-4ba7-927b-d56ab3d809a1.wav",
-  "ganchos_duracao": 24.111
+  "ganchos_duracao": 24.111,
+  "video_id": "zwmwtYgugZQ",
+  "url": "https://youtu.be/zwmwtYgugZQ",
+  "agendado_para": "2026-11-02T09:00:00-03:00",
+  "enviado_em": "2026-11-01T16:19:04-03:00",
+  "avisos": [],
+  "shorts": [
+    {
+      "id": "ana-bruno",
+      "video_id": "OFOWe3jjra0",
+      "url": "https://youtu.be/OFOWe3jjra0",
+      "titulo": "Guardou 10 anos e ganhou de quem guardou 25 #Shorts",
+      "duracao": 107.9,
+      "agendado_para": "2026-11-03T12:00:00-03:00"
+    },
+    {
+      "id": "milhao-bolso",
+      "video_id": "E6Z5iE60eGc",
+      "url": "https://youtu.be/E6Z5iE60eGc",
+      "titulo": "R$ 10 por dia vira R$ 1 milhão (só R$ 126 mil são seus) #Shorts",
+      "duracao": 118.1,
+      "agendado_para": "2026-11-04T12:00:00-03:00"
+    },
+    {
+      "id": "milhao-inflacao",
+      "video_id": "M0EO_Io32aE",
+      "url": "https://youtu.be/M0EO_Io32aE",
+      "titulo": "Seu R$ 1 milhão em 35 anos vale R$ 260 mil hoje #Shorts",
+      "duracao": 101.2,
+      "agendado_para": "2026-11-05T12:00:00-03:00"
+    }
+  ]
 }
