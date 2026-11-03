@@ -1,0 +1,41 @@
+DISSERAM QUE R$ 100 MIL É IMPOSSÍVEL. E R$ 10 MIL? (TikTok nativo, 1080x1920, sem versão longa)
+Resposta aos comentários de videos/primeiros-100-mil (o mais visto do perfil, 523 mil views).
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco.
+
+PREMISSAS (as mesmas do vídeo dos 100 mil)
+- 0,8% ao mês líquido, sem inflação.
+- Aporte no começo do mês, rendendo no próprio mês (a convenção do vídeo dos 100 mil:
+  "no primeiro mês você coloca mil, eles rendem oito reais"; 12 meses de mil = ~R$ 12.543).
+- Meta: R$ 10.000. Meses = primeiro n com 100*((1,008^n - 1)/0,008)*1,008 >= 10.000.
+
+| Aporte | Meses | Tempo        | Saldo no mês da meta | Do bolso | Juros   |
+| 100    | 74    | 6 anos 2 m   | R$ 10.122            | 7.400    | ~2.722  |
+| 200    | 42    | 3 anos 6 m   | R$ 10.016            | 8.400    | ~1.616  |
+| 300    | 30    | 2 anos 6 m   | R$ 10.207            | 9.000    | ~1.207  |
+| 500    | 19    | 1 ano 7 m    | R$ 10.298            | 9.500    | ~798    |
+- Parado (sem render), R$ 100/mês: 10.000 / 100 = 100 meses = 8 anos e 4 meses.
+  Diferença: 100 - 74 = 26 meses = ~2 anos (2 anos e 2 meses).
+- Atenção: com aporte no fim do mês, R$ 200 levaria 43 meses (3 anos e 7 m; no mês 42 o saldo seria R$ 9.937).
+  Os outros três não mudam. Mantida a convenção do vídeo dos 100 mil.
+- "Dois mil por mês = cinco meses": 10.000 / 2.000 = 5.
+
+ROTEIRO
+
+Você tem razão. Então bora pra uma meta possível: dez mil reais.
+
+No vídeo dos cem mil, muita gente comentou isso. E é verdade: pra quem ganha pouco, guardar mil reais por mês não cabe no salário.
+
+Mas dez mil é diferente. Pra muita gente, isso já é uma reserva de emergência de verdade. Pra quem vive com dois mil por mês, são cinco meses de contas pagas. O imprevisto deixa de virar dívida.
+
+A conta é a mesma: zero vírgula oito por cento ao mês, já sem imposto.
+
+Guardando cem reais por mês, você chega nos dez mil em seis anos e dois meses.
+Com duzentos, três anos e meio.
+Com trezentos, dois anos e meio.
+Com quinhentos, um ano e sete meses.
+
+Agora, a virada. Se esses cem reais ficassem parados na gaveta, você levaria oito anos e quatro meses. Investindo, você chega uns dois anos antes. Uns dois mil e setecentos reais vieram dos juros, e não do seu bolso.
+
+Começar pequeno é o que faz a bola de neve existir.
+
+Quanto você consegue guardar por mês? Comenta que eu te digo quando você chega nos dez mil. E segue pra acompanhar.
