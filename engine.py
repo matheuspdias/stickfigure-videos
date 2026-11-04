@@ -1569,3 +1569,27 @@ def padlock(c, col=GOLD, open_=False):
     rrect(c, -90, -40, 180, 150, 18); fs(c, col, 6)
     circle(c, 0, 20, 18, INK, 0)
     rrect(c, -7, 25, 14, 45, 5); rgb(c, INK); c.fill()
+
+
+# ---------------------------------------------------------------- objetos novos (decimo-terceiro-tres-portas)
+def door(c, num=None, col=NAVY, k=0.0, w=230, h=380):
+    """porta com batente, centrada em (0,0); num vai na placa de cima; k=0 fechada, k=1 aberta (luz lá dentro)"""
+    k = clamp01(k)
+    x0, y0 = -w / 2, -h / 2
+    rrect(c, x0 - 22, y0 - 22, w + 44, h + 30, 10); fs(c, LGRAY, 6)        # batente
+    rrect(c, x0, y0, w, h, 6)
+    rgb(c, LYELLOW if k > 0 else DGRAY); c.fill()                         # vão (luz quando abre)
+    if k > 0:
+        for i in range(3):
+            line(c, x0 + w * (0.35 + 0.2 * i), y0 + 40, x0 + w * (0.35 + 0.2 * i), y0 + 80, 5, GOLD)
+    pw = w * (1 - 0.78 * k)                                               # folha girando na dobradiça da esquerda
+    sk = 26 * k
+    poly(c, [(x0, y0), (x0 + pw, y0 + sk), (x0 + pw, y0 + h - sk), (x0, y0 + h)]); fs(c, col, 6)
+    if k < 0.5:
+        rrect(c, x0 + pw * 0.16, y0 + 40, pw * 0.68, h * 0.34, 8); rgb(c, INK, 0.25); c.set_line_width(4); c.stroke()
+        rrect(c, x0 + pw * 0.16, y0 + h * 0.52, pw * 0.68, h * 0.38, 8); rgb(c, INK, 0.25); c.set_line_width(4); c.stroke()
+        circle(c, x0 + pw * 0.84, 10, 14, GOLD, 5)
+    line(c, x0 - 30, y0 + h + 8, x0 + w + 30, y0 + h + 8, 6)              # soleira
+    if num is not None:
+        circle(c, 0, y0 - 70, 52, GOLD, 6)
+        text(c, str(num), 0, y0 - 66, 64, MARKER, INK)
