@@ -1,11 +1,6 @@
 {
   "slug": "amortizar-ou-investir",
   "publicar_em": "2026-11-05T09:00:00-03:00",
-  "audio_blocos": [
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=b66073a6-8cf3-4002-b4b1-dc8a2f596064.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=32550c8a-da36-43cb-b072-e75bf04ea4f5.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=22bdd26e-5a46-4f4c-b978-8c308bfac22e.wav"
-  ],
   "duracoes": [
     167.236,
     155.089,
@@ -34,6 +29,36 @@
   ],
   "thumbnail": "videos/amortizar-ou-investir/thumb/amortizar_thumb_B.png",
   "categoria": "27",
-  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=deaee80b-c62e-4e76-8ffa-398e00639ffb.wav",
-  "ganchos_duracao": 25.156
+  "ganchos_duracao": 25.156,
+  "video_id": "R7n1EW4-69w",
+  "url": "https://youtu.be/R7n1EW4-69w",
+  "agendado_para": "2026-11-05T09:00:00-03:00",
+  "enviado_em": "2026-11-04T16:24:47-03:00",
+  "avisos": [],
+  "shorts": [
+    {
+      "id": "carla-diego",
+      "video_id": "24WpqtghZZk",
+      "url": "https://youtu.be/24WpqtghZZk",
+      "titulo": "Ela amortizou, ele investiu: 30 anos depois, quase empate #Shorts",
+      "duracao": 108.6,
+      "agendado_para": "2026-11-06T12:00:00-03:00"
+    },
+    {
+      "id": "treze-anos",
+      "video_id": "B7WTMMwoKk4",
+      "url": "https://youtu.be/B7WTMMwoKk4",
+      "titulo": "R$ 300 a mais por mês tiram 13 anos do financiamento #Shorts",
+      "duracao": 93.3,
+      "agendado_para": "2026-11-07T12:00:00-03:00"
+    },
+    {
+      "id": "regra-contrato",
+      "video_id": "2eNKY9heEyM",
+      "url": "https://youtu.be/2eNKY9heEyM",
+      "titulo": "Amortizar ou investir? A regra dos 2 números #Shorts",
+      "duracao": 130.2,
+      "agendado_para": "2026-11-08T12:00:00-03:00"
+    }
+  ]
 }

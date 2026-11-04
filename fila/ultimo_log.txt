@@ -1,60 +1,60 @@
-=== milhao-bolso: 0:43 - 2:35 do vídeo | 114 s no corte | pausas encurtadas: -4.0 s
-Gancho: Dez reais por dia viram um milhão de reais. E só cento e vinte e seis mil saem do seu bolso.
-Trecho começa em: Dez reais por dia dão trezentos reais por mês.
-Título (Shorts): R$ 10 por dia vira R$ 1 milhão (só R$ 126 mil são seus)
-Descrição: R$ 300 por mês a uns 10% ao ano: R$ 1 milhão em 35 anos. Do seu bolso saem R$ 126 mil; quase 90% são juros. #financaspessoais #dinheiro #juroscompostos #fazaconta
+=== treze-anos: 2:06 - 3:31 do vídeo | 89 s no corte | pausas encurtadas: -4.4 s
+Gancho: Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
+Trecho começa em: Agora, o que é amortizar?
+Título (Shorts): R$ 300 a mais por mês tiram 13 anos do financiamento
+Descrição: Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta
 
-=== milhao-inflacao: 2:40 - 4:14 do vídeo | 99 s no corte | pausas encurtadas: -2.0 s
-Gancho: Aquele um milhão que você junta em trinta e cinco anos? Em dinheiro de hoje, ele vale uns duzentos e sessenta mil.
-Trecho começa em: Daqui a trinta e cinco anos, um milhão de reais não vai comprar o que um milhão compra hoje.
-Título (Shorts): Seu R$ 1 milhão em 35 anos vale R$ 260 mil hoje
-Descrição: Com inflação de 4% ao ano, os preços quase quadruplicam em 35 anos. O jeito simples de proteger a meta: corrigir o aporte pela inflação todo ano. #financaspessoais #inflacao #dinheiro #fazaconta
+=== regra-contrato: 5:22 - 7:27 do vídeo | 128 s no corte | pausas encurtadas: -2.3 s
+Gancho: Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.
+Trecho começa em: Amortizar é um investimento.
+Título (Shorts): Amortizar ou investir? A regra dos 2 números
+Descrição: Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta
 
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/dez-reais-um-milhao_corte_milhao-bolso.mp4 5.8 MB 118.1 s
-Cortes selecionados de dez-reais-um-milhao (3 cortes independentes)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/amortizar-ou-investir_corte_treze-anos.mp4 4.5 MB 93.3 s
+Cortes selecionados de amortizar-ou-investir (3 cortes independentes)
 Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
 
-=== ana-bruno: 5:39 - 7:20 do vídeo | 107 s no corte | pausas encurtadas: -0.8 s
-Gancho: A Ana guardou dez reais por dia durante dez anos. O Bruno, durante vinte e cinco. Quem ficou mais rico?
-Trecho começa em: A Ana começa a guardar dez reais por dia aos vinte e cinco anos.
-Título (Shorts): Guardou 10 anos e ganhou de quem guardou 25
-Descrição: Ana guardou R$ 10 por dia dos 25 aos 35 e parou. Bruno guardou dos 35 aos 60. Aos 60, ela tem R$ 284 mil a mais, tendo colocado menos da metade. #financaspessoais #dinheiro #juroscompostos #fazaconta
+=== carla-diego: 3:37 - 5:16 do vídeo | 106 s no corte | pausas encurtadas: -2.9 s
+Gancho: Ela amortizou o apartamento. Ele investiu os mesmos trezentos reais por mês. Trinta anos depois, a diferença foi de só quatorze mil.
+Trecho começa em: O Diego tem o mesmo apartamento, o mesmo financiamento e os mesmos trezentos reais sobrando.
+Título (Shorts): Ela amortizou, ele investiu: 30 anos depois, quase empate
+Descrição: Carla usou R$ 300 por mês pra amortizar o apê; Diego investiu os mesmos R$ 300 a 10% ao ano. Em 30 anos: R$ 605 mil x R$ 619 mil. Quase empate, e tem explicação. #financaspessoais #dinheiro #financiamento #fazaconta
 
-=== milhao-bolso: 0:43 - 2:35 do vídeo | 114 s no corte | pausas encurtadas: -4.0 s
-Gancho: Dez reais por dia viram um milhão de reais. E só cento e vinte e seis mil saem do seu bolso.
-Trecho começa em: Dez reais por dia dão trezentos reais por mês.
-Título (Shorts): R$ 10 por dia vira R$ 1 milhão (só R$ 126 mil são seus)
-Descrição: R$ 300 por mês a uns 10% ao ano: R$ 1 milhão em 35 anos. Do seu bolso saem R$ 126 mil; quase 90% são juros. #financaspessoais #dinheiro #juroscompostos #fazaconta
+=== treze-anos: 2:06 - 3:31 do vídeo | 89 s no corte | pausas encurtadas: -4.4 s
+Gancho: Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
+Trecho começa em: Agora, o que é amortizar?
+Título (Shorts): R$ 300 a mais por mês tiram 13 anos do financiamento
+Descrição: Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta
 
-=== milhao-inflacao: 2:40 - 4:14 do vídeo | 99 s no corte | pausas encurtadas: -2.0 s
-Gancho: Aquele um milhão que você junta em trinta e cinco anos? Em dinheiro de hoje, ele vale uns duzentos e sessenta mil.
-Trecho começa em: Daqui a trinta e cinco anos, um milhão de reais não vai comprar o que um milhão compra hoje.
-Título (Shorts): Seu R$ 1 milhão em 35 anos vale R$ 260 mil hoje
-Descrição: Com inflação de 4% ao ano, os preços quase quadruplicam em 35 anos. O jeito simples de proteger a meta: corrigir o aporte pela inflação todo ano. #financaspessoais #inflacao #dinheiro #fazaconta
+=== regra-contrato: 5:22 - 7:27 do vídeo | 128 s no corte | pausas encurtadas: -2.3 s
+Gancho: Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.
+Trecho começa em: Amortizar é um investimento.
+Título (Shorts): Amortizar ou investir? A regra dos 2 números
+Descrição: Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta
 
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/dez-reais-um-milhao_corte_milhao-inflacao.mp4 4.9 MB 101.2 s
-Cortes selecionados de dez-reais-um-milhao (3 cortes independentes)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/amortizar-ou-investir_corte_regra-contrato.mp4 6.3 MB 130.2 s
+Cortes selecionados de amortizar-ou-investir (3 cortes independentes)
 Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
 
-=== ana-bruno: 5:39 - 7:20 do vídeo | 107 s no corte | pausas encurtadas: -0.8 s
-Gancho: A Ana guardou dez reais por dia durante dez anos. O Bruno, durante vinte e cinco. Quem ficou mais rico?
-Trecho começa em: A Ana começa a guardar dez reais por dia aos vinte e cinco anos.
-Título (Shorts): Guardou 10 anos e ganhou de quem guardou 25
-Descrição: Ana guardou R$ 10 por dia dos 25 aos 35 e parou. Bruno guardou dos 35 aos 60. Aos 60, ela tem R$ 284 mil a mais, tendo colocado menos da metade. #financaspessoais #dinheiro #juroscompostos #fazaconta
+=== carla-diego: 3:37 - 5:16 do vídeo | 106 s no corte | pausas encurtadas: -2.9 s
+Gancho: Ela amortizou o apartamento. Ele investiu os mesmos trezentos reais por mês. Trinta anos depois, a diferença foi de só quatorze mil.
+Trecho começa em: O Diego tem o mesmo apartamento, o mesmo financiamento e os mesmos trezentos reais sobrando.
+Título (Shorts): Ela amortizou, ele investiu: 30 anos depois, quase empate
+Descrição: Carla usou R$ 300 por mês pra amortizar o apê; Diego investiu os mesmos R$ 300 a 10% ao ano. Em 30 anos: R$ 605 mil x R$ 619 mil. Quase empate, e tem explicação. #financaspessoais #dinheiro #financiamento #fazaconta
 
-=== milhao-bolso: 0:43 - 2:35 do vídeo | 114 s no corte | pausas encurtadas: -4.0 s
-Gancho: Dez reais por dia viram um milhão de reais. E só cento e vinte e seis mil saem do seu bolso.
-Trecho começa em: Dez reais por dia dão trezentos reais por mês.
-Título (Shorts): R$ 10 por dia vira R$ 1 milhão (só R$ 126 mil são seus)
-Descrição: R$ 300 por mês a uns 10% ao ano: R$ 1 milhão em 35 anos. Do seu bolso saem R$ 126 mil; quase 90% são juros. #financaspessoais #dinheiro #juroscompostos #fazaconta
+=== treze-anos: 2:06 - 3:31 do vídeo | 89 s no corte | pausas encurtadas: -4.4 s
+Gancho: Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
+Trecho começa em: Agora, o que é amortizar?
+Título (Shorts): R$ 300 a mais por mês tiram 13 anos do financiamento
+Descrição: Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta
 
-=== milhao-inflacao: 2:40 - 4:14 do vídeo | 99 s no corte | pausas encurtadas: -2.0 s
-Gancho: Aquele um milhão que você junta em trinta e cinco anos? Em dinheiro de hoje, ele vale uns duzentos e sessenta mil.
-Trecho começa em: Daqui a trinta e cinco anos, um milhão de reais não vai comprar o que um milhão compra hoje.
-Título (Shorts): Seu R$ 1 milhão em 35 anos vale R$ 260 mil hoje
-Descrição: Com inflação de 4% ao ano, os preços quase quadruplicam em 35 anos. O jeito simples de proteger a meta: corrigir o aporte pela inflação todo ano. #financaspessoais #inflacao #dinheiro #fazaconta
+=== regra-contrato: 5:22 - 7:27 do vídeo | 128 s no corte | pausas encurtadas: -2.3 s
+Gancho: Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.
+Trecho começa em: Amortizar é um investimento.
+Título (Shorts): Amortizar ou investir? A regra dos 2 números
+Descrição: Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta
 
-[publicar] cortes prontos em 2.2 min
-[publicar] Short ana-bruno (108s): https://youtu.be/OFOWe3jjra0  (publica em 03/11 12:00)
-[publicar] Short milhao-bolso (118s): https://youtu.be/E6Z5iE60eGc  (publica em 04/11 12:00)
-[publicar] Short milhao-inflacao (101s): https://youtu.be/M0EO_Io32aE  (publica em 05/11 12:00)
+[publicar] cortes prontos em 2.8 min
+[publicar] Short carla-diego (109s): https://youtu.be/24WpqtghZZk  (publica em 06/11 12:00)
+[publicar] Short treze-anos (93s): https://youtu.be/B7WTMMwoKk4  (publica em 07/11 12:00)
+[publicar] Short regra-contrato (130s): https://youtu.be/2eNKY9heEyM  (publica em 08/11 12:00)
