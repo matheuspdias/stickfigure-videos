@@ -1,0 +1,5 @@
+# Bloco de ganchos dos cortes (HeyGen, Calm Carlos, eleven_v4) - 25,156 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=deaee80b-c62e-4e76-8ffa-398e00639ffb.wav
+carla-diego    | 0.00-8.98   | Ela amortizou o apartamento. Ele investiu os mesmos trezentos reais por mês. Trinta anos depois, a diferença foi de só quatorze mil.
+treze-anos     | 10.66-18.50 | Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
+regra-contrato | 19.66-25.06 | Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.

@@ -1,0 +1,44 @@
+TÍTULO (recomendado)
+Amortizar o financiamento ou investir? A conta completa (com TR)
+
+Alternativas
+- R$ 300 a mais no financiamento: amortizar ou investir? (Carla x Diego)
+- Amortizar ou investir? Quem decide é um número do seu contrato
+
+DESCRIÇÃO
+Sobrou R$ 300 no mês e você tem financiamento de imóvel: amortizar ou investir? Fizemos a conta completa com a Carla e o Diego, mesmo apartamento de R$ 300 mil pelo Minha Casa Minha Vida, R$ 240 mil financiados em 30 anos. A Carla paga a parcela + R$ 300 e quita em 16 anos e 11 meses: 13 anos antes, com R$ 186 mil a menos de juros. O Diego paga a parcela normal e investe os R$ 300 a 10% ao ano. Gastando o mesmo valor todo mês, em 30 anos a Carla chega a R$ 605 mil investidos e o Diego a R$ 619 mil: quase empate. O motivo: amortizar rende exatamente o juro do seu contrato, contando a TR (aqui, ~9,8% ao ano), sem risco e sem imposto. Com a poupança, a Carla ganha; com o financiamento comum dos bancos (~11,5% + TR), amortizar ganha de quase qualquer renda fixa. E antes de tudo: reserva de emergência.
+
+Premissas: contas feitas em 04/11/2026. Imóvel de R$ 300 mil, entrada de 20%, R$ 240 mil financiados em 360 meses na tabela SAC, sem seguros e sem taxa de administração. Minha Casa Minha Vida faixa 3: 7,66% ao ano para cotista do FGTS (regras em vigor desde abril de 2026), mais TR. TR de 0,165% ao mês (~2% ao ano; em 2026 ficou entre 0,121% e 0,174% ao mês, BCB), mantida constante: custo total de ~9,81% ao ano. Saldo corrigido pela TR todo mês. Carla e Diego gastam o mesmo valor por mês (parcela do Diego + R$ 300): a Carla põe tudo no financiamento, reduzindo o prazo, e depois de quitar investe esse valor; o Diego paga a parcela e investe R$ 300. Investimento: 10% ao ano já sem imposto de renda, constante por 30 anos; referência de hoje: Selic de 13,75% (Copom de 16/09/2026; reunião de 04/11/2026 em andamento quando as contas foram feitas), CDI ~13,65% e CDB de 100% do CDI com IR de 15% (acima de 720 dias, tabela regressiva vigente) rendendo ~11,6% ao ano líquido. Poupança: 0,5% ao mês + TR = ~8,3% ao ano. Financiamento comum (fora do MCMV): ~11,5% ao ano + TR = ~13,7% (média dos grandes bancos, outubro de 2026). Exemplo de R$ 10 mil amortizados no 1º mês: economia de ~R$ 37 mil reduzindo o prazo e ~R$ 17 mil reduzindo a parcela. Juros, TR e regras mudam ao longo dos anos; valores arredondados. Confira as condições do seu contrato com o banco. Conteúdo educativo, não é recomendação de investimento.
+
+Capítulos
+0:00 Amortizar ou investir?
+0:49 O cenário
+1:06 Os juros e a TR
+1:34 O custo de verdade: 9,8% ao ano
+2:06 O que é amortizar
+2:22 Prazo ou parcela?
+2:47 O plano da Carla: 13 anos antes
+3:37 O plano do Diego
+4:12 O dia em que a Carla quita
+4:40 A segunda metade da corrida
+4:58 Ano 30: quem ganhou?
+5:23 Por que deu empate
+5:58 A regra dos 2 números
+6:17 Testando: poupança e juros de hoje
+6:51 Financiamento comum: o caso que muda tudo
+7:27 O que a conta não mostra
+8:34 3 atitudes práticas
+9:09 Recapitulando
+
+Assista também: Alugar ou comprar? A conta que quase ninguém faz, e Demitido hoje: quanto tempo você aguentaria?
+
+Narração gerada com voz de IA.
+
+#Financiamento #FinancasPessoais #FazAConta
+
+TELA FINAL (últimos 5 s, de 9:36 a 9:41): vídeo sugerido na área da esquerda (acima de "assista também") e inscrever-se à direita (acima de "inscreva-se").
+
+TAGS
+amortizar ou investir, amortização financiamento, amortizar financiamento imobiliário, minha casa minha vida, tabela sac, taxa referencial, tr financiamento, reduzir prazo ou parcela, fgts amortização, financiamento imobiliário 2026, selic 2026, renda fixa, educação financeira, finanças pessoais, faz a conta
+
+THUMBNAIL escolhida: thumb/amortizar_thumb_B.png (+ R$ 300 = 13 anos a menos?, com O Consultor). Alternativa: amortizar_thumb_A.png (Carla x Diego, amortizar ou investir?).

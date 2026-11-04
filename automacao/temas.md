@@ -13,6 +13,7 @@ O Matheus pode mexer à vontade: mover ideias, apagar, marcar como proibido.
 - Demitido hoje: quanto tempo você aguentaria? A conta da reserva de emergência (`reserva-de-emergencia`), out/2026 (versão longa do TikTok `reserva-emergencia`)
 - CLT de R$ 5 mil ou PJ de R$ 7 mil? A conta completa de 2026 (`clt-ou-pj-conta-completa`), out/2026 (versão longa do TikTok `clt-ou-pj`)
 - R$ 10 por dia vira R$ 1 milhão? A conta completa, com inflação e a história da Ana e do Bruno (`dez-reais-um-milhao`), nov/2026 (versão longa do TikTok `dez-reais-por-dia`)
+- Amortizar o financiamento ou investir? A conta completa, com TR e a corrida da Carla e do Diego (`amortizar-ou-investir`), nov/2026 (versão longa do TikTok `amortizacao-mcmv`, continuação do "Alugar ou comprar?")
 
 ## Já feitos só no TikTok (podem virar vídeo longo, com conta mais completa)
 - Reserva de emergência: se você fosse demitido hoje, quantos dias pagaria as contas? (`reserva-emergencia`)

@@ -1,0 +1,39 @@
+{
+  "slug": "amortizar-ou-investir",
+  "publicar_em": "2026-11-05T09:00:00-03:00",
+  "audio_blocos": [
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=b66073a6-8cf3-4002-b4b1-dc8a2f596064.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=32550c8a-da36-43cb-b072-e75bf04ea4f5.wav",
+    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=22bdd26e-5a46-4f4c-b978-8c308bfac22e.wav"
+  ],
+  "duracoes": [
+    167.236,
+    155.089,
+    253.44
+  ],
+  "pausa_blocos": 0.4,
+  "cauda": 5,
+  "titulo": "Amortizar o financiamento ou investir? A conta completa (com TR)",
+  "descricao": "Sobrou R$ 300 no mês e você tem financiamento de imóvel: amortizar ou investir? Fizemos a conta completa com a Carla e o Diego, mesmo apartamento de R$ 300 mil pelo Minha Casa Minha Vida, R$ 240 mil financiados em 30 anos. A Carla paga a parcela + R$ 300 e quita em 16 anos e 11 meses: 13 anos antes, com R$ 186 mil a menos de juros. O Diego paga a parcela normal e investe os R$ 300 a 10% ao ano. Gastando o mesmo valor todo mês, em 30 anos a Carla chega a R$ 605 mil investidos e o Diego a R$ 619 mil: quase empate. O motivo: amortizar rende exatamente o juro do seu contrato, contando a TR (aqui, ~9,8% ao ano), sem risco e sem imposto. Com a poupança, a Carla ganha; com o financiamento comum dos bancos (~11,5% + TR), amortizar ganha de quase qualquer renda fixa. E antes de tudo: reserva de emergência.\n\nPremissas: contas feitas em 04/11/2026. Imóvel de R$ 300 mil, entrada de 20%, R$ 240 mil financiados em 360 meses na tabela SAC, sem seguros e sem taxa de administração. Minha Casa Minha Vida faixa 3: 7,66% ao ano para cotista do FGTS (regras em vigor desde abril de 2026), mais TR. TR de 0,165% ao mês (~2% ao ano; em 2026 ficou entre 0,121% e 0,174% ao mês, BCB), mantida constante: custo total de ~9,81% ao ano. Saldo corrigido pela TR todo mês. Carla e Diego gastam o mesmo valor por mês (parcela do Diego + R$ 300): a Carla põe tudo no financiamento, reduzindo o prazo, e depois de quitar investe esse valor; o Diego paga a parcela e investe R$ 300. Investimento: 10% ao ano já sem imposto de renda, constante por 30 anos; referência de hoje: Selic de 13,75% (Copom de 16/09/2026; reunião de 04/11/2026 em andamento quando as contas foram feitas), CDI ~13,65% e CDB de 100% do CDI com IR de 15% (acima de 720 dias, tabela regressiva vigente) rendendo ~11,6% ao ano líquido. Poupança: 0,5% ao mês + TR = ~8,3% ao ano. Financiamento comum (fora do MCMV): ~11,5% ao ano + TR = ~13,7% (média dos grandes bancos, outubro de 2026). Exemplo de R$ 10 mil amortizados no 1º mês: economia de ~R$ 37 mil reduzindo o prazo e ~R$ 17 mil reduzindo a parcela. Juros, TR e regras mudam ao longo dos anos; valores arredondados. Confira as condições do seu contrato com o banco. Conteúdo educativo, não é recomendação de investimento.\n\nCapítulos\n0:00 Amortizar ou investir?\n0:49 O cenário\n1:06 Os juros e a TR\n1:34 O custo de verdade: 9,8% ao ano\n2:06 O que é amortizar\n2:22 Prazo ou parcela?\n2:47 O plano da Carla: 13 anos antes\n3:37 O plano do Diego\n4:12 O dia em que a Carla quita\n4:40 A segunda metade da corrida\n4:58 Ano 30: quem ganhou?\n5:23 Por que deu empate\n5:58 A regra dos 2 números\n6:17 Testando: poupança e juros de hoje\n6:51 Financiamento comum: o caso que muda tudo\n7:27 O que a conta não mostra\n8:34 3 atitudes práticas\n9:09 Recapitulando\n\nAssista também: Alugar ou comprar? A conta que quase ninguém faz, e Demitido hoje: quanto tempo você aguentaria?\n\nNarração gerada com voz de IA.\n\n#Financiamento #FinancasPessoais #FazAConta",
+  "tags": [
+    "amortizar ou investir",
+    "amortização financiamento",
+    "amortizar financiamento imobiliário",
+    "minha casa minha vida",
+    "tabela sac",
+    "taxa referencial",
+    "tr financiamento",
+    "reduzir prazo ou parcela",
+    "fgts amortização",
+    "financiamento imobiliário 2026",
+    "selic 2026",
+    "renda fixa",
+    "educação financeira",
+    "finanças pessoais",
+    "faz a conta"
+  ],
+  "thumbnail": "videos/amortizar-ou-investir/thumb/amortizar_thumb_B.png",
+  "categoria": "27",
+  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=deaee80b-c62e-4e76-8ffa-398e00639ffb.wav",
+  "ganchos_duracao": 25.156
+}

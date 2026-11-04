@@ -1,0 +1,20 @@
+{"serie": "AMORTIZAR OU INVESTIR?", "cortes": [
+ {"id": "carla-diego", "inicio": 217.1, "fim": 316.4, "titulo": "AMORTIZAR x INVESTIR:\\NQUEM GANHOU?",
+  "gancho": "Ela amortizou o apartamento. Ele investiu os mesmos trezentos reais por mês. Trinta anos depois, a diferença foi de só quatorze mil.",
+  "gancho_audio": [0.0, 8.98], "gancho_tela": "AMORTIZOU OU\\NINVESTIU?", "gancho_t": 316.0,
+  "capa": ["AMORTIZOU x INVESTIU", "30 ANOS DEPOIS..."],
+  "titulo_post": "Ela amortizou, ele investiu: 30 anos depois, quase empate",
+  "post": "Carla usou R$ 300 por mês pra amortizar o apê; Diego investiu os mesmos R$ 300 a 10% ao ano. Em 30 anos: R$ 605 mil x R$ 619 mil. Quase empate, e tem explicação. #financaspessoais #dinheiro #financiamento #fazaconta"},
+ {"id": "treze-anos", "inicio": 126.4, "fim": 211.4, "titulo": "R$ 300 A MAIS\\NNO FINANCIAMENTO",
+  "gancho": "Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.",
+  "gancho_audio": [10.66, 18.5], "gancho_tela": "R$ 300 A MAIS\\N= 13 ANOS A MENOS", "gancho_t": 211.0,
+  "capa": ["R$ 300 A MAIS POR MÊS", "13 ANOS A MENOS DE DÍVIDA"],
+  "titulo_post": "R$ 300 a mais por mês tiram 13 anos do financiamento",
+  "post": "Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta"},
+ {"id": "regra-contrato", "inicio": 322.9, "fim": 447.4, "titulo": "AMORTIZAR OU\\NINVESTIR?",
+  "gancho": "Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.",
+  "gancho_audio": [19.66, 25.06], "gancho_tela": "AMORTIZAR\\NOU INVESTIR?", "gancho_t": 376.5,
+  "capa": ["AMORTIZAR OU INVESTIR?", "A REGRA DOS 2 NÚMEROS"],
+  "titulo_post": "Amortizar ou investir? A regra dos 2 números",
+  "post": "Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta"}
+]}

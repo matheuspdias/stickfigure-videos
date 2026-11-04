@@ -1,0 +1,149 @@
+# Narração "Amortizar o financiamento ou investir? A conta completa" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 167.236s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=b66073a6-8cf3-4002-b4b1-dc8a2f596064.wav
+# bloco2 155.089s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=32550c8a-da36-43cb-b072-e75bf04ea4f5.wav
+# bloco3 253.440s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=22bdd26e-5a46-4f4c-b978-8c308bfac22e.wav
+# pausa_blocos 0.4
+# Junta: blocos com 0,4 s de silêncio + 5 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.000 | bloco2 167.636 | bloco3 323.125 | fim da fala 576.565 | total 581.565
+# Formato: bloco | início local (s) | frase [palavra@t local]
+1|0.00|Sobrou um dinheirinho no fim do mês.
+1|2.08|Trezentos reais.
+1|3.60|E você tem um financiamento de imóvel.
+1|6.00|O que rende mais: colocar esses trezentos reais pra amortizar a dívida, ou investir? [reais@8.56]
+1|11.76|Essa é uma das perguntas que mais aparecem aqui nos comentários, principalmente depois do vídeo "alugar ou comprar". [aparecem@13.84] [vídeo@16.96]
+1|19.24|E a resposta surpreende.
+1|21.36|Porque quem decide não é a sua opinião, nem a do gerente do banco. [opinião@23.36]
+1|25.80|É um único número, que está escrito no seu contrato. [no@27.92]
+1|29.44|Hoje a gente vai fazer essa conta completa. [completa@31.44]
+1|32.40|Com duas pessoas, a Carla e o Diego, que têm o mesmo apartamento, o mesmo financiamento e os mesmos trezentos reais sobrando. [diego@34.56] [mesmo@37.24] [sobrando@40.36]
+1|41.32|A Carla amortiza.
+1|43.08|O Diego investe.
+1|44.84|E daqui a trinta anos, a gente vê quem terminou com mais dinheiro. [vê@46.64]
+1|49.04|Primeiro, o cenário.
+1|50.68|Um apartamento de trezentos mil reais pelo Minha Casa Minha Vida, na faixa três. [minha@53.12]
+1|55.96|Vinte por cento de entrada, sessenta mil reais. [reais@58.32]
+1|59.28|Os outros duzentos e quarenta mil são financiados em trinta anos, na tabela SAC, que é a mais comum no Brasil. [financiados@61.28] [que@64.36]
+1|66.12|A taxa da faixa três hoje é de sete vírgula seis seis por cento ao ano, pra quem tem FGTS. [de@68.00] [ao@70.16]
+1|72.72|Mas tem um detalhe que quase ninguém coloca na conta: além dos juros, o saldo da dívida é corrigido todo mês pela TR, a taxa referencial. [coloca@74.64] [saldo@77.36] [pela@79.68]
+1|82.56|Em dois mil e vinte e seis, a TR ficou entre zero vírgula dezesseis e zero vírgula dezessete por cento ao mês. [a@83.96] [e@86.72] [mês@89.00]
+1|89.80|Parece pouco.
+1|91.04|Mas no ano, isso dá uns dois por cento a mais. [por@92.80]
+1|94.16|Juntando os dois, o custo de verdade desse financiamento fica perto de nove vírgula oito por cento ao ano. [desse@96.48] [oito@99.28]
+1|100.96|Guarda esse número.
+1|102.16|Ele é a chave do vídeo inteiro.
+1|104.32|Com essa taxa, a primeira parcela fica em uns dois mil cento e cinquenta reais. [em@106.60] [reais@108.48]
+1|109.40|E somando trinta anos de parcelas, você devolve ao banco uns seiscentos e cinquenta e sete mil reais. [devolve@111.92] [e@114.40]
+1|116.28|Pegou duzentos e quarenta mil emprestados.
+1|119.24|Devolve quase três vezes isso.
+1|121.76|Só de juros e TR, são quatrocentos e dezessete mil reais. [e@124.24]
+1|126.56|Agora, o que é amortizar?
+1|128.96|É pagar um valor extra que vai direto pro saldo da dívida. [direto@130.64]
+1|132.84|Não paga juros, não paga parcela futura: abate o que você deve. [abate@135.84]
+1|137.60|E sobre esse dinheiro abatido, você nunca mais paga juros nem TR. [mais@140.00]
+1|142.40|Quando você amortiza, o banco pergunta: quer reduzir o prazo ou a parcela? [reduzir@145.20]
+1|147.60|Reduzir o prazo quase sempre economiza mais.
+1|150.72|Por exemplo: dez mil reais amortizados logo no primeiro mês. [no@153.84]
+1|155.12|Reduzindo o prazo, você economiza uns trinta e sete mil reais. [e@157.65]
+1|159.28|Reduzindo a parcela, uns dezessete mil.
+1|162.28|Menos da metade.
+1|163.68|Então, neste vídeo, a Carla sempre reduz o prazo. [o@166.56]
+2|0.00|Vamos ao plano da Carla.
+2|1.92|Ela financiou duzentos e quarenta mil reais em trinta anos, e todo mês sobram trezentos reais. [em@4.72] [trezentos@7.44]
+2|8.92|A regra dela é simples: todo mês, ela paga o valor da parcela normal do contrato, mais trezentos reais. [ela@11.36] [do@13.28]
+2|16.00|Como a dívida dela encolhe mais rápido, os juros encolhem também. [os@18.24]
+2|20.00|E tudo que sobra vai pro saldo.
+2|22.40|O resultado assusta.
+2|24.24|A Carla quita o apartamento em dezesseis anos e onze meses. [anos@26.80]
+2|28.48|Treze anos antes do prazo.
+2|30.56|E no total, ela devolve ao banco uns quatrocentos e setenta e um mil reais, em vez de seiscentos e cinquenta e sete mil. [uns@32.40] [reais@34.56] [e@36.80]
+2|37.84|São cento e oitenta e seis mil reais a menos de juros. [reais@39.68]
+2|41.52|Com só trezentos reais por mês.
+2|44.00|Parece óbvio que amortizar é o melhor negócio, né? [negócio@45.84]
+2|47.20|Calma.
+2|48.08|Agora vem o Diego.
+2|49.68|O Diego tem o mesmo apartamento, o mesmo financiamento e os mesmos trezentos reais sobrando. [mesmo@51.92] [sobrando@54.92]
+2|55.80|Só que ele paga a parcela normal e investe os trezentos reais todo mês, numa renda fixa rendendo dez por cento ao ano, já descontado o imposto de renda. [e@57.68] [numa@60.24] [ao@62.56] [renda@64.64]
+2|65.32|É a mesma premissa pé no chão dos outros vídeos do canal. [dos@67.12]
+2|68.88|Hoje a Selic está em treze vírgula setenta e cinco por cento, mas juro alto assim não dura trinta anos. [setenta@71.16] [alto@73.36]
+2|75.80|A regra é justa: os dois gastam exatamente o mesmo valor todo mês. [exatamente@78.00]
+2|80.96|Quem termina com mais dinheiro no fim dos trinta anos ganha. [dos@82.80]
+2|84.64|Então vamos ver o dia em que a Carla quita o apartamento. [a@86.04]
+2|88.00|Dezesseis anos e onze meses depois do começo. [começo@90.68]
+2|91.44|A Carla está livre da dívida, mas não tem nada investido. [não@93.60]
+2|95.28|E o Diego?
+2|96.32|Nesse mesmo dia, ele tem uns cento e cinquenta e um mil reais investidos. [e@98.40]
+2|100.84|E ainda deve ao banco uns cento e quarenta e seis mil. [e@102.48]
+2|104.00|Repara: se ele quisesse, ele sacava o investimento e quitava o apartamento no mesmo dia que a Carla. [investimento@106.64] [dia@109.28]
+2|110.35|E ainda sobravam uns cinco mil reais.
+2|112.96|Agora a segunda metade da corrida.
+2|115.40|A Carla não tem mais parcela.
+2|117.56|Então ela pega o valor que continuaria pagando, uns dois mil e cem reais por mês, e começa a investir tudo, na mesma renda fixa do Diego. [pagando@119.52] [por@121.60] [na@124.16]
+2|126.36|O Diego continua pagando a parcela e investindo os trezentos. [investindo@128.84]
+2|130.56|Ano trinta.
+2|131.68|Os dois com o apartamento quitado.
+2|133.88|A Carla tem uns seiscentos e cinco mil reais investidos. [mil@135.92]
+2|137.56|O Diego tem uns seiscentos e dezenove mil. [mil@139.84]
+2|140.44|Diferença: quatorze mil reais, em trinta anos de corrida. [de@144.04]
+2|144.93|Pouco mais de dois por cento.
+2|146.96|Na prática, é um empate.
+2|148.96|E isso não é coincidência.
+2|150.96|Tem uma explicação, e ela é a parte mais importante deste vídeo. [parte@152.80]
+3|0.00|Amortizar é um investimento.
+3|2.40|E ele rende exatamente o juro do seu financiamento. [seu@4.72]
+3|6.00|Cada real que você abate da dívida deixa de pagar nove vírgula oito por cento ao ano. [deixa@8.24] [cento@10.52]
+3|11.56|Então amortizar é como aplicar esse real a nove vírgula oito por cento ao ano. [a@14.64] [ano@16.64]
+3|17.20|Garantido, sem risco e sem imposto de renda. [renda@20.00]
+3|20.72|O Diego investiu a dez por cento, um pouquinho acima. [um@22.96]
+3|24.24|Por isso ele ganhou por pouquinho.
+3|26.48|Se o investimento dele rendesse exatamente nove vírgula oito por cento líquido, os dois terminariam com o mesmo dinheiro, centavo por centavo. [vírgula@29.68] [terminariam@32.08] [centavo@34.96]
+3|35.84|Então a regra é esta: compare dois números. [números@38.64]
+3|39.44|De um lado, o custo do seu financiamento, contando juros e TR. [financiamento@41.12]
+3|44.00|Do outro, quanto o seu investimento rende, já descontado o imposto. [já@46.64]
+3|48.40|Se a dívida custa mais, amortize.
+3|51.04|Se o investimento rende mais, invista.
+3|54.00|Vamos testar a regra.
+3|55.44|Se o Diego deixasse os trezentos reais na poupança, rendendo uns oito vírgula três por cento ao ano, ele perderia. [na@57.60] [por@60.24]
+3|62.56|A Carla terminaria com uns oitenta e cinco mil reais a mais. [cinco@64.84]
+3|66.80|Agora, se o Diego conseguisse os juros de hoje por trinta anos seguidos, um CDB de cem por cento do CDI rendendo uns onze e meio por cento já sem imposto, ele ganharia por uns cento e sessenta e quatro mil. [de@69.12] [cdb@71.68] [rendendo@73.92] [já@76.00] [cento@78.44]
+3|80.36|Mas lembra: juro de hoje não dura trinta anos. [trinta@82.80]
+3|83.80|E quando a Selic cai, a TR cai junto, e o custo do financiamento também. [cai@85.84] [também@88.04]
+3|88.84|E agora o caso que muda tudo.
+3|91.40|Se o seu financiamento não é do Minha Casa Minha Vida, é o financiamento comum dos bancos, a taxa hoje fica perto de onze e meio por cento ao ano, mais TR. [minha@93.20] [comum@95.36] [perto@97.92] [ao@99.68]
+3|101.57|O custo de verdade passa de treze e meio por cento ao ano. [e@103.84]
+3|105.52|Aí amortizar ganha de quase qualquer investimento de renda fixa. [de@108.88]
+3|110.12|Fazendo a mesma corrida, com o Diego investindo a dez por cento, a Carla termina com uns trezentos e seis mil reais a mais. [investindo@112.32] [termina@114.56] [reais@116.64]
+3|117.92|Mesmo apartamento, mesma pessoa, mesmos trezentos reais.
+3|122.36|Só mudou a taxa do contrato.
+3|124.48|Mas tem coisas que a conta não mostra. [mostra@126.08]
+3|126.72|E elas importam.
+3|128.08|Primeira: a reserva de emergência vem antes.
+3|131.28|Dinheiro amortizado não volta.
+3|133.60|Se você perde o emprego, o banco não devolve o que você abateu, e a parcela continua vencendo. [não@135.60] [a@137.56]
+3|139.68|O dinheiro do Diego está ali, disponível.
+3|142.56|Por isso, antes de amortizar qualquer real, monte a sua reserva. [monte@145.44]
+3|146.84|Tem um vídeo inteiro aqui no canal sobre isso. [sobre@148.48]
+3|149.52|Segunda: disciplina.
+3|151.48|A conta do Diego só funciona se ele investir os trezentos reais todo santo mês, por trinta anos, sem gastar. [ele@153.56] [mês@156.24]
+3|159.04|A da Carla funciona sozinha: o dinheiro foi pra dívida e pronto. [foi@161.48]
+3|163.08|Terceira: a maior parte do seguro obrigatório do financiamento, o de morte e invalidez, é calculada sobre o saldo devedor. [do@166.08] [é@169.16]
+3|171.64|Quem amortiza paga menos seguro também.
+3|174.44|É mais um pontinho a favor da Carla, que eu deixei fora da conta. [carla@175.96]
+3|178.28|E quarta: o FGTS pode ser usado pra amortizar, a cada dois anos, dentro das regras do sistema financeiro da habitação. [pra@181.24] [das@184.04]
+3|186.68|É um dinheiro que rende pouco parado e pode virar anos a menos de dívida. [e@188.76] [dívida@190.68]
+3|191.64|Então, na prática, três atitudes.
+3|194.52|Um: pegue o seu contrato e descubra a taxa de verdade. [a@196.88]
+3|198.44|Veja a taxa de juros efetiva e some a TR, que vem à parte. [some@200.68]
+3|203.00|Dois: monte a sua reserva de emergência antes de pensar em amortizar. [antes@205.88]
+3|207.96|Três: compare as duas taxas.
+3|210.60|Se a dívida custa mais do que o seu investimento rende, já sem imposto, amortize, reduzindo o prazo. [o@212.08] [amortize@214.92]
+3|217.08|Se custar menos, investir pode valer.
+3|219.72|E se der empate, escolha o que te deixa dormir tranquilo. [te@221.48]
+3|223.08|Muita gente prefere a casa quitada mais cedo, e tudo bem. [cedo@225.16]
+3|226.76|Recapitulando: trezentos reais por mês tiram treze anos do financiamento da Carla. [anos@230.28]
+3|232.04|O Diego, investindo os mesmos trezentos, praticamente empata. [empata@235.52]
+3|236.20|Porque amortizar rende exatamente o juro do seu contrato. [seu@238.96]
+3|239.92|Quem decide é esse número.
+3|242.16|E você?
+3|243.00|Amortiza ou investe?
+3|244.84|Me conta aqui nos comentários qual é a taxa do seu financiamento. [a@246.50]
+3|248.31|E se ainda não viu, assiste o vídeo "alugar ou comprar", que é onde essa história começou. [vídeo@250.04] [essa@252.36]
