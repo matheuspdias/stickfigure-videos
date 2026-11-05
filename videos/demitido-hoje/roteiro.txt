@@ -1,0 +1,32 @@
+DEMITIDO HOJE: QUANTO CAI NA CONTA (TikTok nativo, 1080x1920, ~80 s, sem versão longa)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco de 89,97 s, acelerado 1,12x na montagem (~80,3 s).
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=347295b0-edad-42cc-89fd-1457115bd246.wav
+
+Premissas (pesquisadas em 05/11/2026) e contas: ver contas.py.
+Exemplo simplificado: R$ 3.000, admitido em 01/10/2024, demitido sem justa causa em 15/11/2026, 1º pedido de seguro.
+Rescisão 13.100 (saldo 1.500 + aviso 36 dias 3.600 + férias vencidas e 3/12 com 1/3 5.000 + 13º 12/12 3.000)
+FGTS 5.760 (8% x 3.000 x 24) + multa 40% 2.304 = total 21.164. Seguro: 5 x 2.166,65.
+
+Se você fosse demitido hoje, sem justa causa, quanto cairia na sua conta? A maioria não faz ideia.
+
+Vamos fazer a conta. Salário de três mil reais, dois anos de empresa, demitido no meio de novembro. Exemplo simplificado.
+
+Saldo de salário: quinze dias trabalhados. Mil e quinhentos.
+
+Aviso prévio indenizado: trinta dias, mais três por ano de casa. Trinta e seis dias: três mil e seiscentos.
+
+Férias: um período vencido e três meses proporcionais, com um terço. Cinco mil.
+
+Décimo terceiro: com o aviso, o contrato vai até dezembro. Então vem inteiro: três mil.
+
+Rescisão: treze mil e cem reais. E a empresa tem dez dias pra pagar.
+
+Agora, o FGTS, que vem à parte. Oito por cento do salário todo mês: em dois anos, cinco mil, setecentos e sessenta. E a empresa ainda paga multa de quarenta por cento: mais dois mil, trezentos e quatro.
+
+Total: vinte e um mil, cento e sessenta e quatro reais. Desse valor, sai o INSS e, dependendo do salário, imposto de renda. Mas só no saldo e no décimo terceiro.
+
+E ainda tem o seguro-desemprego. Na primeira vez, com dois anos de trabalho, são cinco parcelas de uns dois mil, cento e sessenta e seis reais.
+
+Atenção: quem optou pelo saque-aniversário não saca o saldo do FGTS na demissão. Só a multa.
+
+Salva pra não ser enganado na hora, e manda pra quem precisa. Segue pra mais contas.
