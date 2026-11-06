@@ -1,0 +1,30 @@
+LEGENDA DO POST (TikTok)
+Vai tirar férias? Cuidado com o mês seguinte 👀
+As férias caem até 2 dias antes de sair: salário dos 30 dias + 1/3, com INSS e IR.
+Líquido (30 dias): mínimo R$ 1.991 | R$ 2 mil → R$ 2.451 | R$ 3 mil → R$ 3.631 | R$ 5 mil → R$ 5.300 (já tem IR)
+Mas é o salário do mês de férias ADIANTADO. Ganha R$ 3 mil e volta no dia 16? O próximo salário vem ~R$ 1.376.
+Salva pra quando tirar as suas e manda pra quem vai sair de férias. Segue pra mais contas 👆
+#ferias #clt #financaspessoais #dinheiro #fazaconta
+
+COMENTÁRIO PRA FIXAR
+Quando são as suas férias? 👇
+
+TÍTULO (YouTube Shorts / Reels)
+Vai tirar férias? Cuidado com o mês seguinte
+
+PREMISSAS (pra responder comentários)
+CLT, 30 dias de férias, salário fixo, sem dependentes. Pagamento até 2 dias antes do início (CLT art. 145).
+Férias = salário + 1/3 (CF art. 7º, XVII). INSS 2026 progressivo (7,5% a 14%, teto R$ 8.475,55), calculado sobre o valor cheio
+(se as férias pegam dois meses, a folha divide por competência e os centavos mudam).
+IR das férias calculado em separado do salário, base = férias + 1/3 - INSS; redução da Lei 15.270/2025 zera até R$ 5 mil
+de rendimento e vai diminuindo até R$ 7.350. Salário de R$ 5 mil: férias brutas R$ 6.666,67, INSS R$ 734,85, IR ~R$ 631, líquido ~R$ 5.300.
+Exemplo da virada (R$ 3 mil): férias de 16 a 15 do mês seguinte; o pagamento seguinte traz só 15 dias trabalhados
+= R$ 1.500 bruto, ~R$ 1.376 líquido (normal: R$ 2.751,40). Tirou o mês inteiro (1 a 30)? O holerite daquele mês vem quase zerado.
+Abono pecuniário (CLT art. 143): vender até 1/3 (10 de 30 dias), pedir até 15 dias antes do fim do período aquisitivo; abono sem INSS e sem IR.
+Com R$ 3 mil: 20 dias de férias + abono = ~R$ 3.784 (contra R$ 3.631) e volta 10 dias antes.
+1ª parcela do 13º nas férias (Lei 4.749/65, art. 2º, §2º): metade do salário, sem desconto, se pedir em janeiro
+(férias de fevereiro a novembro); aí não vem a 1ª parcela em novembro.
+Contas em videos/ferias-mes-seguinte/contas.py.
+
+CAPA: out/capas/ferias-mes-seguinte_capa.png (gerada por videos/ferias-mes-seguinte/capa.py)
+Lembretes: ativar o selo de conteúdo gerado por IA (voz) no TikTok; postar manualmente; subir o mesmo arquivo como Shorts e Reels.
