@@ -151,3 +151,5 @@ Formato POV (vídeo só para TikTok): faixa "POV: ..." fixa no topo, o boneco pr
 Novos (planta-mcmv): `crane(col)` (grua de obra, base em y=0, lança para a esquerda) e `gavel` (martelo de juiz, Justiça).
 Novos (decimo-terceiro-tres-portas): `door(num, col, k)` (porta com placa numerada em cima, centrada em (0,0); `k` de 0 a 1 abre a porta com luz dentro).
 Dica: na Permanent Marker o ponto de milhar some depois do "2" ("R$ 2.100" vira "2100"): use `"R$ 2 .100"` (espaço fino).
+Novos (pov-role-barato): `beer_mug(col)` (copo com espuma, sem marca), `fries_basket` (porção de batata), `bed(col, w)` (cama de lado, base em y=0;
+desenhe o boneco deitado por cima), `blanket(col, w)` (coberta, desenhe depois do boneco) e `moon(col)` (lua).

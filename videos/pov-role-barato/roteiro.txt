@@ -1,0 +1,37 @@
+POV: É SÁBADO E VOCÊ SAIU PRA "SÓ UM ROLÊ BARATO" (TikTok nativo, 1080x1920, 78,6 s de fala + 1,6 s de cartão final)
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco, 78,60 s, pausas com <break time="0.5s"/> antes dos valores.
+Áudio: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=5b0977ef-f89f-4728-8c54-825e024b4a53.mp3
+O áudio foi completado com 1,6 s de silêncio no fim (apad) para o "SEGUE PRA MAIS" ficar na tela.
+
+Formato (igual ao pov-salario-dia-12): faixa POV fixa no topo durante a parte de cena (0 a 51,0 s).
+O bonequinho principal é VOCÊ (camiseta laranja). O Consultor só entra na virada (51,04 s).
+Relógio no canto (18:50 -> 03:00) e contador "gasto da noite" subindo a cada cena. Sem nomes de bar, app ou bebida
+("corrida" no lugar do nome do app de transporte).
+
+Contas (valores médios de cidade grande, redondos):
+- 19h corrida de ida 30 -> 30 | 20h primeira rodada 60 -> 90 | 22h porção 90 -> 180
+- 23h rodada da galera 120 -> 300 | 1h lanche 50 -> 350 | 2h corrida de volta com dinâmica 80 -> 430
+- Conferência: 30 + 60 + 90 + 120 + 50 + 80 = 430
+- 4 sábados: 430 x 4 = 1.720 por mês | x 12 meses = 20.640 por ano
+
+Hoje é só uma saidinha. Coisa de cinquenta reais.
+
+Sete da noite. A corrida pra ir... trinta reais.
+
+Oito da noite. A primeira rodada. "Só uma." Sessenta reais. Já foram noventa.
+
+Dez da noite. A porção pra dividir... que ninguém dividiu. Noventa reais. Cento e oitenta.
+
+Onze da noite. Chegou mais gente. E quem chega pede mais uma rodada. Cento e vinte. Trezentos reais.
+
+Uma da manhã. Bateu a fome. O lanche de madrugada... cinquenta. Trezentos e cinquenta.
+
+Duas da manhã. A corrida de volta, com tarifa dinâmica... oitenta reais.
+
+Três da manhã. Você deita, abre o app do banco... e o rolê de cinquenta reais custou quatrocentos e trinta.
+
+Aí chega o Consultor. Sem bronca. Não é pra parar de sair. É pra saber quanto custa. Quatro sábados assim no mês: mil setecentos e vinte reais. Quase um aluguel. No ano, vinte mil, seiscentos e quarenta.
+
+A dica cabe numa frase: antes de sair, defina quanto vai gastar. E leve isso como limite.
+
+Quanto foi o seu último rolê barato? Comenta e marca aquele amigo da rodada. Segue pra mais POV.

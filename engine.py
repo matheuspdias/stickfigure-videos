@@ -1593,3 +1593,50 @@ def door(c, num=None, col=NAVY, k=0.0, w=230, h=380):
     if num is not None:
         circle(c, 0, y0 - 70, 52, GOLD, 6)
         text(c, str(num), 0, y0 - 66, 64, MARKER, INK)
+
+
+# ---------------------------------------------------------------- novos (pov-role-barato)
+def beer_mug(c, col=YELLOW):
+    """copo de chope com espuma (genérico, sem marca), centrado em (0,0)"""
+    rrect(c, -55, -70, 110, 160, 14); fs(c, col, 6)                         # corpo
+    c.new_sub_path(); c.arc(70, 10, 34, -1.6, 1.6); rgb(c, INK); c.set_line_width(12); c.stroke()  # alça
+    for x in (-25, 0, 25):
+        line(c, x, -40, x, 70, 4, (1, 0.9, 0.55))                           # reflexos
+    for x, y, r in ((-38, -76, 26), (-8, -88, 30), (26, -80, 28), (46, -68, 20)):
+        circle(c, x, y, r, WHITE, 5)                                         # espuma
+    rrect(c, -55, -78, 110, 22, 4); rgb(c, WHITE); c.fill()
+
+
+def fries_basket(c):
+    """porção (batata frita numa cestinha), centrada em (0,0)"""
+    for i, (x, r) in enumerate(((-70, -0.3), (-40, -0.12), (-12, 0.05), (16, -0.2), (42, 0.15), (70, 0.32),
+                                (-55, 0.1), (28, -0.05))):
+        c.save(); c.translate(x, -20 - 18 * (i % 3)); c.rotate(r)
+        rrect(c, -11, -70, 22, 110, 5); fs(c, LYELLOW, 4); c.restore()
+    poly(c, [(-120, -10), (120, -10), (95, 80), (-95, 80)]); fs(c, RED, 6)   # cesta
+    for x in (-60, 0, 60):
+        line(c, x, -6, x * 0.8, 76, 4, WHITE)
+
+
+def bed(c, col=BLUE, w=620):
+    """cama vista de lado: base no chão em y=0, travesseiro à esquerda. Desenhe o boneco deitado por cima"""
+    rrect(c, -w / 2, -230, 34, 230, 10); fs(c, BROWN, 6)                    # cabeceira
+    rrect(c, -w / 2 + 20, -110, w - 20, 70, 14); fs(c, WHITE, 6)            # colchão
+    rrect(c, -w / 2 + 40, -150, 130, 50, 22); fs(c, WHITE, 5)               # travesseiro
+    rrect(c, -w / 2 + 20, -46, w - 20, 26, 6); fs(c, BROWN, 6)              # estrado
+    for x in (-w / 2 + 40, w / 2 - 40):
+        rrect(c, x - 12, -22, 24, 22, 4); fs(c, BROWN, 4)
+
+
+def blanket(c, col=BLUE, w=420):
+    """coberta por cima do boneco deitado (desenhe depois dele), base em y=0"""
+    c.move_to(-w / 2, -40); c.curve_to(-w / 4, -150, w / 4, -150, w / 2, -110)
+    c.line_to(w / 2, -40); c.close_path(); fs(c, col, 6)
+
+
+def moon(c, col=LYELLOW):
+    """lua minguante, centrada em (0,0)"""
+    c.new_sub_path(); c.arc(0, 0, 46, 0, 6.283)
+    c.new_sub_path(); c.arc_negative(22, -14, 40, 6.283, 0)
+    c.set_fill_rule(1); rgb(c, col); c.fill_preserve(); rgb(c, INK); c.set_line_width(5); c.stroke()
+    c.set_fill_rule(0)
