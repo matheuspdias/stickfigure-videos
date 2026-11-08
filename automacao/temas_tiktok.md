@@ -12,7 +12,8 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - ep. 2 financiar carro (`financiar-carro`)
 - ep. 3 empréstimo consignado (`consignado`)
 - ep. 4 consórcio (`consorcio`)
-- próximos (em ordem, se o Matheus não mudar): cartão de crédito (rotativo, parcelamento da fatura, anuidade), abrir MEI, empréstimo pessoal, financiar moto, cheque especial, previdência privada, comprar carro usado
+- ep. 5 cartão de crédito: rotativo, parcelamento da fatura, teto de 100%, anuidade (`cartao-de-credito`)
+- próximos (em ordem, se o Matheus não mudar): abrir MEI, empréstimo pessoal, financiar moto, cheque especial, previdência privada, comprar carro usado
 
 ## Já feitos no TikTok (não repetir o mesmo ângulo)
 - Amortização no Minha Casa Minha Vida (`amortizacao-mcmv`)
@@ -33,12 +34,12 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - POV: o salário caiu dia 5 e acabou dia 12 (`pov-salario-dia-12`)
 - Reserva de emergência: quantos dias você aguentaria (`reserva-emergencia`)
 - Com quanto você está entre os 10% mais ricos (`top-10-renda`)
-- Série: planta, carro, consignado, consórcio (acima)
+- Assinaturas esquecidas: quanto somam em um ano (`assinaturas-esquecidas`)
+- Série: planta, carro, consignado, consórcio, cartão de crédito (acima)
 
 ## Ideias soltas (a automação pode usar)
 - Pix parcelado / "compre agora, pague depois": quanto custa de verdade
-- Rotativo do cartão: R$ 1.000 esquecidos por um ano
-- Assinaturas esquecidas: quanto somam em um ano
+- Rotativo do cartão: R$ 1.000 esquecidos por um ano (atenção: o ep. 5 da série já fez R$ 1.000 no rotativo + parcelamento; só use com outro ângulo)
 - Quanto custa de verdade ter um carro por mês (além da parcela)
 - Aumento de salário que não aparece: a faixa do IR e do INSS
 - Desconto à vista x parcelar sem juros com o dinheiro rendendo
