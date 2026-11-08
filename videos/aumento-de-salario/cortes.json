@@ -1,0 +1,20 @@
+{"serie": "AUMENTO DE SALÁRIO", "cortes": [
+ {"id": "lucas-475", "inicio": 68.8, "fim": 179.4, "titulo": "R$ 1.000 DE AUMENTO,\\NR$ 475 NO BOLSO",
+  "gancho": "O Lucas ganhou mil reais de aumento. No contracheque, vieram só quatrocentos e setenta e cinco. Pra onde foi o resto?",
+  "gancho_audio": [0.0, 7.54], "gancho_tela": "+ R$ 1.000 DE AUMENTO\\NVIERAM R$ 475", "gancho_t": 125.0,
+  "capa": ["+ R$ 1.000 DE AUMENTO", "VIERAM SÓ R$ 475"],
+  "titulo_post": "Ganhou R$ 1.000 de aumento e só vieram R$ 475",
+  "post": "De R$ 5 mil para R$ 6 mil na carteira em 2026: R$ 140 a mais de INSS e R$ 385 de IR que antes era zero. De cada R$ 100 a mais entre R$ 5 mil e R$ 7.350, ficam uns R$ 49. #financaspessoais #dinheiro #impostoderenda #fazaconta"},
+ {"id": "dez-mil-cinco", "inicio": 179.4, "fim": 281.7, "titulo": "QUEM FICA COM MAIS\\NDO AUMENTO?",
+  "gancho": "Um aumento de mil reais rende mais no bolso de quem ganha dez mil do que de quem ganha cinco mil. Olha a conta.",
+  "gancho_audio": [9.02, 15.54], "gancho_tela": "R$ 10 MIL > R$ 5 MIL\\NNO AUMENTO", "gancho_t": 260.5,
+  "capa": ["AUMENTO DE R$ 1.000", "QUEM FICA COM MAIS?"],
+  "titulo_post": "R$ 1.000 de aumento: quem ganha 10 mil leva mais que 5 mil",
+  "post": "Com as tabelas de 2026, um aumento de R$ 1.000 deixa R$ 867 de 4 para 5 mil, R$ 475 de 5 para 6 mil e R$ 725 de 10 para 11 mil. A faixa de R$ 5 mil a R$ 7.350 é onde o aumento rende menos. #financaspessoais #dinheiro #salario #fazaconta"},
+ {"id": "mito-faixa", "inicio": 281.7, "fim": 355.4, "titulo": "AUMENTO FAZ\\NGANHAR MENOS?",
+  "gancho": "Aumento de salário pode fazer você ganhar menos, por causa do imposto? Muita gente acredita. A conta mostra outra coisa.",
+  "gancho_audio": [16.86, 24.74], "gancho_tela": "AUMENTO FAZ\\NGANHAR MENOS?", "gancho_t": 341.0,
+  "capa": ["AUMENTO FAZ", "GANHAR MENOS?"],
+  "titulo_post": "Aumento pode fazer você ganhar menos? A conta real por real",
+  "post": "Com R$ 5.000 o IR é zero; com R$ 5.001, R$ 0,35. A regra nova de 2026 não tem degrau: testando real por real de R$ 1.600 a R$ 20 mil, o líquido nunca cai quando o bruto sobe. #financaspessoais #dinheiro #impostoderenda #fazaconta"}
+]}

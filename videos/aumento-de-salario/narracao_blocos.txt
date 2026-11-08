@@ -1,0 +1,129 @@
+# Narração "Ganhei R$ 1.000 de aumento e só vieram R$ 475" — voz Calm Carlos (HeyGen, ElevenLabs v4), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 179.200s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=066a3327-b71f-4584-bab9-1bd0b1ff0d8e.mp3
+# bloco2 175.595s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=9fc140fd-0586-40d5-9964-4184aab84c1e.mp3
+# bloco3 187.429s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=131917f1-67b8-453f-a499-b747083e696a.mp3
+# pausa_blocos 0.4
+# Junta: blocos com 0,4 s de silêncio + 5 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.000 | bloco2 179.600 | bloco3 355.595 | fim da fala 543.024 | total 548.024
+# Formato: bloco | início local (s) | frase [palavra@t local]
+1|0.00|O Lucas trabalha de carteira assinada e ganha cinco mil reais por mês. [ganha@2.24]
+1|4.64|Na semana passada, veio a notícia que todo mundo quer ouvir: promoção. [todo@6.96]
+1|9.84|O salário foi pra seis mil reais.
+1|12.64|Mil reais a mais, todo mês.
+1|15.28|O Lucas já tinha planos pra esses mil reais. [mil@17.04]
+1|17.92|Trocar de carro, com uma parcela de uns oitocentos reais, e ainda sobrar um pouco pra guardar. [uns@19.92] [pouco@22.40]
+1|23.76|Aí chegou o primeiro contracheque com o salário novo. [salário@26.00]
+1|27.12|O líquido do mês passado era quatro mil quatrocentos e noventa e oito reais. [mil@29.28]
+1|32.04|O novo: quatro mil novecentos e setenta e três. [e@35.04]
+1|35.96|A diferença, de verdade, foi de quatrocentos e setenta e quatro reais e noventa centavos. [e@39.04] [centavos@41.28]
+1|42.48|Dos mil reais de aumento, mais da metade sumiu antes de chegar na conta. [metade@44.72]
+1|47.60|Não foi erro do RH.
+1|49.20|É a conta certinha de dois mil e vinte e seis. [e@51.04]
+1|52.16|E ela esconde uma faixa de salário em que o aumento rende menos do que em qualquer outra. [em@54.16] [que@55.84]
+1|57.44|Hoje a gente faz essa conta completa: pra onde foi o dinheiro do Lucas, quem mais cai nessa faixa, se um aumento pode fazer você ganhar menos, e o que dá pra fazer com isso. [pra@60.00] [quem@62.16] [aumento@64.27] [o@66.88]
+1|68.96|Desde janeiro de dois mil e vinte e seis, vale a nova regra do imposto de renda. [e@70.36] [imposto@72.24]
+1|73.49|Quem ganha até cinco mil reais por mês não paga imposto nenhum. [mês@75.52]
+1|78.00|E entre cinco mil e sete mil trezentos e cinquenta reais, existe um desconto no imposto que vai diminuindo, até sumir. [trezentos@79.92] [no@82.84]
+1|85.88|Com cinco mil reais, o Lucas pagava só o INSS: quinhentos e um reais. [só@88.08]
+1|91.52|Imposto de renda, zero.
+1|93.52|Por isso o líquido dava quatro mil quatrocentos e noventa e oito. [quatrocentos@95.60]
+1|97.48|Com seis mil, o INSS sobe pra seiscentos e quarenta e um reais. [seiscentos@100.08]
+1|102.28|São cento e quarenta reais a mais, porque o INSS leva quatorze por cento de cada real nessa faixa. [porque@104.48] [de@107.12]
+1|109.04|E aí aparece o imposto de renda, que antes era zero: trezentos e oitenta e cinco reais. [que@111.28] [e@113.84]
+1|115.24|Somando, cento e quarenta de INSS, mais trezentos e oitenta e cinco de imposto: quinhentos e vinte e cinco reais. [trezentos@118.48] [quinhentos@120.91]
+1|123.04|É isso que sumiu dos mil reais do Lucas. [do@124.80]
+1|125.84|Mas por que tanto imposto de uma vez? [vez@127.60]
+1|128.40|Porque, nessa faixa, acontecem duas coisas ao mesmo tempo. [mesmo@131.36]
+1|132.35|A primeira: a partir de uns cinco mil e duzentos, cada real a mais cai na alíquota mais alta da tabela, vinte e sete e meio por cento. [mil@134.24] [cai@136.56] [vinte@138.96]
+1|140.92|A segunda: aquele desconto que zerava o imposto vai encolhendo. [imposto@143.36]
+1|145.24|A cada real a mais de salário, ele diminui uns treze centavos. [ele@147.28]
+1|149.56|Juntando o INSS, a alíquota de vinte e sete e meio e o desconto que encolhe, de cada cem reais a mais de salário entre cinco mil e sete mil trezentos e cinquenta, só uns quarenta e nove ficam com você. [e@152.48] [que@153.96] [mais@156.16] [sete@158.44] [quarenta@160.80]
+1|163.08|Mais da metade vai embora.
+1|164.83|Pra comparar: se o mesmo aumento de mil reais fosse de quatro mil pra cinco mil, sobrariam oitocentos e sessenta e sete reais no bolso. [mil@166.99] [cinco@169.23] [sete@172.19]
+1|173.87|Mesmo aumento, quase o dobro de dinheiro.
+1|176.91|Tudo depende de onde o seu salário está. [está@178.71]
+2|0.00|Então, quanto fica de um aumento de mil reais em cada salário? [mil@2.16]
+2|4.16|Vamos olhar a escada inteira, sempre com carteira assinada, sem dependentes, e com as tabelas deste ano. [carteira@6.44] [tabelas@8.96]
+2|10.36|Quem ganha dois mil e vai pra três mil fica com novecentos e sete reais. [três@12.00] [reais@14.40]
+2|15.36|De três pra quatro mil, oitocentos e oitenta. [oitenta@17.60]
+2|18.48|De quatro pra cinco mil, oitocentos e sessenta e sete. [sessenta@20.92]
+2|22.24|Até aqui, quase todo o aumento chega no bolso. [no@24.64]
+2|25.52|Aí vem o tombo.
+2|27.04|De cinco pra seis mil, quatrocentos e setenta e cinco reais. [setenta@29.52]
+2|31.32|De seis pra sete mil, quatrocentos e noventa. [noventa@33.68]
+2|34.52|Nessa faixa, menos da metade do aumento fica com você. [fica@37.16]
+2|38.24|Depois de sete mil trezentos e cinquenta, o desconto acaba, e a conta melhora. [o@40.60]
+2|43.16|De sete pra oito mil, ficam quinhentos e setenta e sete. [e@45.44]
+2|46.80|De oito pra nove mil, seiscentos e setenta e sete. [setenta@49.16]
+2|50.36|E aqui vem a parte mais estranha.
+2|52.76|Quem ganha dez mil e recebe mil de aumento fica com setecentos e vinte e cinco reais. [de@54.96] [e@57.36]
+2|58.64|Isso porque, acima do teto do INSS, de oito mil quatrocentos e setenta e cinco reais, o INSS para de subir. [de@61.76] [cinco@63.80]
+2|66.84|Sobra só o imposto, de vinte e sete e meio por cento. [sete@68.88]
+2|70.37|Ou seja: o mesmo aumento de mil reais rende mais no bolso de quem ganha dez mil do que no bolso de quem ganha cinco mil. [reais@72.56] [ganha@74.60] [de@76.40]
+2|77.92|Duzentos e cinquenta reais a mais, todo mês. [mês@80.72]
+2|81.48|Não é que o imposto dessa faixa seja o maior. [seja@83.04]
+2|84.03|Quem ganha dez mil paga muito mais imposto no total. [imposto@86.08]
+2|87.44|É que, entre cinco mil e sete mil trezentos e cinquenta, o imposto cresce mais rápido do que em qualquer outro lugar da tabela. [mil@89.60] [mais@92.16] [lugar@94.12]
+2|95.32|É o preço de sair da isenção: o desconto que protegia o salário de cinco mil vai sendo devolvido aos poucos. [o@97.40] [cinco@99.44]
+2|102.28|Agora, uma dúvida que aparece muito: será que um aumento pode fazer você ganhar menos? [que@105.08] [menos@107.12]
+2|107.84|Tem gente que recusa promoção com medo de mudar de faixa e perder dinheiro. [de@110.16]
+2|112.44|A resposta é não.
+2|114.24|Nem com a regra nova.
+2|115.76|Vamos testar bem no limite.
+2|117.72|Com cinco mil reais, o imposto é zero. [zero@119.68]
+2|120.36|Com cinco mil e um, o imposto é de trinta e cinco centavos. [é@122.08]
+2|124.12|Um real de aumento, trinta e cinco centavos de imposto. [centavos@126.08]
+2|127.48|O líquido continua subindo.
+2|129.49|Isso acontece porque o desconto da regra nova não acaba de uma vez. [nova@131.60]
+2|133.63|Ele vai diminuindo devagar, até sete mil trezentos e cinquenta. [trezentos@136.40]
+2|137.96|Não tem degrau.
+2|139.01|E a tabela do imposto também não funciona como muita gente pensa: a alíquota maior só vale pra parte do salário que passa do limite da faixa, nunca pro salário inteiro. [funciona@140.80] [maior@143.60] [que@145.88] [pro@148.08]
+2|149.33|Eu fiz a conta real por real, de mil e seiscentos até vinte mil reais. [de@151.36] [reais@153.60]
+2|154.43|Em nenhum ponto o salário líquido diminui quando o bruto aumenta. [quando@157.00]
+2|158.37|Pode render pouco, como na faixa do Lucas. [lucas@160.24]
+2|161.09|Mas sempre sobe.
+2|162.27|Então, se o medo de mudar de faixa é o que está te segurando, pode ficar tranquilo. [faixa@164.19] [pode@166.15]
+2|167.63|Aumento sempre deixa mais dinheiro no bolso.
+2|170.71|A pergunta certa não é se vale a pena. [a@172.57]
+2|173.43|É quanto chega de verdade.
+3|0.00|Voltando ao Lucas.
+3|1.52|Se no mês o aumento rendeu quatrocentos e setenta e cinco reais, como fica o ano inteiro? [e@3.76] [o@5.92]
+3|6.96|Porque um aumento na carteira também mexe no décimo terceiro, nas férias e no FGTS. [no@9.20] [fgts@11.44]
+3|12.64|No papel, o aumento do Lucas vale treze mil trezentos e trinta e três reais por ano. [treze@14.80] [reais@16.96]
+3|18.12|São doze salários, mais o décimo terceiro, mais o terço de férias. [mais@21.04]
+3|22.64|Na prática, somando os onze meses de salário, o mês de férias com o terço e o décimo terceiro, todos já com INSS e imposto, chegam seis mil quatrocentos e trinta e nove reais a mais no ano. [salário@24.96] [terço@26.88] [com@29.20] [quatrocentos@32.16] [mais@34.24]
+3|35.24|E a empresa deposita mais mil e sessenta e sete reais no FGTS dele. [sessenta@36.96]
+3|39.68|No total, uns sete mil e quinhentos reais por ano. [reais@41.76]
+3|42.85|Pouco mais da metade do que o aumento parece no papel. [aumento@44.44]
+3|46.08|E pra empresa, esse aumento custa mais do que mil reais por mês. [do@48.20]
+3|50.24|Além do FGTS, as empresas que não são do Simples pagam pelo menos vinte por cento de INSS patronal sobre o salário. [são@52.64] [por@54.88] [salário@57.32]
+3|58.03|Ou seja: a empresa gasta pelo menos mil duzentos e oitenta reais, e o Lucas recebe quatrocentos e setenta e cinco. [mil@60.56] [lucas@62.72]
+3|65.48|Um detalhe: na declaração do imposto de renda do ano seguinte, a conta é refeita com regras parecidas, que também têm um desconto até oitenta e oito mil e duzentos reais por ano. [renda@67.68] [refeita@69.48] [um@72.08] [e@74.00]
+3|75.72|Pode sobrar um pouco a pagar, ou a receber de volta. [a@77.56]
+3|78.84|Mas o tamanho da conta é esse.
+3|80.92|Então, o que dá pra fazer com essa informação? [essa@82.48]
+3|83.68|Três coisas.
+3|84.96|Primeira: faça os planos pelo líquido, nunca pelo bruto. [pelo@87.97]
+3|88.84|O Lucas ia assumir uma parcela de carro de oitocentos reais, contando com mil de aumento. [carro@90.64] [de@93.16]
+3|94.04|Com quatrocentos e setenta e cinco, essa parcela come o aumento inteiro e ainda tira trezentos e vinte e cinco reais do que ele já tinha. [parcela@96.16] [tira@98.44] [do@100.36]
+3|101.64|Antes de comprometer qualquer valor, faça a conta, ou espere o primeiro contracheque. [conta@104.32]
+3|106.84|Segunda: numa negociação, ou na hora de comparar duas propostas, compare sempre o salário líquido. [comparar@109.36] [líquido@112.32]
+3|113.08|Uma proposta de seis mil parece vinte por cento melhor que uma de cinco mil. [por@115.36] [mil@117.12]
+3|117.72|No bolso, é pouco mais de dez por cento. [por@119.76]
+3|120.68|E olhe o pacote inteiro.
+3|122.40|Benefícios como vale-refeição e plano de saúde, em geral, não entram como salário, e não pagam INSS nem imposto. [em@125.28] [não@127.52]
+3|130.04|Numa faixa como a do Lucas, um benefício melhor pode valer mais do que parece. [benefício@131.68] [parece@133.88]
+3|134.76|Terceira: não deixe o aumento sumir no dia a dia. [dia@137.36]
+3|138.24|Quatrocentos e setenta e cinco reais por mês não mudam a vida de uma vez. [mês@140.24] [vez@141.84]
+3|142.52|Mas guardados todo mês, em um ano, viram quase cinco mil e setecentos reais, sem contar rendimento. [viram@144.99] [sem@147.80]
+3|149.20|É uma reserva de emergência começando.
+3|151.55|Ou a entrada do carro, com uma parcela bem menor. [parcela@153.04]
+3|154.76|Resumindo.
+3|155.48|Em dois mil e vinte e seis, quem ganha entre cinco mil e sete mil trezentos e cinquenta reais por mês está na faixa em que o aumento rende menos. [quem@157.00] [mil@159.24] [está@161.80] [rende@163.40]
+3|164.36|De cada cem reais a mais, uns quarenta e nove chegam no bolso. [quarenta@166.36]
+3|168.36|Não é motivo pra recusar aumento, porque o líquido sempre sobe. [o@170.40]
+3|172.16|Mas é motivo pra fazer a conta antes de gastar. [antes@174.12]
+3|175.40|E você, já levou esse susto no contracheque? [contracheque@177.40]
+3|178.36|Conta aqui nos comentários quanto do seu último aumento chegou de verdade. [último@180.24]
+3|182.44|Se esse vídeo te ajudou, deixa o like e se inscreve no Faz a Conta. [like@184.28] [conta@185.80]
+3|186.52|Até a próxima.

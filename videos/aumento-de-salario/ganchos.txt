@@ -1,0 +1,5 @@
+# Bloco de ganchos dos cortes (HeyGen, Calm Carlos, eleven_v4) - 24,921 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=3a080f42-6c37-4130-9318-fb12066f7729.mp3
+lucas-475      | 0.00-7.54   | O Lucas ganhou mil reais de aumento. No contracheque, vieram só quatrocentos e setenta e cinco. Pra onde foi o resto?
+dez-mil-cinco  | 9.02-15.54  | Um aumento de mil reais rende mais no bolso de quem ganha dez mil do que de quem ganha cinco mil. Olha a conta.
+mito-faixa     | 16.86-24.74 | Aumento de salário pode fazer você ganhar menos, por causa do imposto? Muita gente acredita. A conta mostra outra coisa.

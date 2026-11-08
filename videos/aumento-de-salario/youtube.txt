@@ -1,0 +1,41 @@
+TÍTULO (recomendado)
+Ganhei R$ 1.000 de aumento e só vieram R$ 475: a faixa escondida do IR 2026
+
+Alternativas
+- Aumento de R$ 1.000, R$ 475 no bolso: a conta do contracheque em 2026
+- Quem ganha de R$ 5 mil a R$ 7.350 está na pior faixa pra ganhar aumento
+
+DESCRIÇÃO
+O Lucas trabalha de carteira assinada, ganhava R$ 5.000 e foi promovido para R$ 6.000. Mil reais a mais por mês... e no contracheque vieram só R$ 474,90. Não foi erro do RH: com as tabelas de 2026, o INSS subiu R$ 140 e apareceu um imposto de renda de R$ 385, que antes era zero. Fizemos a conta completa: por que a faixa de R$ 5.000 a R$ 7.350 é onde o aumento rende menos (de cada R$ 100 a mais, ficam uns R$ 49), quanto fica de um aumento de R$ 1.000 em cada salário (de R$ 907 para quem ganha R$ 2 mil a R$ 475 para quem ganha R$ 5 mil; e quem ganha R$ 10 mil leva R$ 725, mais do que quem ganha R$ 5 mil), se um aumento pode fazer você ganhar menos (não: o líquido sempre sobe), como fica o ano inteiro com 13º, férias e FGTS, e 3 atitudes práticas.
+
+Premissas: contas feitas em 08/11/2026, empregado CLT, sem dependentes, só salário (sem outros descontos). INSS 2026 (Portaria Interministerial MPS/MF nº 13/2026): 7,5% até R$ 1.621,00; 9% até R$ 2.902,84; 12% até R$ 4.354,27; 14% até R$ 8.475,55 (teto). IR 2026 (Lei 15.270/2025 e orientação da Receita Federal): tabela mensal com isenção até R$ 2.428,80 e alíquota máxima de 27,5% (parcela a deduzir R$ 908,73), desconto simplificado de R$ 607,20 quando maior que o INSS; redução que zera o imposto até R$ 5.000 e, de R$ 5.000,01 a R$ 7.350, redução de R$ 978,62 - 0,133145 x salário bruto. R$ 5.000: INSS R$ 501,51, IR R$ 0, líquido R$ 4.498,49. R$ 6.000: INSS R$ 641,51, IR R$ 385,10, líquido R$ 4.973,39. Ano inteiro: 11 meses + férias com 1/3 + 13º (mesma regra de redução), FGTS de 8% sobre 13,33 salários. Custo para a empresa: mínimo de 20% de INSS patronal (empresas fora do Simples) + 8% de FGTS, sem RAT e terceiros. Na declaração anual (isenção até R$ 60 mil e redução parcial até R$ 88,2 mil por ano) o imposto é recalculado e pode haver diferença a pagar ou a restituir. Valores arredondados. Conteúdo educativo, não é recomendação de investimento.
+
+Capítulos
+0:00 Ganhei R$ 1.000 de aumento
+0:35 Só vieram R$ 474,90
+1:08 A regra nova do IR em 2026
+1:25 Pra onde foi o dinheiro
+2:05 Por que tanto imposto?
+2:29 De cada R$ 100, ficam R$ 49
+2:59 Aumento de R$ 1.000 em cada salário
+3:49 Quem ganha R$ 10 mil leva mais
+4:21 O imposto que cresce mais rápido
+4:41 Aumento pode fazer ganhar menos?
+5:55 O aumento no ano inteiro
+6:41 Quanto custa pra empresa
+7:01 E a declaração do IR?
+7:16 3 atitudes práticas
+8:30 Resumindo
+
+Assista também: CLT de R$ 5 mil ou PJ de R$ 7 mil? A conta completa de 2026.
+
+Narração gerada com voz de IA.
+
+#ImpostoDeRenda #FinancasPessoais #FazAConta
+
+TELA FINAL (últimos 5 s, de 9:03 a 9:08): vídeo sugerido na área da esquerda (acima de "assista também") e inscrever-se à direita (acima de "inscreva-se").
+
+TAGS
+aumento de salário, imposto de renda 2026, isenção ir 5 mil, nova regra imposto de renda, lei 15270, tabela inss 2026, salário líquido, contracheque, desconto do imposto de renda, faixa de 5 mil a 7350, promoção salário, clt, educação financeira, finanças pessoais, faz a conta
+
+THUMBNAIL escolhida: thumb/aumento_thumb_B.png (CADÊ MEU AUMENTO?, etiqueta R$ 1.000 riscado > R$ 475, O Consultor desesperado). Alternativa: aumento_thumb_A.png (+ R$ 1.000? VIERAM R$ 475, com contracheque).
