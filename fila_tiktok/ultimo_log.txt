@@ -1,0 +1,12 @@
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 61.65s (esperado 61.65s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas/bloco1.mp3: 61.649s, início 0.000s, diferença -102 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas_narracao.wav 61.649s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.59
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas_base.mp4 6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas_tiktok.mp4 8.1 MB 61.6 s
+[publicar] pronto: 61.6s, 8.1 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-assinaturas-esquecidas
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-assinaturas-esquecidas
