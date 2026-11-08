@@ -1,0 +1,35 @@
+O QUE NINGUÉM TE CONTA ANTES DE USAR O CARTÃO DE CRÉDITO (TikTok nativo, 1080x1920, 105,1 s, estilo ilustrado)
+Série "O que ninguém te conta antes de...", episódio 5 (o ep. 4, consórcio, prometeu "MEI ou cartão de crédito"; cartão era o próximo da lista).
+Produzido no modo automático em 08/11/2026 para o horário das 18h. Primeiro episódio da série no estilo ilustrado.
+Narração: Calm Carlos (HeyGen, ElevenLabs v4), 1 bloco. No texto enviado ao HeyGen, IOF foi soletrado "I O F".
+Na tela, entre 3,4 e 5,6 s: selo "Série: O que ninguém te conta — EP. 5".
+
+Premissas (pesquisadas em 08/11/2026; contas em contas.py):
+- Banco Central, set/2026 (divulgado em 29/10/2026): rotativo 451,7% a.a. (~15,3% a.m.); parcelado da fatura 193,0% a.a. (~9,4% a.m.).
+- Lei 14.690/2023, em vigor desde jan/2024: juros e encargos do rotativo e do parcelamento da fatura não passam de 100% da dívida original.
+- O rotativo só pode ser usado até o vencimento da fatura seguinte; depois o banco oferece parcelamento (Res. CMN 4.549/2017).
+- Exemplo: fatura de R$ 1.200, paga R$ 200, R$ 1.000 no rotativo -> R$ 1.150 em 1 mês (15% redondo, fora o IOF) -> 12x de ~R$ 164 = ~R$ 1.963 (juros ~R$ 963, abaixo do teto).
+
+Cartão de crédito parece de graça. Antes de usar, você precisa saber disso.
+
+Primeiro: o pagamento mínimo. A fatura veio de mil e duzentos. Você paga duzentos. Os mil que sobraram não somem. Viram rotativo.
+
+E o rotativo é um dos juros mais caros do país. Segundo o Banco Central, a média passa de quatrocentos e cinquenta por cento ao ano. Dá uns quinze por cento por mês.
+
+Vamos fazer a conta. Mil reais no rotativo. Em um mês, viram mil cento e cinquenta. Fora o IOF.
+
+Segundo: o rotativo só pode durar até a próxima fatura. Depois disso, o banco tem que te oferecer um parcelamento. Parece alívio. Mas o parcelamento da fatura também tem juros: perto de nove por cento ao mês.
+
+Aqueles mil cento e cinquenta, em doze vezes, viram doze parcelas de uns cento e sessenta e quatro reais. No total, quase dois mil. Quase o dobro do que você devia.
+
+Terceiro: por lei, desde dois mil e vinte e quatro, os juros e encargos do rotativo e do parcelamento não podem passar de cem por cento da dívida original. Mil reais de dívida, no máximo mais mil de juros. Isso é o teto. Não é desconto.
+
+Quarto: a anuidade. Muito cartão cobra, às vezes dividida em parcelas na fatura. Dá para pedir isenção, ou trocar por um cartão sem anuidade.
+
+E o limite alto não é dinheiro seu. É quanto o banco aceita que você deva.
+
+Antes de usar: pague a fatura inteira sempre que der. Se não der, compare o parcelamento com um empréstimo mais barato. E confira a anuidade.
+
+Segue, que o episódio seis sai semana que vem. MEI ou empréstimo pessoal? Comenta.
+
+Áudio HeyGen: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=a122f616-f102-41fc-a2da-bf782e9fb0cc.mp3 (105,09 s)
