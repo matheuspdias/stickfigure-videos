@@ -25,8 +25,14 @@ def load_module(path):
     return m
 
 
+_STYLE = "giz"
+
+
 def load_scenes(path):
-    return load_module(path).SCENES
+    global _STYLE
+    m = load_module(path)
+    _STYLE = getattr(m, "STYLE", "giz")
+    return m.SCENES
 
 
 SFX_STYLE = "light"
@@ -101,6 +107,9 @@ def render_frame(c, t, SCENES):
         c.pop_group_to_source(); c.paint_with_alpha(ease_io((t - st) / XF))
     else:
         draw_scene(c, fn, t, st, en)
+    if _STYLE == "ilustrado":
+        import ilustrado
+        ilustrado.vinheta(c, 0.28)
     c.set_source_surface(_GRAIN[0], 0, 0); c.paint_with_alpha(0.5)
 
 

@@ -6,6 +6,28 @@ Entrada: **transcrição com tempos** + **áudio da narração**. Saída: **MP4 
 
 Tudo é desenhado em código (pycairo): sem bancos de imagem, sem direitos autorais de terceiros.
 
+## Estilo ILUSTRADO (`ilustrado.py`) — padrão desde 07/11/2026
+Ilustração vetorial chapada (portada do Ponto Cego) com a paleta do canal. Funciona em 16:9 e no vertical (`VERTICAL = True`).
+```python
+from engine import *
+from ilustrado import *     # no vertical: VERTICAL = True vem ANTES desta linha
+STYLE = "ilustrado"
+```
+Modelos: `examples/ilustrado-yt/` (YouTube, com `thumb/thumb.py`) e `examples/ilustrado-tiktok/` (vertical, com `capa.py`).
+
+- **O Consultor**: `consultor_i(c, t, x, y_pes, s, poses, exprs, look=, prop=("r", prop_calc_i))` (camisa azul-marinho, gravata dourada, óculos retangulares). Objetos na mão: `prop_calc_i prop_tablet_i prop_moeda_i prop_celular_i`.
+- **Outras pessoas**: `pessoa(c, t, x, y, s, "ana", poses, exprs)` com `ana bruno carla diego lucas aposentado gerente vendedor`, ou `boneco(...)` montado (roupa, cabelo, barba, pele, idade...). Mesmas poses e expressões dos bonecos de palito.
+- **Cenários de vida real** (já escolhem a luz): `cena_padaria cena_cozinha cena_mercado cena_escritorio cena_sala cena_rua cena_agencia`; `hora=` `dia tarde crepusculo noite nublado interior`. Peças: `sofa_i tv_i geladeira_i bancada_i armarios_altos prateleira_mercado carrinho_i carro_i predio_moderno poste_i janela_cidade balcao_i placa_preco luminaria caixa_eletronico mesa_trabalho planta_vaso`, além de céu, árvores e casario do Ponto Cego.
+- **Fundos de número/gráfico**: `fundo_marca(c, t, "creme"|"navy"|"verde"|"vermelho", holofote=(x, y))`. No navy, use `holofote` atrás do Consultor (a camisa dele some no azul).
+- **Números**: `numero_i(c, "R$ 300", x, y, size, cor)` (Permanent Marker com contorno), `contador(c, t, t0, 0, 1000000, x, y, size)` (conta subindo), `brl(1234567)` -> "R$ 1.234.567".
+- **Gráficos animados**: `grafico_curva(c, t, t0, x, y_base, w, h, marcas=((0.43, "15 anos"),), valor_fim="R$ 1 MILHÃO")`, `barras_i(c, t, t0, x, y_base, w, h, dados=(("Ana", 372000, PURPLE), ...))`, `rosca_i(c, t, t0, x, y, r, pct)`.
+- **Dinheiro**: `moeda_i`, `pilha_moedas(c, n, r, t, t0)` (moedas caindo uma a uma), `nota_i(c, "100")`, `maco`, `chuva_dinheiro(c, t, t0, area=(x0, x1), area_y=)`.
+- **Telas e papéis que o espectador reconhece**: `celular_app` (saldo com gráfico ou extrato com `linhas=`), `notificacao`, `fatura(c, t, x, y, s, itens, total, minimo=, t0=)`, `contracheque`, `etiqueta_preco(c, "R$ 16", cor, size, riscado="R$ 10")`.
+- **Textos**: `rotulo` (legenda de canto), `placa` (cartão), `numero_i`; `entra(c, t, t0, x, y, fn, anim=)` é o atalho do `show`.
+- **Encerramento**: `tela_final_i(c, t, t0)` respeita as áreas livres da Tela final.
+- **Thumbnails**: `thumb_close` (Consultor em close), `thumb_texto`, `thumb_selo`, `salvar_thumb(fn, caminho)`. Fundo escuro de contraste, 2 a 4 palavras, 1 objeto.
+- **Vertical**: `CHAO` já vale 1300 no vertical (pés ~1300), título em y 250-450, nada importante abaixo de 1500 nem à direita de 930. Personagens em escala 1.3-1.5.
+
 ## Instalação
 
 ```bash

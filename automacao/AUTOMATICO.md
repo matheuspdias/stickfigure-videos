@@ -53,13 +53,16 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 - Depois das cenas prontas, confira os tempos com `python cortes.py videos/<slug> --frases` e escreva `videos/<slug>/cortes.json` (formato da skill), com `titulo_post` (título do Short, até ~60 caracteres, com o número que surpreende) e `post` (1 ou 2 frases + 3 a 5 hashtags como #financaspessoais #dinheiro #fazaconta).
 
 ### 4. Cenas e revisão
-- `videos/<slug>/scenes.py` como na skill: O Consultor em quase toda cena, `SFX` com 3 ou 4 toques e `SFX_SKIP` como em `videos/viver-de-renda/`, e a cena final de encerramento (~5 s sem narração) com áreas livres para a Tela final.
+- `videos/<slug>/scenes.py` no **estilo ilustrado** (obrigatório desde 07/11/2026; os bonecos de palito não são mais usados): `from engine import *`, `from ilustrado import *`, `STYLE = "ilustrado"`. O Consultor é `consultor_i`, os outros personagens `pessoa(..., "ana")`. Modelo: `examples/ilustrado-yt/scenes.py`; detalhes na seção "Estilo ILUSTRADO" do README.
+- **Variar os lugares:** cenas de história e situação usam um cenário de vida real (`cena_padaria`, `cena_cozinha`, `cena_mercado`, `cena_escritorio`, `cena_sala`, `cena_rua`, `cena_agencia`, com horas diferentes); cenas de conta e gráfico usam `fundo_marca` (creme, navy com `holofote`, verde para ganho, vermelho para perda). Nunca mais de 3 cenas seguidas no mesmo lugar.
+- **Números animados:** todo número importante entra com `contador`, `barras_i`, `grafico_curva`, `rosca_i` ou `pilha_moedas`, nunca parado. Use as telas que o espectador reconhece: `celular_app` (saldo ou extrato), `fatura`, `contracheque`, `notificacao`, `etiqueta_preco`.
+- `SFX` com 3 ou 4 toques e `SFX_SKIP` como em `videos/viver-de-renda/`, e a cena final de encerramento (~5 s sem narração) com `tela_final_i` (O Consultor e o logo à esquerda, o resto livre para a Tela final).
 - Em cada trecho de corte, uma cena forte (O Consultor + o número grande) em `gancho_t`, sem nada importante colado nas bordas (x < 140 ou x > 1780).
 - A revisão das prévias é **obrigatória e é só sua**: `python render.py sheet ...` com tempos no fim e no meio de todas as cenas. Corrija sobreposições, textos cortados, elementos pequenos e telas vazias, e gere de novo até ficar limpo. Pelo menos duas rodadas.
 - Teste mudo curto para pegar erro de código: `python render.py build videos/<slug>/scenes.py silent:20 out/teste.mp4`.
 
 ### 5. Thumbnail e textos
-- Duas thumbnails em `videos/<slug>/thumb/` (modelos nos vídeos anteriores), escolha a melhor.
+- Duas thumbnails em `videos/<slug>/thumb/` no estilo ilustrado, a partir de `examples/ilustrado-yt/thumb/thumb.py`: fundo escuro de contraste (`fundo_marca` navy, verde ou vermelho), `thumb_close` (O Consultor em close com emoção forte), `thumb_texto` com 2 a 4 palavras enormes e 1 objeto que conta a história (celular com o resultado, fatura, etiqueta). Nada de frases longas nem fundo creme (some na página branca do YouTube). Abra as duas e escolha a melhor.
 - `videos/<slug>/youtube.txt` no formato de `videos/viver-de-renda/youtube.txt`: título, alternativas, descrição com a linha de **Premissas** (taxas e datas usadas), "Conteúdo educativo, não é recomendação de investimento.", capítulos pelos tempos reais das cenas, "Narração gerada com voz de IA.", 2 ou 3 hashtags e as tags.
 
 ### 6. Colocar na fila
