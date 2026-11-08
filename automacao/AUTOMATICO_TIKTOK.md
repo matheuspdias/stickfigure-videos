@@ -1,6 +1,6 @@
 # Modo automático do TikTok do Faz a Conta
 
-Roteiro da tarefa agendada **"Faz a Conta TikTok automático"**, que roda todo dia de madrugada e deixa prontos os **2 vídeos do dia** (o Matheus posta às **10h** e às **18h**).
+Roteiro da tarefa agendada **"Faz a Conta TikTok automático"**, que roda todo dia por volta das **19h** e deixa prontos os **2 vídeos do dia seguinte** (o Matheus revisa à noite e posta às **10h** e às **18h**). Mudou de madrugada para 19h em 07/11/2026, a pedido do Matheus, para dar tempo de revisar.
 O Matheus não acompanha a produção: ninguém responde perguntas. Ele só abre a conversa da tarefa, baixa os arquivos e **posta à mão** (o agendamento do TikTok trava as views; nunca tente postar).
 
 Siga a skill `stickfigure-video` no **Modo TikTok** (ou o `README.md` + `VOZ.md` deste repo) com as diferenças abaixo. Onde conflitarem, vale este arquivo.
@@ -24,12 +24,13 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 - **Nunca pare para perguntar.** Decida e anote na mensagem final.
 - **Erro do HeyGen** (créditos, timeout): não tente de novo. Entregue o que der (se um dos dois saiu, entregue esse) e avise.
 - Prefira **não entregar** um vídeo quebrado a entregar com erro de conta, legenda errada ou cena vazia.
-- O horário limite é **9h30**: os dois vídeos precisam estar no chat antes das 10h. Se o tempo apertar, entregue primeiro o das 10h assim que ficar pronto e depois o das 18h.
+- Entregue o quanto antes (o ideal é até umas **21h**, para o Matheus revisar à noite). O limite absoluto é **9h30** do dia da postagem. Entregue primeiro o das 10h assim que ficar pronto e depois o das 18h.
+- Se o Matheus responder pedindo ajuste numa cena, corrija o `scenes.py`, rode o workflow de novo para aquele slug (aba Actions, `workflow_dispatch` com o slug, ou recoloque o JSON em `fila_tiktok/`) e reenvie.
 
 ## Passo a passo
 
 ### 1. Data e checagem
-1. Data alvo: **hoje** (horário de Brasília). Se esta execução começou depois das 9h30 (execução manual), a data alvo é **amanhã**.
+1. Data alvo (horário de Brasília): se esta execução começou depois das 9h30, a data alvo é **amanhã** (é o caso normal, rodando às 19h); se começou antes das 9h30 (execução manual de madrugada), é **hoje**.
 2. Veja `fila_tiktok/` e `fila_tiktok/feitos/` (campos `data` e `horario`). Para cada horário (10:00 e 18:00) da data alvo:
    - se já existe em `feitos/` com `release`: só baixe e entregue de novo (passo 8), sem produzir;
    - se está em `fila_tiktok/` (Actions ainda rodando ou falhou): veja `fila_tiktok/ultimo_log.txt`; espere ou explique o erro;
