@@ -1,12 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 61.65s (esperado 61.65s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas/bloco1.mp3: 61.649s, início 0.000s, diferença -102 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas_narracao.wav 61.649s
+[publicar] bloco 1: 105.09s (esperado 105.09s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cartao-de-credito/bloco1.mp3: 105.091s, início 0.000s, diferença -102 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cartao-de-credito_narracao.wav 105.091s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.59
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas_base.mp4 6 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/assinaturas-esquecidas_tiktok.mp4 8.1 MB 61.6 s
-[publicar] pronto: 61.6s, 8.1 MB
+efeitos sonoros: 0 eventos, volume 0.57
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cartao-de-credito_base.mp4 10 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cartao-de-credito_tiktok.mp4 12.5 MB 105.1 s
+[publicar] pronto: 105.1s, 12.5 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-assinaturas-esquecidas
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-assinaturas-esquecidas
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-cartao-de-credito
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-cartao-de-credito
