@@ -1,60 +1,60 @@
-=== treze-anos: 2:06 - 3:31 do vídeo | 89 s no corte | pausas encurtadas: -4.4 s
-Gancho: Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
-Trecho começa em: Agora, o que é amortizar?
-Título (Shorts): R$ 300 a mais por mês tiram 13 anos do financiamento
-Descrição: Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta
+=== dez-mil-cinco: 2:59 - 4:41 do vídeo | 109 s no corte | pausas encurtadas: -0.4 s
+Gancho: Um aumento de mil reais rende mais no bolso de quem ganha dez mil do que de quem ganha cinco mil. Olha a conta.
+Trecho começa em: Então, quanto fica de um aumento de mil reais em cada salário?
+Título (Shorts): R$ 1.000 de aumento: quem ganha 10 mil leva mais que 5 mil
+Descrição: Com as tabelas de 2026, um aumento de R$ 1.000 deixa R$ 867 de 4 para 5 mil, R$ 475 de 5 para 6 mil e R$ 725 de 10 para 11 mil. A faixa de R$ 5 mil a R$ 7.350 é onde o aumento rende menos. #financaspessoais #dinheiro #salario #fazaconta
 
-=== regra-contrato: 5:22 - 7:27 do vídeo | 128 s no corte | pausas encurtadas: -2.3 s
-Gancho: Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.
-Trecho começa em: Amortizar é um investimento.
-Título (Shorts): Amortizar ou investir? A regra dos 2 números
-Descrição: Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta
+=== mito-faixa: 4:41 - 5:55 do vídeo | 81 s no corte | pausas encurtadas: -0.5 s
+Gancho: Aumento de salário pode fazer você ganhar menos, por causa do imposto? Muita gente acredita. A conta mostra outra coisa.
+Trecho começa em: Agora, uma dúvida que aparece muito: será que um aumento pode fazer você ganhar menos?
+Título (Shorts): Aumento pode fazer você ganhar menos? A conta real por real
+Descrição: Com R$ 5.000 o IR é zero; com R$ 5.001, R$ 0,35. A regra nova de 2026 não tem degrau: testando real por real de R$ 1.600 a R$ 20 mil, o líquido nunca cai quando o bruto sobe. #financaspessoais #dinheiro #impostoderenda #fazaconta
 
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/amortizar-ou-investir_corte_treze-anos.mp4 4.5 MB 93.3 s
-Cortes selecionados de amortizar-ou-investir (3 cortes independentes)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/aumento-de-salario_corte_dez-mil-cinco.mp4 6.8 MB 109.1 s
+Cortes selecionados de aumento-de-salario (3 cortes independentes)
 Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
 
-=== carla-diego: 3:37 - 5:16 do vídeo | 106 s no corte | pausas encurtadas: -2.9 s
-Gancho: Ela amortizou o apartamento. Ele investiu os mesmos trezentos reais por mês. Trinta anos depois, a diferença foi de só quatorze mil.
-Trecho começa em: O Diego tem o mesmo apartamento, o mesmo financiamento e os mesmos trezentos reais sobrando.
-Título (Shorts): Ela amortizou, ele investiu: 30 anos depois, quase empate
-Descrição: Carla usou R$ 300 por mês pra amortizar o apê; Diego investiu os mesmos R$ 300 a 10% ao ano. Em 30 anos: R$ 605 mil x R$ 619 mil. Quase empate, e tem explicação. #financaspessoais #dinheiro #financiamento #fazaconta
+=== lucas-475: 1:08 - 2:59 do vídeo | 116 s no corte | pausas encurtadas: -2.8 s
+Gancho: O Lucas ganhou mil reais de aumento. No contracheque, vieram só quatrocentos e setenta e cinco. Pra onde foi o resto?
+Trecho começa em: Desde janeiro de dois mil e vinte e seis, vale a nova regra do imposto de renda.
+Título (Shorts): Ganhou R$ 1.000 de aumento e só vieram R$ 475
+Descrição: De R$ 5 mil para R$ 6 mil na carteira em 2026: R$ 140 a mais de INSS e R$ 385 de IR que antes era zero. De cada R$ 100 a mais entre R$ 5 mil e R$ 7.350, ficam uns R$ 49. #financaspessoais #dinheiro #impostoderenda #fazaconta
 
-=== treze-anos: 2:06 - 3:31 do vídeo | 89 s no corte | pausas encurtadas: -4.4 s
-Gancho: Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
-Trecho começa em: Agora, o que é amortizar?
-Título (Shorts): R$ 300 a mais por mês tiram 13 anos do financiamento
-Descrição: Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta
+=== dez-mil-cinco: 2:59 - 4:41 do vídeo | 109 s no corte | pausas encurtadas: -0.4 s
+Gancho: Um aumento de mil reais rende mais no bolso de quem ganha dez mil do que de quem ganha cinco mil. Olha a conta.
+Trecho começa em: Então, quanto fica de um aumento de mil reais em cada salário?
+Título (Shorts): R$ 1.000 de aumento: quem ganha 10 mil leva mais que 5 mil
+Descrição: Com as tabelas de 2026, um aumento de R$ 1.000 deixa R$ 867 de 4 para 5 mil, R$ 475 de 5 para 6 mil e R$ 725 de 10 para 11 mil. A faixa de R$ 5 mil a R$ 7.350 é onde o aumento rende menos. #financaspessoais #dinheiro #salario #fazaconta
 
-=== regra-contrato: 5:22 - 7:27 do vídeo | 128 s no corte | pausas encurtadas: -2.3 s
-Gancho: Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.
-Trecho começa em: Amortizar é um investimento.
-Título (Shorts): Amortizar ou investir? A regra dos 2 números
-Descrição: Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta
+=== mito-faixa: 4:41 - 5:55 do vídeo | 81 s no corte | pausas encurtadas: -0.5 s
+Gancho: Aumento de salário pode fazer você ganhar menos, por causa do imposto? Muita gente acredita. A conta mostra outra coisa.
+Trecho começa em: Agora, uma dúvida que aparece muito: será que um aumento pode fazer você ganhar menos?
+Título (Shorts): Aumento pode fazer você ganhar menos? A conta real por real
+Descrição: Com R$ 5.000 o IR é zero; com R$ 5.001, R$ 0,35. A regra nova de 2026 não tem degrau: testando real por real de R$ 1.600 a R$ 20 mil, o líquido nunca cai quando o bruto sobe. #financaspessoais #dinheiro #impostoderenda #fazaconta
 
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/amortizar-ou-investir_corte_regra-contrato.mp4 6.3 MB 130.2 s
-Cortes selecionados de amortizar-ou-investir (3 cortes independentes)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/aumento-de-salario_corte_mito-faixa.mp4 4.9 MB 82.0 s
+Cortes selecionados de aumento-de-salario (3 cortes independentes)
 Lembrete: no TikTok, ativar o selo de conteúdo gerado por IA (voz). Os mesmos arquivos servem para Shorts e Reels.
 
-=== carla-diego: 3:37 - 5:16 do vídeo | 106 s no corte | pausas encurtadas: -2.9 s
-Gancho: Ela amortizou o apartamento. Ele investiu os mesmos trezentos reais por mês. Trinta anos depois, a diferença foi de só quatorze mil.
-Trecho começa em: O Diego tem o mesmo apartamento, o mesmo financiamento e os mesmos trezentos reais sobrando.
-Título (Shorts): Ela amortizou, ele investiu: 30 anos depois, quase empate
-Descrição: Carla usou R$ 300 por mês pra amortizar o apê; Diego investiu os mesmos R$ 300 a 10% ao ano. Em 30 anos: R$ 605 mil x R$ 619 mil. Quase empate, e tem explicação. #financaspessoais #dinheiro #financiamento #fazaconta
+=== lucas-475: 1:08 - 2:59 do vídeo | 116 s no corte | pausas encurtadas: -2.8 s
+Gancho: O Lucas ganhou mil reais de aumento. No contracheque, vieram só quatrocentos e setenta e cinco. Pra onde foi o resto?
+Trecho começa em: Desde janeiro de dois mil e vinte e seis, vale a nova regra do imposto de renda.
+Título (Shorts): Ganhou R$ 1.000 de aumento e só vieram R$ 475
+Descrição: De R$ 5 mil para R$ 6 mil na carteira em 2026: R$ 140 a mais de INSS e R$ 385 de IR que antes era zero. De cada R$ 100 a mais entre R$ 5 mil e R$ 7.350, ficam uns R$ 49. #financaspessoais #dinheiro #impostoderenda #fazaconta
 
-=== treze-anos: 2:06 - 3:31 do vídeo | 89 s no corte | pausas encurtadas: -4.4 s
-Gancho: Trezentos reais a mais por mês tiraram treze anos do financiamento dela. E cento e oitenta e seis mil reais de juros.
-Trecho começa em: Agora, o que é amortizar?
-Título (Shorts): R$ 300 a mais por mês tiram 13 anos do financiamento
-Descrição: Financiamento de R$ 240 mil em 30 anos (7,66% + TR). Pagando a parcela + R$ 300, quita em 16 anos e 11 meses e paga R$ 186 mil a menos de juros. #financaspessoais #dinheiro #amortizacao #fazaconta
+=== dez-mil-cinco: 2:59 - 4:41 do vídeo | 109 s no corte | pausas encurtadas: -0.4 s
+Gancho: Um aumento de mil reais rende mais no bolso de quem ganha dez mil do que de quem ganha cinco mil. Olha a conta.
+Trecho começa em: Então, quanto fica de um aumento de mil reais em cada salário?
+Título (Shorts): R$ 1.000 de aumento: quem ganha 10 mil leva mais que 5 mil
+Descrição: Com as tabelas de 2026, um aumento de R$ 1.000 deixa R$ 867 de 4 para 5 mil, R$ 475 de 5 para 6 mil e R$ 725 de 10 para 11 mil. A faixa de R$ 5 mil a R$ 7.350 é onde o aumento rende menos. #financaspessoais #dinheiro #salario #fazaconta
 
-=== regra-contrato: 5:22 - 7:27 do vídeo | 128 s no corte | pausas encurtadas: -2.3 s
-Gancho: Amortizar ou investir? Quem decide é um número que está escrito no seu contrato.
-Trecho começa em: Amortizar é um investimento.
-Título (Shorts): Amortizar ou investir? A regra dos 2 números
-Descrição: Amortizar rende exatamente o juro do seu financiamento (com a TR), sem risco e sem IR. Compare com o rendimento líquido do investimento e pronto. #financaspessoais #dinheiro #investimentos #fazaconta
+=== mito-faixa: 4:41 - 5:55 do vídeo | 81 s no corte | pausas encurtadas: -0.5 s
+Gancho: Aumento de salário pode fazer você ganhar menos, por causa do imposto? Muita gente acredita. A conta mostra outra coisa.
+Trecho começa em: Agora, uma dúvida que aparece muito: será que um aumento pode fazer você ganhar menos?
+Título (Shorts): Aumento pode fazer você ganhar menos? A conta real por real
+Descrição: Com R$ 5.000 o IR é zero; com R$ 5.001, R$ 0,35. A regra nova de 2026 não tem degrau: testando real por real de R$ 1.600 a R$ 20 mil, o líquido nunca cai quando o bruto sobe. #financaspessoais #dinheiro #impostoderenda #fazaconta
 
-[publicar] cortes prontos em 2.8 min
-[publicar] Short carla-diego (109s): https://youtu.be/24WpqtghZZk  (publica em 06/11 12:00)
-[publicar] Short treze-anos (93s): https://youtu.be/B7WTMMwoKk4  (publica em 07/11 12:00)
-[publicar] Short regra-contrato (130s): https://youtu.be/2eNKY9heEyM  (publica em 08/11 12:00)
+[publicar] cortes prontos em 2.7 min
+[publicar] Short lucas-475 (119s): https://youtu.be/yim2ote3wsQ  (publica em 10/11 12:00)
+[publicar] Short dez-mil-cinco (109s): https://youtu.be/VcQ72S73EbI  (publica em 11/11 12:00)
+[publicar] Short mito-faixa (82s): https://youtu.be/YNp0CSDAlHs  (publica em 12/11 12:00)
