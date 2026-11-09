@@ -45,6 +45,13 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 - **Não repita** tema nem ângulo de "Já feitos". Respeite "Não fazer" (principalmente: nada de meta de poupança irreal para quem ganha pouco; valores pequenos e práticos).
 - Tire o tema usado da "Fila do Matheus" e acrescente os dois em "Já feitos" com o slug.
 
+### 2b. Estilo viral (pedido do Matheus em 09/11/2026: vale para todos os vídeos)
+- **Tema que divide opinião**: algo em que metade das pessoas discorda (carro x app, aluguel x financiar, casamento x apê, morar com os pais). Prefira esses a temas "neutros".
+- **Gancho provocativo nos 2 primeiros segundos**, em forma de afirmação ou pergunta que incomoda: "Seu carro custa mais que um aluguel.", "Pagar aluguel é jogar dinheiro fora? A resposta vai irritar muita gente." A frase do gancho já está enorme na tela no 1º quadro.
+- **Virada no meio** que contraria o senso comum ("praticamente empate", "não é burrice, mas...") e **conclusão honesta** com as condições em que cada lado ganha (nunca "um lado é burro").
+- **Fecha chamando para o lado**: "Time Ana ou time Bruno? Comenta", "Defende o seu lado nos comentários".
+- Continua valendo "Não fazer" (sem política, apostas, promessa de ganho, metas irreais, recomendar produto/banco) e contas conferidas em `contas.py`.
+
 ### 3. Pesquisa e roteiro (skill, T1)
 - Pesquise na web números e regras que podem ter mudado (juros, Selic, IPCA, tabelas do INSS e do IR, regras de programas). Confira cada conta em código (`videos/<slug>/contas.py`) e use números redondos.
 - Gancho nos 2 primeiros segundos, frases curtas, números por extenso, virada no meio, **fecha com pergunta para comentário**. 150 a 230 palavras (60-90 s); episódio da série até ~2 min.

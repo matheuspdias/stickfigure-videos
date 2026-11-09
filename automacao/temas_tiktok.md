@@ -35,9 +35,21 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Reserva de emergência: quantos dias você aguentaria (`reserva-emergencia`)
 - Com quanto você está entre os 10% mais ricos (`top-10-renda`)
 - Assinaturas esquecidas: quanto somam em um ano (`assinaturas-esquecidas`)
+- Seu carro custa mais que um aluguel: carro x aplicativo (`carro-custa-aluguel`)
+- Pagar aluguel é jogar dinheiro fora? Ana aluga e investe x Bruno financia, 10 anos (`aluguel-jogar-dinheiro-fora`)
 - Série: planta, carro, consignado, consórcio, cartão de crédito (acima)
 
 ## Ideias soltas (a automação pode usar)
+Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
+- Festa de casamento de R$ 50 mil ou entrada do apê? (Carla x Diego)
+- iPhone de R$ 8 mil em 12x: quanto ele custa de verdade
+- Morar com os pais até os 30 é vergonha ou estratégia? (a conta de 5 anos sem aluguel)
+- Viajar todo ano ou guardar? (Ana x Bruno, 10 anos)
+- Faculdade particular ainda compensa? (mensalidade x salário)
+- Ganhar R$ 5 mil e gastar R$ 300 por mês em lanche/bar: exagero?
+- Dar mesada para filho ou não?
+- Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo (Ana x Bruno; roteiro pronto em git, commit 0afc7b4)
+- Delivery 3x por semana: a conta do ano (roteiro pronto em git, commit 0afc7b4)
 - Pix parcelado / "compre agora, pague depois": quanto custa de verdade
 - Rotativo do cartão: R$ 1.000 esquecidos por um ano (atenção: o ep. 5 da série já fez R$ 1.000 no rotativo + parcelamento; só use com outro ângulo)
 - Quanto custa de verdade ter um carro por mês (além da parcela)
