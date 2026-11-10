@@ -24,5 +24,12 @@ def b(c, t):  # alerta: fatura vermelha
     thumb_texto(c, ["NUNCA PAGUE", "O MÍNIMO"], 900, 30, 150, cores=[CREME, GOLD])
 
 
-for nome, fn in (("thumb_A", a), ("thumb_B", b)):
+def cc(c, t):  # dilema "X ou Y?": tela dividida, rótulo enorme em cada lado, O Consultor no meio
+    thumb_versus(c, t, "ALUGAR", "COMPRAR",
+                 fn_esq=lambda c: numero_i(c, "R$ 1.500", -40, 0, 140, GOLD),
+                 fn_dir=lambda c: numero_i(c, "R$ 2.950", 40, 0, 140, GOLD))
+    thumb_close(c, t, 960, 1820, 2.3, "shocked", "think", 0.0)
+
+
+for nome, fn in (("thumb_A", a), ("thumb_B", b), ("thumb_C", cc)):
     print(salvar_thumb(lambda c, t, fn=fn: fn(c, t), f"{OUT}/{nome}.png"))

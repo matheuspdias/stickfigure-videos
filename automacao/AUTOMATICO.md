@@ -32,13 +32,15 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 1. Data alvo: o próximo dia de postagem (**segunda ou quinta, 09:00, horário de Brasília**) depois de hoje. Se já houver um vídeo para essa data em `fila/` ou `fila/publicados/` (campo `publicar_em`), pare: não é para gerar dois.
 2. Leia `automacao/temas.md`, liste `videos/` e os títulos em `fila/publicados/`. **Não repita** vídeo longo já feito.
 3. Escolha um tema de finanças pessoais com uma conta que surpreende e serve para a vida real (meta de dinheiro, comparação com resultado, custo escondido de uma decisão, hábito visto pelo lado do dinheiro). O que mais funcionou: contas de meta com número que surpreende e histórias com dois personagens que fazem escolhas diferentes. Use a seção "Ideias" se houver algo lá. Veja também "O que os dados mostram" no `temas.md` (análise de 10/11/2026) e dê prioridade aos temas de lá.
-4. **Título e thumbnail do longo**: prefira o formato "X ou Y?" ou dois personagens com resultado ("Alugar ou comprar?" teve 3,3% de CTR; títulos que afirmam, como "R$ 10 por dia vira R$ 1 milhão?", ficaram em 0,5%). A thumbnail mostra o dilema: duas opções lado a lado ou os dois personagens, com o Consultor reagindo. Os temas que só saíram no TikTok podem virar vídeo longo com a conta mais completa.
+4. **Título e thumbnail do longo**: prefira o formato "X ou Y?" ou dois personagens com resultado ("Alugar ou comprar?" teve 3,3% de CTR; títulos que afirmam, como "R$ 10 por dia vira R$ 1 milhão?", ficaram em 0,5%). A thumbnail mostra o dilema: duas opções lado a lado ou os dois personagens, com o Consultor reagindo. O título **começa com o termo que a pessoa pesquisa** ("CLT ou PJ", "13º salário", "amortizar ou investir", "aumento de salário") e deixa a frase de efeito para o fim: a Pesquisa do YouTube traz views todo dia (CTR de 2,2%). Os temas que só saíram no TikTok podem virar vídeo longo com a conta mais completa.
 5. Varie em relação aos dois últimos vídeos (assunto e formato). Quando fizer sentido, ligue a um vídeo anterior ("continuação do vídeo ..."), como o de viver de renda fez com o de 100 mil.
 6. Acrescente o tema em "Já feitos no YouTube" no `temas.md`.
 
 ### 2. Pesquisa, contas e roteiro
 - Pesquise os números do dia e salve as contas em `videos/<slug>/contas.py`.
 - 8 a 12 min (~1.300 a 1.900 palavras), números por extenso, parágrafos curtos, voz e tags da skill, **sem `[whispers]`**.
+- **Gancho nos primeiros 15 s:** as 2 ou 3 primeiras frases já dão o número-surpresa ou a pergunta com o resultado em jogo ("Ela guardou três vezes menos e terminou com um milhão e meio a mais. Como?"). Cenário, premissas e "hoje a gente vai fazer a conta" vêm só depois. Nos dados, "Alugar ou comprar?" e "Demitido hoje" perderam quase todo mundo nos primeiros 45 s; os que abriram com a conta seguraram 43%.
+- A cada 60 a 90 s, uma nova pergunta ou virada ("mas tem um detalhe...", "e se...") para segurar o meio do vídeo.
 - Salve `videos/<slug>/roteiro.txt`.
 
 ### 3. Narração
@@ -65,7 +67,13 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 - Teste mudo curto para pegar erro de código: `python render.py build videos/<slug>/scenes.py silent:20 out/teste.mp4`.
 
 ### 5. Thumbnail e textos
-- Duas thumbnails em `videos/<slug>/thumb/` no estilo ilustrado, a partir de `examples/ilustrado-yt/thumb/thumb.py`: fundo escuro de contraste (`fundo_marca` navy, verde ou vermelho), `thumb_close` (O Consultor em close com emoção forte), `thumb_texto` com 2 a 4 palavras enormes e 1 objeto que conta a história (celular com o resultado, fatura, etiqueta). Nada de frases longas nem fundo creme (some na página branca do YouTube). Abra as duas e escolha a melhor.
+- **Thumbnail é o maior gargalo do canal** (Vídeos sugeridos: 8.163 impressões com 0,74% de CTR em out-nov/2026). Faça **3 thumbnails** em `videos/<slug>/thumb/thumb.py` (estilo ilustrado, a partir de `examples/ilustrado-yt/thumb/thumb.py`), cada uma com um **conceito diferente**:
+  1. **Dilema** (`thumb_versus`): tela dividida, "ALUGAR" x "COMPRAR", um número enorme de cada lado, selo "OU" e O Consultor em close embaixo.
+  2. **Resultado**: um número enorme que surpreende (com `etiqueta_preco` riscada, `celular_app` ou o valor em `numero_i`) + O Consultor em close com emoção forte (`thumb_close`, shocked/desperate/grin).
+  3. **Pergunta**: 2 ou 3 palavras de pergunta ("CADÊ MEU AUMENTO?", "QUEM GANHOU?") + 1 objeto que conta a história + O Consultor.
+- Regras de toda thumbnail: fundo escuro e saturado (navy, verde, vermelho; nunca creme), **no máximo 4 palavras**, número com pelo menos ~140 px de altura no quadro 1920x1080, nada de texto pequeno (contracheque e tabelas ficam ilegíveis), rosto do Consultor grande, e o **canto inferior direito livre** (o YouTube põe a duração ali). Não repita o título: a thumbnail completa o título.
+- **Prévia obrigatória**: `python automacao/thumb_preview.py videos/<slug>/thumb/<a>.png <b>.png <c>.png --titulo "<título>" -o out/thumb_preview.png` e abra o PNG. Ela mostra cada thumbnail na página inicial (360 px), nos sugeridos (168 px, modo escuro) e no celular. **Reprove** a que não se lê a 168 px (número e palavras) e refaça. Escolha a que comunica o dilema ou o número mais rápido no tamanho de 168 px.
+- Em `youtube.txt`, liste as 3 com a escolhida primeiro, e no resumo final avise o Matheus que pode ligar o **"Testar e comparar"** no YouTube Studio com as 3 (a API não faz o teste A/B; ele sobe as outras duas à mão em 1 minuto).
 - `videos/<slug>/youtube.txt` no formato de `videos/viver-de-renda/youtube.txt`: título, alternativas, descrição com a linha de **Premissas** (taxas e datas usadas), "Conteúdo educativo, não é recomendação de investimento.", capítulos pelos tempos reais das cenas, "Narração gerada com voz de IA.", 2 ou 3 hashtags e as tags.
 
 ### 6. Colocar na fila

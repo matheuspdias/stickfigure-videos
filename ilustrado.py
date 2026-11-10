@@ -1414,6 +1414,40 @@ def thumb_selo(c, s, x, y, size=58, col=(0.80, 0.16, 0.12), inclina=-0.05):
     c.restore()
 
 
+def thumb_versus(c, t, esq, dir_, cor_esq=None, cor_dir=None, fn_esq=None, fn_dir=None, meio="OU", y_rot=250, size=170, y_meio=None):
+    """thumbnail de dilema "X ou Y?": tela dividida na diagonal em duas cores, um rótulo enorme em cada lado,
+    um objeto opcional em cada lado (fn_esq/fn_dir desenham centrados na origem) e o selo "OU" no meio.
+    Combine com thumb_close (o Consultor embaixo, no centro ou num lado) ou com dois personagens em close.
+    Deixe o canto inferior direito livre (o YouTube põe a duração ali)."""
+    cor_esq = cor_esq or (0.16, 0.44, 0.30)
+    cor_dir = cor_dir or (0.62, 0.18, 0.16)
+    for pts, col in (([(0, 0), (W / 2 + 90, 0), (W / 2 - 90, H), (0, H)], cor_esq),
+                     ([(W / 2 + 90, 0), (W, 0), (W, H), (W / 2 - 90, H)], cor_dir)):
+        pg(c, pts); rgb(c, col); c.fill()
+    for cx_, col in ((W * 0.25, cor_esq), (W * 0.75, cor_dir)):
+        rglow(c, cx_, H * 0.45, 520, lt(col, 0.5), 0.35)
+    pg(c, [(W / 2 + 90, 0), (W / 2 + 104, 0), (W / 2 - 76, H), (W / 2 - 90, H)]); rgb(c, (0.98, 0.94, 0.82)); c.fill()
+    for fn, cx_ in ((fn_esq, W * 0.25), (fn_dir, W * 0.75)):
+        if fn:
+            c.save(); c.translate(cx_, H * 0.47); fn(c); c.restore()
+    _bold(c, SERIF)
+    sz = size
+    while sz > 60:
+        c.set_font_size(sz)
+        if max(c.text_extents(s_).x_advance for s_ in (esq, dir_)) * 1.08 <= W * 0.40:
+            break
+        sz -= 4
+    for txt_, cx_ in ((esq, W * 0.25), (dir_, W * 0.75)):
+        thumb_texto(c, [txt_], cx_, y_rot - sz, sz, cores=[(0.98, 0.96, 0.90)], inclina=0)
+    if meio:
+        c.save(); c.translate(W / 2, y_meio or H * 0.47)
+        c.new_sub_path(); c.arc(6, 10, 118, 0, 6.283); rgb(c, (0, 0, 0), 0.45); c.fill()
+        c.new_sub_path(); c.arc(0, 0, 118, 0, 6.283); rgb(c, GOLD); c.fill()
+        c.new_sub_path(); c.arc(0, 0, 118, 0, 6.283); rgb(c, TINTA); c.set_line_width(12); c.stroke()
+        numero_i(c, meio, 0, 4, 96, TINTA, contorno=GOLD)
+        c.restore()
+
+
 LUZES["chave"] = dict(LUZES["dia"], tinta=(1.0, 0.93, 0.84), tk=0.6, dir=1)  # luz de rosto para thumbnails
 
 

@@ -25,7 +25,7 @@ Modelos: `examples/ilustrado-yt/` (YouTube, com `thumb/thumb.py`) e `examples/il
 - **Telas e papéis que o espectador reconhece**: `celular_app` (saldo com gráfico ou extrato com `linhas=`), `notificacao`, `fatura(c, t, x, y, s, itens, total, minimo=, t0=)`, `contracheque`, `etiqueta_preco(c, "R$ 16", cor, size, riscado="R$ 10")`.
 - **Textos**: `rotulo` (legenda de canto), `placa` (cartão), `numero_i`; `entra(c, t, t0, x, y, fn, anim=)` é o atalho do `show`.
 - **Encerramento**: `tela_final_i(c, t, t0)` respeita as áreas livres da Tela final.
-- **Thumbnails**: `thumb_close` (Consultor em close), `thumb_texto`, `thumb_selo`, `salvar_thumb(fn, caminho)`. Fundo escuro de contraste, 2 a 4 palavras, 1 objeto.
+- **Thumbnails**: `thumb_close` (Consultor em close), `thumb_texto`, `thumb_selo`, `thumb_versus(c, t, "ALUGAR", "COMPRAR", fn_esq=, fn_dir=)` (dilema "X ou Y?" em tela dividida com selo "OU"), `salvar_thumb(fn, caminho)`. Fundo escuro de contraste, até 4 palavras, número enorme, canto inferior direito livre (duração). Confira sempre com `python automacao/thumb_preview.py <pngs> --titulo "..."` (simula a página inicial, os sugeridos a 168 px e o celular).
 - **Vertical**: `CHAO` já vale 1300 no vertical (pés ~1300), título em y 250-450, nada importante abaixo de 1500 nem à direita de 930. Personagens em escala 1.3-1.5.
 
 ## Instalação
