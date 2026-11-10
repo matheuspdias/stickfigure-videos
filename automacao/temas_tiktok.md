@@ -48,6 +48,7 @@ Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exempl
 - Faculdade particular ainda compensa? (mensalidade x salário)
 - Ganhar R$ 5 mil e gastar R$ 300 por mês em lanche/bar: exagero?
 - Dar mesada para filho ou não?
+- Aluguel x Minha Casa Minha Vida, Ana x Bruno (apê de R$ 298 mil, parcela ~R$ 1.900; no MCMV comprar ganha: ~R$ 240 mil x ~R$ 100 mil em 10 anos). Roteiro, palavras, cenas e capa prontos em `videos/aluguel-ou-mcmv/` (falta post.txt e fila; o áudio HeyGen está no roteiro.txt)
 - Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo (Ana x Bruno; roteiro pronto em git, commit 0afc7b4)
 - Delivery 3x por semana: a conta do ano (roteiro pronto em git, commit 0afc7b4)
 - Pix parcelado / "compre agora, pague depois": quanto custa de verdade
