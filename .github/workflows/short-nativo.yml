@@ -2,11 +2,14 @@ name: Short nativo no YouTube
 
 # Sobe o vertical nativo de uma release "tiktok-<slug>" como Short, publicado na hora (teste de 10/11/2026).
 on:
+  push:
+    branches: [main]
+    paths: ["fila_shorts/*.json"]
   workflow_dispatch:
     inputs:
       slug:
         description: "slug do vídeo do TikTok (release tiktok-<slug>)"
-        required: true
+        required: false
       titulo:
         description: "título (vazio = o do post.txt)"
         required: false
@@ -33,17 +36,29 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          if [ -n "${{ inputs.titulo }}" ]; then
-            python automacao/short_nativo.py "${{ inputs.slug }}" --titulo "${{ inputs.titulo }}"
-          else
-            python automacao/short_nativo.py "${{ inputs.slug }}"
+          if [ -n "${{ inputs.slug }}" ]; then
+            if [ -n "${{ inputs.titulo }}" ]; then
+              python automacao/short_nativo.py "${{ inputs.slug }}" --titulo "${{ inputs.titulo }}"
+            else
+              python automacao/short_nativo.py "${{ inputs.slug }}"
+            fi
+            exit 0
           fi
+          # fila: fila_shorts/<slug>.json ({"slug": "...", "titulo": "" opcional}); publicado vai para fila_shorts/publicados/
+          shopt -s nullglob
+          mkdir -p fila_shorts/publicados
+          for f in fila_shorts/*.json; do
+            slug=$(python -c "import json,sys;print(json.load(open(sys.argv[1]))['slug'])" "$f")
+            tit=$(python -c "import json,sys;print(json.load(open(sys.argv[1])).get('titulo',''))" "$f")
+            if [ -n "$tit" ]; then python automacao/short_nativo.py "$slug" --titulo "$tit"; else python automacao/short_nativo.py "$slug"; fi
+            git mv "$f" fila_shorts/publicados/
+          done
       - name: Registrar
         if: always()
         run: |
           git config user.name "fazaconta-bot"
           git config user.email "fazaconta-bot@users.noreply.github.com"
-          git add fila/shorts_nativos.json 2>/dev/null || true
+          git add -A fila/shorts_nativos.json fila_shorts 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Short nativo publicado [skip ci]"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
