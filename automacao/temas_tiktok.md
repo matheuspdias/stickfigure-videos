@@ -37,16 +37,16 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Assinaturas esquecidas: quanto somam em um ano (`assinaturas-esquecidas`)
 - Seu carro custa mais que um aluguel: carro x aplicativo (`carro-custa-aluguel`)
 - Pagar aluguel é jogar dinheiro fora? Ana aluga e investe x Bruno financia, 10 anos (`aluguel-jogar-dinheiro-fora`)
+- R$ 300 por mês em lanche e bar é exagero? (6% do salário; corta só a metade) (`lanche-e-bar-exagero`)
+- Festa de casamento de R$ 50 mil ou entrada do apê? Carla x Diego (`casamento-ou-entrada`)
 - Série: planta, carro, consignado, consórcio, cartão de crédito (acima)
 
 ## Ideias soltas (a automação pode usar)
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
-- Festa de casamento de R$ 50 mil ou entrada do apê? (Carla x Diego)
 - iPhone de R$ 8 mil em 12x: quanto ele custa de verdade
 - Morar com os pais até os 30 é vergonha ou estratégia? (a conta de 5 anos sem aluguel)
 - Viajar todo ano ou guardar? (Ana x Bruno, 10 anos)
 - Faculdade particular ainda compensa? (mensalidade x salário)
-- Ganhar R$ 5 mil e gastar R$ 300 por mês em lanche/bar: exagero?
 - Dar mesada para filho ou não?
 - Aluguel x Minha Casa Minha Vida, Ana x Bruno (apê de R$ 298 mil, parcela ~R$ 1.900; no MCMV comprar ganha: ~R$ 240 mil x ~R$ 100 mil em 10 anos). Roteiro, palavras, cenas e capa prontos em `videos/aluguel-ou-mcmv/` (falta post.txt e fila; o áudio HeyGen está no roteiro.txt)
 - Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo (Ana x Bruno; roteiro pronto em git, commit 0afc7b4)
