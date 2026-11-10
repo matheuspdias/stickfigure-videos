@@ -31,9 +31,10 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 ### 1. Data e tema
 1. Data alvo: o próximo dia de postagem (**segunda ou quinta, 09:00, horário de Brasília**) depois de hoje. Se já houver um vídeo para essa data em `fila/` ou `fila/publicados/` (campo `publicar_em`), pare: não é para gerar dois.
 2. Leia `automacao/temas.md`, liste `videos/` e os títulos em `fila/publicados/`. **Não repita** vídeo longo já feito.
-3. Escolha um tema de finanças pessoais com uma conta que surpreende e serve para a vida real (meta de dinheiro, comparação com resultado, custo escondido de uma decisão, hábito visto pelo lado do dinheiro). O que mais funcionou: contas de meta com número que surpreende e histórias com dois personagens que fazem escolhas diferentes. Use a seção "Ideias" se houver algo lá. Os temas que só saíram no TikTok podem virar vídeo longo com a conta mais completa.
-4. Varie em relação aos dois últimos vídeos (assunto e formato). Quando fizer sentido, ligue a um vídeo anterior ("continuação do vídeo ..."), como o de viver de renda fez com o de 100 mil.
-5. Acrescente o tema em "Já feitos no YouTube" no `temas.md`.
+3. Escolha um tema de finanças pessoais com uma conta que surpreende e serve para a vida real (meta de dinheiro, comparação com resultado, custo escondido de uma decisão, hábito visto pelo lado do dinheiro). O que mais funcionou: contas de meta com número que surpreende e histórias com dois personagens que fazem escolhas diferentes. Use a seção "Ideias" se houver algo lá. Veja também "O que os dados mostram" no `temas.md` (análise de 10/11/2026) e dê prioridade aos temas de lá.
+4. **Título e thumbnail do longo**: prefira o formato "X ou Y?" ou dois personagens com resultado ("Alugar ou comprar?" teve 3,3% de CTR; títulos que afirmam, como "R$ 10 por dia vira R$ 1 milhão?", ficaram em 0,5%). A thumbnail mostra o dilema: duas opções lado a lado ou os dois personagens, com o Consultor reagindo. Os temas que só saíram no TikTok podem virar vídeo longo com a conta mais completa.
+5. Varie em relação aos dois últimos vídeos (assunto e formato). Quando fizer sentido, ligue a um vídeo anterior ("continuação do vídeo ..."), como o de viver de renda fez com o de 100 mil.
+6. Acrescente o tema em "Já feitos no YouTube" no `temas.md`.
 
 ### 2. Pesquisa, contas e roteiro
 - Pesquise os números do dia e salve as contas em `videos/<slug>/contas.py`.
@@ -47,6 +48,8 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 
 ### 3b. Cortes (Shorts) e bloco de ganchos
 - Ao escrever o roteiro, escolha **3 trechos** com os três testes da skill (entende-se sozinho nos primeiros 5 s, fecha com uma resposta ou conclusão, dura **de 65 s a 2:40** contando o gancho; acima de 3 min o YouTube não trata como Short e o corte fica de fora). Os melhores: contas com número chocante e comparações com resultado. O mais forte primeiro: ele sai no dia seguinte ao vídeo longo.
+- **O que funciona em Short (dados de 10/11/2026):** os Shorts com ~1.200 views no 1º dia eram histórias com resultado: dois personagens com escolhas diferentes ("ela parou de trabalhar 24 anos antes dele"), "qual investimento ganhou?", tempo e liberdade ("15 anos de liberdade"). Shorts de regra e imposto (13º, seguro-desemprego, PJ, cartão) ficaram com menos de 300. Por isso, em todo vídeo, pelo menos **2 dos 3 cortes** devem ser uma comparação de pessoas ou uma conta de longo prazo com resultado; se o tema do longo for regra ou imposto, monte no roteiro um trecho com dois personagens só para virar corte. Título do Short em forma de história ou pergunta com resultado ("Ela X, ele Y: quem ganhou?"), não de regra.
+- Prefira cortes de **60 a 100 s** de trecho: os cortes longos seguraram em média só 15 a 35 s.
 - Para cada um, o gancho (4 a 7 s, números por extenso), o `gancho_tela` e as linhas da `capa`, como na skill.
 - **Um** bloco extra no HeyGen com os 3 ganchos separados por `[long pause]` (mesma voz e configuração). Guarde link, duração e `word_timestamps`; anote início e fim de cada gancho (folga de 0,1 s) em `videos/<slug>/ganchos.txt`.
 - Os Shorts saem com os silêncios acima de 0,25 s encurtados (o `cortes.py` faz isso sozinho pelo áudio, com as legendas acompanhando). Por isso cada corte fica alguns segundos mais curto: mire em pelo menos 70 s de trecho.
