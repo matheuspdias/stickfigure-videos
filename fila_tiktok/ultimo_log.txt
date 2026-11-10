@@ -1,24 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 77.01s (esperado 77.01s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/aluguel-jogar-dinheiro-fora/bloco1.wav: 77.007s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/aluguel-jogar-dinheiro-fora_narracao.wav 77.007s
+[publicar] bloco 1: 66.18s (esperado 66.18s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/lanche-e-bar-exagero/bloco1.wav: 66.176s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/lanche-e-bar-exagero_narracao.wav 66.176s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.83
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/aluguel-jogar-dinheiro-fora_base.mp4 8 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/aluguel-jogar-dinheiro-fora_tiktok.mp4 10.3 MB 77.0 s
-[publicar] pronto: 77.0s, 10.3 MB
+efeitos sonoros: 0 eventos, volume 0.82
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/lanche-e-bar-exagero_base.mp4 7 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/lanche-e-bar-exagero_tiktok.mp4 9.3 MB 66.2 s
+[publicar] pronto: 66.2s, 9.3 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-aluguel-jogar-dinheiro-fora
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-aluguel-jogar-dinheiro-fora
-[publicar] baixando bloco 1/1
-[publicar] bloco 1: 71.74s (esperado 71.74s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/carro-custa-aluguel/bloco1.wav: 71.742s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/carro-custa-aluguel_narracao.wav 71.742s
-[publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/carro-custa-aluguel_base.mp4 8 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/carro-custa-aluguel_tiktok.mp4 9.5 MB 71.7 s
-[publicar] pronto: 71.7s, 9.5 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-carro-custa-aluguel
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-carro-custa-aluguel
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-lanche-e-bar-exagero
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-lanche-e-bar-exagero
