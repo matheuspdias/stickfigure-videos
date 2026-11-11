@@ -1,11 +1,6 @@
 {
   "slug": "dez-mil-dez-anos",
   "publicar_em": "2026-11-12T09:00:00-03:00",
-  "audio_blocos": [
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=e2f99bea655b4ee99fed851f09b87f51.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=8653fba4a3a4466f8ef611d81da4c6fb.wav",
-    "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=10cd4840d4404e2aa406d365f2268d57.wav"
-  ],
   "duracoes": [
     174.658,
     169.138,
@@ -34,6 +29,36 @@
   ],
   "thumbnail": "videos/dez-mil-dez-anos/thumb/dez_mil_thumb_A.png",
   "categoria": "27",
-  "ganchos_audio": "https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=b35f302ece0e48a8982ec961fe71f4d1.wav",
-  "ganchos_duracao": 22.879
+  "ganchos_duracao": 22.879,
+  "video_id": "DTZ7Pnhlma8",
+  "url": "https://youtu.be/DTZ7Pnhlma8",
+  "agendado_para": "2026-11-12T09:00:00-03:00",
+  "enviado_em": "2026-11-11T16:41:46-03:00",
+  "avisos": [],
+  "shorts": [
+    {
+      "id": "ranking",
+      "video_id": "HZKso6o9oDg",
+      "url": "https://youtu.be/HZKso6o9oDg",
+      "titulo": "R$ 10 mil há 10 anos: qual investimento ganhou? #Shorts",
+      "duracao": 97.6,
+      "agendado_para": "2026-11-13T12:00:00-03:00"
+    },
+    {
+      "id": "ana-bruno",
+      "video_id": "2Vc_jWKr8e4",
+      "url": "https://youtu.be/2Vc_jWKr8e4",
+      "titulo": "Ela deixou na poupança, ele pôs na bolsa: quem ganhou? #Shorts",
+      "duracao": 102.2,
+      "agendado_para": "2026-11-14T12:00:00-03:00"
+    },
+    {
+      "id": "carla-meio",
+      "video_id": "0AmTnfvUuQI",
+      "url": "https://youtu.be/0AmTnfvUuQI",
+      "titulo": "Poupança, bolsa ou metade e metade: 10 anos depois #Shorts",
+      "duracao": 92.4,
+      "agendado_para": "2026-11-15T12:00:00-03:00"
+    }
+  ]
 }
