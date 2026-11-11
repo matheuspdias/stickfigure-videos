@@ -39,23 +39,22 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Pagar aluguel é jogar dinheiro fora? Ana aluga e investe x Bruno financia, 10 anos (`aluguel-jogar-dinheiro-fora`)
 - R$ 300 por mês em lanche e bar é exagero? (6% do salário; corta só a metade) (`lanche-e-bar-exagero`)
 - Festa de casamento de R$ 50 mil ou entrada do apê? Carla x Diego (`casamento-ou-entrada`)
+- Morar com os pais até os 30: vergonha ou estratégia? Carla x Lucas, 5 anos (`morar-com-os-pais-30`)
+- Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo, Ana x Bruno (`ana-bruno-black-friday`)
 - Série: planta, carro, consignado, consórcio, cartão de crédito (acima)
 
 ## Ideias soltas (a automação pode usar)
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
 - iPhone de R$ 8 mil em 12x: quanto ele custa de verdade
-- Morar com os pais até os 30 é vergonha ou estratégia? (a conta de 5 anos sem aluguel)
 - Viajar todo ano ou guardar? (Ana x Bruno, 10 anos)
 - Faculdade particular ainda compensa? (mensalidade x salário)
 - Dar mesada para filho ou não?
 - Aluguel x Minha Casa Minha Vida, Ana x Bruno (apê de R$ 298 mil, parcela ~R$ 1.900; no MCMV comprar ganha: ~R$ 240 mil x ~R$ 100 mil em 10 anos). Roteiro, palavras, cenas e capa prontos em `videos/aluguel-ou-mcmv/` (falta post.txt e fila; o áudio HeyGen está no roteiro.txt)
-- Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo (Ana x Bruno; roteiro pronto em git, commit 0afc7b4)
 - Delivery 3x por semana: a conta do ano (roteiro pronto em git, commit 0afc7b4)
 - Pix parcelado / "compre agora, pague depois": quanto custa de verdade
 - Rotativo do cartão: R$ 1.000 esquecidos por um ano (atenção: o ep. 5 da série já fez R$ 1.000 no rotativo + parcelamento; só use com outro ângulo)
 - Quanto custa de verdade ter um carro por mês (além da parcela)
 - Aumento de salário que não aparece: a faixa do IR e do INSS
-- Desconto à vista x parcelar sem juros com o dinheiro rendendo
 - POV: chegou o IPVA e o IPTU em janeiro
 - POV: você ganhou um aumento de R$ 500
 - Delivery 3x por semana: a conta do ano
