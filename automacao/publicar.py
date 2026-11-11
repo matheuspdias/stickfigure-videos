@@ -437,6 +437,10 @@ def main():
 
     with open(a.fila, encoding="utf-8") as f:
         m = json.load(f)
+    if not isinstance(m, dict) or "audio_blocos" not in m:
+        # ex.: fila/shorts_nativos.json (registro do workflow Short nativo), que não é um vídeo para publicar
+        log(f"{a.fila} não é um vídeo da fila: pulando")
+        return
     cenas = validar(m)
     video = produzir(m, cenas, a.audio)
     if a.sem_upload:
