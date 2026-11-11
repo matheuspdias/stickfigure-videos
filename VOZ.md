@@ -7,7 +7,7 @@
 | Ferramenta | HeyGen `create_speech_without_player` (ou `create_speech`), com `withTimestamps: true` |
 | Modelo | **não informar** (o servidor usa o HeyGen Voice padrão do plano pago, `heygen-voice-1`) |
 | Idioma | `language: "pt"` |
-| Expressividade | `expressivenessBoost`: o padrão é 1,0. Valor do canal: **a definir pelo Matheus** depois do teste de 11/11/2026 (1,0 / 0,7 / 0,5) |
+| Expressividade | `expressivenessBoost: 1.0` (o padrão; escolhido pelo Matheus em 11/11/2026 depois do teste com 1,0 / 0,7 / 0,5) |
 
 ## Mudança de 11/11/2026
 O HeyGen tirou da ferramenta a escolha do motor (`engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}`).
