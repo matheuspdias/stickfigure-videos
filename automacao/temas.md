@@ -15,6 +15,7 @@ O Matheus pode mexer à vontade: mover ideias, apagar, marcar como proibido.
 - R$ 10 por dia vira R$ 1 milhão? A conta completa, com inflação e a história da Ana e do Bruno (`dez-reais-um-milhao`), nov/2026 (versão longa do TikTok `dez-reais-por-dia`)
 - Amortizar o financiamento ou investir? A conta completa, com TR e a corrida da Carla e do Diego (`amortizar-ou-investir`), nov/2026 (versão longa do TikTok `amortizacao-mcmv`, continuação do "Alugar ou comprar?")
 - Ganhei R$ 1.000 de aumento e só vieram R$ 475: a faixa escondida do IR 2026 (`aumento-de-salario`), nov/2026 (aumento de R$ 5 mil para R$ 6 mil com INSS e IR 2026, escada de aumentos, mito de "mudar de faixa")
+- Poupança, CDB ou Bolsa? R$ 10 mil em 2016: quem ganhou em 10 anos (`dez-mil-dez-anos`), nov/2026 (continuação do TikTok `dez-mil-cinco-anos`; Ana x Bruno, queda da pandemia, janela de 5 x 10 anos, bitcoin fora da disputa, Carla metade e metade)
 
 ## Já feitos só no TikTok (podem virar vídeo longo, com conta mais completa)
 - Reserva de emergência: se você fosse demitido hoje, quantos dias pagaria as contas? (`reserva-emergencia`)
@@ -29,7 +30,7 @@ O Matheus pode mexer à vontade: mover ideias, apagar, marcar como proibido.
 - Longos: o gargalo é o clique (CTR de 0,5% a 3,3%). Melhor CTR com "X ou Y?" (alugar ou comprar 3,3%, à vista ou parcelado 2,2%, CLT ou PJ 1,9%). Melhor retenção nas contas de meta e juros (amortizar e R$ 100 mil: 43%).
 
 ## Ideias (prioridade, a partir da análise de 10/11/2026)
-- R$ 10 mil há 10 anos: onde você estaria mais rico hoje? (continuação do Short mais visto; versão longa com poupança, CDI, Tesouro IPCA, Ibovespa, dólar e imóvel, com dados oficiais)
+- ~~R$ 10 mil há 10 anos~~ feito em 11/11/2026 (`dez-mil-dez-anos`, sem Tesouro IPCA e sem imóvel)
 - Quem começou a investir aos 25 x quem começou aos 35 (dois personagens, mesmo valor por mês)
 - Comprou o carro x investiu a diferença: 10 anos depois
 - Mesmo salário: um gasta tudo, outro guarda 10%. Quem se aposenta antes?

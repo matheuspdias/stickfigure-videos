@@ -1,0 +1,160 @@
+# Narração "R$ 10 mil há 10 anos" — voz Calm Carlos (HeyGen Voice, heygen-voice-1), voice_id 3b2a59d6edb54e79a40b29726a12d1c3
+# bloco1 174.658s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=e2f99bea655b4ee99fed851f09b87f51.wav
+# bloco2 169.138s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=8653fba4a3a4466f8ef611d81da4c6fb.wav
+# bloco3 215.619s https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=10cd4840d4404e2aa406d365f2268d57.wav
+# pausa_blocos 0.4
+# Junta: blocos com 0,4 s de silêncio + 5 s de cauda sem narração (tela final)
+# offsets absolutos: bloco1 0.000 | bloco2 175.058 | bloco3 344.596 | fim da fala 560.215 | total 565.215
+# Formato: bloco | início local (s) | frase [palavra@t local]
+1|0.21|Dez mil reais, em novembro de dois mil e dezesseis. [mil@2.43]
+1|3.54|A Ana deixou na poupança.
+1|5.04|O Bruno colocou na bolsa.
+1|7.00|Dez anos depois, o Bruno tem mais de sete mil reais a mais do que a Ana. [de@9.17] [que@10.92]
+1|11.67|Mas teve um dia, em dois mil e vinte, em que o Bruno tinha menos dinheiro do que a Ana. [e@13.25] [menos@14.87]
+1|16.54|Bem menos.
+1|17.73|E quase todo mundo no lugar dele teria desistido. [teria@19.57]
+1|20.93|Hoje a gente vai fazer essa conta completa. [completa@22.34]
+1|23.25|Dez mil reais, dez anos, cinco lugares diferentes: poupança, um CDB que paga cem por cento do CDI, fundos imobiliários, a bolsa e o dólar. [diferentes@26.54] [por@29.52] [bolsa@32.34]
+1|34.03|E, no fim, um sexto lugar que ficou de fora da disputa, por um motivo que eu vou explicar. [ficou@36.46] [motivo@38.42]
+1|39.87|As regras são simples.
+1|41.48|O dinheiro entra no dia dez de novembro de dois mil e dezesseis e sai no dia dez de novembro de dois mil e vinte e seis. [novembro@43.27] [sai@45.28] [dois@47.02]
+1|48.48|Ninguém mexe no meio do caminho.
+1|50.34|E onde tem imposto de renda, a gente já desconta. [gente@51.96]
+1|53.28|Antes do ranking, a régua.
+1|55.33|Porque ganhar dinheiro não é só ver o número subir. [o@57.04]
+1|58.23|É ver o número subir mais que os preços. [os@59.85]
+1|60.85|De novembro de dois mil e dezesseis até agora, a inflação oficial, o IPCA, somou uns sessenta e dois por cento. [até@62.52] [somou@66.06]
+1|68.57|Ou seja: pra comprar hoje o que dez mil reais compravam em dois mil e dezesseis, você precisa de dezesseis mil e duzentos. [dez@70.53] [e@72.36] [e@74.88]
+1|75.82|Guarda esse número.
+1|76.93|Dezesseis mil e duzentos.
+1|78.75|Quem terminou abaixo dele, perdeu poder de compra. [compra@80.97]
+1|81.56|Mesmo com o saldo maior.
+1|83.36|Agora sim, o ranking.
+1|85.15|Dez mil reais em novembro de dois mil e dezesseis, em cinco lugares diferentes. [mil@87.07]
+1|90.21|Dez anos depois, quanto virou cada um?
+1|92.60|Do pior pro melhor.
+1|94.13|Em quinto lugar, o dólar.
+1|96.14|Em dois mil e dezesseis, o dólar custava três reais e trinta e seis centavos. [custava@97.89] [centavos@100.02]
+1|100.97|Hoje, cinco reais e cinquenta e nove.
+1|103.75|Parece uma alta enorme, né?
+1|105.33|Sessenta e seis por cento.
+1|107.12|Só que dólar parado na gaveta não rende nada. [rende@108.95]
+1|109.76|Os dez mil viraram dezesseis mil e seiscentos. [seiscentos@112.24]
+1|113.33|Quase empatou com a inflação.
+1|115.08|Em dez anos, o ganho de verdade foi de uns trezentos e setenta reais. [foi@117.13]
+1|119.69|Em quarto, a poupança.
+1|121.69|Dezessete mil e novecentos.
+1|123.76|Ganhou da inflação, mas por pouco: mil e seiscentos reais a mais em dez anos. [e@126.75] [anos@129.14]
+1|130.07|E teve anos, como dois mil e vinte, em que ela rendeu menos que os preços. [vinte@131.82] [os@133.87]
+1|134.88|Em terceiro, os fundos imobiliários, medidos pelo índice IFIX, com os rendimentos reinvestidos. [índice@138.08]
+1|141.24|Dezenove mil e setecentos.
+1|142.90|E aqui os rendimentos mensais são isentos de imposto. [de@145.63]
+1|146.68|Em segundo, o CDB que paga cem por cento do CDI. [por@149.24]
+1|150.65|Vinte e quatro mil e quatrocentos brutos.
+1|153.08|Tirando o imposto de renda, vinte e dois mil e trezentos. [dois@155.17]
+1|156.64|A renda fixa mais básica do banco deixou a poupança quatro mil e quatrocentos reais pra trás. [deixou@158.56] [reais@160.87]
+1|162.15|E em primeiro lugar: a bolsa, pelo Ibovespa, com os dividendos. [ibovespa@164.37]
+1|166.37|Vinte e oito mil brutos.
+1|168.35|Já descontado o imposto, vinte e cinco mil e trezentos. [mil@170.74]
+1|171.85|Duas vezes e meia o dinheiro inicial.
+2|0.26|Então tá resolvido?
+2|1.58|Bolsa ganha, e pronto?
+2|3.33|Calma.
+2|4.14|Porque esse ranking mostra só a foto do fim. [do@6.23]
+2|6.91|Ele não mostra o filme.
+2|8.28|A Ana e o Bruno começaram com dez mil reais cada, em novembro de dois mil e dezesseis. [dez@9.77] [dois@11.95]
+2|13.10|A Ana deixou na poupança.
+2|14.76|O Bruno colocou na bolsa.
+2|16.64|Três anos e meio depois, chegou a pandemia. [pandemia@18.64]
+2|19.57|No dia vinte e três de março de dois mil e vinte, a bolsa despencou e fechou em sessenta e três mil pontos. [de@21.10] [despencou@22.81] [mil@25.41]
+2|26.52|Nesse dia, os dez mil do Bruno valiam dez mil e quatrocentos. [valiam@28.61]
+2|31.07|Três anos e meio depois, praticamente o mesmo dinheiro do começo. [mesmo@33.46]
+2|35.25|E naquele mesmo dia, a Ana, que não fez nada de diferente, tinha onze mil e novecentos. [não@37.51] [mil@40.07]
+2|41.18|Na poupança.
+2|42.27|Agora imagina o Bruno abrindo o aplicativo da corretora em março de dois mil e vinte. [da@44.36] [e@45.94]
+2|46.79|Três anos e meio de espera, o mundo parando, todo mundo dizendo que ia piorar. [mundo@48.84] [piorar@51.23]
+2|52.00|Muita gente vendeu ali.
+2|53.73|E quem vendeu no fundo saiu com dez mil e quatrocentos, e perdeu toda a subida que veio depois. [dez@55.43] [a@57.99]
+2|59.79|O Bruno não vendeu.
+2|61.43|E é só por isso que hoje ele tem vinte e cinco mil e trezentos, enquanto a Ana tem dezessete mil e novecentos. [ele@62.88] [trezentos@64.08] [e@66.85]
+2|67.88|E a montanha-russa não acabou em dois mil e vinte. [mil@69.97]
+2|70.98|Em outubro deste ano, a bolsa passou dos duzentos e nove mil pontos, um recorde. [dos@73.24] [recorde@75.42]
+2|76.27|Naquele momento, os dez mil do Bruno chegaram a valer uns trinta e quatro mil, brutos. [chegaram@78.57] [mil@80.28]
+2|81.84|Um mês depois, com a queda de quase dez por cento em outubro, valem vinte e oito mil. [quase@83.67] [vinte@86.15]
+2|87.64|Seis mil reais de diferença em poucas semanas. [semanas@90.07]
+2|90.97|Na poupança da Ana, isso não acontece.
+2|93.72|Nem pra cima, nem pra baixo.
+2|95.68|A bolsa paga mais no longo prazo justamente porque, no meio do caminho, ela cobra o preço do susto. [justamente@97.65] [cobra@100.46]
+2|102.21|E tem mais um detalhe que pouca gente percebe. [gente@103.92]
+2|105.05|O vencedor muda conforme a janela que você olha. [você@106.93]
+2|108.08|Aqui no canal a gente já fez a mesma conta para cinco anos: dez mil reais aplicados em outubro de dois mil e vinte e um. [a@109.27] [mil@111.96] [mil@114.09]
+2|115.23|Naquela janela, quem ganhou foi o CDB de cem por cento do CDI, com dezessete mil líquidos. [de@117.58] [dezessete@119.41]
+2|121.25|A bolsa chegou logo atrás.
+2|123.08|Em dez anos, a bolsa ganha com folga. [folga@125.05]
+2|125.77|Em cinco anos, a renda fixa ganhou.
+2|128.43|Mesmo país, mesmos investimentos, só mudou o dia de entrar e o dia de sair. [dia@131.89] [sair@133.47]
+2|134.28|Por isso, quem diz que tal investimento é sempre o melhor está olhando só pra uma janela. [é@136.45] [pra@138.50]
+2|139.67|O resultado depende de quanto tempo o dinheiro pode ficar lá. [dinheiro@141.81]
+2|143.30|E de você aguentar ficar.
+2|145.26|Agora, o sexto lugar, aquele que ficou fora da disputa. [fora@147.70]
+2|149.15|O bitcoin.
+2|150.32|Em novembro de dois mil e dezesseis, um bitcoin custava uns setecentos e quinze dólares. [um@152.20] [dólares@154.63]
+2|155.57|Uns dois mil e quatrocentos reais.
+2|157.82|Hoje, mesmo depois de uma queda forte, ele vale uns quatrocentos e doze mil reais. [ele@160.38] [reais@162.43]
+2|163.41|Os mesmos dez mil reais virariam um milhão e setecentos mil. [milhão@166.01]
+2|167.76|Antes do imposto.
+3|0.26|Então por que ele ficou de fora do ranking? [do@1.54]
+3|2.26|Primeiro, pelo caminho.
+3|3.92|Em dois mil e dezoito, o bitcoin caiu oitenta e quatro por cento. [caiu@5.84]
+3|8.15|Em dois mil e vinte e dois, caiu setenta e sete por cento. [caiu@9.69]
+3|11.93|Hoje, está uns quarenta por cento abaixo do recorde do ano passado. [do@14.66]
+3|16.40|Quem estava lá viu os dez mil passarem de duzentos mil em dois mil e dezessete, caírem pra uns cinquenta mil um ano depois, passarem de um milhão e meio em dois mil e vinte e um e despencarem de novo pra uns trezentos e quarenta mil. [passarem@18.19] [e@20.11] [um@22.72] [e@25.35] [e@26.54] [uns@28.42]
+3|30.26|Pouquíssima gente aguentou isso sem vender.
+3|33.01|Segundo, e mais importante: hoje a gente sabe qual moeda digital deu certo. [sabe@35.87]
+3|38.09|Em dois mil e dezesseis, existiam centenas delas. [delas@40.82]
+3|41.46|A maioria praticamente sumiu.
+3|43.53|Olhar pra trás e escolher a vencedora é fácil. [é@45.58]
+3|46.68|Escolher antes é outra história.
+3|49.07|Então o bitcoin entra aqui como curiosidade, não como recomendação. [não@51.76]
+3|53.30|Isso é olhar no retrovisor.
+3|55.41|E é isso que vale para o vídeo inteiro: esse ranking é o que aconteceu, não o que vai acontecer. [vídeo@56.43] [aconteceu@58.26]
+3|60.74|Mas dá pra tirar algumas lições bem práticas dessa conta. [práticas@62.27]
+3|63.73|A primeira: a régua é a inflação.
+3|66.57|Não basta o saldo subir.
+3|68.06|O dólar parado e a poupança mal passaram dela em dez anos. [passaram@70.11]
+3|72.37|Se o seu dinheiro de longo prazo está só na poupança, ele está andando, mas quase no mesmo lugar. [está@73.82] [mas@76.17]
+3|77.89|A segunda: o prazo escolhe o risco.
+3|81.01|Dinheiro que você vai precisar em um ou dois anos, como a reserva de emergência, não pode estar num lugar que caiu quase pela metade na pandemia. [ou@82.76] [emergência@84.50] [caiu@86.68]
+3|89.14|Já dinheiro que vai ficar dez anos parado pode aguentar mais sobe e desce, se você tiver estômago pra isso. [parado@90.97] [se@93.41]
+3|95.67|A terceira: imposto e custo contam.
+3|98.85|O CDB deixou dois mil e duzentos reais de imposto no caminho, e a bolsa, dois mil e setecentos. [reais@100.64] [bolsa@102.43]
+3|104.70|Já o dólar na gaveta não pagou imposto, mas também não rendeu nada. [imposto@106.62]
+3|108.99|Sempre compare o valor que sobra no seu bolso, não o número do anúncio. [seu@110.87]
+3|113.60|E a quarta: você não precisa escolher um só. [um@115.69]
+3|116.58|Imagina três pessoas, cada uma com dez mil reais em novembro de dois mil e dezesseis. [mil@119.31] [e@120.97]
+3|122.17|A Ana deixou tudo na poupança.
+3|124.09|O Bruno colocou tudo na bolsa.
+3|126.38|E a Carla dividiu: metade num CDB de cem por cento do CDI, metade na bolsa. [de@128.85] [na@130.86]
+3|131.80|Dez anos depois, a Ana tem dezessete mil e novecentos. [mil@134.40]
+3|135.34|O Bruno, vinte e cinco mil e trezentos. [trezentos@137.17]
+3|138.21|E a Carla, vinte e três mil e oitocentos. [e@139.96]
+3|141.03|Menos que o Bruno, mas quase seis mil a mais que a Ana. [mil@143.12]
+3|144.61|Só que a parte mais importante aconteceu no meio do caminho. [no@146.66]
+3|148.10|Em março de dois mil e vinte, no pior dia da pandemia, o Bruno estava com dez mil e quatrocentos. [no@149.85] [estava@152.15]
+3|154.46|Três anos e meio de espera, e praticamente o mesmo dinheiro do começo. [praticamente@156.38]
+3|158.87|A Carla, no mesmo dia, estava com onze mil e seiscentos. [onze@161.25]
+3|163.05|Ela também levou um susto, mas um susto bem menor. [susto@164.97]
+3|166.46|E isso faz toda a diferença.
+3|168.70|Quem leva um susto menor tem muito mais chance de não vender no pior momento. [mais@170.62] [momento@172.24]
+3|173.01|E quem não vende no pior momento é quem chega no fim da conta. [é@174.63]
+3|176.72|Resumindo a conta.
+3|178.16|Dez mil reais em novembro de dois mil e dezesseis viraram: dezesseis mil e seiscentos no dólar, dezessete mil e novecentos na poupança, dezenove mil e setecentos nos fundos imobiliários, vinte e dois mil e trezentos no CDB e vinte e cinco mil e trezentos na bolsa. [mil@180.00] [seiscentos@182.38] [na@185.16] [fundos@187.85] [trezentos@190.18] [mil@192.40]
+3|193.81|E a inflação pedia dezesseis mil e duzentos só pra empatar. [duzentos@195.64]
+3|197.31|Ganhou quem ficou mais tempo e aguentou o caminho. [o@199.19]
+3|200.06|Não quem acertou o dia.
+3|201.59|E você?
+3|202.53|Onde estariam os seus dez mil de dois mil e dezesseis hoje? [dois@204.24]
+3|205.82|E onde você colocaria pros próximos dez anos? [anos@207.74]
+3|208.38|Comenta aí.
+3|209.35|Se quiser ver quanto tempo leva pra chegar nos primeiros cem mil, o vídeo está aqui do lado. [chegar@211.27] [está@213.27]
+3|214.55|Até a próxima.

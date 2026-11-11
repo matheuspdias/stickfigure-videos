@@ -1837,6 +1837,62 @@ def grafico_curva(c, t, t0, x, y, w=900, h=480, f=None, d=2.4, cor=VERDE, eixo_x
         numero_i(c, valor_fim, x + w, y - h - 70, 64, cor, alinhamento="r")
 
 
+def grafico_linha(c, t, t0, x, y, w=1000, h=480, pontos=((0, 10000), (1, 20000)), d=2.4, cor=VERDE, log=False,
+                  vmin=None, vmax=None, eixo=(), rotulos=(), fundo=True, espessura=8):
+    """linha de uma série real que se desenha da esquerda pra direita (origem = canto inferior esquerdo).
+    pontos = [(k 0..1, valor), ...]; log=True usa escala logarítmica (bom para bitcoin);
+    eixo = [(k, "2016"), ...] rótulos embaixo; rotulos = [(indice_do_ponto, "texto", cor, dy), ...] aparecem quando a linha passa."""
+    vals = [v for _, v in pontos]
+    vmin = vmin if vmin is not None else min(vals) * (0.8 if log else 0.9)
+    vmax = vmax if vmax is not None else max(vals) * (1.25 if log else 1.1)
+    if log:
+        fy = lambda v: (math.log(v) - math.log(vmin)) / (math.log(vmax) - math.log(vmin))
+    else:
+        fy = lambda v: (v - vmin) / (vmax - vmin)
+    P_ = [(x + w * k, y - h * fy(v)) for k, v in pontos]
+    if fundo:
+        rr(c, x - 50, y - h - 50, w + 100, h + 120, 24); rgb(c, (1, 1, 1), 0.88); c.fill()
+    for k in range(1, 5):
+        c.rectangle(x, y - h * k / 4, w, 2); rgb(c, (0.85, 0.86, 0.88)); c.fill()
+    c.rectangle(x, y, w, 4); rgb(c, (0.4, 0.4, 0.45)); c.fill()
+    c.select_font_face(HAND); c.set_font_size(32); rgb(c, (0.35, 0.35, 0.4))
+    for k, s_ in eixo:
+        ww = c.text_extents(s_).x_advance; c.move_to(x + w * k - ww / 2, y + 42); c.show_text(s_)
+    if t < t0:
+        return
+    p = ease_io(prog(t, t0, d))
+    xf = x + w * pontos[-1][0] * p if pontos[-1][0] > 0 else x
+    xf = P_[0][0] + (P_[-1][0] - P_[0][0]) * p
+    vis = [P_[0]]
+    for i in range(1, len(P_)):
+        (x0, y0), (x1, y1) = P_[i - 1], P_[i]
+        if x1 <= xf:
+            vis.append((x1, y1))
+        else:
+            k = (xf - x0) / max(1e-6, x1 - x0)
+            vis.append((x0 + (x1 - x0) * k, y0 + (y1 - y0) * k)); break
+    c.move_to(vis[0][0], y)
+    for px, py in vis:
+        c.line_to(px, py)
+    c.line_to(vis[-1][0], y); c.close_path()
+    lgrad(c, 0, y - h, 0, y, [(0, cor, 0.32), (1, cor, 0.03)]); c.fill()
+    c.move_to(*vis[0])
+    for px, py in vis[1:]:
+        c.line_to(px, py)
+    rgb(c, cor); c.set_line_width(espessura); c.set_line_join(cairo.LINE_JOIN_ROUND); c.stroke()
+    c.new_sub_path(); c.arc(*vis[-1], 13, 0, 6.283); rgb(c, cor); c.fill()
+    c.new_sub_path(); c.arc(*vis[-1], 5, 0, 6.283); rgb(c, (1, 1, 1)); c.fill()
+    for item in rotulos:
+        i, s_ = item[0], item[1]
+        col = item[2] if len(item) > 2 else TINTA
+        dy = item[3] if len(item) > 3 else -46
+        px, py = P_[i]
+        if xf + 1 < px:
+            continue
+        c.new_sub_path(); c.arc(px, py, 11, 0, 6.283); rgb(c, col); c.fill()
+        numero_i(c, s_, px, py + dy, 40, col, contorno=(1, 1, 1))
+
+
 def barras_i(c, t, t0, x, y, w=800, h=460, dados=(("Ana", 372000, PURPLE), ("Bruno", 228000, BLUE)), fmt=brl,
              d=1.4, maxv=None, intervalo=0.5, size_val=54):
     """barras que crescem com o valor contando em cima (origem = canto inferior esquerdo)"""

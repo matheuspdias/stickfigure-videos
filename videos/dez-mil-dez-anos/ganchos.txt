@@ -1,0 +1,6 @@
+# Bloco de ganchos dos cortes (HeyGen Voice, Calm Carlos) - 22,879 s
+# link: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=b35f302ece0e48a8982ec961fe71f4d1.wav
+# separados por [pause]; tempos com folga de 0,1 s, cortando fora a pausa
+ana-bruno      | 0.11-8.04   | Dez mil na poupança contra dez mil na bolsa. Em dois mil e vinte, a poupança estava ganhando. Olha quem venceu em dez anos.
+ranking        | 8.47-15.54  | Dez mil reais em dois mil e dezesseis, em cinco investimentos diferentes. Qual rendeu mais em dez anos?
+carla-meio     | 15.80-22.82 | Três pessoas, dez mil reais cada. Quem dividiu o dinheiro levou o menor susto. Olha a conta.
