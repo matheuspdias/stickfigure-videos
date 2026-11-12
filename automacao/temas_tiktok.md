@@ -13,7 +13,8 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - ep. 3 empréstimo consignado (`consignado`)
 - ep. 4 consórcio (`consorcio`)
 - ep. 5 cartão de crédito: rotativo, parcelamento da fatura, teto de 100%, anuidade (`cartao-de-credito`)
-- próximos (em ordem, se o Matheus não mudar): abrir MEI, empréstimo pessoal, financiar moto, cheque especial, previdência privada, comprar carro usado
+- ep. 6 abrir MEI (`antes-de-abrir-mei`, 13/11 18h)
+- próximos (em ordem, se o Matheus não mudar): empréstimo pessoal (o ep. 6 perguntou "empréstimo pessoal ou cheque especial?"), financiar moto, cheque especial, previdência privada, comprar carro usado
 
 ## Já feitos no TikTok (não repetir o mesmo ângulo)
 - Amortização no Minha Casa Minha Vida (`amortizacao-mcmv`)
@@ -42,11 +43,12 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Morar com os pais até os 30: vergonha ou estratégia? Carla x Lucas, 5 anos (`morar-com-os-pais-30`)
 - Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo, Ana x Bruno (`ana-bruno-black-friday`; renderizado mas NÃO postado: o Matheus já tinha vídeo de desconto na Black Friday)
 - Viajar todo ano ou guardar? Ana x Bruno, 10 anos; viagem parcelada é o problema (`viajar-ou-guardar`, substituiu o da Black Friday em 12/11 18h)
-- Série: planta, carro, consignado, consórcio, cartão de crédito (acima)
+- Celular de R$ 8 mil: quanto custa por dia? Troca todo ano x usa 4 anos x celular de R$ 2 mil (`celular-por-dia`, 13/11 10h)
+- Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
-- iPhone de R$ 8 mil em 12x: quanto ele custa de verdade
+- iPhone de R$ 8 mil em 12x: quanto ele custa de verdade (usado em `celular-por-dia`; só com outro ângulo)
 - Faculdade particular ainda compensa? (mensalidade x salário)
 - Dar mesada para filho ou não?
 - Aluguel x Minha Casa Minha Vida, Ana x Bruno (apê de R$ 298 mil, parcela ~R$ 1.900; no MCMV comprar ganha: ~R$ 240 mil x ~R$ 100 mil em 10 anos). Roteiro, palavras, cenas e capa prontos em `videos/aluguel-ou-mcmv/` (falta post.txt e fila; o áudio HeyGen está no roteiro.txt)

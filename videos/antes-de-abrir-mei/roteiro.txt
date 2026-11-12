@@ -1,0 +1,26 @@
+O QUE NINGUÉM TE CONTA ANTES DE ABRIR MEI (TikTok nativo, 1080x1920, estilo ilustrado) - 13/11/2026 18h.
+Série "O que ninguém te conta antes de...", episódio 6 (o ep. 5, cartão de crédito, perguntou "MEI ou empréstimo pessoal?"; MEI era o próximo da lista).
+Produzido no modo automático em 12/11/2026. Na tela, entre 4,2 e 5,9 s: selo "Série: O que ninguém te conta — EP. 6".
+Premissas e fontes em contas.py. A 1ª narração dizia "em um ano, passa de mil reais" (falso para comércio: R$ 984,60); refeita com "dá uns mil reais".
+
+Abrir MEI leva cinco minutos na internet. Mas antes de abrir, você precisa saber disso. [pause]
+
+Primeiro: o boleto mensal, o DAS. Em dois mil e vinte e seis, ele vai de oitenta e dois a oitenta e sete reais por mês. E é cobrado mesmo no mês em que você não vendeu nada. Em um ano, dá uns mil reais.
+
+Segundo: o teto. O MEI pode faturar até oitenta e um mil reais por ano. E faturamento é tudo o que entra, não o lucro. Dá uns seis mil setecentos e cinquenta por mês.
+
+Passou até vinte por cento, ou seja, até noventa e sete mil e duzentos? Você paga uma guia extra sobre o que passou, e no ano seguinte deixa de ser MEI. Passou de vinte por cento? O desenquadramento volta pra janeiro, e você paga imposto de microempresa sobre o ano inteiro.
+
+Terceiro: MEI aberto pode travar o seguro-desemprego. Pra lei, CNPJ ativo pode contar como renda própria. Dá pra recorrer, mas você vai ter que provar que não teve renda.
+
+Quarto: a aposentadoria. O DAS já inclui o INSS, mas só cinco por cento de um salário mínimo. Isso garante aposentadoria por idade de um salário mínimo, auxílio-doença e salário-maternidade. Quer se aposentar com mais? Tem que complementar.
+
+Quinto: tem declaração todo ano, até trinta e um de maio, mesmo sem faturar nada. E nota fiscal é obrigatória quando você vende pra empresa.
+
+Por outro lado: com o MEI você tem CNPJ, emite nota, contribui pro INSS e paga pouco imposto. Pra quem fatura pouco, é um dos jeitos mais baratos de trabalhar por conta própria.
+
+Antes de abrir: confira se a sua atividade é permitida, faça a conta do faturamento e, se for pedir seguro-desemprego, se informe primeiro.
+
+Segue, que o episódio sete sai semana que vem. Empréstimo pessoal ou cheque especial? Comenta.
+
+Áudio HeyGen: https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/3b2a59d6edb54e79a40b29726a12d1c3/id=213e4ab2764a4f359b7ccddd5fafd2b2.wav (110,56 s)
