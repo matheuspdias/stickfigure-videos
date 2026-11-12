@@ -40,13 +40,13 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - R$ 300 por mês em lanche e bar é exagero? (6% do salário; corta só a metade) (`lanche-e-bar-exagero`)
 - Festa de casamento de R$ 50 mil ou entrada do apê? Carla x Diego (`casamento-ou-entrada`)
 - Morar com os pais até os 30: vergonha ou estratégia? Carla x Lucas, 5 anos (`morar-com-os-pais-30`)
-- Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo, Ana x Bruno (`ana-bruno-black-friday`)
+- Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo, Ana x Bruno (`ana-bruno-black-friday`; renderizado mas NÃO postado: o Matheus já tinha vídeo de desconto na Black Friday)
+- Viajar todo ano ou guardar? Ana x Bruno, 10 anos; viagem parcelada é o problema (`viajar-ou-guardar`, substituiu o da Black Friday em 12/11 18h)
 - Série: planta, carro, consignado, consórcio, cartão de crédito (acima)
 
 ## Ideias soltas (a automação pode usar)
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
 - iPhone de R$ 8 mil em 12x: quanto ele custa de verdade
-- Viajar todo ano ou guardar? (Ana x Bruno, 10 anos)
 - Faculdade particular ainda compensa? (mensalidade x salário)
 - Dar mesada para filho ou não?
 - Aluguel x Minha Casa Minha Vida, Ana x Bruno (apê de R$ 298 mil, parcela ~R$ 1.900; no MCMV comprar ganha: ~R$ 240 mil x ~R$ 100 mil em 10 anos). Roteiro, palavras, cenas e capa prontos em `videos/aluguel-ou-mcmv/` (falta post.txt e fila; o áudio HeyGen está no roteiro.txt)
