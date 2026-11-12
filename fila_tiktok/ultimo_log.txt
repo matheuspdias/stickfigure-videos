@@ -1,24 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 81.76s (esperado 81.76s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/ana-bruno-black-friday/bloco1.wav: 81.757s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/ana-bruno-black-friday_narracao.wav 81.757s
+[publicar] bloco 1: 65.97s (esperado 65.97s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar/bloco1.wav: 65.967s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar_narracao.wav 65.967s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.81
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/ana-bruno-black-friday_base.mp4 9 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/ana-bruno-black-friday_tiktok.mp4 11.0 MB 81.8 s
-[publicar] pronto: 81.8s, 11.0 MB
+efeitos sonoros: 0 eventos, volume 0.75
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar_base.mp4 7 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar_tiktok.mp4 8.9 MB 66.0 s
+[publicar] pronto: 66.0s, 8.9 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-ana-bruno-black-friday
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-ana-bruno-black-friday
-[publicar] baixando bloco 1/1
-[publicar] bloco 1: 66.77s (esperado 66.77s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/morar-com-os-pais-30/bloco1.wav: 66.767s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/morar-com-os-pais-30_narracao.wav 66.767s
-[publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.79
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/morar-com-os-pais-30_base.mp4 8 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/morar-com-os-pais-30_tiktok.mp4 9.9 MB 66.8 s
-[publicar] pronto: 66.8s, 9.9 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-morar-com-os-pais-30
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-morar-com-os-pais-30
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-viajar-ou-guardar
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-viajar-ou-guardar
