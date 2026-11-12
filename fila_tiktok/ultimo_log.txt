@@ -1,12 +1,24 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 65.97s (esperado 65.97s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar/bloco1.wav: 65.967s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar_narracao.wav 65.967s
+[publicar] bloco 1: 110.56s (esperado 110.56s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/antes-de-abrir-mei/bloco1.wav: 110.563s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/antes-de-abrir-mei_narracao.wav 110.563s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.75
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar_base.mp4 7 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/viajar-ou-guardar_tiktok.mp4 8.9 MB 66.0 s
-[publicar] pronto: 66.0s, 8.9 MB
+efeitos sonoros: 0 eventos, volume 0.83
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/antes-de-abrir-mei_base.mp4 10 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/antes-de-abrir-mei_tiktok.mp4 13.3 MB 110.6 s
+[publicar] pronto: 110.6s, 13.3 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-viajar-ou-guardar
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-viajar-ou-guardar
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-antes-de-abrir-mei
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-antes-de-abrir-mei
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 80.92s (esperado 80.92s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/celular-por-dia/bloco1.wav: 80.919s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/celular-por-dia_narracao.wav 80.919s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.83
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/celular-por-dia_base.mp4 9 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/celular-por-dia_tiktok.mp4 11.0 MB 80.9 s
+[publicar] pronto: 80.9s, 11.0 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-celular-por-dia
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-celular-por-dia
