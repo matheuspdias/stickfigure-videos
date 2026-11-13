@@ -1,12 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 72.40s (esperado 72.40s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-por-dia-1500/bloco1.wav: 72.404s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-por-dia-1500_narracao.wav 72.404s
+[publicar] bloco 1: 70.25s (esperado 70.25s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13/bloco1.wav: 70.248s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13_narracao.wav 70.248s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-por-dia-1500_base.mp4 7 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-por-dia-1500_tiktok.mp4 9.4 MB 72.4 s
-[publicar] música: happy_nation_slowed (volume 0.72)
-[publicar] pronto: 72.4s, 8.9 MB
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-por-dia-1500
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-por-dia-1500
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13_base.mp4 6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13_tiktok.mp4 7.9 MB 70.2 s
+[publicar] pronto: 70.2s, 7.9 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-natal-come-13
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-natal-come-13
