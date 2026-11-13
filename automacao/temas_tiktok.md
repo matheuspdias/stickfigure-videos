@@ -4,7 +4,6 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
-- 2ª parcela do 13º: por que ela vem menor (INSS e IR descontados só nela), com salários de R$ 2 mil, 3 mil e 5 mil
 - IPVA 2027 à vista com desconto ou parcelado: quanto você ganha (ou perde) em cada caso (série: Parte 1 IPVA, Parte 2 IPTU)
 - Comprar ou alugar em 2026 (Parte 1 de 3): continuação da série do aluguel com os juros e aluguéis atuais
 - Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
@@ -49,12 +48,13 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Celular de R$ 8 mil: quanto custa por dia? Troca todo ano x usa 4 anos x celular de R$ 2 mil (`celular-por-dia`, 13/11 10h)
 - R$ 1 milhão por dia desde 1500: quanto você teria (formato "e se..." com escala, música Happy Nation slowed; `milhao-por-dia-1500`, extra pedido em 13/11)
 - Seu 13º já tem dono: o Natal médio (R$ 1.430) come a 1ª parcela; 1ª = teto do Natal, 2ª = janeiro (`natal-come-13`, 13/11 noite, 1º teste sem cartaz de abertura)
+- 2ª parcela do 13º: por que vem menor (INSS do 13º inteiro só nela; IR zero até R$ 5 mil em 2026 x ~R$ 330 em 2025; R$ 7 mil ainda paga) (`segunda-parcela-13-menor`, 14/11 18h)
+- E se você acordasse com R$ 1 milhão no Pix? 10 mil notas, quanto dura, quase R$ 9 mil/mês no CDI, ~R$ 5 mil/mês pra sempre descontando a inflação (`milhao-no-pix`, 14/11 10h)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
 ## Formato "E se..." (10h, todo dia desde 14/11/2026; regras em AUTOMATICO_TIKTOK.md, 2c)
-Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`).
-- E se você acordasse com R$ 1 milhão no Pix? Quanto dura, quanto rende, dá pra viver de renda?
+Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`); R$ 1 milhão no Pix (`milhao-no-pix`, 14/11).
 - R$ 1 bilhão guardando 1 salário mínimo por mês: quantos anos (desde antes das pirâmides?) e a virada dos juros
 - Uma pilha de R$ 1 milhão em notas de R$ 2: altura, peso, tempo pra contar
 - E se você guardasse R$ 1 por segundo? Em um dia, um ano, uma vida
