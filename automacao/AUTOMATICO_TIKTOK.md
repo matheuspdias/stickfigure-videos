@@ -40,21 +40,33 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 - Leia `automacao/temas_tiktok.md`. Use primeiro a **"Fila do Matheus"**, na ordem. Depois, a série e as ideias.
 - **Um vídeo de cada tipo por dia** (mudou em 13/11/2026, a pedido do Matheus):
   - **10h: formato "E se..."** (todo dia, com música; regras em 2c);
-  - **18h**: episódio da série "O que ninguém te conta antes de..." (a cada 3 ou 4 dias, ~2 min); nos outros dias, história com dois personagens que fazem escolhas diferentes (Ana x Bruno, Carla x Diego), conta rápida com número que surpreende ou POV do dia a dia (60 a 90 s).
+  - **18h**: conta útil do momento (regra 2b.2), de preferência em série numerada; episódio da série "O que ninguém te conta antes de..." a cada 3 ou 4 dias (~2 min). Ana x Bruno só quando a escolha dos dois for uma conta útil (ex.: IPVA à vista x parcelado), não opinião.
 - Aproveite datas do mês (13º, Black Friday, IPVA, IR, férias) quando estiverem perto.
 - **Não repita** tema nem ângulo de "Já feitos". Respeite "Não fazer" (principalmente: nada de meta de poupança irreal para quem ganha pouco; valores pequenos e práticos).
 - Tire o tema usado da "Fila do Matheus" e acrescente os dois em "Já feitos" com o slug.
 
-### 2b. Estilo viral (pedido do Matheus em 09/11/2026: vale para todos os vídeos)
-- **Tema que divide opinião**: algo em que metade das pessoas discorda (carro x app, aluguel x financiar, casamento x apê, morar com os pais). Prefira esses a temas "neutros".
-- **Gancho provocativo nos 2 primeiros segundos**, em forma de afirmação ou pergunta que incomoda: "Seu carro custa mais que um aluguel.", "Pagar aluguel é jogar dinheiro fora? A resposta vai irritar muita gente." A frase do gancho já está enorme na tela no 1º quadro.
-- **Virada no meio** que contraria o senso comum ("praticamente empate", "não é burrice, mas...") e **conclusão honesta** com as condições em que cada lado ganha (nunca "um lado é burro").
-- **Fecha chamando para o lado**: "Time Ana ou time Bruno? Comenta", "Defende o seu lado nos comentários".
-- Continua valendo "Não fazer" (sem política, apostas, promessa de ganho, metas irreais, recomendar produto/banco) e contas conferidas em `contas.py`.
+### 2a. O que os dados mostraram (13/11/2026) — vale acima de tudo
+Análise dos vídeos de 07 a 13/11 (todos parados em 150 a 450 views; o do aluguel, 3.435):
+- O TikTok distribuiu normalmente (90-95% "Para você"): não é bloqueio, nem o selo de IA (o Matheus sempre marca e deve continuar marcando), nem o estilo ilustrado.
+- **A maioria saiu em 0:01**: os vídeos abriam com um cartaz parado (título enorme em fundo escuro + Consultor no holofote), que parece capa/anúncio.
+- Temas de opinião (morar com os pais, casamento, lanche e bar) quase não foram salvos nem compartilhados (1 salvamento, 2 compartilhamentos). Os campeões do canal são contas úteis do momento (13º 238 mil, férias 105 mil, apê na planta 57 mil) e séries numeradas (R$ 100 mil 624 mil, aluguel 156 mil).
+
+### 2b. Abertura, temas e séries (regras desde 14/11/2026, a pedido do Matheus)
+1. **Sem cartaz de abertura.** Proibido abrir com título grande parado. No quadro 0 a conta já está acontecendo e se mexendo
+   (número grande contando, barras subindo, dinheiro saindo da conta, fatura chegando, pilha crescendo) e a narração começa em 0,0 s com o gancho.
+   O título vai **pequeno no topo** (size ~56, como no `videos/primeiros-100-mil`, que fez 624 mil). O cartaz com título grande é só para a **capa** (`capa.py`), que o Matheus escolhe na postagem.
+   Na revisão do `render.py sheet`, olhe o quadro de 0,0 s: se ele funcionaria como capa parada, refaça.
+2. **Tema útil do momento, que dá vontade de salvar e mandar pra alguém** (a 18h, sempre; o "E se..." das 10h continua):
+   uma conta que a pessoa precisa fazer agora, com o número dela (salário de R$ 2 mil, 3 mil, 5 mil). Calendário: 2ª parcela do 13º (até 18/12) e o desconto que vem nela,
+   Black Friday parcelada, quanto custa o Natal/amigo secreto/ceia, férias de fim de ano, IPVA e IPTU de janeiro (à vista ou parcelado),
+   material escolar, IR 2027, aumento do salário mínimo. Polêmica só de vez em quando e sempre com uma conta útil no meio (nada de "vergonha ou estratégia?" sem conta).
+3. **Séries numeradas** "(Parte 1)", "(Parte 2)": quando o tema render mais de um vídeo, divida e diga "Parte 2 no perfil" (o TikTok mostrou gente buscando "parte 2 da história alugar ou comprar").
+   Continuação natural: série do aluguel (comprar x alugar com os números de 2026) e série dos R$ 100 mil (juros compostos).
+- Mantém: virada no meio, conclusão honesta (nunca "um lado é burro"), pergunta no fim, "Não fazer" e contas conferidas em `contas.py`.
 
 ### 2c. Formato "E se..." (10h, todo dia; pedido do Matheus em 13/11/2026)
 Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspirado num vídeo viral de "R$ 1 trilhão no Pix".
-- **Gancho de fantasia** na 1ª frase: "E se você ganhasse/acordasse com/guardasse...?" com um número grande e concreto.
+- **Abre já na cena do número virando coisa** (sem cartaz parado, regra 2b.1). **Gancho de fantasia** na 1ª frase: "E se você ganhasse/acordasse com/guardasse...?" com um número grande e concreto.
 - **O número vira coisa**, uma cena nova a cada 2-3 s: pilha de notas que sobe até um avião/o espaço, peso em toneladas numa balança,
   anos contando uma nota por segundo, contador de dias, calendário girando, comparação com algo conhecido (Torre Eiffel, estádio).
 - **Virada** no meio ("Parece muito? Mas olha a virada") e **um detalhe de juros/rendimento** no fim (CDI do momento, já sem IR).
@@ -69,7 +81,7 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 
 ### 3. Pesquisa e roteiro (skill, T1)
 - Pesquise na web números e regras que podem ter mudado (juros, Selic, IPCA, tabelas do INSS e do IR, regras de programas). Confira cada conta em código (`videos/<slug>/contas.py`) e use números redondos.
-- Gancho nos 2 primeiros segundos, frases curtas, números por extenso, virada no meio, **fecha com pergunta para comentário**. 150 a 230 palavras (60-90 s); episódio da série até ~2 min.
+- Gancho falado no segundo 0 (sem cartaz parado, ver 2b), frases curtas, números por extenso, virada no meio, **fecha com pergunta para comentário**. 150 a 230 palavras (60-90 s); episódio da série até ~2 min.
 - Salve `videos/<slug>/roteiro.txt`.
 
 ### 4. Narração
@@ -78,7 +90,7 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 
 ### 5. Cenas, capa e post (skill, T3 a T5), no estilo ilustrado
 - `videos/<slug>/scenes.py`: `from engine import *`, `VERTICAL = True`, `from ilustrado import *`, `STYLE = "ilustrado"`, `SFX_OFF = True` ou `SFX_SKIP` como no modelo e 3 ou 4 toques. Modelo: `examples/ilustrado-tiktok/scenes.py`.
-- Cenários de vida real e `fundo_marca`, números com `contador`/`barras_i`/`grafico_curva`, telas de banco e fatura; O Consultor grande (escala 1.3-1.5), algo novo na tela a cada ~2 s.
+- **Quadro 0 com a conta em movimento e título pequeno no topo** (regra 2b.1). Cenários de vida real e `fundo_marca`, números com `contador`/`barras_i`/`grafico_curva`, telas de banco e fatura; O Consultor grande (escala 1.3-1.5), algo novo na tela a cada ~2 s.
 - Revisão **obrigatória**: `python render.py sheet ...` no fim e no meio das cenas, pelo menos duas rodadas, corrigindo sobreposições e qualquer coisa abaixo de y 1500 ou à direita de x 930. Teste mudo curto: `python render.py build videos/<slug>/scenes.py silent:8 out/teste.mp4`.
 - `videos/<slug>/capa.py` (modelo `examples/ilustrado-tiktok/capa.py`) e `videos/<slug>/post.txt` (legenda do TikTok com gancho na 1ª linha, 2 ou 3 linhas da conta, pergunta final e 3 a 5 hashtags; título curto para Shorts).
 

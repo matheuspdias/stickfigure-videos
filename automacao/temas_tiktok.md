@@ -4,7 +4,11 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
-- 
+- 2ª parcela do 13º: por que ela vem menor (INSS e IR descontados só nela), com salários de R$ 2 mil, 3 mil e 5 mil
+- Quanto custa o Natal: presentes, amigo secreto, ceia; quanto da 2ª parcela do 13º some em dezembro
+- IPVA 2027 à vista com desconto ou parcelado: quanto você ganha (ou perde) em cada caso (série: Parte 1 IPVA, Parte 2 IPTU)
+- Comprar ou alugar em 2026 (Parte 1 de 3): continuação da série do aluguel com os juros e aluguéis atuais
+- Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
 
 ## Série "O que ninguém te conta antes de..."
 Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer se vale a pena; mesma estrutura dos episódios anteriores (`videos/consignado`, `videos/consorcio`). ~2 min. Um episódio a cada 3 ou 4 dias, no horário das 18h.
