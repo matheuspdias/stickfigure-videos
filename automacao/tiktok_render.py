@@ -3,7 +3,8 @@ Produtor dos TikToks automáticos do Faz a Conta (roda no GitHub Actions, workfl
 
 Pega um vídeo de fila_tiktok/<slug>.json, baixa a narração do HeyGen, junta, renderiza o vertical,
 queima as legendas, gera a capa e publica tudo numa release "tiktok-<slug>" do GitHub:
-    <slug>_tiktok.mp4   vídeo final (1080x1920, legendas palavra por palavra)
+    <slug>_tiktok.mp4   vídeo final (1080x1920, legendas palavra por palavra; com música se o JSON tiver "musica")
+    <slug>_sem_musica.mp4  só quando há "musica": a mesma versão sem a música (para Shorts/Reels)
     <slug>_capa.png     capa
     <slug>_post.txt     legenda do post, título do Shorts e lembretes
 A tarefa agendada baixa esses arquivos da release e entrega ao Matheus no chat. Ele posta à mão.
@@ -18,7 +19,8 @@ Formato do fila_tiktok/<slug>.json (o modo automático escreve; veja automacao/A
   "horario": "10:00",            # "10:00" ou "18:00"
   "titulo": "O que ninguém te conta antes de entrar no rotativo",
   "audio_blocos": ["https://resource2.heygen.ai/...wav"],
-  "duracoes": [74.2]
+  "duracoes": [74.2],
+  "musica": "happy_nation_slowed"   # opcional (formato "e se..."): musica/<nome>.mp3.enc, decifrada com o segredo MUSICA_SENHA
 }
 """
 import argparse
@@ -37,6 +39,33 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "matheuspdias/stickfigure-videos")
 
 def run(*cmd):
     subprocess.run([str(c) for c in cmd], check=True, cwd=RAIZ)
+
+
+MUSICA_VOL = 0.72   # ajustado em 13/11/2026 a pedido do Matheus: ~9 dB abaixo da fala, perto do vídeo de referência
+
+
+def decifrar_musica(nome, destino):
+    """musica/<nome>.mp3.enc (AES-256, openssl) -> destino. Sem o segredo MUSICA_SENHA, devolve None."""
+    enc = os.path.join(RAIZ, "musica", f"{nome}.mp3.enc")
+    if not os.path.exists(enc):
+        log(f"AVISO: musica/{nome}.mp3.enc não existe; vídeo sai sem música")
+        return None
+    if not os.environ.get("MUSICA_SENHA"):
+        log("AVISO: segredo MUSICA_SENHA não configurado no GitHub; vídeo sai sem música")
+        return None
+    subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2", "-iter", "200000", "-in", enc, "-out", destino,
+                    "-pass", "env:MUSICA_SENHA"], check=True)
+    return destino
+
+
+def mixar_musica(video, musica, saida, vol=MUSICA_VOL):
+    """música de fundo do começo ao fim, abaixando um pouco sob a voz (sidechain), fade-in 0,5 s e fade-out 2 s"""
+    d = duracao(video)
+    fc = (f"[0:a]asplit=2[v][sc];[1:a]atrim=0:{d:.3f},asetpts=PTS-STARTPTS,volume={vol},afade=t=in:d=0.5,"
+          f"afade=t=out:st={max(d - 2, 0):.3f}:d=2[m];[m][sc]sidechaincompress=threshold=0.05:ratio=2:attack=30:release=500[md];"
+          f"[v][md]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", video, "-i", musica, "-filter_complex", fc, "-map", "0:v", "-map", "[a]",
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", saida], check=True)
 
 
 def produzir(m, audios_locais=None):
@@ -73,6 +102,16 @@ def produzir(m, audios_locais=None):
     if abs(dv - dn) > 1.5:
         raise SystemExit(f"o vídeo ({dv:.1f}s) não bate com a narração ({dn:.1f}s)")
 
+    extras = []
+    if m.get("musica"):
+        mp3 = decifrar_musica(m["musica"], os.path.join(pasta, "musica.mp3"))
+        if mp3:
+            sem = os.path.join(RAIZ, "out", f"{slug}_sem_musica.mp4")
+            shutil.move(final, sem)
+            mixar_musica(sem, mp3, final)
+            extras.append(sem)
+            log(f"música: {m['musica']} (volume {MUSICA_VOL})")
+
     tmp = os.path.join(pasta, "capa")
     run(sys.executable, "render.py", "stills", f"videos/{slug}/capa.py", tmp, "10")
     capa = os.path.join(RAIZ, "out", f"{slug}_capa.png")
@@ -80,7 +119,7 @@ def produzir(m, audios_locais=None):
     post = os.path.join(RAIZ, "out", f"{slug}_post.txt")
     shutil.copy(os.path.join(vdir, "post.txt"), post)
     log(f"pronto: {dv:.1f}s, {os.path.getsize(final) / 1e6:.1f} MB")
-    return final, capa, post
+    return (final, *extras, capa, post)
 
 
 def publicar_release(m, arquivos):

@@ -48,7 +48,17 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
-Formato "e se..." (pedido do Matheus em 13/11/2026, vídeo de referência com R$ 1 trilhão no Pix): número enorme vira coisa (pilha até o espaço, peso, anos contando), virada com juros, fecha com "o que você fazia primeiro?". Ideias: R$ 1 milhão no Pix (dá pra viver de renda?); R$ 1 bilhão guardando 1 salário mínimo por mês; pilha de R$ 1 milhão em notas de R$ 2.
+## Formato "E se..." (10h, todo dia desde 14/11/2026; regras em AUTOMATICO_TIKTOK.md, 2c)
+Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`).
+- E se você acordasse com R$ 1 milhão no Pix? Quanto dura, quanto rende, dá pra viver de renda?
+- R$ 1 bilhão guardando 1 salário mínimo por mês: quantos anos (desde antes das pirâmides?) e a virada dos juros
+- Uma pilha de R$ 1 milhão em notas de R$ 2: altura, peso, tempo pra contar
+- E se você guardasse R$ 1 por segundo? Em um dia, um ano, uma vida
+- E se você gastasse R$ 1 milhão por dia: quanto tempo pra gastar a fortuna do mais rico do mundo?
+- E se você ganhasse o salário mínimo desde o Plano Real (1994) e não gastasse nada?
+- Quanto pesa e quanto ocupa R$ 1 bilhão em moedas de R$ 1? (piscina olímpica, caminhões)
+- E se o seu salário dobrasse todo dia por 30 dias, começando com R$ 0,01?
+- E se você tivesse investido R$ 100 por mês desde que nasceu? (por idade: 20, 30, 40 anos)
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
 - iPhone de R$ 8 mil em 12x: quanto ele custa de verdade (usado em `celular-por-dia`; só com outro ângulo)
 - Faculdade particular ainda compensa? (mensalidade x salário)

@@ -38,9 +38,9 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 
 ### 2. Temas (2 por dia)
 - Leia `automacao/temas_tiktok.md`. Use primeiro a **"Fila do Matheus"**, na ordem. Depois, a série e as ideias.
-- **Um vídeo de cada tipo por dia**, variando ao longo da semana:
-  - **10h**: conta rápida com número que surpreende, comparação com resultado ou POV do dia a dia (60 a 90 s);
-  - **18h**: episódio da série "O que ninguém te conta antes de..." (a cada 3 ou 4 dias, ~2 min) ou história com dois personagens que fazem escolhas diferentes (Ana x Bruno, Carla x Diego).
+- **Um vídeo de cada tipo por dia** (mudou em 13/11/2026, a pedido do Matheus):
+  - **10h: formato "E se..."** (todo dia, com música; regras em 2c);
+  - **18h**: episódio da série "O que ninguém te conta antes de..." (a cada 3 ou 4 dias, ~2 min); nos outros dias, história com dois personagens que fazem escolhas diferentes (Ana x Bruno, Carla x Diego), conta rápida com número que surpreende ou POV do dia a dia (60 a 90 s).
 - Aproveite datas do mês (13º, Black Friday, IPVA, IR, férias) quando estiverem perto.
 - **Não repita** tema nem ângulo de "Já feitos". Respeite "Não fazer" (principalmente: nada de meta de poupança irreal para quem ganha pouco; valores pequenos e práticos).
 - Tire o tema usado da "Fila do Matheus" e acrescente os dois em "Já feitos" com o slug.
@@ -51,6 +51,21 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 - **Virada no meio** que contraria o senso comum ("praticamente empate", "não é burrice, mas...") e **conclusão honesta** com as condições em que cada lado ganha (nunca "um lado é burro").
 - **Fecha chamando para o lado**: "Time Ana ou time Bruno? Comenta", "Defende o seu lado nos comentários".
 - Continua valendo "Não fazer" (sem política, apostas, promessa de ganho, metas irreais, recomendar produto/banco) e contas conferidas em `contas.py`.
+
+### 2c. Formato "E se..." (10h, todo dia; pedido do Matheus em 13/11/2026)
+Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspirado num vídeo viral de "R$ 1 trilhão no Pix".
+- **Gancho de fantasia** na 1ª frase: "E se você ganhasse/acordasse com/guardasse...?" com um número grande e concreto.
+- **O número vira coisa**, uma cena nova a cada 2-3 s: pilha de notas que sobe até um avião/o espaço, peso em toneladas numa balança,
+  anos contando uma nota por segundo, contador de dias, calendário girando, comparação com algo conhecido (Torre Eiffel, estádio).
+- **Virada** no meio ("Parece muito? Mas olha a virada") e **um detalhe de juros/rendimento** no fim (CDI do momento, já sem IR).
+- Fecha com **"o que você fazia primeiro?"** (ou pergunta parecida que faça a pessoa se imaginar). 60 a 80 s.
+- Personagem principal "você" = `pessoa(..., "lucas")`; o Consultor aparece em 1 ou 2 cenas. Fundos de cor sólida (`fundo_marca`) + poucas cenas de cenário.
+- Números pesquisados e conferidos em `contas.py`; quando for estimativa (peso, espessura, revenda), a narração diz "uns"/"quase".
+- Continua valendo "Não fazer": nada de loteria/apostas como fantasia (Mega da Virada etc.), nem promessa de ficar rico.
+- No JSON da fila, ponha `"musica": "happy_nation_slowed"`: o Actions mistura a música (Happy Nation slowed + reverb, volume já ajustado)
+  e publica `<slug>_tiktok.mp4` (com música) e `<slug>_sem_musica.mp4` (para Shorts/Reels, onde a música da gravadora é silenciada).
+  A música fica cifrada em `musica/` e precisa do segredo `MUSICA_SENHA` no GitHub; sem ele, o vídeo sai sem música (o log avisa): diga isso ao Matheus.
+- Ideias: lista "Formato E se..." em `automacao/temas_tiktok.md`.
 
 ### 3. Pesquisa e roteiro (skill, T1)
 - Pesquise na web números e regras que podem ter mudado (juros, Selic, IPCA, tabelas do INSS e do IR, regras de programas). Confira cada conta em código (`videos/<slug>/contas.py`) e use números redondos.
@@ -71,8 +86,9 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 `fila_tiktok/<slug>.json` para cada vídeo:
 ```json
 {"slug": "<slug>", "data": "2026-11-08", "horario": "10:00", "titulo": "<título curto>",
- "audio_blocos": ["<link do HeyGen>"], "duracoes": [74.2]}
+ "audio_blocos": ["<link do HeyGen>"], "duracoes": [74.2], "musica": "happy_nation_slowed"}
 ```
+(`"musica"` só no vídeo "E se..." das 10h.)
 Valide com `python -m json.tool`.
 
 ### 7. Commit e push
@@ -80,10 +96,10 @@ Commit de `videos/<slug>/` (sem áudio), `automacao/temas_tiktok.md` e `fila_tik
 
 ### 8. Esperar, baixar e entregar
 - A cada 60 s, por até 50 min, confira se a release saiu: `curl -s https://api.github.com/repos/matheuspdias/stickfigure-videos/releases/tags/tiktok-<slug>` (ou `gh api repos/matheuspdias/stickfigure-videos/releases/tags/tiktok-<slug>`). Se o workflow falhar, leia `fila_tiktok/ultimo_log.txt` depois de `git pull`, corrija o que for do seu lado (cena, JSON) e faça push de novo.
-- Baixe `<slug>_tiktok.mp4`, `<slug>_capa.png` e `<slug>_post.txt` da release e confira 2 ou 3 quadros do MP4 (gancho, meio, fim).
-- Entregue com **SendUserFile** (status `proactive`): primeiro o vídeo e a capa das **10h**, depois os das **18h**.
+- Baixe `<slug>_tiktok.mp4`, `<slug>_capa.png` e `<slug>_post.txt` da release (no das 10h, também `<slug>_sem_musica.mp4`; se ele não estiver na release, a música não entrou: veja o log) e confira 2 ou 3 quadros do MP4 (gancho, meio, fim).
+- Entregue com **SendUserFile** (status `proactive`): primeiro o vídeo com música, a versão sem música e a capa das **10h**, depois o vídeo e a capa das **18h**.
 - Termine com **SendUserMessage** curto, em português:
   - **10h:** título + a legenda pronta para copiar (do post.txt);
   - **18h:** título + a legenda pronta para copiar;
-  - lembretes de uma linha: ativar o selo de conteúdo gerado por IA (voz), postar à mão e subir o mesmo arquivo como Shorts e Reels se quiser;
+  - lembretes de uma linha: ativar o selo de conteúdo gerado por IA (voz), postar à mão e, se quiser, subir em Shorts e Reels (o das 10h na versão sem música);
   - qualquer decisão tomada sozinho (tema, número estimado) ou problema.
