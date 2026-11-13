@@ -1,12 +1,25 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 70.25s (esperado 70.25s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13/bloco1.wav: 70.248s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13_narracao.wav 70.248s
+[publicar] bloco 1: 65.92s (esperado 65.92s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix/bloco1.wav: 65.921s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix_narracao.wav 65.921s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13_base.mp4 6 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/natal-come-13_tiktok.mp4 7.9 MB 70.2 s
-[publicar] pronto: 70.2s, 7.9 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix_base.mp4 6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix_tiktok.mp4 8.2 MB 65.9 s
+[publicar] música: happy_nation_slowed (volume 0.72)
+[publicar] pronto: 65.9s, 7.8 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-natal-come-13
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-natal-come-13
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-no-pix
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-no-pix
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 71.42s (esperado 71.42s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor/bloco1.wav: 71.424s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor_narracao.wav 71.424s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.84
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor_base.mp4 6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor_tiktok.mp4 7.8 MB 71.4 s
+[publicar] pronto: 71.4s, 7.8 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-segunda-parcela-13-menor
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-segunda-parcela-13-menor
