@@ -123,7 +123,7 @@ def s04(c, t):  # 17.3 - 21.2  notas de 200: quase 1 bilhão de notas
 def s05(c, t):  # 21.2 - 27.4  empilhadas: 96 km, quase o espaço
     luz("dia")
     # céu que escurece conforme a câmera "sobe"
-    k = clamp01((t - 21.6) / 4.5)
+    k = ease_out(clamp01((t - 21.6) / 2.8))
     top = mix((0.45, 0.72, 0.95), (0.03, 0.04, 0.10), k)
     bot = mix((0.78, 0.90, 0.98), (0.10, 0.14, 0.30), k)
     lgrad(c, 0, 0, 0, 1920, ((0, top, 1), (1, bot, 1))); c.rectangle(0, 0, 1080, 1920); c.fill()
