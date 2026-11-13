@@ -44,7 +44,7 @@ O ambiente da tarefa **não consegue baixar** os áudios do HeyGen. Não tente, 
 - Salve `videos/<slug>/roteiro.txt`.
 
 ### 3. Narração
-- `create_speech` com a voz oficial (VOZ.md: Calm Carlos), um bloco por chamada, até ~4.500 caracteres, em paralelo.
+- `create_speech` com a voz oficial (VOZ.md: Afonso desde 13/11/2026), um bloco por chamada, até ~4.500 caracteres, em paralelo.
 - De cada resposta guarde o **link do áudio**, a **duração** e os `word_timestamps`.
 - `narracao_blocos.txt`, `transcricao.txt` e `palavras.json` como na skill. Offset de cada bloco = soma das durações anteriores + **0,4 s** por bloco (silêncio entre blocos; o Matheus pediu menos pausa em 22/10/2026). Ponha `# pausa_blocos 0.4` no cabeçalho do `narracao_blocos.txt` (o `cortes.py` lê daí). A cauda de 5 s entra **depois** do último bloco (o publicador passa `--cauda 5` ao `juntar_blocos.py`). O Matheus pediu 5 s em vez de 15 s (22/10/2026): é o mínimo da Tela final do YouTube.
 

@@ -58,7 +58,7 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 - Salve `videos/<slug>/roteiro.txt`.
 
 ### 4. Narração
-- Um bloco por vídeo no HeyGen, voz oficial (VOZ.md: Calm Carlos, ElevenLabs v4, pt, velocidade 1.0), **sem `[whispers]`**. Gere os dois em paralelo.
+- Um bloco por vídeo no HeyGen, voz oficial (VOZ.md: Afonso desde 13/11/2026, pt), **sem `[whispers]`**. Gere os dois em paralelo.
 - Guarde o **link**, a **duração** e os `word_timestamps` → `videos/<slug>/palavras.json` (`[{"w", "t0", "t1"}]`, sem `<start>`/`<end>`).
 
 ### 5. Cenas, capa e post (skill, T3 a T5), no estilo ilustrado

@@ -2,12 +2,13 @@
 
 | Item | Valor |
 | --- | --- |
-| Voz | **Calm Carlos** (catálogo público do HeyGen, português, masculina, voz "instant") |
-| voice_id | `3b2a59d6edb54e79a40b29726a12d1c3` |
+| Voz | **Afonso - Warm & Resonant** (catálogo público do HeyGen, pt-BR, masculina, voz "instant"). Escolhida pelo Matheus em 13/11/2026 (Calm Carlos ficou ruim fora do ElevenLabs) |
+| voice_id | `9ce5f601f9e04382bb26141d5a3f839d` |
+| Voz anterior | Calm Carlos `3b2a59d6edb54e79a40b29726a12d1c3` (até 13/11/2026) |
 | Ferramenta | HeyGen `create_speech_without_player` (ou `create_speech`), com `withTimestamps: true` |
 | Modelo | **não informar** (o servidor usa o HeyGen Voice padrão do plano pago, `heygen-voice-1`) |
 | Idioma | `language: "pt"` |
-| Expressividade | `expressivenessBoost: 1.0` (o padrão; escolhido pelo Matheus em 11/11/2026 depois do teste com 1,0 / 0,7 / 0,5) |
+| Expressividade | não informar (padrão do servidor; foi assim na amostra que o Matheus aprovou em 13/11/2026) |
 
 ## Mudança de 11/11/2026
 O HeyGen tirou da ferramenta a escolha do motor (`engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}`).

@@ -44,9 +44,11 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Black Friday: à vista com 10% ou 10x sem juros com o dinheiro rendendo, Ana x Bruno (`ana-bruno-black-friday`; renderizado mas NÃO postado: o Matheus já tinha vídeo de desconto na Black Friday)
 - Viajar todo ano ou guardar? Ana x Bruno, 10 anos; viagem parcelada é o problema (`viajar-ou-guardar`, substituiu o da Black Friday em 12/11 18h)
 - Celular de R$ 8 mil: quanto custa por dia? Troca todo ano x usa 4 anos x celular de R$ 2 mil (`celular-por-dia`, 13/11 10h)
+- R$ 1 milhão por dia desde 1500: quanto você teria (formato "e se..." com escala, música Happy Nation slowed; `milhao-por-dia-1500`, extra pedido em 13/11)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
+Formato "e se..." (pedido do Matheus em 13/11/2026, vídeo de referência com R$ 1 trilhão no Pix): número enorme vira coisa (pilha até o espaço, peso, anos contando), virada com juros, fecha com "o que você fazia primeiro?". Ideias: R$ 1 milhão no Pix (dá pra viver de renda?); R$ 1 bilhão guardando 1 salário mínimo por mês; pilha de R$ 1 milhão em notas de R$ 2.
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
 - iPhone de R$ 8 mil em 12x: quanto ele custa de verdade (usado em `celular-por-dia`; só com outro ângulo)
 - Faculdade particular ainda compensa? (mensalidade x salário)
