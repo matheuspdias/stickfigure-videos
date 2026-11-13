@@ -6,6 +6,7 @@
 efeitos sonoros: 0 eventos, volume 0.84
 /home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-por-dia-1500_base.mp4 7 MB
 /home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-por-dia-1500_tiktok.mp4 9.4 MB 72.4 s
-[publicar] pronto: 72.4s, 9.4 MB
+[publicar] música: happy_nation_slowed (volume 0.72)
+[publicar] pronto: 72.4s, 8.9 MB
 https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-por-dia-1500
 [publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-por-dia-1500
