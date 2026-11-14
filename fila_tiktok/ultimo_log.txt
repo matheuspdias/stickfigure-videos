@@ -1,25 +1,25 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 65.92s (esperado 65.92s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix/bloco1.wav: 65.921s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix_narracao.wav 65.921s
+[publicar] bloco 1: 84.72s (esperado 84.72s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ipva-2027-vista-ou-parcelado/bloco1.wav: 84.716s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ipva-2027-vista-ou-parcelado_narracao.wav 84.716s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix_base.mp4 6 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/milhao-no-pix_tiktok.mp4 8.2 MB 65.9 s
-[publicar] música: happy_nation_slowed (volume 0.72)
-[publicar] pronto: 65.9s, 7.8 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ipva-2027-vista-ou-parcelado_base.mp4 9 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ipva-2027-vista-ou-parcelado_tiktok.mp4 10.9 MB 84.7 s
+[publicar] pronto: 84.7s, 10.9 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-no-pix
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-milhao-no-pix
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-ipva-2027-vista-ou-parcelado
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-ipva-2027-vista-ou-parcelado
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 71.42s (esperado 71.42s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor/bloco1.wav: 71.424s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor_narracao.wav 71.424s
+[publicar] bloco 1: 68.81s (esperado 68.81s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/real-por-segundo/bloco1.wav: 68.805s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/real-por-segundo_narracao.wav 68.805s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor_base.mp4 6 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/segunda-parcela-13-menor_tiktok.mp4 7.8 MB 71.4 s
-[publicar] pronto: 71.4s, 7.8 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/real-por-segundo_base.mp4 7 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/real-por-segundo_tiktok.mp4 8.8 MB 68.8 s
+[publicar] música: happy_nation_slowed (volume 0.72)
+[publicar] pronto: 68.8s, 8.3 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-segunda-parcela-13-menor
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-segunda-parcela-13-menor
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-real-por-segundo
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-real-por-segundo
