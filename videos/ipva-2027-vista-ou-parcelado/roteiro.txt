@@ -1,0 +1,25 @@
+IPVA 2027: À VISTA OU PARCELADO? (PARTE 1) (TikTok nativo, 1080x1920, estilo ilustrado, ~84,7 s). Conta útil das 18h, 15/11/2026.
+Tema da "Fila do Matheus" em automacao/temas_tiktok.md (série: Parte 1 IPVA, Parte 2 IPTU). Premissas em contas.py.
+Fonte: calendário do IPVA 2027 da Sefaz-SP (Decreto 70.960/2026): 3% à vista em janeiro (usados), ou até 5 parcelas jan-mai sem desconto.
+
+Seu IPVA de dois mil reais pode sair por mil novecentos e quarenta. Ou não.
+
+O calendário do IPVA de dois mil e vinte e sete em São Paulo já saiu. Em janeiro, você escolhe: paga tudo de uma vez, com três por cento de desconto, ou divide em cinco parcelas, de janeiro a maio, sem juros.
+
+Vamos fazer a conta com um carro de cinquenta mil reais. O IPVA é de quatro por cento: dois mil reais.
+
+À vista, você paga mil novecentos e quarenta. Economiza sessenta reais.
+
+Parcelado, são cinco de quatrocentos. E aí vem o argumento: deixo o dinheiro rendendo e pago aos poucos.
+
+Bora testar. Deixando o resto aplicado, rendendo cem por cento do CDI, já sem imposto, você ganha uns trinta e quatro reais até maio.
+
+Sessenta contra trinta e quatro. O desconto ganha. Na prática, o parcelado embute um juro de um e meio por cento ao mês.
+
+Mas tem a virada: isso só vale se o dinheiro já estiver guardado. Se, pra pagar à vista, você vai entrar no cheque especial ou atrasar o cartão, parcela sem medo. Esses juros comem o desconto em menos de duas semanas.
+
+Resumindo: tem o dinheiro guardado? À vista. Não tem? Parcela, e não pega empréstimo.
+
+Na Parte dois, o IPTU. E você: vai pagar à vista ou parcelado? Comenta.
+
+Áudio HeyGen (Afonso): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/9ce5f601f9e04382bb26141d5a3f839d/id=eae4d1712d594fa4852ffd21a429c164.wav (84,72 s)
