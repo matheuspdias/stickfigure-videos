@@ -45,6 +45,15 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 - **Não repita** tema nem ângulo de "Já feitos". Respeite "Não fazer" (principalmente: nada de meta de poupança irreal para quem ganha pouco; valores pequenos e práticos).
 - Tire o tema usado da "Fila do Matheus" e acrescente os dois em "Já feitos" com o slug.
 
+### 2-0. Programa de recompensas do TikTok (desde 15/11/2026, 10 mil seguidores)
+- Todo vídeo final com **pelo menos 62 s** (o render falha abaixo disso: aumente o roteiro). Mire em 65 a 80 s.
+- Só **vídeo novo e original**: nunca repostar o mesmo vídeo nem recorte de um vídeo antigo do canal.
+- **Música só a trilha própria** (`trilha_faz_a_conta`) ou nenhuma. Nada de música de gravadora.
+- Só conta quem assiste mais de 5 s: a regra de abrir sem cartaz parado (2b.1) vale dinheiro agora.
+- **Legenda começa com a frase que alguém digitaria na busca** (ex.: "13º salário 2026: quanto cai na 2ª parcela"), depois o gancho.
+  Busca também conta como visualização qualificada (quando a pessoa assiste 30 s ou mais).
+- Selo de conteúdo gerado por IA: continua (o Matheus sempre marca).
+
 ### 2a. O que os dados mostraram (13/11/2026) — vale acima de tudo
 Análise dos vídeos de 07 a 13/11 (todos parados em 150 a 450 views; o do aluguel, 3.435):
 - O TikTok distribuiu normalmente (90-95% "Para você"): não é bloqueio, nem o selo de IA (o Matheus sempre marca e deve continuar marcando), nem o estilo ilustrado.
@@ -74,9 +83,10 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 - Personagem principal "você" = `pessoa(..., "lucas")`; o Consultor aparece em 1 ou 2 cenas. Fundos de cor sólida (`fundo_marca`) + poucas cenas de cenário.
 - Números pesquisados e conferidos em `contas.py`; quando for estimativa (peso, espessura, revenda), a narração diz "uns"/"quase".
 - Continua valendo "Não fazer": nada de loteria/apostas como fantasia (Mega da Virada etc.), nem promessa de ficar rico.
-- No JSON da fila, ponha `"musica": "happy_nation_slowed"`: o Actions mistura a música (Happy Nation slowed + reverb, volume já ajustado)
-  e publica `<slug>_tiktok.mp4` (com música) e `<slug>_sem_musica.mp4` (para Shorts/Reels, onde a música da gravadora é silenciada).
-  A música fica cifrada em `musica/` e precisa do segredo `MUSICA_SENHA` no GitHub; sem ele, o vídeo sai sem música (o log avisa): diga isso ao Matheus.
+- No JSON da fila, ponha `"musica": "trilha_faz_a_conta"`: o Actions mistura a **trilha própria** do canal (composta por código em
+  `musica_fonte/trilha_faz_a_conta.py`, sem música de terceiros) e publica `<slug>_tiktok.mp4` (com música) e `<slug>_sem_musica.mp4`.
+  **Nunca use música de gravadora** (Happy Nation etc.), nem misturada aqui nem pelo TikTok: música protegida tocando mais de 1 minuto
+  deixa o vídeo fora do programa de recompensas (o Matheus entrou em 15/11/2026). `happy_nation_slowed` fica aposentada.
 - Ideias: lista "Formato E se..." em `automacao/temas_tiktok.md`.
 
 ### 3. Pesquisa e roteiro (skill, T1)
@@ -98,7 +108,7 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 `fila_tiktok/<slug>.json` para cada vídeo:
 ```json
 {"slug": "<slug>", "data": "2026-11-08", "horario": "10:00", "titulo": "<título curto>",
- "audio_blocos": ["<link do HeyGen>"], "duracoes": [74.2], "musica": "happy_nation_slowed"}
+ "audio_blocos": ["<link do HeyGen>"], "duracoes": [74.2], "musica": "trilha_faz_a_conta"}
 ```
 (`"musica"` só no vídeo "E se..." das 10h.)
 Valide com `python -m json.tool`.

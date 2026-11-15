@@ -20,7 +20,7 @@ Formato do fila_tiktok/<slug>.json (o modo automático escreve; veja automacao/A
   "titulo": "O que ninguém te conta antes de entrar no rotativo",
   "audio_blocos": ["https://resource2.heygen.ai/...wav"],
   "duracoes": [74.2],
-  "musica": "happy_nation_slowed"   # opcional (formato "e se..."): musica/<nome>.mp3.enc, decifrada com o segredo MUSICA_SENHA
+  "musica": "trilha_faz_a_conta"   # opcional (formato "e se..."): trilha PRÓPRIA em musica/<nome>.mp3 (ou .mp3.enc + segredo MUSICA_SENHA)
 }
 """
 import argparse
@@ -45,7 +45,11 @@ MUSICA_VOL = 0.72   # ajustado em 13/11/2026 a pedido do Matheus: ~9 dB abaixo d
 
 
 def decifrar_musica(nome, destino):
-    """musica/<nome>.mp3.enc (AES-256, openssl) -> destino. Sem o segredo MUSICA_SENHA, devolve None."""
+    """musica/<nome>.mp3 (trilha própria, aberta) ou musica/<nome>.mp3.enc (AES-256, openssl) -> caminho do mp3.
+    Sem o arquivo (ou, no cifrado, sem o segredo MUSICA_SENHA), devolve None."""
+    aberto = os.path.join(RAIZ, "musica", f"{nome}.mp3")
+    if os.path.exists(aberto):
+        return aberto
     enc = os.path.join(RAIZ, "musica", f"{nome}.mp3.enc")
     if not os.path.exists(enc):
         log(f"AVISO: musica/{nome}.mp3.enc não existe; vídeo sai sem música")
@@ -101,6 +105,8 @@ def produzir(m, audios_locais=None):
     dv, dn = duracao(final), duracao(narracao)
     if abs(dv - dn) > 1.5:
         raise SystemExit(f"o vídeo ({dv:.1f}s) não bate com a narração ({dn:.1f}s)")
+    if dv < 62:  # programa de recompensas do TikTok: só vídeo com mais de 1 minuto (margem de 2 s)
+        raise SystemExit(f"o vídeo tem {dv:.1f}s: precisa de pelo menos 62 s para entrar no programa de recompensas; aumente o roteiro")
 
     extras = []
     if m.get("musica"):
