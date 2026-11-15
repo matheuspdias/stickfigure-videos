@@ -4,7 +4,6 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
-- IPTU 2027 à vista ou parcelado (Parte 2 da série; a Parte 1, do IPVA, prometeu "Na Parte dois, o IPTU")
 - Comprar ou alugar em 2026 (Parte 1 de 3): continuação da série do aluguel com os juros e aluguéis atuais
 - Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
 
@@ -52,17 +51,18 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - E se você acordasse com R$ 1 milhão no Pix? 10 mil notas, quanto dura, quase R$ 9 mil/mês no CDI, ~R$ 5 mil/mês pra sempre descontando a inflação (`milhao-no-pix`, 14/11 10h)
 - IPVA 2027 à vista (3% em jan) ou 5x sem juros, carro de R$ 50 mil: R$ 60 de desconto x ~R$ 34 de rendimento; parcela se for pegar empréstimo (`ipva-2027-vista-ou-parcelado`, 15/11 18h, Parte 1 IPVA/IPTU)
 - E se você guardasse R$ 1 por segundo? 27 min = 1 mínimo, 12 dias = milionário, 1 ano = R$ 31,5 mi, 1 bi = 32 anos, juros > R$ 1/s em ~6,5 anos (`real-por-segundo`, 15/11 10h)
+- E se o seu dinheiro dobrasse todo dia? 1 centavo por 30 dias: dia 20 = R$ 5.242, dia 28 milionário, dia 30 = R$ 5,37 mi (metade no último dia); no CDI, as 29 dobradas levariam 180+ anos (`centavo-dobrando-30-dias`, 16/11 10h)
+- IPTU 2027 à vista (3%) ou 10x, regra de SP de 2026, IPTU de R$ 1.500: R$ 45 de desconto x ~R$ 58 de rendimento; aqui parcelar ganha (juro embutido 0,68%/mês < 0,83%/mês) (`iptu-2027-vista-ou-parcelado`, 16/11 18h, Parte 2 IPVA/IPTU)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
 ## Formato "E se..." (10h, todo dia desde 14/11/2026; regras em AUTOMATICO_TIKTOK.md, 2c)
-Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`); R$ 1 milhão no Pix (`milhao-no-pix`, 14/11); R$ 1 por segundo (`real-por-segundo`, 15/11).
+Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`); R$ 1 milhão no Pix (`milhao-no-pix`, 14/11); R$ 1 por segundo (`real-por-segundo`, 15/11); 1 centavo dobrando por 30 dias (`centavo-dobrando-30-dias`, 16/11).
 - R$ 1 bilhão guardando 1 salário mínimo por mês: quantos anos (desde antes das pirâmides?) e a virada dos juros
 - Uma pilha de R$ 1 milhão em notas de R$ 2: altura, peso, tempo pra contar
 - E se você gastasse R$ 1 milhão por dia: quanto tempo pra gastar a fortuna do mais rico do mundo?
 - E se você ganhasse o salário mínimo desde o Plano Real (1994) e não gastasse nada?
 - Quanto pesa e quanto ocupa R$ 1 bilhão em moedas de R$ 1? (piscina olímpica, caminhões)
-- E se o seu salário dobrasse todo dia por 30 dias, começando com R$ 0,01?
 - E se você tivesse investido R$ 100 por mês desde que nasceu? (por idade: 20, 30, 40 anos)
 Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exemplos:
 - iPhone de R$ 8 mil em 12x: quanto ele custa de verdade (usado em `celular-por-dia`; só com outro ângulo)

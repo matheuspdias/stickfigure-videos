@@ -1,0 +1,29 @@
+IPTU 2027: À VISTA OU EM 10X? (PARTE 2) (TikTok nativo, 1080x1920, estilo ilustrado, ~89,3 s). Conta útil das 18h, 16/11/2026.
+Tema da "Fila do Matheus" (Parte 2 da série IPVA/IPTU). Premissas em contas.py.
+Regra usada: a da cidade de São Paulo em 2026 (3% à vista em fevereiro ou até 10 parcelas fev-nov, sem juros); a de 2027 ainda não saiu (15/11/2026).
+
+Parcelar o IPTU em dez vezes pode sair mais barato do que pagar à vista. Parece errado, né? Bora fazer a conta.
+
+Na Parte um, do IPVA, o desconto à vista ganhou. Agora é a vez do IPTU.
+
+Em São Paulo, em dois mil e vinte e seis, a regra foi: três por cento de desconto à vista, em fevereiro, ou até dez parcelas sem juros, de fevereiro a novembro. A prefeitura ainda vai divulgar o calendário de dois mil e vinte e sete, que costuma seguir o mesmo modelo.
+
+Vamos pegar um IPTU de mil e quinhentos reais.
+
+À vista, você paga mil quatrocentos e cinquenta e cinco. Economiza quarenta e cinco reais.
+
+Parcelado, são dez de cento e cinquenta.
+
+Agora, a virada. Se você deixar o dinheiro rendendo cem por cento do CDI, já sem imposto, e tirar só a parcela de cada mês, ele rende uns cinquenta e oito reais até novembro.
+
+Cinquenta e oito contra quarenta e cinco. Aqui, parcelar ganha.
+
+Por quê? No IPVA eram só cinco parcelas. No IPTU são dez: o dinheiro fica mais tempo rendendo. O juro escondido no parcelado é de menos de sete décimos por cento ao mês, e o investimento rende mais do que isso.
+
+Mas atenção: só vale se o dinheiro ficar guardado de verdade. Se ele vai sumir no meio do ano, paga à vista e pronto.
+
+A diferença é pequena, mas a regra serve pra qualquer conta: compara o desconto com o que o dinheiro renderia.
+
+E você: IPTU à vista ou em dez vezes? Comenta.
+
+Áudio HeyGen (Afonso): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/9ce5f601f9e04382bb26141d5a3f839d/id=aa56c5c4f67f415cb0346f7814fb7b09.wav (89,26 s)
