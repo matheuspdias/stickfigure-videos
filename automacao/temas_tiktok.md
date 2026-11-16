@@ -4,8 +4,9 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
-- Comprar ou alugar em 2026 (Parte 1 de 3): continuação da série do aluguel com os juros e aluguéis atuais
 - Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
+- Comprar ou alugar em 2026 (Parte 2 de 3): a conta de 10 anos com os números de 2026 (continuação de `comprar-ou-alugar-2026-parte-1`; não repetir o 10 anos de `aluguel-jogar-dinheiro-fora` sem números novos)
+- Comprar ou alugar em 2026 (Parte 3 de 3): quando comprar ganha (MCMV, juros menores, valorização)
 
 ## Série "O que ninguém te conta antes de..."
 Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer se vale a pena; mesma estrutura dos episódios anteriores (`videos/consignado`, `videos/consorcio`). ~2 min. Um episódio a cada 3 ou 4 dias, no horário das 18h.
@@ -53,12 +54,13 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - E se você guardasse R$ 1 por segundo? 27 min = 1 mínimo, 12 dias = milionário, 1 ano = R$ 31,5 mi, 1 bi = 32 anos, juros > R$ 1/s em ~6,5 anos (`real-por-segundo`, 15/11 10h)
 - E se o seu dinheiro dobrasse todo dia? 1 centavo por 30 dias: dia 20 = R$ 5.242, dia 28 milionário, dia 30 = R$ 5,37 mi (metade no último dia); no CDI, as 29 dobradas levariam 180+ anos (`centavo-dobrando-30-dias`, 16/11 10h)
 - IPTU 2027 à vista (3%) ou 10x, regra de SP de 2026, IPTU de R$ 1.500: R$ 45 de desconto x ~R$ 58 de rendimento; aqui parcelar ganha (juro embutido 0,68%/mês < 0,83%/mês) (`iptu-2027-vista-ou-parcelado`, 16/11 18h, Parte 2 IPVA/IPTU)
+- E se você guardasse 1 salário mínimo (R$ 1.621) por mês até R$ 1 bilhão? 1º milhão = 51 anos, bilhão = 51 mil anos (pirâmides = nem 10%; Idade da Pedra/mamute), 10 mi de notas de 100 (~1 km, ~10 t); no CDI: 79 anos (1º milhão em 17), só R$ 1,5 mi depositado; com inflação vale ~R$ 30 mi de hoje (`bilhao-salario-minimo`, 17/11 10h)
+- Comprar ou alugar em 2026 (Parte 1 de 3): a conta do 1º mês, apê de R$ 300 mil: 1ª parcela ~R$ 2.950 (R$ 2.277 de juros, 77%) x aluguel R$ 1.500; + R$ 550/mês que a entrada renderia; valorização 5% a.a. (~R$ 1.200/mês) → ~R$ 1.600 x R$ 1.500, praticamente empate. Parte 2 prometida: a conta de 10 anos com os números de 2026; Parte 3: quando comprar ganha (`comprar-ou-alugar-2026-parte-1`, 17/11 18h)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
 ## Formato "E se..." (10h, todo dia desde 14/11/2026; regras em AUTOMATICO_TIKTOK.md, 2c)
-Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`); R$ 1 milhão no Pix (`milhao-no-pix`, 14/11); R$ 1 por segundo (`real-por-segundo`, 15/11); 1 centavo dobrando por 30 dias (`centavo-dobrando-30-dias`, 16/11).
-- R$ 1 bilhão guardando 1 salário mínimo por mês: quantos anos (desde antes das pirâmides?) e a virada dos juros
+Usados: R$ 1 milhão por dia desde 1500 (`milhao-por-dia-1500`); R$ 1 milhão no Pix (`milhao-no-pix`, 14/11); R$ 1 por segundo (`real-por-segundo`, 15/11); 1 centavo dobrando por 30 dias (`centavo-dobrando-30-dias`, 16/11); 1 salário mínimo por mês até R$ 1 bilhão (`bilhao-salario-minimo`, 17/11).
 - Uma pilha de R$ 1 milhão em notas de R$ 2: altura, peso, tempo pra contar
 - E se você gastasse R$ 1 milhão por dia: quanto tempo pra gastar a fortuna do mais rico do mundo?
 - E se você ganhasse o salário mínimo desde o Plano Real (1994) e não gastasse nada?
