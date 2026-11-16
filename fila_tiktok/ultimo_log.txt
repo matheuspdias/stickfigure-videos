@@ -7,6 +7,5 @@ efeitos sonoros: 0 eventos, volume 0.84
 /home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_base.mp4 4 MB
 /home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_tiktok.mp4 5.2 MB 67.1 s
 [publicar] pronto: 67.1s, 5.2 MB
-release not found
 https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-caiu
 [publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-caiu
