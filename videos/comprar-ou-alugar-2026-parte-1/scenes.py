@@ -63,7 +63,7 @@ def linha_conta(c, t, t0, y, nome, valor, t_val, cor=VERMELHO, vsize=62):
 def cartao(c, t, t0, x, y, w, h, rot, val, cor=VERMELHO, vsize=64):
     if t < t0:
         return
-    k = ease_out(clamp01((t - t0) / 0.35))
+    k = max(0.02, ease_out(clamp01((t - t0) / 0.35)))
     c.save(); c.translate(x, y); c.scale(k, k)
     rr(c, -w / 2 + 8, -h / 2 + 10, w, h, 24); rgb(c, (0, 0, 0), 0.25); c.fill()
     rr(c, -w / 2, -h / 2, w, h, 24); rgb(c, CREME); c.fill()
