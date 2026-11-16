@@ -65,8 +65,12 @@ def saldo(c, t):
         contador(c, t, 0.0, 0, 3000, 640, 790, 84, d=1.0, col=VERDE)
     elif t < 28.7:
         contador(c, t, 19.5, 3000, 1350, 640, 790, 84, d=1.0, col=GOLD)
+        if t < 24.6:  # quanto saiu, preso no canto do saldo
+            entra(c, t, 19.5, 770, 720, chip("- R$ 1.650", VERMELHO, CREME, 40, 0.04), anim="stamp")
     else:
         contador(c, t, 28.7, 1350, 1050, 640, 790, 84, d=0.8, col=GOLD)
+        if t < 33.0:
+            entra(c, t, 28.7, 790, 720, chip("- R$ 300", VERDE, CREME, 40, 0.04), anim="stamp")
 
 
 def detalhes(c, t):
@@ -81,14 +85,12 @@ def detalhes(c, t):
         entra(c, t, 12.3, 225, 1060, chip("Contas R$ 250", CREME, TINTA, 44, 0.03), anim="left")
         entra(c, t, 15.6, 780, 940, chip("Transp. R$ 200", CREME, TINTA, 44, 0.04), anim="right")
         entra(c, t, 17.1, 780, 1060, chip("Celular R$ 300", CREME, TINTA, 44, -0.03), anim="right")
-        if t >= 19.5:
-            entra(c, t, 19.5, 540, 1500, chip("- R$ 1.650", VERMELHO, CREME, 60), anim="stamp")
     # passo 2: a sua parte
     if 27.6 <= t < 36.7:
         entra(c, t, 27.6, 240, 960, chip("10% = R$ 300", VERDE, CREME, 50, -0.04), anim="left")
         entra(c, t, 30.0, 790, 960, chip("conta separada", NAVY, CREME, 42, 0.04), anim="right")
         if t >= 33.9:
-            entra(c, t, 33.9, 540, 1500, chip("no fim do mês = R$ 0", VERMELHO, CREME, 50), anim="stamp")
+            entra(c, t, 33.9, 540, 1040, chip("no fim do mês = R$ 0", VERMELHO, CREME, 44), anim="stamp")
     # passo 3: o número do dia
     if 41.0 <= t < 47.2:
         entra(c, t, 41.0, 230, 960, chip("R$ 1.050", CREME, TINTA, 56), anim="left")
@@ -106,7 +108,6 @@ def detalhes(c, t):
         entra(c, t, 59.6, 770, 1080, chip("+R$ 12 amanhã", VERDE, CREME, 44, 0.04), anim="right")
     if t >= 64.7:
         entra(c, t, 64.7, 540, 950, chip("QUAL É O SEU NÚMERO?", GOLD, TINTA, 54), anim="pop")
-        entra(c, t, 66.1, 540, 1500, chip("COMENTA AÍ", VERMELHO, CREME, 50, -0.03), anim="stamp")
 
 
 def cena(c, t):
