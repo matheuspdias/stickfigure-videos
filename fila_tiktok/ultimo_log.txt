@@ -1,13 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 77.22s (esperado 77.22s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo/bloco1.wav: 77.216s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo_narracao.wav 77.216s
+[publicar] bloco 1: 98.35s (esperado 98.35s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1/bloco1.wav: 98.351s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1_narracao.wav 98.351s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo_base.mp4 8 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo_tiktok.mp4 10.6 MB 77.2 s
-[publicar] música: trilha_faz_a_conta (volume 0.72)
-[publicar] pronto: 77.2s, 10.1 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1_base.mp4 10 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1_tiktok.mp4 12.2 MB 98.4 s
+[publicar] pronto: 98.4s, 12.2 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bilhao-salario-minimo
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bilhao-salario-minimo
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-comprar-ou-alugar-2026-parte-1
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-comprar-ou-alugar-2026-parte-1
