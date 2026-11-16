@@ -1,11 +1,13 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 67.08s (esperado 67.08s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu/bloco1.wav: 67.082s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_narracao.wav 67.082s
+[publicar] bloco 1: 77.22s (esperado 77.22s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo/bloco1.wav: 77.216s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo_narracao.wav 77.216s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_base.mp4 4 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_tiktok.mp4 5.2 MB 67.1 s
-[publicar] pronto: 67.1s, 5.2 MB
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-caiu
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-caiu
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo_base.mp4 8 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bilhao-salario-minimo_tiktok.mp4 10.6 MB 77.2 s
+[publicar] música: trilha_faz_a_conta (volume 0.72)
+[publicar] pronto: 77.2s, 10.1 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bilhao-salario-minimo
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bilhao-salario-minimo
