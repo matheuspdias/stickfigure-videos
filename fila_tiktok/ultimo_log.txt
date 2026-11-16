@@ -1,25 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 84.47s (esperado 84.47s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/centavo-dobrando-30-dias/bloco1.wav: 84.467s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/centavo-dobrando-30-dias_narracao.wav 84.467s
+[publicar] bloco 1: 67.08s (esperado 67.08s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu/bloco1.wav: 67.082s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_narracao.wav 67.082s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/centavo-dobrando-30-dias_base.mp4 9 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/centavo-dobrando-30-dias_tiktok.mp4 11.1 MB 84.5 s
-[publicar] música: trilha_faz_a_conta (volume 0.72)
-[publicar] pronto: 84.5s, 10.6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_base.mp4 4 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-caiu_tiktok.mp4 5.2 MB 67.1 s
+[publicar] pronto: 67.1s, 5.2 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-centavo-dobrando-30-dias
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-centavo-dobrando-30-dias
-[publicar] baixando bloco 1/1
-[publicar] bloco 1: 89.26s (esperado 89.26s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/iptu-2027-vista-ou-parcelado/bloco1.wav: 89.261s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/iptu-2027-vista-ou-parcelado_narracao.wav 89.261s
-[publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/iptu-2027-vista-ou-parcelado_base.mp4 9 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/iptu-2027-vista-ou-parcelado_tiktok.mp4 11.1 MB 89.3 s
-[publicar] pronto: 89.3s, 11.1 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-iptu-2027-vista-ou-parcelado
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-iptu-2027-vista-ou-parcelado
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-caiu
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-caiu
