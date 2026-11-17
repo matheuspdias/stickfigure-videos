@@ -71,6 +71,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - IPTU 2027 à vista (3%) ou 10x, regra de SP de 2026, IPTU de R$ 1.500: R$ 45 de desconto x ~R$ 58 de rendimento; aqui parcelar ganha (juro embutido 0,68%/mês < 0,83%/mês) (`iptu-2027-vista-ou-parcelado`, 16/11 18h, Parte 2 IPVA/IPTU)
 - E se você guardasse 1 salário mínimo (R$ 1.621) por mês até R$ 1 bilhão? 1º milhão = 51 anos, bilhão = 51 mil anos (pirâmides = nem 10%; Idade da Pedra/mamute), 10 mi de notas de 100 (~1 km, ~10 t); no CDI: 79 anos (1º milhão em 17), só R$ 1,5 mi depositado; com inflação vale ~R$ 30 mi de hoje (`bilhao-salario-minimo`, 17/11 10h)
 - Comprar ou alugar em 2026 (Parte 1 de 3): a conta do 1º mês, apê de R$ 300 mil: 1ª parcela ~R$ 2.950 (R$ 2.277 de juros, 77%) x aluguel R$ 1.500; + R$ 550/mês que a entrada renderia; valorização 5% a.a. (~R$ 1.200/mês) → ~R$ 1.600 x R$ 1.500, praticamente empate. Parte 2 prometida: a conta de 10 anos com os números de 2026; Parte 3: quando comprar ganha (`comprar-ou-alugar-2026-parte-1`, 17/11 18h)
+- Comprar imóvel em 2027: o que muda (Bradesco 15% + TR inclusive alta renda, Itaú 12,95%, Santander 12,49%; R$ 500 mil SAC: R$ 6.017 -> R$ 7.246; renda R$ 10 mil perde ~R$ 42 mil de crédito; novo modelo da poupança em jan/2027 com teto 12% + TR no SFH até R$ 2,25 mi, bancos pedem adiar) (`imovel-2027-o-que-muda`, extra pedido em 17/11)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
