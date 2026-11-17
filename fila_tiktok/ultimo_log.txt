@@ -1,12 +1,11 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 103.06s (esperado 103.06s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape/bloco1.wav: 103.058s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_narracao.wav 103.058s
+[publicar] bloco 1: 114.81s (esperado 114.81s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape/bloco1.wav: 114.808s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_narracao.wav 114.808s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_base.mp4 11 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_tiktok.mp4 13.4 MB 103.1 s
-[publicar] pronto: 103.1s, 13.4 MB
-release not found
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_base.mp4 12 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_tiktok.mp4 15.1 MB 114.8 s
+[publicar] pronto: 114.8s, 15.1 MB
 https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-mesmo-ape
 [publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-mesmo-ape
