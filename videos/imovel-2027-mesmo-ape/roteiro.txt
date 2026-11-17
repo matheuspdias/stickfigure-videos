@@ -1,24 +1,24 @@
-MESMO APARTAMENTO, 3 RENDAS: EM 2027 QUEM GANHA UM POUCO MAIS PAGA MAIS CARO (TikTok nativo, 1080x1920, estilo ilustrado, ~103,1 s). Pedido do Matheus em 17/11/2026; substitui imovel-2027-o-que-muda (ângulo errado).
-Fontes: tabela MCMV 2026 (valorfinal 07/11/2026; myside), taxas SBPE nov/2026 (Gazeta Brasil 12/11), Caixa 13/11, novo modelo SBPE (JB/Portas). Contas em contas.py.
+MESMO APARTAMENTO, 3 RENDAS: EM 2027 QUEM GANHA UM POUCO MAIS PAGA MAIS CARO (v2, TikTok nativo, 1080x1920, ~114,8 s). Pedido do Matheus em 17/11/2026: casal de R$ 2.500 cada (R$ 5 mil, Faixa 2), apê de R$ 240 mil, gancho de retenção na abertura.
+Gancho: chama quem ainda não comprou + "para tudo" + número concreto (R$ 1.300/mês) + loop aberto ("2027 pode piorar"), pago no fim. Fontes: tabela MCMV 2026 (valorfinal 07/11), taxas SBPE nov/2026 (Gazeta Brasil 12/11), Caixa 13/11, novo modelo SBPE (JB/Portas). Contas em contas.py.
 
-O mesmo apartamento. Três pessoas. E quem ganha mais vai pagar bem mais caro. Eu fiz a conta.
+Se você ainda não comprou seu apartamento, para tudo. Ganhar um pouco mais pode te fazer pagar mil e trezentos reais a mais por mês, pelo mesmo imóvel. E 2027 pode piorar.
 
-Um apartamento de trezentos e cinquenta mil reais. Os três dão setenta mil de entrada e financiam duzentos e oitenta mil.
+Um apartamento de duzentos e quarenta mil reais. Todo mundo dá vinte por cento de entrada e financia cento e noventa e dois mil.
 
-A Ana ganha nove mil por mês. Entra no Minha Casa Minha Vida, faixa três: juros de menos de oito por cento ao ano, em trinta e cinco anos. Primeira parcela: uns dois mil e quatrocentos.
+Primeiro, um casal. Cada um ganha dois mil e quinhentos. Juntos, cinco mil. Entram no Minha Casa Minha Vida, faixa dois: juros de uns seis e meio por cento ao ano, em trinta e cinco anos. Primeira parcela: uns mil quatrocentos e setenta. E ainda podem ganhar subsídio do governo.
 
-O Bruno ganha doze mil. Faixa quatro: dez por cento ao ano. Parcela: uns dois mil e novecentos.
+O Bruno ganha doze mil. Faixa quatro: dez por cento ao ano. Parcela: uns dois mil.
 
-A Carla ganha catorze mil. Passou do limite do programa, que é treze mil. Vai pro banco. E os bancos acabaram de subir os juros: de uns onze por cento, na Caixa, até quinze, no Bradesco. A parcela dela vai de uns três mil duzentos e sessenta até quatro mil e sessenta.
+A Carla ganha catorze mil. Passou do limite do programa, que é treze mil. Vai pro banco. E os bancos acabaram de subir os juros: de uns onze por cento, na Caixa, até quinze, no Bradesco. A parcela dela vai de uns dois mil duzentos e quarenta até dois mil setecentos e oitenta.
 
-Mesmo apartamento. A Carla paga até mil e seiscentos reais a mais por mês que a Ana. E no fim do contrato, uns duzentos e trinta mil a mais só de juros.
+Mesmo apartamento. A Carla paga até mil e trezentos reais a mais por mês que o casal. E no fim do contrato, quase duzentos mil a mais só de juros.
 
-E olha que absurdo: quem ganha treze mil e cem, cem reais acima do limite, sai do programa. A parcela pode subir mais de mil reais por mês. Por causa de cem reais de renda.
+E olha que absurdo: quem ganha treze mil e cem, cem reais acima do limite, sai do programa. A parcela pode subir quase oitocentos reais por mês. Por causa de cem reais de renda.
 
-E em 2027? Começa o novo modelo da poupança, com juros limitados a doze por cento no SFH. Isso seguraria as taxas mais altas. Mas a poupança está perdendo dinheiro, os bancos pediram pra adiar e rever esse teto, e a Caixa já estuda subir os juros.
+E 2027 pode piorar. Em janeiro começa o novo modelo da poupança, com juros limitados a doze por cento no SFH. Isso seguraria as taxas mais altas. Mas a poupança está perdendo dinheiro, os bancos pediram pra adiar e rever esse teto, e a Caixa já estuda subir os juros.
 
 Ou seja: quem ganha um pouco mais, a classe média, ganha demais pro programa e paga o juro mais caro do mercado.
 
 E você: está dentro do programa, ou já passou do limite? Comenta.
 
-Áudio HeyGen (Afonso): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/9ce5f601f9e04382bb26141d5a3f839d/id=32a699e4a2d74a5997b0eadd0f97e632.wav (103,06 s)
+Áudio HeyGen (Afonso): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/9ce5f601f9e04382bb26141d5a3f839d/id=56149e9b4ce54ac6b03da9973053d330.wav (114,81 s)
