@@ -1,12 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 98.35s (esperado 98.35s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1/bloco1.wav: 98.351s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1_narracao.wav 98.351s
+[publicar] bloco 1: 67.96s (esperado 67.96s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu/bloco1.wav: 67.964s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu_narracao.wav 67.964s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1_base.mp4 10 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/comprar-ou-alugar-2026-parte-1_tiktok.mp4 12.2 MB 98.4 s
-[publicar] pronto: 98.4s, 12.2 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu_base.mp4 4 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu_tiktok.mp4 5.4 MB 68.0 s
+[publicar] pronto: 68.0s, 5.4 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-comprar-ou-alugar-2026-parte-1
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-comprar-ou-alugar-2026-parte-1
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-13-caiu
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-13-caiu
