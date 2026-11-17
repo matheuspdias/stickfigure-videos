@@ -1,0 +1,18 @@
+CHECKLIST DO CONSULTOR: 3 SINAIS DE GOLPE NA BLACK FRIDAY (TikTok nativo, 1080x1920, estilo ilustrado, ~72,9 s). 18/11/2026 10h.
+Black Friday 2026: 27/11. Contas no docstring de scenes.py.
+
+A Black Friday é dia vinte e sete. Antes de pagar qualquer coisa, confere esses três sinais de golpe. Salva pra usar no dia.
+
+Você tem dois mil reais pra comprar um celular.
+
+Sinal um: o desconto de mentira. O anúncio diz: de dois mil e oitocentos, por dois mil. Mas em outubro ele custava mil e novecentos. Você paga cem reais a mais achando que economizou. Passo: tira print do preço hoje e compara no dia.
+
+Sinal dois: a loja que só aceita Pix. Uma página que você nunca viu vende o mesmo celular por mil e quatrocentos, só no Pix. Trinta por cento abaixo de todo mundo já é o sinal. Se for golpe, os mil e quatrocentos não voltam. Passo: pesquisa o CNPJ e o Reclame Aqui. Loja desconhecida, só no cartão, que dá pra contestar.
+
+Sinal três: o sem juros que tem juros. Dez vezes de duzentos e vinte, sem juros. Isso dá dois mil e duzentos. À vista, sai por dois mil. São duzentos reais escondidos na parcela. Passo: multiplica a parcela e compara com o preço à vista.
+
+Somando tudo, são mil e setecentos reais em jogo numa compra só.
+
+Qual desses golpes já tentaram com você? Comenta aí.
+
+Áudio HeyGen (Afonso): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/9ce5f601f9e04382bb26141d5a3f839d/id=53c1ec65d171463dbd96307c8fc95d1a.wav (72,92 s)

@@ -4,7 +4,6 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- 3 sinais de golpe na Black Friday (com conta: o "desconto" que é preço inflado, o Pix pra loja falsa, o parcelado que vira juros)
 - 4 passos pra juntar os primeiros R$ 10 mil (quanto por mês, onde deixar, quanto tempo com R$ 300, 500, 1.000)
 - A melhor data de vencimento do cartão: 3 passos pra escolher (dia do salário + fechamento = até 40 dias pra pagar)
 - 3 passos antes de parcelar qualquer coisa (soma das parcelas que já tem, % do salário, regra do "e se eu perder a renda")
@@ -17,10 +16,10 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 ## Checklist já feitos
 - 3 passos quando o salário cair (`checklist-salario-caiu`, 16/11)
 - 4 passos quando o 13º cair (`checklist-13-caiu`, 17/11 10h; substituiu o E se... do salário mínimo, que ficou sem postar)
+- 3 sinais de golpe na Black Friday: desconto de mentira (+R$ 100), loja só no Pix (R$ 1.400), sem juros com juros (R$ 200); R$ 1.700 em jogo (`checklist-golpe-black-friday`, 18/11 10h)
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
-- Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
-- Comprar ou alugar em 2026 (Parte 2 de 3): a conta de 10 anos com os números de 2026 (continuação de `comprar-ou-alugar-2026-parte-1`; não repetir o 10 anos de `aluguel-jogar-dinheiro-fora` sem números novos)
+- Férias de fim de ano: quanto cai e por que janeiro aperta (CLT) — pulado em 18/11: quase o mesmo ângulo de `ferias-mes-seguinte`; só usar com ângulo novo (ex.: férias de dezembro + IPVA/IPTU em janeiro) ou se o Matheus confirmar
 - Comprar ou alugar em 2026 (Parte 3 de 3): quando comprar ganha (MCMV, juros menores, valorização)
 
 ## Série "O que ninguém te conta antes de..."
@@ -73,6 +72,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Comprar ou alugar em 2026 (Parte 1 de 3): a conta do 1º mês, apê de R$ 300 mil: 1ª parcela ~R$ 2.950 (R$ 2.277 de juros, 77%) x aluguel R$ 1.500; + R$ 550/mês que a entrada renderia; valorização 5% a.a. (~R$ 1.200/mês) → ~R$ 1.600 x R$ 1.500, praticamente empate. Parte 2 prometida: a conta de 10 anos com os números de 2026; Parte 3: quando comprar ganha (`comprar-ou-alugar-2026-parte-1`, 17/11 18h)
 - Comprar imóvel em 2027: o que muda (Bradesco 15% + TR inclusive alta renda, Itaú 12,95%, Santander 12,49%; R$ 500 mil SAC: R$ 6.017 -> R$ 7.246; renda R$ 10 mil perde ~R$ 42 mil de crédito; novo modelo da poupança em jan/2027 com teto 12% + TR no SFH até R$ 2,25 mi, bancos pedem adiar) (`imovel-2027-o-que-muda`, extra pedido em 17/11; NÃO postar: o Matheus queria o ângulo do mesmo apê com rendas diferentes, refeito abaixo)
 - Mesmo apê de R$ 240 mil, 3 rendas (v2): casal 2 x R$ 2.500 = R$ 5 mil (MCMV F2 ~6,5%, ~R$ 1.467), Bruno R$ 12 mil (F4 10%, ~R$ 1.988), Carla R$ 14 mil (banco 11,19%-15%, R$ 2.238-2.783); +R$ 1.316/mês e quase R$ 200 mil de juros; R$ 13.100 sai do programa (+~R$ 800/mês); gancho "ainda não comprou apê? para tudo"; 2027: teto 12% x bancos pedindo adiar (`imovel-2027-mesmo-ape`, extra pedido em 17/11)
+- Comprar ou alugar em 2026 (Parte 2 de 3): a conta de 10 anos: juros de 10 anos R$ 228 mil ~ aluguel de 10 anos R$ 221 mil; ITBI+cartório R$ 12 mil; CDI 2026 ~11,6% líquido; parcela SAC e aluguel se cruzam no ano 10 (~R$ 2.200); Bruno R$ 329 mil x Ana R$ 404 mil (+R$ 75 mil); Ana gastando a diferença R$ 216 mil. Parte 3 prometida: quando comprar ganha (`comprar-ou-alugar-2026-parte-2`, 18/11 18h)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
