@@ -1,12 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 108.64s (esperado 108.64s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda/bloco1.wav: 108.638s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda_narracao.wav 108.638s
+[publicar] bloco 1: 103.06s (esperado 103.06s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape/bloco1.wav: 103.058s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_narracao.wav 103.058s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda_base.mp4 11 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda_tiktok.mp4 13.7 MB 108.6 s
-[publicar] pronto: 108.6s, 13.7 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_base.mp4 11 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-mesmo-ape_tiktok.mp4 13.4 MB 103.1 s
+[publicar] pronto: 103.1s, 13.4 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-o-que-muda
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-o-que-muda
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-mesmo-ape
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-mesmo-ape
