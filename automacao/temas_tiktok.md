@@ -4,7 +4,6 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- 4 passos quando cair o 13º (1ª parcela até 30/11): o que já tem dono, dívida cara primeiro, a sua parte, o teto do Natal
 - 3 sinais de golpe na Black Friday (com conta: o "desconto" que é preço inflado, o Pix pra loja falsa, o parcelado que vira juros)
 - 4 passos pra juntar os primeiros R$ 10 mil (quanto por mês, onde deixar, quanto tempo com R$ 300, 500, 1.000)
 - A melhor data de vencimento do cartão: 3 passos pra escolher (dia do salário + fechamento = até 40 dias pra pagar)
@@ -14,6 +13,10 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - O que fazer no dia que o vale-alimentação cai (3 passos), sem desperdiçar
 - 3 passos pra declarar o MEI/DAS sem multa (vencimento dia 20)
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
+
+## Checklist já feitos
+- 3 passos quando o salário cair (`checklist-salario-caiu`, 16/11)
+- 4 passos quando o 13º cair (`checklist-13-caiu`, 17/11 10h; substituiu o E se... do salário mínimo, que ficou sem postar)
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
 - Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
