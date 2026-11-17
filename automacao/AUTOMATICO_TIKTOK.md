@@ -38,8 +38,8 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 
 ### 2. Temas (2 por dia)
 - Leia `automacao/temas_tiktok.md`. Use primeiro a **"Fila do Matheus"**, na ordem. Depois, a série e as ideias.
-- **Um vídeo de cada tipo por dia** (mudou em 13/11/2026, a pedido do Matheus):
-  - **10h: formato "E se..."** (todo dia, com música; regras em 2c);
+- **Um vídeo de cada tipo por dia** (mudou em 16/11/2026, a pedido do Matheus: o Checklist rendeu mais que o "E se..."):
+  - **10h: Checklist do Consultor** (todo dia; regras em 2c). O "E se..." saiu da grade (fica só se o Matheus pedir);
   - **18h**: conta útil do momento (regra 2b.2), de preferência em série numerada; episódio da série "O que ninguém te conta antes de..." a cada 3 ou 4 dias (~2 min). Ana x Bruno só quando a escolha dos dois for uma conta útil (ex.: IPVA à vista x parcelado), não opinião.
 - Aproveite datas do mês (13º, Black Friday, IPVA, IR, férias) quando estiverem perto.
 - **Não repita** tema nem ângulo de "Já feitos". Respeite "Não fazer" (principalmente: nada de meta de poupança irreal para quem ganha pouco; valores pequenos e práticos).
@@ -73,7 +73,26 @@ Análise dos vídeos de 07 a 13/11 (todos parados em 150 a 450 views; o do alugu
    Continuação natural: série do aluguel (comprar x alugar com os números de 2026) e série dos R$ 100 mil (juros compostos).
 - Mantém: virada no meio, conclusão honesta (nunca "um lado é burro"), pergunta no fim, "Não fazer" e contas conferidas em `contas.py`.
 
-### 2c. Formato "E se..." (10h, todo dia; pedido do Matheus em 13/11/2026)
+### 2c. Checklist do Consultor (10h, todo dia; desde 17/11/2026)
+Modelo pronto: `videos/checklist-salario-caiu/` ("3 passos quando o salário cair", 16/11). Copie a estrutura do `scenes.py` e troque só o conteúdo.
+Inspirado nos vídeos de finanças que mais viralizaram em pt-BR (3,2 mi e 2,4 mi de views, 100 mil+ salvamentos cada): lista numerada de passos práticos.
+- **UMA cena fixa o vídeo inteiro**: `fundo_marca("navy")` com holofote, o Consultor GRANDE no centro falando com quem assiste
+  (`consultor_i(c, t, 540, 2200, 2.4, ...)`, só a parte de cima do corpo), poses e expressões trocando com a fala.
+- **A lista "1. 2. 3." (3 a 5 passos) aparece VAZIA no quadro 0** (linhas tracejadas) e vai sendo escrita passo a passo;
+  o passo atual fica destacado e vira ✓ verde quando termina. Título pequeno no topo (ex.: "QUANDO O SALÁRIO CAIR").
+- **Um valor concreto atravessa o vídeo** num marcador logo abaixo da lista (saldo, 13º, dívida, meta), mudando a cada passo com
+  `contador`, e termina num número final em dourado (ex.: "R$ 35 POR DIA"). O quanto entra/sai vira um selo pequeno no canto do marcador.
+- Detalhes do passo entram como chips dos lados (x ~230 e ~790, y 940-1100), sem cobrir o rosto. **Nada entre y 1380 e 1560**:
+  é onde o Actions queima a legenda.
+- Abertura: a situação da pessoa já no quadro 0 (notificação "Salário caiu!", "13º caiu!", fatura chegando) + narração em 0,0 s:
+  "Seu salário de R$ 3 mil caiu. Antes de gastar um real, faz esses 3 passos. Salva pra fazer no dia do pagamento."
+- Passos **seus**, práticos, com conta (nunca copie a lista de outro criador); um passo com um número que surpreende.
+- Fecha com pergunta que a pessoa responde com o número dela ("Qual é o seu número do dia? Comenta aí"). 62 a 80 s.
+- **Legenda começa com "salva pro dia 5 📌"** (ou "salva pra quando cair o 13º 📌", "salva antes da Black Friday 📌"), depois a frase de busca,
+  os passos escritos com emojis 1️⃣ 2️⃣ 3️⃣ e a pergunta. Capa: título + os passos listados + selo vermelho "SALVA PRO DIA 5".
+- Sem música (é a voz do Consultor que segura). Temas: lista "Checklist do Consultor" em `automacao/temas_tiktok.md`.
+
+### 2d. Formato "E se..." (fora da grade desde 16/11/2026; só se o Matheus pedir)
 Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspirado num vídeo viral de "R$ 1 trilhão no Pix".
 - **Abre já na cena do número virando coisa** (sem cartaz parado, regra 2b.1). **Gancho de fantasia** na 1ª frase: "E se você ganhasse/acordasse com/guardasse...?" com um número grande e concreto.
 - **O número vira coisa**, uma cena nova a cada 2-3 s: pilha de notas que sobe até um avião/o espaço, peso em toneladas numa balança,
@@ -110,7 +129,7 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 {"slug": "<slug>", "data": "2026-11-08", "horario": "10:00", "titulo": "<título curto>",
  "audio_blocos": ["<link do HeyGen>"], "duracoes": [74.2], "musica": "trilha_faz_a_conta"}
 ```
-(`"musica"` só no vídeo "E se..." das 10h.)
+(`"musica"` só se fizer um "E se..."; o Checklist das 10h e o das 18h vão sem música.)
 Valide com `python -m json.tool`.
 
 ### 7. Commit e push
@@ -118,10 +137,10 @@ Commit de `videos/<slug>/` (sem áudio), `automacao/temas_tiktok.md` e `fila_tik
 
 ### 8. Esperar, baixar e entregar
 - A cada 60 s, por até 50 min, confira se a release saiu: `curl -s https://api.github.com/repos/matheuspdias/stickfigure-videos/releases/tags/tiktok-<slug>` (ou `gh api repos/matheuspdias/stickfigure-videos/releases/tags/tiktok-<slug>`). Se o workflow falhar, leia `fila_tiktok/ultimo_log.txt` depois de `git pull`, corrija o que for do seu lado (cena, JSON) e faça push de novo.
-- Baixe `<slug>_tiktok.mp4`, `<slug>_capa.png` e `<slug>_post.txt` da release (no das 10h, também `<slug>_sem_musica.mp4`; se ele não estiver na release, a música não entrou: veja o log) e confira 2 ou 3 quadros do MP4 (gancho, meio, fim).
-- Entregue com **SendUserFile** (status `proactive`): primeiro o vídeo com música, a versão sem música e a capa das **10h**, depois o vídeo e a capa das **18h**.
+- Baixe `<slug>_tiktok.mp4`, `<slug>_capa.png` e `<slug>_post.txt` da release e confira 2 ou 3 quadros do MP4 (gancho, meio, fim).
+- Entregue com **SendUserFile** (status `proactive`): primeiro o vídeo e a capa das **10h**, depois o vídeo e a capa das **18h**.
 - Termine com **SendUserMessage** curto, em português:
   - **10h:** título + a legenda pronta para copiar (do post.txt);
   - **18h:** título + a legenda pronta para copiar;
-  - lembretes de uma linha: ativar o selo de conteúdo gerado por IA (voz), postar à mão e, se quiser, subir em Shorts e Reels (o das 10h na versão sem música);
+  - lembretes de uma linha: ativar o selo de conteúdo gerado por IA (voz), postar à mão e, se quiser, subir em Shorts e Reels ;
   - qualquer decisão tomada sozinho (tema, número estimado) ou problema.

@@ -3,6 +3,18 @@
 A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia antes de escolher os 2 vídeos e acrescenta os escolhidos em "Já feitos".
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
+## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
+- 4 passos quando cair o 13º (1ª parcela até 30/11): o que já tem dono, dívida cara primeiro, a sua parte, o teto do Natal
+- 3 sinais de golpe na Black Friday (com conta: o "desconto" que é preço inflado, o Pix pra loja falsa, o parcelado que vira juros)
+- 4 passos pra juntar os primeiros R$ 10 mil (quanto por mês, onde deixar, quanto tempo com R$ 300, 500, 1.000)
+- A melhor data de vencimento do cartão: 3 passos pra escolher (dia do salário + fechamento = até 40 dias pra pagar)
+- 3 passos antes de parcelar qualquer coisa (soma das parcelas que já tem, % do salário, regra do "e se eu perder a renda")
+- 5 passos pra sair do rotativo do cartão (com a conta de quanto custa 1 mês de rotativo em R$ 1.000)
+- 3 passos pra montar a reserva de emergência com salário de R$ 2 mil
+- O que fazer no dia que o vale-alimentação cai (3 passos), sem desperdiçar
+- 3 passos pra declarar o MEI/DAS sem multa (vencimento dia 20)
+- 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
+
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
 - Férias de fim de ano: quanto cai e por que janeiro aperta (CLT)
 - Comprar ou alugar em 2026 (Parte 2 de 3): a conta de 10 anos com os números de 2026 (continuação de `comprar-ou-alugar-2026-parte-1`; não repetir o 10 anos de `aluguel-jogar-dinheiro-fora` sem números novos)
