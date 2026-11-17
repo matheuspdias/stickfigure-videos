@@ -1,12 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 67.96s (esperado 67.96s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu/bloco1.wav: 67.964s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu_narracao.wav 67.964s
+[publicar] bloco 1: 108.64s (esperado 108.64s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda/bloco1.wav: 108.638s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda_narracao.wav 108.638s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu_base.mp4 4 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-13-caiu_tiktok.mp4 5.4 MB 68.0 s
-[publicar] pronto: 68.0s, 5.4 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda_base.mp4 11 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/imovel-2027-o-que-muda_tiktok.mp4 13.7 MB 108.6 s
+[publicar] pronto: 108.6s, 13.7 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-13-caiu
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-13-caiu
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-o-que-muda
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-imovel-2027-o-que-muda
