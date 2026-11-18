@@ -14,6 +14,7 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
+- Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). Parte 3 = salário de R$ 5 mil, ainda não feita
 - 3 passos quando o salário cair (`checklist-salario-caiu`, 16/11)
 - 4 passos quando o 13º cair (`checklist-13-caiu`, 17/11 10h; substituiu o E se... do salário mínimo, que ficou sem postar)
 - 3 sinais de golpe na Black Friday: desconto de mentira (+R$ 100), loja só no Pix (R$ 1.400), sem juros com juros (R$ 200); R$ 1.700 em jogo (`checklist-golpe-black-friday`, 18/11 10h)
@@ -23,7 +24,6 @@ Cada item diz o horário: `[10h Checklist]` vai no formato Checklist do Consulto
 Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais performaram no TikTok (#financaspessoais, #educacaofinanceira, #dinheiro e perfis parecidos). Entre parênteses, o vídeo de referência (views, salvamentos, compartilhamentos). **Não copie o roteiro da referência**: use o tema e o formato, com as contas e os números do Faz a Conta, pesquisados no dia.
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
-- `[10h Checklist]` Salário de R$ 3 mil: pra onde vai cada real, em 4 passos (Parte 1 de 3; Parte 2 = R$ 2 mil, Parte 3 = R$ 5 mil). Valores em reais na tela, não só porcentagem. (diego.bechara, 2,4 mi, 109 mil salvamentos, 31 mil compartilhamentos; canalbruno.om "Quer ter paz financeira?", 1,1 mi, 26 mil salvamentos; acaradariqueza "5 passos pra ter paz financeira")
 - `[18h]` Desafio do casal 2027: tabela mês a mês pra juntar R$ 10 mil em 12 meses (depósitos que crescem, total no fim + quanto rendeu no CDI). Gancho de "salva e manda pro seu par". (meudiariofinanceiro "Desafio financeiro em casal para 2027", 3,3 mi, 22 mil salvamentos, 18 mil compartilhamentos; casalinvestidores; finanzasesp 785 mil)
 - `[10h Checklist]` 3 lugares onde pode ter dinheiro seu esquecido: Valores a Receber do Banco Central, abono do PIS e FGTS (como consultar, só em site oficial, e o aviso de golpe). (dinheiro.falante "Dinheiro que é seu por lei"; Bruno Perobelli "dinheiro esquecido", tag #dinheiro)
 - `[18h]` Você compra no mês errado: o calendário de 2027 pra pagar menos (celular quando sai o modelo novo, TV e eletro, passagem, carro em dezembro, apê quando a construtora fecha o ano). Confirme cada afirmação na pesquisa do dia; o que não tiver fonte fica de fora. (dinheiro.falante "Você compra no dia errado", 2,2 mi, 109 mil salvamentos, 40 mil compartilhamentos, 11/11; "O melhor dia para comprar", 184 mil)
