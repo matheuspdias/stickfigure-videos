@@ -1,12 +1,60 @@
-[publicar] baixando bloco 1/1
-[publicar] bloco 1: 87.67s (esperado 87.67s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-dinheiro-esquecido/bloco1.wav: 87.665s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-dinheiro-esquecido_narracao.wav 87.665s
-[publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-dinheiro-esquecido_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-dinheiro-esquecido_tiktok.mp4 7.1 MB 87.7 s
-[publicar] pronto: 87.7s, 7.1 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-dinheiro-esquecido
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-dinheiro-esquecido
+  File "/usr/lib/python3.14/concurrent/futures/process.py", line 203, in _process_chunk
+    return [fn(*args) for args in chunk]
+            ~~^^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/render.py", line 143, in _segment
+    render_frame(c, f / FPS, S)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/render.py", line 109, in render_frame
+    draw_scene(c, fn, t, st, en)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/render.py", line 90, in draw_scene
+    fn(c, t)
+    ~~^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/videos/calendario-compras-2027/scenes.py", line 159, in cena
+    calendario(c, t)
+    ~~~~~~~~~~^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/videos/calendario-compras-2027/scenes.py", line 64, in calendario
+    c.save(); c.translate(x0 + cw / 2, yy + 14); c.scale(k, k)
+                                                 ~~~~~~~^^^^^^
+cairo.Error: invalid matrix (not invertible)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/render.py", line 192, in <module>
+    build(sys.argv[2], sys.argv[3], sys.argv[4])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/render.py", line 163, in build
+    segs = list(ex.map(_segment, jobs))
+  File "/usr/lib/python3.14/concurrent/futures/process.py", line 617, in _chain_from_iterable_of_lists
+    for element in iterable:
+                   ^^^^^^^^
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+cairo.Error: invalid matrix (not invertible)
+Traceback (most recent call last):
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/automacao/tiktok_render.py", line 170, in <module>
+    main()
+    ~~~~^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/automacao/tiktok_render.py", line 161, in main
+    arquivos = produzir(m, a.audio)
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/automacao/tiktok_render.py", line 103, in produzir
+    run(sys.executable, "render.py", "build", f"videos/{slug}/scenes.py", narracao, base)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/stickfigure-videos/stickfigure-videos/automacao/tiktok_render.py", line 41, in run
+    subprocess.run([str(c) for c in cmd], check=True, cwd=RAIZ)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/bin/python', 'render.py', 'build', 'videos/calendario-compras-2027/scenes.py', '/home/runner/work/stickfigure-videos/stickfigure-videos/out/calendario-compras-2027_narracao.wav', '/home/runner/work/stickfigure-videos/stickfigure-videos/out/calendario-compras-2027_base.mp4']' returned non-zero exit status 1.
