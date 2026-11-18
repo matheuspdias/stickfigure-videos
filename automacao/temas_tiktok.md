@@ -14,7 +14,7 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
-- Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). Parte 3 = salário de R$ 5 mil, ainda não feita
+- Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). SÉRIE DO SALÁRIO ENCERRADA (o Matheus pediu em 18/11): não fazer mais checklist de "salário de R$ X caiu" (R$ 2, 3 ou 5 mil)
 - 3 passos quando o salário cair (`checklist-salario-caiu`, 16/11)
 - 4 passos quando o 13º cair (`checklist-13-caiu`, 17/11 10h; substituiu o E se... do salário mínimo, que ficou sem postar)
 - 3 sinais de golpe na Black Friday: desconto de mentira (+R$ 100), loja só no Pix (R$ 1.400), sem juros com juros (R$ 200); R$ 1.700 em jogo (`checklist-golpe-black-friday`, 18/11 10h)
@@ -24,7 +24,6 @@ Cada item diz o horário: `[10h Checklist]` vai no formato Checklist do Consulto
 Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais performaram no TikTok (#financaspessoais, #educacaofinanceira, #dinheiro e perfis parecidos). Entre parênteses, o vídeo de referência (views, salvamentos, compartilhamentos). **Não copie o roteiro da referência**: use o tema e o formato, com as contas e os números do Faz a Conta, pesquisados no dia.
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
-- `[18h]` Desafio do casal 2027: tabela mês a mês pra juntar R$ 10 mil em 12 meses (depósitos que crescem, total no fim + quanto rendeu no CDI). Gancho de "salva e manda pro seu par". (meudiariofinanceiro "Desafio financeiro em casal para 2027", 3,3 mi, 22 mil salvamentos, 18 mil compartilhamentos; casalinvestidores; finanzasesp 785 mil)
 - `[10h Checklist]` 3 lugares onde pode ter dinheiro seu esquecido: Valores a Receber do Banco Central, abono do PIS e FGTS (como consultar, só em site oficial, e o aviso de golpe). (dinheiro.falante "Dinheiro que é seu por lei"; Bruno Perobelli "dinheiro esquecido", tag #dinheiro)
 - `[18h]` Você compra no mês errado: o calendário de 2027 pra pagar menos (celular quando sai o modelo novo, TV e eletro, passagem, carro em dezembro, apê quando a construtora fecha o ano). Confirme cada afirmação na pesquisa do dia; o que não tiver fonte fica de fora. (dinheiro.falante "Você compra no dia errado", 2,2 mi, 109 mil salvamentos, 40 mil compartilhamentos, 11/11; "O melhor dia para comprar", 184 mil)
 - `[10h Checklist]` Desafio 2027 pra quem ganha pouco: tabela pra juntar R$ 3 mil no ano (52 semanas ou R$ 250 por mês), com o passo a passo pra não desistir em março. Valores pequenos (regra do "Não fazer"). (larissa.quintanilhaa "Como juntar R$ 30 mil em 2027", 1,2 mi, 29 mil salvamentos; thiago.guasti "60 dias", 2,8 mi, 23 mil salvamentos; faust.gabriel "R$ 12 mil em 12 meses", 350 mil)
@@ -43,6 +42,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - próximos (em ordem, se o Matheus não mudar): empréstimo pessoal (o ep. 6 perguntou "empréstimo pessoal ou cheque especial?"), financiar moto, cheque especial, previdência privada, comprar carro usado
 
 ## Já feitos no TikTok (não repetir o mesmo ângulo)
+- Desafio do casal 2027: R$ 10 mil em 3 degraus (jan-abr R$ 600, mai-ago R$ 800, set-dez R$ 1.100; R$ 300/400/550 cada um), 100% do CDI 13,65% -> ~R$ 10.500; regra: depósito no dia do salário, quem atrasar paga o jantar (`desafio-casal-2027`, 18/11 18h, 1º item da fila de 18/11)
 - Amortização no Minha Casa Minha Vida (`amortizacao-mcmv`)
 - Black Friday: o truque do "metade do dobro" (`black-friday-metade-dobro`)
 - Dividir as contas no casal: 50/50 ou proporcional (`casal-dividir-contas`)
@@ -111,6 +111,7 @@ Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exempl
 - Datas do mês: 13º (2ª parcela até 20/12), Black Friday, IPVA/IPTU em janeiro, volta às aulas, Imposto de Renda (mar-mai), férias
 
 ## Não fazer
+- Checklist ou conta de "o que fazer quando o salário cair" com outro valor de salário: o perfil já tem (R$ 3 mil e R$ 2 mil). Pedido do Matheus em 18/11/2026
 - Metas de poupança irreais para quem ganha pouco (o vídeo dos 100 mil recebeu críticas): prefira valores pequenos e fixos (R$ 50, R$ 100, R$ 500) e temas práticos
 - Recomendar banco, corretora, produto ou ação específica como "o melhor"
 - Promessa de ganho, enriquecimento rápido, apostas, cripto especulativa
