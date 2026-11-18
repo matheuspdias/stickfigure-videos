@@ -1,12 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 77.42s (esperado 77.42s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-2mil/bloco1.wav: 77.420s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-2mil_narracao.wav 77.420s
+[publicar] bloco 1: 75.18s (esperado 75.18s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/desafio-casal-2027/bloco1.wav: 75.179s, início 0.000s, diferença -240 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/desafio-casal-2027_narracao.wav 75.179s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-2mil_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-salario-2mil_tiktok.mp4 6.2 MB 77.4 s
-[publicar] pronto: 77.4s, 6.2 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/desafio-casal-2027_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/desafio-casal-2027_tiktok.mp4 6.3 MB 75.2 s
+[publicar] pronto: 75.2s, 6.3 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-2mil
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-salario-2mil
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-desafio-casal-2027
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-desafio-casal-2027
