@@ -59,7 +59,7 @@ def calendario(c, t):
         rgb(c, (0.99, 0.93, 0.72) if tem else (0.94, 0.91, 0.84)); c.fill()
         text(c, m, x0 + cw / 2, y0 + 38, 34, MARKER, NAVY if tem else (0.55, 0.55, 0.58))
         for j, (t0, nome, cor) in enumerate(ativos.get(i, [])[:2]):
-            k = ease_out(clamp01((t - t0) / 0.35))
+            k = max(0.02, ease_out(clamp01((t - t0) / 0.35)))
             yy = y0 + 56 + j * 42
             c.save(); c.translate(x0 + cw / 2, yy + 14); c.scale(k, k)
             rr(c, -92, -19, 184, 38, 10); rgb(c, cor); c.fill()
