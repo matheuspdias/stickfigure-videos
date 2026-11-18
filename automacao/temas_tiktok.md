@@ -14,7 +14,7 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
-- Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). SÉRIE DO SALÁRIO ENCERRADA (o Matheus pediu em 18/11): não fazer mais checklist de "salário de R$ X caiu" (R$ 2, 3 ou 5 mil)
+- Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). já feitos: R$ 3 mil e R$ 2 mil; não repetir esses valores
 - 3 passos quando o salário cair (`checklist-salario-caiu`, 16/11)
 - 4 passos quando o 13º cair (`checklist-13-caiu`, 17/11 10h; substituiu o E se... do salário mínimo, que ficou sem postar)
 - 3 sinais de golpe na Black Friday: desconto de mentira (+R$ 100), loja só no Pix (R$ 1.400), sem juros com juros (R$ 200); R$ 1.700 em jogo (`checklist-golpe-black-friday`, 18/11 10h)
@@ -111,7 +111,6 @@ Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exempl
 - Datas do mês: 13º (2ª parcela até 20/12), Black Friday, IPVA/IPTU em janeiro, volta às aulas, Imposto de Renda (mar-mai), férias
 
 ## Não fazer
-- Checklist ou conta de "o que fazer quando o salário cair" com outro valor de salário: o perfil já tem (R$ 3 mil e R$ 2 mil). Pedido do Matheus em 18/11/2026
 - Metas de poupança irreais para quem ganha pouco (o vídeo dos 100 mil recebeu críticas): prefira valores pequenos e fixos (R$ 50, R$ 100, R$ 500) e temas práticos
 - Recomendar banco, corretora, produto ou ação específica como "o melhor"
 - Promessa de ganho, enriquecimento rápido, apostas, cripto especulativa
