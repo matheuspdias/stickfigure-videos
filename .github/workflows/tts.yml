@@ -1,0 +1,34 @@
+name: tts
+
+# Gera a narração pela API do HeyGen (saldo pré-pago, segredo HEYGEN_API_KEY) quando um pedido entra em tts_in/.
+# Ver tools/tts_narracao.py.
+on:
+  push:
+    branches: [main]
+    paths: ['tts_in/*.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tts
+  cancel-in-progress: false
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar narração
+        id: gen
+        env:
+          HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
+        run: python3 -u tools/tts_narracao.py || echo "falhou=1" >> "$GITHUB_OUTPUT"
+      - name: Commit
+        run: |
+          git config user.name "fazaconta-bot"
+          git config user.email "fazaconta-bot@users.noreply.github.com"
+          for d in audio_narracao videos tts_in tts_out; do [ -e "$d" ] && git add -A -f "$d"; done; true
+          git diff --cached --quiet || git commit -m "narração gerada pela API do HeyGen"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+      - name: Falhou?
+        if: steps.gen.outputs.falhou == '1'
+        run: exit 1
