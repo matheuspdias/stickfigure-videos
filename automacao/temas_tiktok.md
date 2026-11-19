@@ -20,13 +20,13 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 3 sinais de golpe na Black Friday: desconto de mentira (+R$ 100), loja só no Pix (R$ 1.400), sem juros com juros (R$ 200); R$ 1.700 em jogo (`checklist-golpe-black-friday`, 18/11 10h)
 - 3 lugares com dinheiro esquecido: Valores a Receber (R$ 6 bi, 1 em 10 com + de R$ 100), abono PIS (até R$ 1.621, 276 mil não sacaram, prazo 28/12) e FGTS antigo; aviso de golpe; exemplo R$ 3.230 (`checklist-dinheiro-esquecido`, 19/11 10h, 1º item da fila; APAGADO pelo Matheus: deu problema no TikTok e não entrou no Para Você)
 
+- Desafio R$ 3 mil em 2027 ganhando pouco: R$ 250/mês = R$ 58/semana = R$ 8/dia; 52 semanas (R$ 2 subindo R$ 2) = R$ 2.756 com R$ 404 em dezembro, por isso fixo; Pix agendado a 100% do CDI (~13,1% em 2027) -> ~R$ 3.140; regra de março: apertou, diminui, não para (`checklist-desafio-3mil-2027`, 20/11 10h, 1º item 10h da fila)
+
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
 Cada item diz o horário: `[10h Checklist]` vai no formato Checklist do Consultor (2c), `[18h]` é conta útil. Por dia, pegue o primeiro item de cada horário; quando acabar um horário, volte às listas normais só para ele.
 Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais performaram no TikTok (#financaspessoais, #educacaofinanceira, #dinheiro e perfis parecidos). Entre parênteses, o vídeo de referência (views, salvamentos, compartilhamentos). **Não copie o roteiro da referência**: use o tema e o formato, com as contas e os números do Faz a Conta, pesquisados no dia.
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
-- `[10h Checklist]` Desafio 2027 pra quem ganha pouco: tabela pra juntar R$ 3 mil no ano (52 semanas ou R$ 250 por mês), com o passo a passo pra não desistir em março. Valores pequenos (regra do "Não fazer"). (larissa.quintanilhaa "Como juntar R$ 30 mil em 2027", 1,2 mi, 29 mil salvamentos; thiago.guasti "60 dias", 2,8 mi, 23 mil salvamentos; faust.gabriel "R$ 12 mil em 12 meses", 350 mil)
-- `[18h]` R$ 100 por mês desde que o filho nasceu: quanto ele tem aos 18 (poupança x CDI, descontando a inflação) e quanto custa um filho por mês. (dinheiro.falante "Como deixar seu filho rico", 506 mil, e "Qual o custo real de ter um filho?")
 - `[18h]` R$ 200 mil na mão: quitar o financiamento ou deixar rendendo? A conta com os juros de 2026 (ângulo diferente de `amortizacao-mcmv`: quitar de uma vez x investir). (gemeos.investem "No papel parece tudo bonito...", 1,5 mi, 10 mil salvamentos)
 
 ## Série "O que ninguém te conta antes de..."
@@ -83,6 +83,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Comprar ou alugar em 2026 (Parte 2 de 3): a conta de 10 anos: juros de 10 anos R$ 228 mil ~ aluguel de 10 anos R$ 221 mil; ITBI+cartório R$ 12 mil; CDI 2026 ~11,6% líquido; parcela SAC e aluguel se cruzam no ano 10 (~R$ 2.200); Bruno R$ 329 mil x Ana R$ 404 mil (+R$ 75 mil); Ana gastando a diferença R$ 216 mil. Parte 3 prometida: quando comprar ganha (`comprar-ou-alugar-2026-parte-2`, 18/11 18h)
 - Você compra no mês errado: calendário 2027 (celular: modelo anterior -20% Galaxy/-10% iPhone, levantamento Zoom; TV jan-mar; passagem ~40 dias antes; carro fim do ano, desconto médio recorde 8,8% em out/2026 ~R$ 15 mil); apê da construtora ficou de fora sem fonte (`calendario-compras-2027`, postado às 10h de 19/11, adiantado no lugar do dinheiro esquecido)
 - Quanto rende R$ 1.000 em 1 ano (Parte 1 de 3): Selic 13,75%, CDI 13,65%; conta R$ 0, poupança R$ 1.083, Tesouro Selic e CDB 100% R$ 1.113 (bruto R$ 136, IR 17,5%), CDB 110% R$ 1.124; poupança -R$ 41/ano; FGC R$ 250 mil; IR 22,5% antes de 6 meses. Parte 2 prometida: R$ 5 mil; Parte 3: R$ 10 mil (`quanto-rende-mil-parte-1`, 19/11 18h, extra pedido pelo Matheus)
+- R$ 100 por mês desde que o filho nasce, em dinheiro de hoje (IPCA ~4,5%): R$ 21.600 depositados; gaveta ~R$ 15 mil, poupança ~R$ 25 mil, Tesouro IPCA+ (~7,5%, sem IR) ~R$ 37 mil (~R$ 80 mil nominais); custo de criar filho ~R$ 300 mil até 18 (estudo Bora Investir/Plano 2022, renda média) ~R$ 1.400/mês, R$ 100 = 7%; R$ 200 = ~R$ 74 mil (`cem-por-mes-filho-18`, 20/11 18h, 1º item 18h da fila)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
