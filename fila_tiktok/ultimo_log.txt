@@ -1,12 +1,24 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 72.12s (esperado 72.12s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-mil-parte-1/bloco1.wav: 72.121s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-mil-parte-1_narracao.wav 72.121s
+[publicar] bloco 1: 83.70s (esperado 83.64s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cem-por-mes-filho-18/bloco1.mp3: 83.696s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cem-por-mes-filho-18_narracao.wav 83.696s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-mil-parte-1_base.mp4 4 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-mil-parte-1_tiktok.mp4 5.8 MB 72.1 s
-[publicar] pronto: 72.1s, 5.8 MB
+efeitos sonoros: 0 eventos, volume 0.81
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cem-por-mes-filho-18_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/cem-por-mes-filho-18_tiktok.mp4 7.0 MB 83.7 s
+[publicar] pronto: 83.7s, 7.0 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quanto-rende-mil-parte-1
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quanto-rende-mil-parte-1
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-cem-por-mes-filho-18
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-cem-por-mes-filho-18
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 81.32s (esperado 81.29s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-desafio-3mil-2027/bloco1.mp3: 81.319s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-desafio-3mil-2027_narracao.wav 81.319s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.82
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-desafio-3mil-2027_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-desafio-3mil-2027_tiktok.mp4 6.8 MB 81.3 s
+[publicar] pronto: 81.3s, 6.8 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-desafio-3mil-2027
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-desafio-3mil-2027
