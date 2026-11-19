@@ -5,7 +5,7 @@
 | Voz | **Afonso - Warm & Resonant** (catálogo público do HeyGen, pt-BR, masculina, voz "instant"). Escolhida pelo Matheus em 13/11/2026 (Calm Carlos ficou ruim fora do ElevenLabs) |
 | voice_id | `9ce5f601f9e04382bb26141d5a3f839d` |
 | Voz anterior | Calm Carlos `3b2a59d6edb54e79a40b29726a12d1c3` (até 13/11/2026) |
-| Ferramenta | HeyGen `create_speech_without_player` (ou `create_speech`), com `withTimestamps: true` |
+| Ferramenta | **API do HeyGen** (`POST /v3/models/audio/tts`, `heygen-voice-1`, com tempos) pela Action `tts` desde 19/11/2026 — ver `tools/tts_narracao.py` e AUTOMATICO_TIKTOK.md §4. Não usar mais as ferramentas do HeyGen da conversa (assinatura cancelada). |
 | Modelo | **não informar** (o servidor usa o HeyGen Voice padrão do plano pago, `heygen-voice-1`) |
 | Idioma | `language: "pt"` |
 | Expressividade | não informar (padrão do servidor; foi assim na amostra que o Matheus aprovou em 13/11/2026) |

@@ -113,9 +113,21 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 - Gancho falado no segundo 0 (sem cartaz parado, ver 2b), frases curtas, números por extenso, virada no meio, **fecha com pergunta para comentário**. 150 a 230 palavras (60-90 s); episódio da série até ~2 min.
 - Salve `videos/<slug>/roteiro.txt`.
 
-### 4. Narração
-- Um bloco por vídeo no HeyGen, voz oficial (VOZ.md: Afonso desde 13/11/2026, pt), **sem `[whispers]`**. Gere os dois em paralelo.
-- Guarde o **link**, a **duração** e os `word_timestamps` → `videos/<slug>/palavras.json` (`[{"w", "t0", "t1"}]`, sem `<start>`/`<end>`).
+### 4. Narração (API do HeyGen, pela Action `tts`)
+- **Não use as ferramentas do HeyGen desta conversa para a narração** (elas gastavam a assinatura, que foi cancelada).
+  A narração sai da API do HeyGen (saldo pré-pago, segredo `HEYGEN_API_KEY`), gerada pela Action `tts`.
+- Um bloco por vídeo, voz oficial (VOZ.md: Afonso, `9ce5f601f9e04382bb26141d5a3f839d`), texto do `roteiro.txt` sem tags.
+  Para cada vídeo, crie `tts_in/<slug>.json`:
+  ```json
+  {"slug": "<slug>", "voice": "9ce5f601f9e04382bb26141d5a3f839d", "blocos": ["<texto do roteiro>"]}
+  ```
+  Faça commit dos dois pedidos juntos e push. Em 1–2 min a Action commita, para cada slug:
+  `audio_narracao/<slug>/bloco1.mp3`, `videos/<slug>/palavras.json` (`[{"w","t0","t1"}]`, pronto para as cenas) e
+  `videos/<slug>/narracao.json` (`audio_blocos` e `duracoes` para a fila). Espere com
+  `for i in $(seq 1 15); do git pull -q; [ -f videos/<slug>/narracao.json ] && break; sleep 15; done`.
+- Se falhar, o pedido fica em `tts_in/` e o erro em `tts_out/`. Erro de saldo ("insufficient", "balance", 402):
+  pare e avise o Matheus para colocar saldo na API do HeyGen (platform.heygen.com → Billing). Erro temporário:
+  apague `tts_out/`, commit e dispare de novo (`gh api -X POST repos/matheuspdias/stickfigure-videos/actions/workflows/tts.yml/dispatches -f ref=main`).
 
 ### 5. Cenas, capa e post (skill, T3 a T5), no estilo ilustrado
 - `videos/<slug>/scenes.py`: `from engine import *`, `VERTICAL = True`, `from ilustrado import *`, `STYLE = "ilustrado"`, `SFX_OFF = True` ou `SFX_SKIP` como no modelo e 3 ou 4 toques. Modelo: `examples/ilustrado-tiktok/scenes.py`.
@@ -127,9 +139,9 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 `fila_tiktok/<slug>.json` para cada vídeo:
 ```json
 {"slug": "<slug>", "data": "2026-11-08", "horario": "10:00", "titulo": "<título curto>",
- "audio_blocos": ["<link do HeyGen>"], "duracoes": [74.2], "musica": "trilha_faz_a_conta"}
+ "audio_blocos": [...], "duracoes": [...], "musica": "trilha_faz_a_conta"}
 ```
-(`"musica"` só se fizer um "E se..."; o Checklist das 10h e o das 18h vão sem música.)
+(`audio_blocos` e `duracoes`: copie de `videos/<slug>/narracao.json`. `"musica"` só se fizer um "E se..."; o Checklist das 10h e o das 18h vão sem música.)
 Valide com `python -m json.tool`.
 
 ### 7. Commit e push
