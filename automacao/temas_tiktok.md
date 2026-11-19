@@ -40,6 +40,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - próximos (em ordem, se o Matheus não mudar): empréstimo pessoal (o ep. 6 perguntou "empréstimo pessoal ou cheque especial?"), financiar moto, cheque especial, previdência privada, comprar carro usado
 
 ## Já feitos no TikTok (não repetir o mesmo ângulo)
+- Holerite de janeiro com a jornada de 42h: salário igual, extra acima de 42h (+50%), divisor 210 (`holerite-janeiro-42h`, extra 19/11 21h, remodelado de vídeo em alta; narração x1,12)
 - Desafio do casal 2027: R$ 10 mil em 3 degraus (jan-abr R$ 600, mai-ago R$ 800, set-dez R$ 1.100; R$ 300/400/550 cada um), 100% do CDI 13,65% -> ~R$ 10.500; regra: depósito no dia do salário, quem atrasar paga o jantar (`desafio-casal-2027`, 18/11 18h, 1º item da fila de 18/11)
 - Amortização no Minha Casa Minha Vida (`amortizacao-mcmv`)
 - Black Friday: o truque do "metade do dobro" (`black-friday-metade-dobro`)

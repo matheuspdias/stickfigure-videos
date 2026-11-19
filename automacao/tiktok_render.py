@@ -97,6 +97,12 @@ def produzir(m, audios_locais=None):
 
     narracao = os.path.join(RAIZ, "out", f"{slug}_narracao.wav")
     run(sys.executable, "juntar_blocos.py", narracao, *blocos, "--pausa", "0.4")
+    vel = float(m.get("velocidade") or 1.0)  # opcional: narração mais rápida (palavras.json já vem com os tempos divididos por vel)
+    if abs(vel - 1.0) > 0.001:
+        rapido = narracao.replace(".wav", "_rapido.wav")
+        run("ffmpeg", "-v", "error", "-y", "-i", narracao, "-filter:a", f"atempo={vel}", rapido)
+        shutil.move(rapido, narracao)
+        log(f"narração acelerada x{vel}: {duracao(narracao):.1f}s")
     base = os.path.join(RAIZ, "out", f"{slug}_base.mp4")
     final = os.path.join(RAIZ, "out", f"{slug}_tiktok.mp4")
     log("renderizando o vertical")
