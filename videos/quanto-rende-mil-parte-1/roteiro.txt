@@ -1,0 +1,22 @@
+QUANTO RENDE R$ 1.000 EM 1 ANO (PARTE 1): conta x poupança x Tesouro Selic x CDB 100% x CDB 110% (TikTok nativo, 1080x1920, ~72,1 s). 19/11/2026 18h (extra: o das 10h foi apagado e o calendário foi adiantado para as 10h).
+Item [18h] da Fila do Matheus. Contas e fontes no docstring de scenes.py. Parte 2 prometida: R$ 5 mil.
+
+Mil reais parados na conta corrente rendem zero. Em um ano, quanto eles viram em cada lugar? Já tirando o imposto. Salva essa tabela.
+
+Com a Selic em treze e setenta e cinco, o CDI está em treze e sessenta e cinco por cento ao ano.
+
+Poupança: mil e oitenta e três reais. Oitenta e três de rendimento, sem imposto.
+
+Tesouro Selic: o bruto dá cento e trinta e seis reais. Mas, em um ano, o imposto é de dezessete e meio por cento. Sobram cento e treze. Mil cento e treze.
+
+CDB de cem por cento do CDI: a mesma conta. Mil cento e treze.
+
+CDB de cento e dez por cento do CDI: mil cento e vinte e quatro.
+
+Agora a virada: a poupança não paga imposto e, mesmo assim, perde. São quarenta e um reais a menos que o CDB de cento e dez, a cada mil reais, todo ano.
+
+Dois detalhes: o CDB tem a garantia do FGC até duzentos e cinquenta mil reais por banco. E, se tirar antes de seis meses, o imposto sobe pra vinte e dois e meio por cento.
+
+Na parte dois, a mesma conta com cinco mil reais. E o seu dinheiro, tá onde hoje? Comenta aí.
+
+Áudio HeyGen (Afonso): https://resource2.heygen.ai/text_to_speech/cdea5e656a244864a1032edcb4fae01d/9ce5f601f9e04382bb26141d5a3f839d/id=c2102ae3bbea4692b94f3b1ddb1ae808.wav (72,12 s)
