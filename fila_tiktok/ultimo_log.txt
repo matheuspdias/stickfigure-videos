@@ -1,13 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 79.69s (esperado 79.69s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/holerite-janeiro-42h/bloco1.wav: 79.689s, início 0.000s, diferença -240 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/holerite-janeiro-42h_narracao.wav 79.689s
-[publicar] narração acelerada x1.12: 71.2s
+[publicar] bloco 1: 75.68s (esperado 75.64s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil/bloco1.mp3: 75.677s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_narracao.wav 75.677s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.84
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/holerite-janeiro-42h_base.mp4 4 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/holerite-janeiro-42h_tiktok.mp4 5.8 MB 71.2 s
-[publicar] pronto: 71.2s, 5.8 MB
+efeitos sonoros: 0 eventos, volume 0.82
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_tiktok.mp4 6.4 MB 75.7 s
+[publicar] pronto: 75.7s, 6.4 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-holerite-janeiro-42h
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-holerite-janeiro-42h
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-primeiros-10-mil
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-primeiros-10-mil
