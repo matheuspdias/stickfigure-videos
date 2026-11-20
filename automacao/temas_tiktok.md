@@ -4,7 +4,6 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- 4 passos pra juntar os primeiros R$ 10 mil (quanto por mês, onde deixar, quanto tempo com R$ 300, 500, 1.000)
 - A melhor data de vencimento do cartão: 3 passos pra escolher (dia do salário + fechamento = até 40 dias pra pagar)
 - 3 passos antes de parcelar qualquer coisa (soma das parcelas que já tem, % do salário, regra do "e se eu perder a renda")
 - 5 passos pra sair do rotativo do cartão (com a conta de quanto custa 1 mês de rotativo em R$ 1.000)
@@ -20,6 +19,7 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 3 sinais de golpe na Black Friday: desconto de mentira (+R$ 100), loja só no Pix (R$ 1.400), sem juros com juros (R$ 200); R$ 1.700 em jogo (`checklist-golpe-black-friday`, 18/11 10h)
 - 3 lugares com dinheiro esquecido: Valores a Receber (R$ 6 bi, 1 em 10 com + de R$ 100), abono PIS (até R$ 1.621, 276 mil não sacaram, prazo 28/12) e FGTS antigo; aviso de golpe; exemplo R$ 3.230 (`checklist-dinheiro-esquecido`, 19/11 10h, 1º item da fila; APAGADO pelo Matheus: deu problema no TikTok e não entrou no Para Você)
 
+- 4 passos pros primeiros R$ 10 mil: valor que cabe (R$ 300 = 2,5 anos, R$ 500 = 19 meses, R$ 1.000 = 10 meses; CDI 13,65%, IR 17,5%), conta separada 100% CDI (+R$ 230 x poupança com R$ 500), R$ 1.000 do 13º em cada dezembro (15 meses), comemora R$ 1.000/2.500/5.000 (`checklist-primeiros-10-mil`, 21/11 10h)
 - Desafio R$ 3 mil em 2027 ganhando pouco: R$ 250/mês = R$ 58/semana = R$ 8/dia; 52 semanas (R$ 2 subindo R$ 2) = R$ 2.756 com R$ 404 em dezembro, por isso fixo; Pix agendado a 100% do CDI (~13,1% em 2027) -> ~R$ 3.140; regra de março: apertou, diminui, não para (`checklist-desafio-3mil-2027`, 20/11 10h, 1º item 10h da fila)
 
 ## Fila do Matheus (prioridade: usar na ordem, um por vez)
@@ -27,7 +27,6 @@ Cada item diz o horário: `[10h Checklist]` vai no formato Checklist do Consulto
 Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais performaram no TikTok (#financaspessoais, #educacaofinanceira, #dinheiro e perfis parecidos). Entre parênteses, o vídeo de referência (views, salvamentos, compartilhamentos). **Não copie o roteiro da referência**: use o tema e o formato, com as contas e os números do Faz a Conta, pesquisados no dia.
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
-- `[18h]` R$ 200 mil na mão: quitar o financiamento ou deixar rendendo? A conta com os juros de 2026 (ângulo diferente de `amortizacao-mcmv`: quitar de uma vez x investir). (gemeos.investem "No papel parece tudo bonito...", 1,5 mi, 10 mil salvamentos)
 
 ## Série "O que ninguém te conta antes de..."
 Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer se vale a pena; mesma estrutura dos episódios anteriores (`videos/consignado`, `videos/consorcio`). ~2 min. Um episódio a cada 3 ou 4 dias, no horário das 18h.
@@ -85,6 +84,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Você compra no mês errado: calendário 2027 (celular: modelo anterior -20% Galaxy/-10% iPhone, levantamento Zoom; TV jan-mar; passagem ~40 dias antes; carro fim do ano, desconto médio recorde 8,8% em out/2026 ~R$ 15 mil); apê da construtora ficou de fora sem fonte (`calendario-compras-2027`, postado às 10h de 19/11, adiantado no lugar do dinheiro esquecido)
 - Quanto rende R$ 1.000 em 1 ano (Parte 1 de 3): Selic 13,75%, CDI 13,65%; conta R$ 0, poupança R$ 1.083, Tesouro Selic e CDB 100% R$ 1.113 (bruto R$ 136, IR 17,5%), CDB 110% R$ 1.124; poupança -R$ 41/ano; FGC R$ 250 mil; IR 22,5% antes de 6 meses. Parte 2 prometida: R$ 5 mil; Parte 3: R$ 10 mil (`quanto-rende-mil-parte-1`, 19/11 18h, extra pedido pelo Matheus)
 - R$ 100 por mês desde que o filho nasce, em dinheiro de hoje (IPCA ~4,5%): R$ 21.600 depositados; gaveta ~R$ 15 mil, poupança ~R$ 25 mil, Tesouro IPCA+ (~7,5%, sem IR) ~R$ 37 mil (~R$ 80 mil nominais); custo de criar filho ~R$ 300 mil até 18 (estudo Bora Investir/Plano 2022, renda média) ~R$ 1.400/mês, R$ 100 = 7%; R$ 200 = ~R$ 74 mil (`cem-por-mes-filho-18`, 20/11 18h, 1º item 18h da fila)
+- R$ 200 mil na mão: quitar ou deixar rendendo? 100% CDI líquido ~11,5% = ~R$ 23 mil/ano; contrato 12% = ~R$ 24 mil de juros (quita, + seguro); contrato 8% = ~R$ 16 mil (rende, +R$ 7 mil/ano); Selic caindo em 2027; reserva antes, amortiza reduzindo prazo; linha 11,5% (`quitar-ou-render-200-mil`, 21/11 18h, item 18h da fila)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
