@@ -182,3 +182,42 @@ def cena(c, t):
 
 
 SCENES = [(0, 999.0, cena)]
+
+
+# --- 21/11/2026: narração refeita com a voz nova (clone B). As cenas acima estão nos tempos da narração
+# antiga (Afonso, palavras_afonso.json); aqui cada palavra da narração nova é ligada à mesma palavra da
+# antiga, e o tempo das cenas e dos sons é convertido por interpolação linear entre essas âncoras.
+import json as _json, os as _os
+_d = _os.path.dirname(_os.path.abspath(__file__))
+_old = _json.load(open(_os.path.join(_d, "palavras_afonso.json"), encoding="utf-8"))
+_new = _json.load(open(_os.path.join(_d, "palavras.json"), encoding="utf-8"))
+_A = [(0.0, 0.0)]
+for _o, _n in zip(_old, _new):
+    for _k in ("t0", "t1"):
+        if _n[_k] > _A[-1][0] and _o[_k] > _A[-1][1]:
+            _A.append((_n[_k], _o[_k]))
+
+
+def _interp(x, xs, ys):
+    if x <= xs[0]:
+        return ys[0] + (x - xs[0])
+    for i in range(1, len(xs)):
+        if x <= xs[i]:
+            f = (x - xs[i - 1]) / (xs[i] - xs[i - 1])
+            return ys[i - 1] + f * (ys[i] - ys[i - 1])
+    return ys[-1] + (x - xs[-1])
+
+
+_NX, _OX = [a for a, _ in _A], [b for _, b in _A]
+novo_para_antigo = lambda t: _interp(t, _NX, _OX)
+antigo_para_novo = lambda t: _interp(t, _OX, _NX)
+
+
+def _warp(fn):
+    def g(c, t):
+        return fn(c, novo_para_antigo(t))
+    return g
+
+
+SCENES = [(antigo_para_novo(a), b if b >= 900 else antigo_para_novo(b), _warp(f)) for a, b, f in SCENES]
+SFX = [(antigo_para_novo(t), n) for t, n in SFX]
