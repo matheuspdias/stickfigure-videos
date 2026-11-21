@@ -1,12 +1,22 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 75.68s (esperado 75.64s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil/bloco1.mp3: 75.677s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_narracao.wav 75.677s
+[publicar] bloco 1: 70.90s (esperado 70.85s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil/bloco1.mp3: 70.896s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_narracao.wav 70.896s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.82
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_tiktok.mp4 6.4 MB 75.7 s
-[publicar] pronto: 75.7s, 6.4 MB
-release not found
+efeitos sonoros: 0 eventos, volume 0.80
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_base.mp4 4 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-primeiros-10-mil_tiktok.mp4 6.1 MB 70.9 s
+[publicar] pronto: 70.9s, 6.1 MB
 https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-primeiros-10-mil
 [publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-primeiros-10-mil
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 73.17s (esperado 73.13s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quitar-ou-render-200-mil/bloco1.mp3: 73.169s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quitar-ou-render-200-mil_narracao.wav 73.169s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.81
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quitar-ou-render-200-mil_base.mp4 4 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quitar-ou-render-200-mil_tiktok.mp4 6.2 MB 73.2 s
+[publicar] pronto: 73.2s, 6.2 MB
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quitar-ou-render-200-mil
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quitar-ou-render-200-mil
