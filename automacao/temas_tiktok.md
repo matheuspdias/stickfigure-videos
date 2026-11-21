@@ -4,7 +4,6 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- A melhor data de vencimento do cartão: 3 passos pra escolher (dia do salário + fechamento = até 40 dias pra pagar)
 - 3 passos antes de parcelar qualquer coisa (soma das parcelas que já tem, % do salário, regra do "e se eu perder a renda")
 - 5 passos pra sair do rotativo do cartão (com a conta de quanto custa 1 mês de rotativo em R$ 1.000)
 - 3 passos pra montar a reserva de emergência com salário de R$ 2 mil
@@ -13,6 +12,7 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
+- A melhor data de vencimento do cartão: 3 passos (vence ~5 dias depois do salário: dia 5 -> dia 10; fecha ~7-10 dias antes, dia 3; compra 02/12 paga 10/12 = 8 dias x compra 04/12 paga 10/01 = 37 dias; atraso de R$ 1.000 = R$ 20 de multa + rotativo; até 40 dias) (`checklist-vencimento-cartao`, 22/11 10h)
 - Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). já feitos: R$ 3 mil e R$ 2 mil; não repetir esses valores
 - 3 passos quando o salário cair (`checklist-salario-caiu`, 16/11)
 - 4 passos quando o 13º cair (`checklist-13-caiu`, 17/11 10h; substituiu o E se... do salário mínimo, que ficou sem postar)
@@ -85,6 +85,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Quanto rende R$ 1.000 em 1 ano (Parte 1 de 3): Selic 13,75%, CDI 13,65%; conta R$ 0, poupança R$ 1.083, Tesouro Selic e CDB 100% R$ 1.113 (bruto R$ 136, IR 17,5%), CDB 110% R$ 1.124; poupança -R$ 41/ano; FGC R$ 250 mil; IR 22,5% antes de 6 meses. Parte 2 prometida: R$ 5 mil; Parte 3: R$ 10 mil (`quanto-rende-mil-parte-1`, 19/11 18h, extra pedido pelo Matheus)
 - R$ 100 por mês desde que o filho nasce, em dinheiro de hoje (IPCA ~4,5%): R$ 21.600 depositados; gaveta ~R$ 15 mil, poupança ~R$ 25 mil, Tesouro IPCA+ (~7,5%, sem IR) ~R$ 37 mil (~R$ 80 mil nominais); custo de criar filho ~R$ 300 mil até 18 (estudo Bora Investir/Plano 2022, renda média) ~R$ 1.400/mês, R$ 100 = 7%; R$ 200 = ~R$ 74 mil (`cem-por-mes-filho-18`, 20/11 18h, 1º item 18h da fila)
 - R$ 200 mil na mão: quitar ou deixar rendendo? 100% CDI líquido ~11,5% = ~R$ 23 mil/ano; contrato 12% = ~R$ 24 mil de juros (quita, + seguro); contrato 8% = ~R$ 16 mil (rende, +R$ 7 mil/ano); Selic caindo em 2027; reserva antes, amortiza reduzindo prazo; linha 11,5% (`quitar-ou-render-200-mil`, 21/11 18h, item 18h da fila)
+- Quanto rende R$ 5 mil em 1 ano (Parte 2 de 3): mesmas taxas da Parte 1; poupança R$ 5.413, Tesouro Selic e CDB 100% R$ 5.563 (bruto R$ 682, IR R$ 119), CDB 110% R$ 5.619; por mês R$ 47 x R$ 34; 5 anos com taxas iguais: poupança ~R$ 7.400 x CDB 100% ~R$ 8.800 (quase R$ 1.400); IR 15% após 2 anos. Parte 3 prometida: R$ 10 mil (`quanto-rende-5-mil-parte-2`, 22/11 18h)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
