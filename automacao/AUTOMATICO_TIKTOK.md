@@ -116,10 +116,10 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
 ### 4. Narração (API do HeyGen, pela Action `tts`)
 - **Não use as ferramentas do HeyGen desta conversa para a narração** (elas gastavam a assinatura, que foi cancelada).
   A narração sai da API do HeyGen (saldo pré-pago, segredo `HEYGEN_API_KEY`), gerada pela Action `tts`.
-- Um bloco por vídeo, voz oficial (VOZ.md: Afonso, `9ce5f601f9e04382bb26141d5a3f839d`), texto do `roteiro.txt` sem tags.
+- Um bloco por vídeo, voz oficial (VOZ.md: clone B da Calm Carlos, `5ad4530af205483a88f32eb317d5328a`), texto do `roteiro.txt` sem tags.
   Para cada vídeo, crie `tts_in/<slug>.json`:
   ```json
-  {"slug": "<slug>", "voice": "9ce5f601f9e04382bb26141d5a3f839d", "blocos": ["<texto do roteiro>"]}
+  {"slug": "<slug>", "voice": "5ad4530af205483a88f32eb317d5328a", "blocos": ["<texto do roteiro>"]}
   ```
   Faça commit dos dois pedidos juntos e push. Em 1–2 min a Action commita, para cada slug:
   `audio_narracao/<slug>/bloco1.mp3`, `videos/<slug>/palavras.json` (`[{"w","t0","t1"}]`, pronto para as cenas) e

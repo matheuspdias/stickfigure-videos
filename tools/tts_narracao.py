@@ -2,7 +2,7 @@
 e deixa tudo pronto para as cenas e a fila do TikTok.
 
 Pedido (feito pelo Claude e enviado com push): tts_in/<slug>.json
-  {"slug": "<slug>", "voice": "9ce5f601f9e04382bb26141d5a3f839d", "blocos": ["texto do bloco 1", ...]}
+  {"slug": "<slug>", "voice": "5ad4530af205483a88f32eb317d5328a", "blocos": ["texto do bloco 1", ...]}
 
 Saída (commit da Action):
   audio_narracao/<slug>/bloco1.mp3 ...            (áudio, 44,1 kHz 192 kbps)
@@ -74,7 +74,7 @@ def main():
         if not f.endswith('.json'):
             continue
         spec = json.load(open(f'tts_in/{f}', encoding='utf-8'))
-        slug, voice = spec['slug'], spec.get('voice', '9ce5f601f9e04382bb26141d5a3f839d')
+        slug, voice = spec['slug'], spec.get('voice', '5ad4530af205483a88f32eb317d5328a')
         adir = f'audio_narracao/{slug}'
         os.makedirs(adir, exist_ok=True)
         os.makedirs(f'videos/{slug}', exist_ok=True)

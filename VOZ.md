@@ -2,13 +2,13 @@
 
 | Item | Valor |
 | --- | --- |
-| Voz | **Afonso - Warm & Resonant** (catálogo público do HeyGen, pt-BR, masculina, voz "instant"). Escolhida pelo Matheus em 13/11/2026 (Calm Carlos ficou ruim fora do ElevenLabs) |
-| voice_id | `9ce5f601f9e04382bb26141d5a3f839d` |
-| Voz anterior | Calm Carlos `3b2a59d6edb54e79a40b29726a12d1c3` (até 13/11/2026) |
+| Voz | **Consultor BR B (Calm Carlos v4 - alugar)**: clone "instant" em português, feito no HeyGen em 21/11/2026 a partir da narração antiga da Calm Carlos pelo ElevenLabs v4 (bloco 1 de `videos/alugar-ou-comprar`). Mesmo timbre dos primeiros vídeos, sem o sotaque que a Calm Carlos ganhou no modelo próprio do HeyGen. Escolhida pelo Matheus em 21/11/2026 |
+| voice_id | `5ad4530af205483a88f32eb317d5328a` (voz privada do workspace do HeyGen) |
+| Vozes anteriores | Afonso - Warm & Resonant `9ce5f601f9e04382bb26141d5a3f839d` (13/11 a 21/11/2026); Calm Carlos `3b2a59d6edb54e79a40b29726a12d1c3` (até 13/11/2026; é voz em inglês, por isso o sotaque fora do ElevenLabs) |
 | Ferramenta | **API do HeyGen** (`POST /v3/models/audio/tts`, `heygen-voice-1`, com tempos) pela Action `tts` desde 19/11/2026 — ver `tools/tts_narracao.py` e AUTOMATICO_TIKTOK.md §4. Não usar mais as ferramentas do HeyGen da conversa (assinatura cancelada). |
 | Modelo | **não informar** (o servidor usa o HeyGen Voice padrão do plano pago, `heygen-voice-1`) |
 | Idioma | `language: "pt"` |
-| Expressividade | não informar (padrão do servidor; foi assim na amostra que o Matheus aprovou em 13/11/2026) |
+| Expressividade | não informar (o padrão do servidor é 1,0; foi assim na amostra do clone B que o Matheus aprovou em 21/11/2026) |
 
 ## Mudança de 11/11/2026
 O HeyGen tirou da ferramenta a escolha do motor (`engine: "elevenlabs"`, `settings: {"model_id": "eleven_v4"}`).
