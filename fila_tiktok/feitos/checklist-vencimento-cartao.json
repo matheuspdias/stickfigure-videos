@@ -3,10 +3,8 @@
   "data": "2026-11-22",
   "horario": "10:00",
   "titulo": "A melhor data de vencimento do cartão: 3 passos",
-  "audio_blocos": [
-    "https://raw.githubusercontent.com/matheuspdias/stickfigure-videos/main/audio_narracao/checklist-vencimento-cartao/bloco1.mp3"
-  ],
   "duracoes": [
     71.034
-  ]
+  ],
+  "release": "https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vencimento-cartao"
 }
