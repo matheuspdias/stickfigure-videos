@@ -27,6 +27,13 @@ Cada item diz o horário: `[10h Checklist]` vai no formato Checklist do Consulto
 Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais performaram no TikTok (#financaspessoais, #educacaofinanceira, #dinheiro e perfis parecidos). Entre parênteses, o vídeo de referência (views, salvamentos, compartilhamentos). **Não copie o roteiro da referência**: use o tema e o formato, com as contas e os números do Faz a Conta, pesquisados no dia.
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
+Acrescentados em 22/11/2026 (pesquisa de temas em alta nas notícias; confira os números no dia):
+- [18h] Dólar subiu ~17% desde o 2º turno (R$ 5,86 em nov/2026): o que fica mais caro no seu bolso (gasolina e diesel em semanas; pão/trigo, café, açúcar; eletrônicos; viagem). Gancho: "O dólar subiu 17% em menos de um mês, e o seu pão vai sentir."
+- [10h Checklist] Super El Niño (pico dez/2026-jan/2027) vai encarecer a comida: passos pra proteger o mercado do mês (in natura pode subir ~20% num El Niño forte). Gancho: "Tem um fenômeno no oceano que vai encarecer seu mercado. Faz isso agora."
+- [18h] Ganha até R$ 5 mil e pode pagar imposto em 2027: a isenção já vale no contracheque, mas a 1ª declaração com ela é em 2027; quem tem duas fontes de renda (cada uma abaixo de R$ 5 mil) pode ter que pagar complemento. Gancho: "Você ganha menos de 5 mil e pode levar um susto do Leão em 2027."
+- [18h] Salário mínimo 2027 previsto em R$ 1.741 (+R$ 120, 7,4%; valor final depende do INPC): o que muda além do salário (DAS do MEI 5% do mínimo: R$ 81,05 -> R$ 87,05 + ICMS/ISS; aposentadorias, seguro-desemprego, BPC). Gancho: "O mínimo vai subir R$ 120, mas não é só o seu salário que muda."
+- [18h] Fim das bets, mas o golpe não: 60 mil+ sites clandestinos desde a proibição (IBJR); dinheiro em site ilegal não tem a quem recorrer; virada: "se você apostava R$ 50 por semana, quanto teria em 1 ano no CDB". Ângulo só de dinheiro e risco, sem opinião sobre a proibição (ver "Não fazer": política).
+
 
 ## Série "O que ninguém te conta antes de..."
 Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer se vale a pena; mesma estrutura dos episódios anteriores (`videos/consignado`, `videos/consorcio`). ~2 min. Um episódio a cada 3 ou 4 dias, no horário das 18h.
