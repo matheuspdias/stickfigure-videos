@@ -1,24 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 71.08s (esperado 71.03s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vencimento-cartao/bloco1.mp3: 71.079s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vencimento-cartao_narracao.wav 71.079s
+[publicar] bloco 1: 77.22s (esperado 77.18s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar/bloco1.mp3: 77.218s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar_narracao.wav 77.218s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.81
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vencimento-cartao_base.mp4 4 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vencimento-cartao_tiktok.mp4 6.1 MB 71.1 s
-[publicar] pronto: 71.1s, 6.1 MB
+efeitos sonoros: 0 eventos, volume 0.79
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar_tiktok.mp4 6.6 MB 77.2 s
+[publicar] pronto: 77.2s, 6.6 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vencimento-cartao
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vencimento-cartao
-[publicar] baixando bloco 1/1
-[publicar] bloco 1: 83.98s (esperado 83.95s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-5-mil-parte-2/bloco1.mp3: 83.984s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-5-mil-parte-2_narracao.wav 83.984s
-[publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.81
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-5-mil-parte-2_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-5-mil-parte-2_tiktok.mp4 7.1 MB 84.0 s
-[publicar] pronto: 84.0s, 7.1 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quanto-rende-5-mil-parte-2
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quanto-rende-5-mil-parte-2
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-antes-de-parcelar
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-antes-de-parcelar
