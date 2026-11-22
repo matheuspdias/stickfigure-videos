@@ -78,6 +78,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - R$ 1 milhão por dia desde 1500: quanto você teria (formato "e se..." com escala, música Happy Nation slowed; `milhao-por-dia-1500`, extra pedido em 13/11)
 - Seu 13º já tem dono: o Natal médio (R$ 1.430) come a 1ª parcela; 1ª = teto do Natal, 2ª = janeiro (`natal-come-13`, 13/11 noite, 1º teste sem cartaz de abertura)
 - 2ª parcela do 13º: por que vem menor (INSS do 13º inteiro só nela; IR zero até R$ 5 mil em 2026 x ~R$ 330 em 2025; R$ 7 mil ainda paga) (`segunda-parcela-13-menor`, 14/11 18h)
+- Seu 13º vai vir menor do que você pensa: só o salário de R$ 3 mil, app do banco e contracheque; 1ª R$ 1.500, INSS do 13º R$ 249 só na 2ª (R$ 1.251), IR zero em 2026 x ~R$ 24 em 2025; total R$ 2.751 (`decimo-terceiro-3mil-de-verdade`, 22/11 noite, refeito a pedido do Matheus)
 - E se você acordasse com R$ 1 milhão no Pix? 10 mil notas, quanto dura, quase R$ 9 mil/mês no CDI, ~R$ 5 mil/mês pra sempre descontando a inflação (`milhao-no-pix`, 14/11 10h)
 - IPVA 2027 à vista (3% em jan) ou 5x sem juros, carro de R$ 50 mil: R$ 60 de desconto x ~R$ 34 de rendimento; parcela se for pegar empréstimo (`ipva-2027-vista-ou-parcelado`, 15/11 18h, Parte 1 IPVA/IPTU)
 - E se você guardasse R$ 1 por segundo? 27 min = 1 mínimo, 12 dias = milionário, 1 ano = R$ 31,5 mi, 1 bi = 32 anos, juros > R$ 1/s em ~6,5 anos (`real-por-segundo`, 15/11 10h)
