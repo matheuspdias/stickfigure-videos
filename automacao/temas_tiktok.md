@@ -11,6 +11,7 @@ O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm priorida
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
+- El Niño vai encarecer o mercado: 3 passos (pico dez-mar; +1 a 3,4 p.p. na inflação da comida, extremo tipo 2015 quase 7; mercado R$ 800 -> +R$ 56/mês; estoque de 1 mês dos básicos ~R$ 150; -1 kg carne vermelha +1 kg frango ~R$ 25/semana = R$ 100/mês; sobram R$ 44) (`checklist-el-nino-mercado`, 24/11 10h, item da Fila do Matheus)
 - 3 passos antes de parcelar (semana da Black Friday): soma as parcelas (celular R$ 150 + geladeira R$ 200 = R$ 350), compara com o salário (teto 1/5: R$ 2.500 -> R$ 500, sobram R$ 150; TV R$ 2.400 em 12x = R$ 200 não cabe), e se a renda parar (falta pagar R$ 900 + R$ 1.600 + R$ 2.400 = R$ 4.900) (`checklist-antes-de-parcelar`, 23/11 10h)
 - A melhor data de vencimento do cartão: 3 passos (vence ~5 dias depois do salário: dia 5 -> dia 10; fecha ~7-10 dias antes, dia 3; compra 02/12 paga 10/12 = 8 dias x compra 04/12 paga 10/01 = 37 dias; atraso de R$ 1.000 = R$ 20 de multa + rotativo; até 40 dias) (`checklist-vencimento-cartao`, 22/11 10h)
 - Salário de R$ 2 mil caiu: 4 passos (Parte 2 do salário; fixas R$ 1.050, 5% = R$ 100, mercado R$ 400, R$ 15 por dia) (`checklist-salario-2mil`, 18/11 18h, pedido do Matheus). já feitos: R$ 3 mil e R$ 2 mil; não repetir esses valores
@@ -28,8 +29,6 @@ Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais perfor
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
 Acrescentados em 22/11/2026 (pesquisa de temas em alta nas notícias; confira os números no dia):
-- [18h] Dólar subiu ~17% desde o 2º turno (R$ 5,86 em nov/2026): o que fica mais caro no seu bolso (gasolina e diesel em semanas; pão/trigo, café, açúcar; eletrônicos; viagem). Gancho: "O dólar subiu 17% em menos de um mês, e o seu pão vai sentir."
-- [10h Checklist] Super El Niño (pico dez/2026-jan/2027) vai encarecer a comida: passos pra proteger o mercado do mês (in natura pode subir ~20% num El Niño forte). Gancho: "Tem um fenômeno no oceano que vai encarecer seu mercado. Faz isso agora."
 - [18h] Ganha até R$ 5 mil e pode pagar imposto em 2027: a isenção já vale no contracheque, mas a 1ª declaração com ela é em 2027; quem tem duas fontes de renda (cada uma abaixo de R$ 5 mil) pode ter que pagar complemento. Gancho: "Você ganha menos de 5 mil e pode levar um susto do Leão em 2027."
 - [18h] Salário mínimo 2027 previsto em R$ 1.741 (+R$ 120, 7,4%; valor final depende do INPC): o que muda além do salário (DAS do MEI 5% do mínimo: R$ 81,05 -> R$ 87,05 + ICMS/ISS; aposentadorias, seguro-desemprego, BPC). Gancho: "O mínimo vai subir R$ 120, mas não é só o seu salário que muda."
 - [18h] Fim das bets, mas o golpe não: 60 mil+ sites clandestinos desde a proibição (IBJR); dinheiro em site ilegal não tem a quem recorrer; virada: "se você apostava R$ 50 por semana, quanto teria em 1 ano no CDB". Ângulo só de dinheiro e risco, sem opinião sobre a proibição (ver "Não fazer": política).
@@ -95,6 +94,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - R$ 200 mil na mão: quitar ou deixar rendendo? 100% CDI líquido ~11,5% = ~R$ 23 mil/ano; contrato 12% = ~R$ 24 mil de juros (quita, + seguro); contrato 8% = ~R$ 16 mil (rende, +R$ 7 mil/ano); Selic caindo em 2027; reserva antes, amortiza reduzindo prazo; linha 11,5% (`quitar-ou-render-200-mil`, 21/11 18h, item 18h da fila)
 - Quanto rende R$ 5 mil em 1 ano (Parte 2 de 3): mesmas taxas da Parte 1; poupança R$ 5.413, Tesouro Selic e CDB 100% R$ 5.563 (bruto R$ 682, IR R$ 119), CDB 110% R$ 5.619; por mês R$ 47 x R$ 34; 5 anos com taxas iguais: poupança ~R$ 7.400 x CDB 100% ~R$ 8.800 (quase R$ 1.400); IR 15% após 2 anos. Parte 3 prometida: R$ 10 mil (`quanto-rende-5-mil-parte-2`, 22/11 18h)
 - Quanto rende R$ 10 mil em 1 ano (Parte 3 de 3, fim da série): poupança R$ 10.826, Tesouro Selic e CDB 100% R$ 11.126 (bruto R$ 1.365, IR R$ 239), CDB 110% R$ 11.239; por mês ~R$ 94 x ~R$ 69 (R$ 300/ano); virada: mesma % (113 / 563 / 1.126), muda o bolo; 1 mínimo/mês = quase R$ 170 mil (IR 15%); Selic pode cair em 2027 (`quanto-rende-10-mil-parte-3`, 23/11 18h)
+- Dólar a R$ 6: o que fica mais caro no seu bolso (R$ 4,99 em 23/10 -> R$ 6,00 em 23/11, +20%; viagem US$ 1.000 + IOF 3,5% R$ 5.175 -> R$ 6.210, +R$ 1.035; compra US$ 40 R$ 200 -> R$ 240; devagar: combustível, trigo, eletrônicos; virada: o que pesa é o tempo, compra em partes) (`dolar-6-reais-no-bolso`, 24/11 18h, item da Fila do Matheus sem o ângulo eleitoral e com o número conferido: era 20%, não 17%)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
