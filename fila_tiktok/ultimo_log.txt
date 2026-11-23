@@ -1,12 +1,36 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 77.22s (esperado 77.18s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar/bloco1.mp3: 77.218s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar_narracao.wav 77.218s
+[publicar] falha ao baixar (1/4): HTTP Error 503: Backend.max_conn reached
+[publicar] bloco 1: 71.99s (esperado 71.96s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-el-nino-mercado/bloco1.mp3: 71.993s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-el-nino-mercado_narracao.wav 71.993s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.79
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-antes-de-parcelar_tiktok.mp4 6.6 MB 77.2 s
-[publicar] pronto: 77.2s, 6.6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-el-nino-mercado_base.mp4 4 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-el-nino-mercado_tiktok.mp4 6.2 MB 72.0 s
+[publicar] pronto: 72.0s, 6.2 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-antes-de-parcelar
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-antes-de-parcelar
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-el-nino-mercado
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-el-nino-mercado
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 75.60s (esperado 75.56s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/dolar-6-reais-no-bolso/bloco1.mp3: 75.598s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/dolar-6-reais-no-bolso_narracao.wav 75.598s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.81
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/dolar-6-reais-no-bolso_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/dolar-6-reais-no-bolso_tiktok.mp4 6.3 MB 75.6 s
+[publicar] pronto: 75.6s, 6.3 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-dolar-6-reais-no-bolso
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-dolar-6-reais-no-bolso
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 82.16s (esperado 82.12s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-10-mil-parte-3/bloco1.mp3: 82.155s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-10-mil-parte-3_narracao.wav 82.155s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.81
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-10-mil-parte-3_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/quanto-rende-10-mil-parte-3_tiktok.mp4 7.1 MB 82.2 s
+[publicar] pronto: 82.2s, 7.1 MB
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quanto-rende-10-mil-parte-3
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-quanto-rende-10-mil-parte-3

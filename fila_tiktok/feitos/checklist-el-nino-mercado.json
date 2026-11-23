@@ -3,10 +3,8 @@
   "data": "2026-11-24",
   "horario": "10:00",
   "titulo": "El Niño vai encarecer o mercado: 3 passos",
-  "audio_blocos": [
-    "https://raw.githubusercontent.com/matheuspdias/stickfigure-videos/main/audio_narracao/checklist-el-nino-mercado/bloco1.mp3"
-  ],
   "duracoes": [
     71.963
-  ]
+  ],
+  "release": "https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-el-nino-mercado"
 }
