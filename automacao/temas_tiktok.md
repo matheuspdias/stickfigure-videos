@@ -4,13 +4,13 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- 5 passos pra sair do rotativo do cartão (com a conta de quanto custa 1 mês de rotativo em R$ 1.000)
 - 3 passos pra montar a reserva de emergência com salário de R$ 2 mil
 - O que fazer no dia que o vale-alimentação cai (3 passos), sem desperdiçar
 - 3 passos pra declarar o MEI/DAS sem multa (vencimento dia 20)
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
+- 5 passos pra sair do rotativo: guarda o cartão; rotativo 451,7% a.a. (BC set/2026) ~15%/mês, R$ 1.000 -> +R$ 150 em 30 dias; não paga só o mínimo (após 1 mês o banco oferece parcelamento); troca por consignado (~R$ 20-30/mês); teto da Lei 14.690 (juros+encargos até 100% da dívida, R$ 1.000 -> no máx. R$ 2.000, ~5 meses no rotativo) (`checklist-sair-do-rotativo`, 25/11 10h)
 - El Niño vai encarecer o mercado: 3 passos (pico dez-mar; +1 a 3,4 p.p. na inflação da comida, extremo tipo 2015 quase 7; mercado R$ 800 -> +R$ 56/mês; estoque de 1 mês dos básicos ~R$ 150; -1 kg carne vermelha +1 kg frango ~R$ 25/semana = R$ 100/mês; sobram R$ 44) (`checklist-el-nino-mercado`, 24/11 10h, item da Fila do Matheus)
 - 3 passos antes de parcelar (semana da Black Friday): soma as parcelas (celular R$ 150 + geladeira R$ 200 = R$ 350), compara com o salário (teto 1/5: R$ 2.500 -> R$ 500, sobram R$ 150; TV R$ 2.400 em 12x = R$ 200 não cabe), e se a renda parar (falta pagar R$ 900 + R$ 1.600 + R$ 2.400 = R$ 4.900) (`checklist-antes-de-parcelar`, 23/11 10h)
 - A melhor data de vencimento do cartão: 3 passos (vence ~5 dias depois do salário: dia 5 -> dia 10; fecha ~7-10 dias antes, dia 3; compra 02/12 paga 10/12 = 8 dias x compra 04/12 paga 10/01 = 37 dias; atraso de R$ 1.000 = R$ 20 de multa + rotativo; até 40 dias) (`checklist-vencimento-cartao`, 22/11 10h)
