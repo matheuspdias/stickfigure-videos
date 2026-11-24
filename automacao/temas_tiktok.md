@@ -29,7 +29,6 @@ Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais perfor
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
 Acrescentados em 22/11/2026 (pesquisa de temas em alta nas notícias; confira os números no dia):
-- [18h] Ganha até R$ 5 mil e pode pagar imposto em 2027: a isenção já vale no contracheque, mas a 1ª declaração com ela é em 2027; quem tem duas fontes de renda (cada uma abaixo de R$ 5 mil) pode ter que pagar complemento. Gancho: "Você ganha menos de 5 mil e pode levar um susto do Leão em 2027."
 - [18h] Salário mínimo 2027 previsto em R$ 1.741 (+R$ 120, 7,4%; valor final depende do INPC): o que muda além do salário (DAS do MEI 5% do mínimo: R$ 81,05 -> R$ 87,05 + ICMS/ISS; aposentadorias, seguro-desemprego, BPC). Gancho: "O mínimo vai subir R$ 120, mas não é só o seu salário que muda."
 - [18h] Fim das bets, mas o golpe não: 60 mil+ sites clandestinos desde a proibição (IBJR); dinheiro em site ilegal não tem a quem recorrer; virada: "se você apostava R$ 50 por semana, quanto teria em 1 ano no CDB". Ângulo só de dinheiro e risco, sem opinião sobre a proibição (ver "Não fazer": política).
 
@@ -95,6 +94,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Quanto rende R$ 5 mil em 1 ano (Parte 2 de 3): mesmas taxas da Parte 1; poupança R$ 5.413, Tesouro Selic e CDB 100% R$ 5.563 (bruto R$ 682, IR R$ 119), CDB 110% R$ 5.619; por mês R$ 47 x R$ 34; 5 anos com taxas iguais: poupança ~R$ 7.400 x CDB 100% ~R$ 8.800 (quase R$ 1.400); IR 15% após 2 anos. Parte 3 prometida: R$ 10 mil (`quanto-rende-5-mil-parte-2`, 22/11 18h)
 - Quanto rende R$ 10 mil em 1 ano (Parte 3 de 3, fim da série): poupança R$ 10.826, Tesouro Selic e CDB 100% R$ 11.126 (bruto R$ 1.365, IR R$ 239), CDB 110% R$ 11.239; por mês ~R$ 94 x ~R$ 69 (R$ 300/ano); virada: mesma % (113 / 563 / 1.126), muda o bolo; 1 mínimo/mês = quase R$ 170 mil (IR 15%); Selic pode cair em 2027 (`quanto-rende-10-mil-parte-3`, 23/11 18h)
 - Dólar a R$ 6: o que fica mais caro no seu bolso (R$ 4,99 em 23/10 -> R$ 6,00 em 23/11, +20%; viagem US$ 1.000 + IOF 3,5% R$ 5.175 -> R$ 6.210, +R$ 1.035; compra US$ 40 R$ 200 -> R$ 240; devagar: combustível, trigo, eletrônicos; virada: o que pesa é o tempo, compra em partes) (`dolar-6-reais-no-bolso`, 24/11 18h, item da Fila do Matheus sem o ângulo eleitoral e com o número conferido: era 20%, não 17%)
+- Ganha menos de R$ 5 mil e pode pagar IR em 2027: 2 empregos de R$ 3 mil, isenção por fonte; declaração 2027 soma R$ 72 mil (isenção completa até R$ 60 mil); simplificado 20% -> R$ 57.600; tabela ~R$ 4.900; redução da Lei 15.270 ~R$ 1.500 (60 a 88,2 mil); a pagar ~R$ 3.400 até maio; guardar ~R$ 300/mês; recibos médicos na completa (`ir-duas-rendas-2027`, 25/11 18h, 1º item 18h da Fila do Matheus)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
