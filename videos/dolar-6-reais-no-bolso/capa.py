@@ -1,22 +1,22 @@
-"""Capa do TikTok: Dólar a R$ 6, o que fica mais caro no seu bolso."""
-from engine import *
-VERTICAL = True
-from ilustrado import *
+"""Capa do TikTok dolar-6-reais-no-bolso, estilo caderno (modelo videos/ferias-mes-seguinte/capa.py).
+A grade do perfil corta para 3:4: o essencial fica entre y 260 e 1660.
+    python render.py stills videos/dolar-6-reais-no-bolso/capa.py out/capas 10"""
+from engine import *  # noqa
 
-STYLE = "ilustrado"
+VERTICAL = True
 
 
 def capa(c, t):
-    fundo_marca(c, t, "navy", holofote=(540, 1300))
-    numero_i(c, "DÓLAR A", 540, 290, 120, CREME)
-    numero_i(c, "R$ 6", 540, 470, 200, VERMELHO)
-    numero_i(c, "O QUE FICA MAIS CARO", 540, 635, 70, GOLD)
-    for i, s in enumerate(("VIAGEM: +R$ 1.035", "COMPRINHA: +R$ 40", "GASOLINA, PÃO, CELULAR")):
-        rr(c, 140, 695 + i * 100, 800, 84, 22); rgb(c, CREME); c.fill()
-        text(c, s, 540, 753 + i * 100, 46, MARKER, TINTA)
-    consultor_i(c, t, 540, 2350, 2.2, poses=((0, "head"),), exprs=((0, "shocked"),), look=0.0)
-    rr(c, 100, 1560, 880, 110, 26); rgb(c, VERMELHO); c.fill()
-    text(c, "FAZ A CONTA COMIGO", 540, 1632, 50, MARKER, CREME)
+    rgb(c, NAVY); c.paint()
+    rrect(c, 40, 230, 1000, 1460, 40); fs(c, PAPER, 0)
+    text(c, "DÓLAR A R$ 6", 540, 390, 120, MARKER, NAVY)
+    c.save(); c.translate(540, 560); hl(c, "O QUE FICA MAIS CARO", 0, 0, 70, (1, 0.8, 0.76), RED); c.restore()
+    text(c, "NO SEU BOLSO", 540, 690, 92, MARKER, RED)
+    c.save(); c.translate(280, 930); c.scale(1.3, 1.3); dollar_bill(c); c.restore()
+    text(c, "viagem de US$ 1.000", 280, 1110, 46, HAND, DGRAY)
+    text(c, "+ R$ 1.035", 280, 1190, 76, MARKER, RED)
+    hero(c, 10, 770, 1300, 0.85, [(0, "head")], [(0, "shocked")], look=-0.4)
+    c.save(); c.translate(540, 1420); hl(c, "FAZ A CONTA", 0, 0, 70, LYELLOW); c.restore()
 
 
 SCENES = [(0, 999, capa)]

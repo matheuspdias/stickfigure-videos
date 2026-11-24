@@ -1640,3 +1640,41 @@ def moon(c, col=LYELLOW):
     c.new_sub_path(); c.arc_negative(22, -14, 40, 6.283, 0)
     c.set_fill_rule(1); rgb(c, col); c.fill_preserve(); rgb(c, INK); c.set_line_width(5); c.stroke()
     c.set_fill_rule(0)
+
+
+# ---- novos (dolar-6-reais-no-bolso, caderno) ----
+def dollar_bill(c):
+    """nota de dólar (verde-acinzentada, US$ no centro), centrada em (0,0)"""
+    rrect(c, -110, -52, 220, 104, 8); fs(c, (0.62, 0.78, 0.60), 5)
+    rrect(c, -96, -40, 192, 80, 6); rgb(c, (0.36, 0.52, 0.36)); c.set_line_width(3); c.stroke()
+    circle(c, 0, 0, 30, (0.82, 0.90, 0.78), 3, (0.25, 0.40, 0.25))
+    text(c, "US$", 0, -2, 26, MARKER, (0.20, 0.36, 0.20))
+    for sx in (-1, 1):
+        text(c, "1", sx * 76, -20, 26, MARKER, (0.20, 0.36, 0.20))
+
+
+def plane(c, col=LBLUE):
+    """avião de lado, bico para a direita, centrado em (0,0)"""
+    poly(c, [(-20, -10), (40, -95), (70, -95), (40, -10)]); fs(c, col, 5)          # asa de trás
+    rrect(c, -150, -28, 300, 56, 28); fs(c, WHITE, 6)                              # fuselagem
+    poly(c, [(-150, -20), (-170, -80), (-130, -80), (-100, -20)]); fs(c, col, 5)    # leme
+    poly(c, [(-30, 10), (20, 85), (55, 85), (30, 10)]); fs(c, col, 5)               # asa da frente
+    for x in (-80, -50, -20, 10, 40, 70):
+        circle(c, x, -6, 8, LBLUE, 3)
+    poly(c, [(110, -20), (138, -8), (110, -4)]); fs(c, DGRAY, 3)                    # cabine
+
+
+def bread(c):
+    """pão francês, centrado em (0,0)"""
+    c.save(); c.scale(1.0, 0.55); c.new_path(); c.arc(0, 0, 120, 0, 6.2832); c.restore()
+    fs(c, (0.86, 0.62, 0.33), 6)
+    c.set_line_width(7); rgb(c, (0.62, 0.38, 0.16))
+    c.move_to(-70, -10); c.curve_to(-40, -40, 30, -40, 70, -20); c.stroke()
+
+
+def package(c, label="US$ 40"):
+    """caixa de encomenda com fita e etiqueta, centrada em (0,0)"""
+    c.rectangle(-110, -80, 220, 160); fs(c, (0.84, 0.66, 0.42), 6)
+    c.rectangle(-18, -80, 36, 160); rgb(c, (0.95, 0.86, 0.60)); c.fill_preserve(); rgb(c, INK); c.set_line_width(3); c.stroke()
+    rrect(c, 30, 10, 70, 50, 6); fs(c, WHITE, 3)
+    text(c, label, 65, 35, 18, MARKER, INK)

@@ -175,3 +175,5 @@ Novos (decimo-terceiro-tres-portas): `door(num, col, k)` (porta com placa numera
 Dica: na Permanent Marker o ponto de milhar some depois do "2" ("R$ 2.100" vira "2100"): use `"R$ 2 .100"` (espaço fino).
 Novos (pov-role-barato): `beer_mug(col)` (copo com espuma, sem marca), `fries_basket` (porção de batata), `bed(col, w)` (cama de lado, base em y=0;
 desenhe o boneco deitado por cima), `blanket(col, w)` (coberta, desenhe depois do boneco) e `moon(col)` (lua).
+
+Novos (dolar-6-reais-no-bolso, estilo caderno): `dollar_bill` (nota de dólar), `plane(col)` (avião de lado), `bread` (pão francês) e `package(label)` (caixa de encomenda com etiqueta). Desde 24/11/2026 os vídeos do TikTok voltaram ao estilo caderno (ver `automacao/AUTOMATICO_TIKTOK.md`, seção 5).
