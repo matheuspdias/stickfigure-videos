@@ -56,7 +56,7 @@ Este ambiente **não baixa** o áudio do HeyGen (quem baixa é o Actions), mas *
 
 ### 2a. O que os dados mostraram (13/11/2026) — vale acima de tudo
 Análise dos vídeos de 07 a 13/11 (todos parados em 150 a 450 views; o do aluguel, 3.435):
-- O TikTok distribuiu normalmente (90-95% "Para você"): não é bloqueio, nem o selo de IA (o Matheus sempre marca e deve continuar marcando), nem o estilo ilustrado.
+- O TikTok distribuiu normalmente (90-95% "Para você"): não é bloqueio, nem o selo de IA (o Matheus sempre marca e deve continuar marcando). O estilo, sim, pesa: ver 5.
 - **A maioria saiu em 0:01**: os vídeos abriam com um cartaz parado (título enorme em fundo escuro + Consultor no holofote), que parece capa/anúncio.
 - Temas de opinião (morar com os pais, casamento, lanche e bar) quase não foram salvos nem compartilhados (1 salvamento, 2 compartilhamentos). Os campeões do canal são contas úteis do momento (13º 238 mil, férias 105 mil, apê na planta 57 mil) e séries numeradas (R$ 100 mil 624 mil, aluguel 156 mil).
 
@@ -129,11 +129,15 @@ Modelo pronto: `videos/milhao-por-dia-1500/` (roteiro, cenas, capa, post). Inspi
   pare e avise o Matheus para colocar saldo na API do HeyGen (platform.heygen.com → Billing). Erro temporário:
   apague `tts_out/`, commit e dispare de novo (`gh api -X POST repos/matheuspdias/stickfigure-videos/actions/workflows/tts.yml/dispatches -f ref=main`).
 
-### 5. Cenas, capa e post (skill, T3 a T5), no estilo ilustrado
-- `videos/<slug>/scenes.py`: `from engine import *`, `VERTICAL = True`, `from ilustrado import *`, `STYLE = "ilustrado"`, `SFX_OFF = True` ou `SFX_SKIP` como no modelo e 3 ou 4 toques. Modelo: `examples/ilustrado-tiktok/scenes.py`.
-- **Quadro 0 com a conta em movimento e título pequeno no topo** (regra 2b.1). Cenários de vida real e `fundo_marca`, números com `contador`/`barras_i`/`grafico_curva`, telas de banco e fatura; O Consultor grande (escala 1.3-1.5), algo novo na tela a cada ~2 s.
-- Revisão **obrigatória**: `python render.py sheet ...` no fim e no meio das cenas, pelo menos duas rodadas, corrigindo sobreposições e qualquer coisa abaixo de y 1500 ou à direita de x 930. Teste mudo curto: `python render.py build videos/<slug>/scenes.py silent:8 out/teste.mp4`.
-- `videos/<slug>/capa.py` (modelo `examples/ilustrado-tiktok/capa.py`) e `videos/<slug>/post.txt` (legenda do TikTok com gancho na 1ª linha, 2 ou 3 linhas da conta, pergunta final e 3 a 5 hashtags; título curto para Shorts).
+### 5. Cenas, capa e post (skill, T3 a T5), no estilo CADERNO (palito), desde 24/11/2026
+**Por quê (perfil @fazaconta10, aba Popular, 24/11/2026):** dos 18 vídeos mais vistos, 16 são no estilo caderno (papel creme, bonequinho de palito, números à mão): 100 mil 722 mil, "13º não vem inteiro" 248 mil, alugar ou comprar parte 1 248 mil, férias 128 mil, carro 81 mil, planta 73 mil, CLT x PJ 55 mil, demitido 47 mil. Os ilustrados ficaram quase todos entre 150 e 4 mil (exceções: checklist do salário 152 mil, holerite 18,6 mil, 13º de R$ 3 mil 10 mil; o mesmo tema do 13º em palito fez 248 mil). O Matheus decidiu voltar ao caderno no TikTok.
+- `videos/<slug>/scenes.py`: `from engine import *` e `VERTICAL = True`, **sem** `from ilustrado import *` e sem `STYLE`. O Consultor é `hero(...)` (camisa navy, gravata dourada, óculos); outras pessoas com `pessoa(...)`/`boneco(...)` do engine. Fundo de papel creme, números grandes em Permanent Marker (`text(..., MARKER, ...)`, `hl(...)` para marca-texto), objetos do engine (`suitcase`, `boleto`, `door`, `crane`, `sofa_back/front`...). `SFX_SKIP` como no modelo e 3 ou 4 toques.
+  Modelos que deram certo: `videos/ferias-mes-seguinte/` (128 mil), `videos/decimo-terceiro-quanto-cai/`, `videos/demitido-hoje/`, `videos/planta-mcmv/`; POV: `videos/pov-fatura-janeiro/`.
+- **Quadro 0 com a conta em movimento e título pequeno no topo** (regra 2b.1): a tela é uma folha de caderno onde a conta vai sendo escrita; algo novo a cada ~2 s; um número enorme por vez; o Consultor reagindo. Nada de cenário cheio (sala, rua, escritório): o fundo limpo deixa o número ler na hora no celular.
+- **Gancho** (os que mais renderam no perfil): número chocante sobre o dinheiro da pessoa ("R$ 395 mil só de juros", "41% do salário no carro"); desmentir o que ela acha ("o seu 13º não vem inteiro", "CLT x PJ: quase igual?"); aviso sobre o que vai acontecer com ela ("férias? cuidado com o mês seguinte"); situação em que ela se coloca ("demitido hoje? quanto cai?"); "por que" ("por que demora tanto no começo?"). Série "Parte X de 4": só a parte 1 explode (248 mil -> 5,6 mil na parte 4), então a parte 1 tem de fechar sozinha.
+- **Exceção:** o Checklist do Consultor das 10h (2c) pode seguir no quadro azul-marinho ilustrado (o do salário fez 152 mil), até o teste com o checklist em caderno.
+- Revisão **obrigatória**: `python render.py sheet ...` no fim e no meio das cenas, pelo menos duas rodadas, corrigindo sobreposições e qualquer coisa abaixo de y 1500 ou à direita de x 930 (no Permanent Marker, "R$ 2.100" vira "2100": use `m()` como no modelo). Teste mudo curto: `python render.py build videos/<slug>/scenes.py silent:8 out/teste.mp4`.
+- `videos/<slug>/capa.py` (modelo `videos/ferias-mes-seguinte/capa.py`: moldura navy, folha creme, título em Marker, o número que choca e o Consultor `hero` reagindo) e `videos/<slug>/post.txt` (legenda do TikTok com gancho na 1ª linha, 2 ou 3 linhas da conta, pergunta final e 3 a 5 hashtags; título curto para Shorts).
 
 ### 6. Fila
 `fila_tiktok/<slug>.json` para cada vídeo:
