@@ -1,12 +1,12 @@
+fila_tiktok: falta o campo audio_blocos
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 72.57s (esperado 72.53s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo/bloco1.mp3: 72.568s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo_narracao.wav 72.568s
+[publicar] bloco 1: 74.40s (esperado 74.37s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ir-duas-rendas-2027/bloco1.mp3: 74.397s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ir-duas-rendas-2027_narracao.wav 74.397s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.81
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo_tiktok.mp4 6.3 MB 72.6 s
-[publicar] pronto: 72.6s, 6.3 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-sair-do-rotativo
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-sair-do-rotativo
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ir-duas-rendas-2027_base.mp4 6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/ir-duas-rendas-2027_tiktok.mp4 8.2 MB 74.4 s
+[publicar] pronto: 74.4s, 8.2 MB
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-ir-duas-rendas-2027
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-ir-duas-rendas-2027
