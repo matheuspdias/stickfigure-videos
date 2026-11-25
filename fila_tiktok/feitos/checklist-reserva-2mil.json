@@ -3,10 +3,8 @@
   "data": "2026-11-26",
   "horario": "10:00",
   "titulo": "Reserva de emergência ganhando R$ 2 mil: 3 passos",
-  "audio_blocos": [
-    "https://raw.githubusercontent.com/matheuspdias/stickfigure-videos/main/audio_narracao/checklist-reserva-2mil/bloco1.mp3"
-  ],
   "duracoes": [
     74.534
-  ]
+  ],
+  "release": "https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-reserva-2mil"
 }
