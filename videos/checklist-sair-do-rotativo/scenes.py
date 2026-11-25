@@ -1,217 +1,170 @@
-"""CHECKLIST DO CONSULTOR: "5 passos pra sair do rotativo do cartão" (TikTok vertical, ~72,5 s, estilo ilustrado, quadro navy).
-1º item da lista Checklist do Consultor (25/11/2026, 10h). Modelo: videos/checklist-el-nino-mercado.
+"""CHECKLIST DO CONSULTOR: "5 passos pra sair do rotativo do cartão". Só TikTok: vertical 1080x1920, ~72,5 s, ESTILO CADERNO (palito).
+Refeito em 24/11/2026 a pedido do Matheus ("quero todos os vídeos no formato de palitinho"); mesma narração (Consultor BR B, 1 bloco).
 Contas (contas.py): rotativo 451,7% a.a. (BC, set/2026) = ~15,3% a.m.; R$ 1.000 -> ~R$ 1.150 em 1 mês; dobra em ~5 meses;
-teto da Lei 14.690/2023 (desde 03/01/2024): juros e encargos até 100% da dívida; consignado ~R$ 20 a 30 por mês em R$ 1.000."""
+teto da Lei 14.690/2023 (desde 03/01/2024): juros e encargos até 100% da dívida; consignado ~R$ 20 a 30 por mês em R$ 1.000.
+Layout: lista de 5 passos na folha (y 280-700) escrita passo a passo; palco da conta y 760-1280 (pés em 1280); legendas ~1400-1460;
+nada importante em x > 930. Quadro 0: a fatura de R$ 1.000 já contando para R$ 1.150."""
 from engine import *  # noqa
-VERTICAL = True
-from ilustrado import *  # noqa
 
-STYLE = "ilustrado"
-SFX = [(0.3, "soft_ding"), (10.4, "tum"), (16.2, "tum"), (29.0, "tum"), (40.3, "tum"), (52.6, "tum"), (68.7, "soft_ding")]
+VERTICAL = True
+
+CX = 420
+FY = 1280
+PINKISH = (1, 0.8, 0.76)
+
+SFX = [(4.4, "tum"), (10.4, "tum"), (16.2, "tum"), (29.0, "tum"), (40.3, "tum"), (52.6, "tum"), (68.7, "soft_ding")]
 SFX_SKIP = ("anim:pop", "anim:drop", "anim:stamp", "anim:fade", "anim:up", "anim:left", "anim:right", "arrow", "appear", "key", "transition")
 
-PASSOS = [(10.4, "GUARDA O CARTÃO", 16.1), (16.2, "OLHA O TAMANHO", 28.9), (29.0, "NÃO PAGA SÓ O MÍNIMO", 40.2),
-          (40.3, "TROCA POR UMA MAIS BARATA", 52.5), (52.6, "CONHECE O TETO", 68.6)]
-LIN0, LINH = 342, 88
-YC = 832
-L1, L2, R1, R2 = (255, 960), (255, 1060), (790, 960), (790, 1060)
-C1, C2 = (540, 955), (540, 1050)
+PASSOS = [(10.4, "guarda o cartão", 16.1), (16.2, "olha o tamanho", 28.9), (29.0, "não paga só o mínimo", 40.2),
+          (40.3, "troca a dívida", 52.5), (52.6, "conhece o teto", 68.6)]
+LIN0, LINH = 325, 80
 
 
 def m(s):
+    """Permanent Marker apaga o ponto de milhar depois do 2: espaço finíssimo"""
     return s.replace("2.", "2 .")
 
 
-def chip(s, cor=CREME, tcol=TINTA, size=44, rot=0.0):
-    def f(c):
-        c.select_font_face(MARKER); c.set_font_size(size)
-        w = c.text_extents(s).x_advance + 56
-        c.save(); c.rotate(rot)
-        rr(c, -w / 2 + 6, -size * 0.75 + 8, w, size * 1.5, 18); rgb(c, (0, 0, 0), 0.25); c.fill()
-        rr(c, -w / 2, -size * 0.75, w, size * 1.5, 18); rgb(c, cor); c.fill()
-        text(c, s, 0, size * 0.36, size, MARKER, tcol)
-        c.restore()
-    return f
+def floor(c):
+    line(c, 40, FY + 6, 1040, FY + 6, 4, LGRAY)
+
+
+def L(s, size=50, col=INK, font=HAND):
+    return lambda c: text(c, m(s) if font == MARKER else s, 0, 0, size, font, col, align="l")
+
+
+def MM(s, size=60, col=INK):
+    return lambda c: text(c, m(s), 0, 0, size, MARKER, col)
+
+
+def HL(s, size=60, bg=LYELLOW, col=INK):
+    return lambda c: hl(c, m(s), 0, 0, size, bg, col)
+
+
+def strike(w=260, col=RED):
+    return lambda c: line(c, -w / 2, 8, w / 2, -8, 10, col)
+
+
+def reais(c, t, t0, a, b, x, y, size, col, d=0.8, pre="R$ ", suf=""):
+    v = a + (b - a) * ease_out(prog(t, t0, d))
+    s = f"{v:,.0f}".replace(",", ".")
+    text(c, m(pre + s + suf), x, y, size, MARKER, col)
 
 
 def lista(c, t):
-    rr(c, 70 + 8, 285 + 10, 850, 470, 30); rgb(c, (0, 0, 0), 0.25); c.fill()
-    rr(c, 70, 285, 850, 470, 30); rgb(c, CREME); c.fill()
+    show(c, t, -1.0, 540, 205, lambda c: ribbon(c, "SAIR DO ROTATIVO", NAVY, 54), anim="stamp", d=0.3)
     for i, (t0, nome, t1) in enumerate(PASSOS):
         y = LIN0 + i * LINH
-        ativo = t0 - 0.6 <= t < t1
-        if ativo:
-            rr(c, 86, y - 41, 818, 82, 18); rgb(c, GOLD, 0.35); c.fill()
-        c.new_sub_path(); c.arc(150, y, 31, 0, 6.283); rgb(c, VERDE if t >= t1 else NAVY); c.fill()
+        if t0 - 0.6 <= t < t1:
+            c.save(); c.translate(0, 0)
+            rrect(c, 70, y - 38, 880, 76, 14); fs(c, LYELLOW, 0)
+            c.restore()
         if t >= t1:
-            c.move_to(136, y); c.line_to(148, y + 13); c.line_to(168, y - 13); rgb(c, CREME); c.set_line_width(8); c.stroke()
+            c.save(); c.translate(130, y); check_icon(c, 32); c.restore()
         else:
-            text(c, str(i + 1), 150, y + 14, 40, MARKER, CREME)
+            circle(c, 130, y, 32, WHITE, 5)
+            text(c, str(i + 1), 130, y + 14, 40, MARKER, NAVY)
         if t < t0:
-            c.move_to(210, y + 17); c.line_to(870, y + 17); rgb(c, TINTA, 0.25); c.set_line_width(5); c.set_dash([16, 12]); c.stroke(); c.set_dash([])
+            c.move_to(185, y + 18); c.line_to(900, y + 18); rgb(c, INK, 0.2); c.set_line_width(4); c.set_dash([14, 12]); c.stroke(); c.set_dash([])
         else:
             k = ease_out(clamp01((t - t0) / 0.5))
-            c.save(); c.rectangle(205, y - 48, 690 * k, 96); c.clip()
-            text(c, nome, 210, y + 15, 42, MARKER, TINTA, align="l")
+            c.save(); c.rectangle(180, y - 50, 740 * k, 100); c.clip()
+            text(c, nome, 190, y + 18, 56, MARKER, NAVY if t < t1 else DGRAY, align="l")
             c.restore()
+    line(c, 60, 715, 1020, 715, 4, LGRAY)
 
 
-def marcador(c, t):
-    yc = YC
-    if t >= 68.7:
-        k = 1 + 0.12 * math.sin(clamp01((t - 68.7) / 0.35) * math.pi)
-        c.save(); c.translate(540, yc); c.scale(k, k)
-        rr(c, -430, -68, 860, 136, 30); rgb(c, GOLD); c.fill()
-        text(c, "SAI ANTES DO 5º MÊS", 0, 24, 62, MARKER, TINTA)
-        c.restore()
-        return
-    rr(c, 150, yc - 62, 780, 124, 30); rgb(c, (0.10, 0.14, 0.26)); c.fill()
-
-    def lab(s, size=40):
-        text(c, s, 345, yc + 15, size, MARKER, CREME)
-
-    def val(s, col=GOLD, size=70):
-        numero_i(c, m(s), 720, yc + 25, size, col)
-
-    def cont(t0, a, b, col, pref="R$ ", suf="", d=0.8):
-        contador(c, t, t0, a, b, 710, yc, 72, d=d, col=col, prefixo=pref, sufixo=suf)
-    if t < 3.0:
-        lab("SUA FATURA", 40); cont(0.0, 0, 1000, CREME, d=1.2)
-    elif t < 16.2:
-        lab("1 MÊS DEPOIS", 38)
+# ======================================================================= PALCO (y 770-1280)
+def palco(c, t):
+    if t < 10.4:  # gancho
+        show(c, t, -1.0, 170, 880, sc(card, RED, s=1.4), anim="pop")
+        text(c, "sua fatura", 330, 830, 52, HAND, DGRAY, align="l")
         if t < 4.4:
-            val("R$ 1.000", CREME, 70)
+            reais(c, t, 0.0, 0, 1000, 500, 930, 100, INK, d=1.4)
         else:
-            cont(4.4, 1000, 1150, VERMELHO, d=1.0)
-    elif t < 22.6:
-        lab("JUROS/ANO", 40)
-        if t < 20.1:
-            val("?", CREME, 76)
+            reais(c, t, 4.4, 1000, 1150, 500, 930, 100, RED, d=1.0)
+        show(c, t, 3.0, 400, 1010, T("em 1 mês no rotativo", 52, DGRAY), anim="up", t1=6.3)
+        show(c, t, 6.5, 340, 1060, HL("5 PASSOS PRA SAIR", 62, PINKISH, RED), anim="stamp")
+        show(c, t, 8.4, 400, 1160, T("salva pro dia da fatura", 56, NAVY), anim="up")
+        hero(c, t, 860, FY, 0.9, [(0, "head"), (6.3, "finger_up")], [(0, "shocked"), (6.3, "confident")], look=-0.6)
+    elif t < 16.2:  # 1
+        show(c, t, 11.2, 200, 900, sc(card, PURPLE, s=1.5), anim="pop")
+        show(c, t, 11.6, 200, 900, sc(padlock, s=1.1), anim="drop")
+        show(c, t, 12.2, 370, 860, L("compra nova", 62, NAVY, MARKER), anim="left", d=0.3)
+        show(c, t, 13.3, 370, 950, L("cai na mesma conta", 54, DGRAY), anim="left", d=0.3)
+        show(c, t, 14.8, 420, 1080, HL("= MAIS JUROS", 80, PINKISH, RED), anim="stamp")
+        hero(c, t, 880, FY, 0.9, [(0, "finger_up"), (12.2, "point_l")], [(0, "confident"), (14.8, "worried")], look=-0.8)
+    elif t < 29.0:  # 2
+        show(c, t, 17.3, CX, 820, T("o tamanho do buraco", 58, DGRAY), anim="up")
+        if t < 22.6:
+            if t >= 20.1:
+                reais(c, t, 20.1, 0, 450, CX, 980, 150, RED, d=0.9, pre="~", suf="%")
+                show(c, t, 21.0, CX, 1080, T("ao ano", 58, DGRAY), anim="up")
         else:
-            cont(20.1, 0, 450, VERMELHO, pref="~", suf="%", d=0.9)
-    elif t < 24.7:
-        lab("JUROS/MÊS", 40); cont(23.0, 0, 15, VERMELHO, pref="~", suf="%", d=0.6)
-    elif t < 29.0:
-        lab("EM 30 DIAS", 40)
-        if t < 25.9:
-            val("R$ 1.000", CREME, 70)
+            show(c, t, 22.6, CX, 900, MM("450% ao ano", 50, GRAY), anim="fade")
+            show(c, t, 22.6, CX, 900, strike(330, GRAY), anim="fade", d=0.2)
+            show(c, t, 23.2, CX, 990, HL("~15% AO MÊS", 76, PINKISH, RED), anim="stamp")
+            show(c, t, 24.9, 70, 1120, L("R$ 1.000", 70, INK, MARKER), anim="left", d=0.3)
+            show(c, t, 25.9, 380, 1120, L("+R$ 150", 84, RED, MARKER), anim="stamp", d=0.3)
+            show(c, t, 27.3, CX, 1210, T("em 30 dias", 56, DGRAY), anim="up")
+        hero(c, t, 880, FY, 0.9, [(0, "finger_up"), (20.1, "head"), (22.6, "present_l")], [(0, "think"), (20.1, "shocked"), (22.6, "worried")], look=-0.8)
+    elif t < 40.3:  # 3
+        show(c, t, 30.1, CX, 900, MM("só o mínimo?", 90, NAVY), anim="stamp", t1=32.1)
+        if 30.6 < t < 32.1:
+            show(c, t, 30.6, CX, 900, strike(600), anim="fade", d=0.2)
+        if t >= 32.1:
+            show(c, t, 32.1, 150, 870, sc(calendar, "30", RED, 56, s=1.2), anim="pop")
+            show(c, t, 32.5, 270, 850, L("1 mês no rotativo", 58, NAVY, MARKER), anim="left", d=0.3)
+            show(c, t, 34.0, 270, 930, L("o banco tem que oferecer", 48, DGRAY), anim="left", d=0.3)
+            show(c, t, 35.1, CX, 1040, HL("PARCELAR A FATURA", 72, LYELLOW), anim="stamp")
+            show(c, t, 36.7, CX, 1130, T("costuma ter juros menores", 52, DGRAY), anim="up")
+        if t >= 38.5:
+            show(c, t, 38.5, CX, 1210, HL("compara antes de aceitar", 56, LGREEN), anim="stamp")
+        hero(c, t, 880, FY, 0.9, [(0, "finger_up"), (32.1, "present_l"), (38.5, "thumb")], [(0, "confident"), (38.5, "happy")], look=-0.8)
+    elif t < 52.6:  # 4
+        show(c, t, 41.4, CX, 810, HL("dívida mais barata", 68, LYELLOW), anim="stamp")
+        base, scl = 1220, 1.3
+        for t0, x, v, lab, top, col in ((44.6, 230, 150, "rotativo", "R$ 150", RED), (48.7, 560, 25, "consignado", "R$ 20 a 30", GREEN)):
+            if t > t0:
+                h = v * scl * ease_out(prog(t, t0, 0.6))
+                rrect(c, x - 100, base - h, 200, h, 12); fs(c, col if col == GREEN else PINKISH, 6)
+                show(c, t, t0 + 0.5, x, base - v * scl - 40, MM(top, 60, col), anim="pop")
+                show(c, t, t0 + 0.2, x, base + 50, T(lab, 48, DGRAY), anim="up")
+        line(c, 100, base, 720, base, 6)
+        show(c, t, 47.7, CX, 890, T("juros de R$ 1.000 por mês", 50, DGRAY), anim="up")
+        hero(c, t, 880, FY, 0.9, [(0, "finger_up"), (44.6, "point_l"), (49.0, "thumb")], [(0, "confident"), (49.0, "happy")], look=-0.8)
+    elif t < 68.7:  # 5
+        show(c, t, 53.6, CX, 810, HL("TETO DA LEI", 84, LYELLOW), anim="stamp")
+        if t < 61.3:
+            show(c, t, 55.1, CX, 900, T("desde 2024", 56, DGRAY), anim="up")
+            show(c, t, 57.1, CX, 1000, MM("juros + encargos", 70, NAVY), anim="stamp")
+            show(c, t, 59.4, CX, 1100, T("até o valor da dívida", 60, INK), anim="up")
         else:
-            cont(25.9, 0, 150, VERMELHO, pref="+R$ ", d=0.7)
-    elif t < 32.1:
-        lab("SÓ O MÍNIMO?", 36); val("NÃO", VERMELHO, 72)
-    elif t < 35.1:
-        lab("DEPOIS DE", 40); val("30 DIAS", CREME, 66)
-    elif t < 40.3:
-        lab("O BANCO", 42); val("PARCELA", GOLD, 64)
-    elif t < 47.7:
-        lab("ROTATIVO", 42); val("+R$ 150", VERMELHO, 70)
-    elif t < 52.6:
-        lab("CONSIGNADO", 38)
-        if t < 49.0:
-            val("?", CREME, 76)
-        else:
-            val("R$ 20 A 30", VERDE, 54)
-    elif t < 61.3:
-        lab("TETO DA LEI", 38); val("100%", GOLD, 72)
-    elif t < 65.7:
-        lab("NO MÁXIMO", 40)
-        if t < 63.3:
-            val("R$ 1.000", CREME, 70)
-        else:
-            cont(63.3, 1000, 2000, VERMELHO, d=0.8)
-    else:
-        lab("ROTATIVO", 42)
-        if t < 67.4:
-            val("R$ 2.000", VERMELHO, 70)
-        else:
-            val("5 MESES", VERMELHO, 66)
-
-
-def detalhes(c, t):
-    if t < 6.3:
-        a = 1.0 if t < 5.9 else max(0.0, 1 - (t - 5.9) / 0.4)
-        c.push_group()
-        notificacao(c, 540, 1000, 1.5, "Fatura não paga", "R$ 1.000 foi pro rotativo", VERMELHO, "CARTÃO")
-        c.pop_group_to_source(); c.paint_with_alpha(a)
-    if 6.3 <= t < 10.4:
-        entra(c, t, 6.5, *C1, chip("5 PASSOS PRA SAIR", GOLD, TINTA, 46), anim="stamp")
-        if t >= 8.4:
-            entra(c, t, 8.4, *C2, chip("salva pro dia da fatura", CREME, TINTA, 40), anim="pop")
-    # passo 1
-    if 11.2 <= t < 16.2:
-        entra(c, t, 11.2, *C1, chip("GUARDA O CARTÃO", CREME, TINTA, 48), anim="stamp")
-        if t >= 12.5:
-            entra(c, t, 12.5, *C2, chip("compra nova = mais juros", VERMELHO, CREME, 40), anim="pop")
-    # passo 2
-    if 17.3 <= t < 22.6:
-        entra(c, t, 17.3, *C1, chip("o tamanho do buraco", CREME, TINTA, 44), anim="pop")
-        if t >= 20.1:
-            entra(c, t, 20.1, *C2, chip("~450% AO ANO", VERMELHO, CREME, 50), anim="stamp")
-    if 22.6 <= t < 29.0:
-        entra(c, t, 23.0, *C1, chip("~15% AO MÊS", VERMELHO, CREME, 50), anim="stamp")
-        if t >= 24.9:
-            entra(c, t, 24.9, *L2, chip("R$ 1.000", CREME, TINTA, 42, -0.04), anim="left")
-        if t >= 26.3:
-            entra(c, t, 26.3, *R2, chip(m("+R$ 150 em 30 dias"), VERMELHO, CREME, 36, 0.04), anim="right")
-    # passo 3
-    if 30.1 <= t < 32.1:
-        entra(c, t, 30.1, *C1, chip("SÓ O MÍNIMO? NÃO!", VERMELHO, CREME, 48), anim="stamp")
-    if 32.1 <= t < 38.5:
-        entra(c, t, 32.3, *C1, chip("1 mês no rotativo", CREME, TINTA, 44), anim="pop")
-        if t >= 34.6:
-            entra(c, t, 34.6, *C2, chip("banco oferece parcelar", GOLD, TINTA, 42), anim="stamp")
-    if 38.5 <= t < 40.3:
-        entra(c, t, 38.5, *C1, chip("COMPARA OS JUROS", VERDE, CREME, 48), anim="stamp")
-    # passo 4
-    if 41.4 <= t < 47.7:
-        entra(c, t, 41.6, *C1, chip("dívida mais barata", GOLD, TINTA, 44), anim="stamp")
-        if t >= 45.0:
-            entra(c, t, 45.0, *L2, chip("consignado", CREME, TINTA, 40, -0.04), anim="left")
-        if t >= 46.7:
-            entra(c, t, 46.7, *R2, chip("uma fração", VERDE, CREME, 40, 0.04), anim="right")
-    if 47.7 <= t < 52.6:
-        entra(c, t, 47.7, *C1, chip("R$ 1.000 no consignado", CREME, TINTA, 44), anim="pop")
-        if t >= 49.0:
-            entra(c, t, 49.0, *L2, chip(m("R$ 20 a 30"), VERDE, CREME, 42, -0.04), anim="left")
-        if t >= 51.1:
-            entra(c, t, 51.1, *R2, chip("não R$ 150", VERMELHO, CREME, 42, 0.04), anim="right")
-    # passo 5
-    if 53.6 <= t < 57.1:
-        entra(c, t, 53.6, *C1, chip("TETO DA LEI", GOLD, TINTA, 50), anim="stamp")
-        if t >= 55.1:
-            entra(c, t, 55.1, *C2, chip("desde 2024", CREME, TINTA, 42), anim="pop")
-    if 57.1 <= t < 61.3:
-        entra(c, t, 57.1, *C1, chip("juros + encargos", CREME, TINTA, 44), anim="pop")
-        if t >= 59.4:
-            entra(c, t, 59.4, *C2, chip("até o valor da dívida", GOLD, TINTA, 42), anim="stamp")
-    if 61.3 <= t < 64.2:
-        entra(c, t, 61.3, *C1, chip("R$ 1.000", CREME, TINTA, 46), anim="pop")
-        if t >= 62.0:
-            entra(c, t, 62.0, *C2, chip(m("NUNCA PASSA DE R$ 2.000"), VERMELHO, CREME, 42), anim="stamp")
-    if 64.2 <= t < 68.7:
-        entra(c, t, 64.4, *C1, chip("não espera chegar lá", CREME, TINTA, 44), anim="pop")
-        if t >= 67.2:
-            entra(c, t, 67.2, *C2, chip("no rotativo: 5 MESES", VERMELHO, CREME, 44), anim="stamp")
-    if t >= 68.7:
-        entra(c, t, 68.7, *C1, chip("QUAL É O JURO DO SEU CARTÃO?", GOLD, TINTA, 40), anim="pop")
-        if t >= 70.7:
-            entra(c, t, 70.7, *C2, chip("olha no app e comenta", CREME, TINTA, 40), anim="pop")
+            show(c, t, 61.3, 70, 930, L("R$ 1.000", 76, INK, MARKER), anim="left", d=0.3)
+            show(c, t, 62.0, 410, 935, L("nunca passa de", 52, DGRAY), anim="left", d=0.3)
+            show(c, t, 63.3, 70, 1030, L("R$ 2.000", 90, RED, MARKER), anim="stamp", d=0.3)
+            if t > 64.2:
+                # 5 meses de rotativo: barras subindo até o teto
+                for k, v in enumerate((1153, 1329, 1533, 1767, 2000)):
+                    t0 = 65.7 + k * 0.35
+                    if t > t0:
+                        h = (v - 900) * 0.10 * ease_out(prog(t, t0, 0.3))
+                        rrect(c, 430 + k * 70, 1230 - h, 52, h, 8); fs(c, PINKISH if k < 4 else RED, 5)
+                line(c, 410, 1230, 790, 1230, 5)
+                show(c, t, 67.4, 230, 1180, MM("em 5 meses", 56, RED), anim="stamp")
+        hero(c, t, 880, FY, 0.9, [(0, "finger_up"), (61.3, "present_l"), (67.2, "head")], [(0, "confident"), (67.2, "shocked")], look=-0.8)
+    else:  # fim
+        show(c, t, 68.8, 370, 830, MM("QUAL É O JURO", 76, NAVY), anim="stamp")
+        show(c, t, 69.5, 370, 950, MM("DO SEU CARTÃO?", 78, RED), anim="stamp")
+        show(c, t, 70.7, 190, 1110, sc(phone, s=1.0), anim="pop")
+        show(c, t, 71.4, 470, 1110, HL("COMENTA AÍ", 76, LYELLOW), anim="stamp")
+        hero(c, t, 880, FY, 0.9, [(0, "point_l")], [(0, "happy"), (71.6, "grin")], look=-0.8)
 
 
 def cena(c, t):
-    luz("dia")
-    fundo_marca(c, t, "navy", holofote=(540, 1250))
-    numero_i(c, "SAIR DO ROTATIVO", 540, 230, 58, CREME)
+    floor(c)
     lista(c, t)
-    marcador(c, t)
-    poses = ((0, "head"), (3.0, "shrug"), (6.3, "finger_up"), (8.4, "present"), (10.4, "finger_up"), (12.2, "point_r"),
-             (16.2, "finger_up"), (20.1, "head"), (22.6, "present"), (25.9, "shrug"), (29.0, "finger_up"), (32.1, "present"),
-             (38.5, "point_r"), (40.3, "finger_up"), (44.1, "present"), (49.0, "present"), (51.1, "shrug"), (52.6, "finger_up"),
-             (57.1, "present"), (62.0, "point_r"), (64.2, "finger_up"), (67.2, "head"), (68.7, "present"))
-    exprs = ((0, "shocked"), (6.3, "confident"), (20.1, "shocked"), (22.6, "think"), (29.0, "confident"), (49.0, "grin"),
-             (51.1, "confident"), (62.0, "confident"), (67.2, "shocked"), (68.7, "grin"))
-    consultor_i(c, t, 540, 2270, 2.4, poses=poses, exprs=exprs, look=0.0)
-    detalhes(c, t)
+    palco(c, t)
 
 
 SCENES = [(0, 999.0, cena)]

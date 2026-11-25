@@ -1,23 +1,24 @@
-"""Capa do TikTok: Checklist do Consultor · 5 passos pra sair do rotativo do cartão."""
-from engine import *
-VERTICAL = True
-from ilustrado import *
+"""Capa do TikTok checklist-sair-do-rotativo, estilo caderno (modelo videos/dolar-6-reais-no-bolso/capa.py).
+A grade do perfil corta para 3:4: o essencial fica entre y 260 e 1660."""
+from engine import *  # noqa
 
-STYLE = "ilustrado"
+VERTICAL = True
 
 
 def capa(c, t):
-    fundo_marca(c, t, "navy", holofote=(540, 1350))
-    numero_i(c, "SAIR DO", 540, 290, 110, CREME)
-    numero_i(c, "ROTATIVO", 540, 430, 130, GOLD)
-    for i, s in enumerate(("1. GUARDA O CARTÃO", "2. OLHA O TAMANHO", "3. NÃO PAGA SÓ O MÍNIMO", "4. TROCA POR UMA MAIS BARATA", "5. CONHECE O TETO")):
-        rr(c, 90, 520 + i * 86, 900, 76, 20); rgb(c, CREME); c.fill()
-        text(c, s, 125, 572 + i * 86, 40, MARKER, TINTA, align="l")
-    rr(c, 150, 965, 780, 96, 26); rgb(c, VERMELHO); c.fill()
-    text(c, "~15% DE JUROS POR MÊS", 540, 1030, 52, MARKER, CREME)
-    consultor_i(c, t, 540, 2170, 2.2, poses=((0, "finger_up"),), exprs=((0, "confident"),), look=0.0)
-    rr(c, 100, 1560, 880, 110, 26); rgb(c, GOLD); c.fill()
-    text(c, "SALVA PRO DIA DA FATURA", 540, 1632, 46, MARKER, TINTA)
+    rgb(c, NAVY); c.paint()
+    rrect(c, 40, 230, 1000, 1460, 40); fs(c, PAPER, 0)
+    text(c, "SAIR DO ROTATIVO", 540, 380, 84, MARKER, NAVY)
+    c.save(); c.translate(540, 505); hl(c, "5 PASSOS", 0, 0, 80, (1, 0.8, 0.76), RED); c.restore()
+    for i, s in enumerate(("guarda o cartão", "olha o tamanho", "não paga só o mínimo", "troca a dívida", "conhece o teto")):
+        y = 640 + i * 92
+        circle(c, 130, y - 16, 32, WHITE, 5)
+        text(c, str(i + 1), 130, y - 2, 40, MARKER, NAVY)
+        text(c, s, 190, y, 56, MARKER, INK, align="l")
+    text(c, "fatura de R$ 1.000", 360, 1160, 48, HAND, DGRAY)
+    text(c, "+R$ 150/mês", 370, 1270, 78, MARKER, RED)
+    hero(c, 10, 830, 1380, 0.85, [(0, "head")], [(0, "shocked")], look=-0.4)
+    c.save(); c.translate(540, 1530); hl(c, "SALVA PRO DIA DA FATURA", 0, 0, 62, LYELLOW); c.restore()
 
 
 SCENES = [(0, 999, capa)]
