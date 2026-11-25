@@ -1,11 +1,12 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 72.57s (esperado 72.53s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo/bloco1.mp3: 72.568s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo_narracao.wav 72.568s
+[publicar] bloco 1: 72.75s (esperado 72.71s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/janeiro-2027-contas/bloco1.mp3: 72.751s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/janeiro-2027-contas_narracao.wav 72.751s
 [publicar] renderizando o vertical
 efeitos sonoros: 0 eventos, volume 0.81
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-sair-do-rotativo_tiktok.mp4 6.4 MB 72.6 s
-[publicar] pronto: 72.6s, 6.4 MB
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-sair-do-rotativo
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-sair-do-rotativo
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/janeiro-2027-contas_base.mp4 6 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/janeiro-2027-contas_tiktok.mp4 7.6 MB 72.8 s
+[publicar] pronto: 72.8s, 7.6 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-janeiro-2027-contas
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-janeiro-2027-contas
