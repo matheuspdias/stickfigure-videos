@@ -3,10 +3,8 @@
   "data": "2026-11-26",
   "horario": "18:00",
   "titulo": "Salário mínimo 2027: o que muda além do salário",
-  "audio_blocos": [
-    "https://raw.githubusercontent.com/matheuspdias/stickfigure-videos/main/audio_narracao/salario-minimo-2027-o-que-muda/bloco1.mp3"
-  ],
   "duracoes": [
     76.902
-  ]
+  ],
+  "release": "https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-salario-minimo-2027-o-que-muda"
 }

@@ -3,10 +3,8 @@
   "data": "2026-11-27",
   "horario": "10:00",
   "titulo": "Vale-alimentação: 3 passos pra durar o mês",
-  "audio_blocos": [
-    "https://raw.githubusercontent.com/matheuspdias/stickfigure-videos/main/audio_narracao/checklist-vale-alimentacao/bloco1.mp3"
-  ],
   "duracoes": [
     75.179
-  ]
+  ],
+  "release": "https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vale-alimentacao"
 }

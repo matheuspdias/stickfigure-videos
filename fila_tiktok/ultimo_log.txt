@@ -1,12 +1,23 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 74.58s (esperado 74.53s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-reserva-2mil/bloco1.mp3: 74.580s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-reserva-2mil_narracao.wav 74.580s
+[publicar] bloco 1: 75.21s (esperado 75.18s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao/bloco1.mp3: 75.207s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao_narracao.wav 75.207s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.81
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-reserva-2mil_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-reserva-2mil_tiktok.mp4 6.6 MB 74.6 s
-[publicar] pronto: 74.6s, 6.6 MB
+efeitos sonoros: 0 eventos, volume 0.78
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao_tiktok.mp4 6.6 MB 75.2 s
+[publicar] pronto: 75.2s, 6.6 MB
 release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-reserva-2mil
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-reserva-2mil
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vale-alimentacao
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vale-alimentacao
+[publicar] baixando bloco 1/1
+[publicar] bloco 1: 76.93s (esperado 76.90s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda/bloco1.mp3: 76.931s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda_narracao.wav 76.931s
+[publicar] renderizando o vertical
+efeitos sonoros: 0 eventos, volume 0.80
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda_tiktok.mp4 6.5 MB 76.9 s
+[publicar] pronto: 76.9s, 6.5 MB
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-salario-minimo-2027-o-que-muda
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-salario-minimo-2027-o-que-muda
