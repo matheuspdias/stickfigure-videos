@@ -4,11 +4,11 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- O que fazer no dia que o vale-alimentação cai (3 passos), sem desperdiçar
 - 3 passos pra declarar o MEI/DAS sem multa (vencimento dia 20)
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
+- Vale-alimentação: 3 passos no dia que cai: VA R$ 600 = R$ 20/dia; básico do mês (arroz, feijão, óleo, café, macarrão, leite) ~R$ 250 no dia 1; separa o carrinho (limpeza e higiene não entram no VA, paga com o salário); R$ 350 ÷ 4 = ~R$ 87/semana, olha o saldo toda segunda (`checklist-vale-alimentacao`, 27/11 10h)
 - 3 passos pra montar a reserva com salário de R$ 2 mil: gastos que não dá pra cortar R$ 1.500 (1ª meta 1 mês, depois 3 meses R$ 4.500); Pix de R$ 100 (5%) no dia do salário pra conta separada 100% CDI com liquidez + R$ 500 da 2ª parcela do 13º = R$ 1.500 em 10 meses; emergência = saúde, demissão, conserto pra trabalhar (promoção não); usou, repõe; R$ 1.500 no rotativo ~R$ 1.725 em 1 mês (`checklist-reserva-2mil`, 26/11 10h)
 - 5 passos pra sair do rotativo: guarda o cartão; rotativo 451,7% a.a. (BC set/2026) ~15%/mês, R$ 1.000 -> +R$ 150 em 30 dias; não paga só o mínimo (após 1 mês o banco oferece parcelamento); troca por consignado (~R$ 20-30/mês); teto da Lei 14.690 (juros+encargos até 100% da dívida, R$ 1.000 -> no máx. R$ 2.000, ~5 meses no rotativo) (`checklist-sair-do-rotativo`, 25/11 10h)
 - El Niño vai encarecer o mercado: 3 passos (pico dez-mar; +1 a 3,4 p.p. na inflação da comida, extremo tipo 2015 quase 7; mercado R$ 800 -> +R$ 56/mês; estoque de 1 mês dos básicos ~R$ 150; -1 kg carne vermelha +1 kg frango ~R$ 25/semana = R$ 100/mês; sobram R$ 44) (`checklist-el-nino-mercado`, 24/11 10h, item da Fila do Matheus)
@@ -29,7 +29,6 @@ Montada em 18/11/2026 a partir dos vídeos de finanças em pt-BR que mais perfor
 O vídeo do canal que deu certo (`checklist-salario-caiu`, 105 mil views, primeiro a pagar no programa de recompensas) segue o mesmo padrão das referências: lista numerada de passos com valores em reais, que dá vontade de salvar.
 
 Acrescentados em 22/11/2026 (pesquisa de temas em alta nas notícias; confira os números no dia):
-- [18h] Fim das bets, mas o golpe não: 60 mil+ sites clandestinos desde a proibição (IBJR); dinheiro em site ilegal não tem a quem recorrer; virada: "se você apostava R$ 50 por semana, quanto teria em 1 ano no CDB". Ângulo só de dinheiro e risco, sem opinião sobre a proibição (ver "Não fazer": política).
 
 
 ## Série "O que ninguém te conta antes de..."
@@ -96,6 +95,7 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - Ganha menos de R$ 5 mil e pode pagar IR em 2027: 2 empregos de R$ 3 mil, isenção por fonte; declaração 2027 soma R$ 72 mil (isenção completa até R$ 60 mil); simplificado 20% -> R$ 57.600; tabela ~R$ 4.900; redução da Lei 15.270 ~R$ 1.500 (60 a 88,2 mil); a pagar ~R$ 3.400 até maio; guardar ~R$ 300/mês; recibos médicos na completa (`ir-duas-rendas-2027`, 25/11 18h, 1º item 18h da Fila do Matheus)
 - Janeiro de 2027: você já deve uns R$ 4 mil (IPVA carro R$ 40 mil SP 4% = R$ 1.600, -3% em jan ou 5x de R$ 320; IPTU ~R$ 1.000; material ~R$ 500/filho, mesmo item até 3x; fatura Natal/Black Friday ~R$ 1.000; total R$ 4.100 > salário de R$ 3 mil; 2ª parcela do 13º ~R$ 1.250 não paga 1/3) (`janeiro-2027-contas`, extra pedido em 25/11; cobre o item de Checklist "4 passos de janeiro" e o "POV: chegou o IPVA e o IPTU": não repetir o ângulo)
 - Salário mínimo 2027 (previsão R$ 1.741, +R$ 120, 7,4%; depende do INPC): INSS 7,5% R$ 121 -> R$ 130, líquido +R$ 111/mês, R$ 1.443 no ano com 13º; aparece no salário de fevereiro; DAS do MEI R$ 81,05 -> R$ 87,05 (+R$ 72/ano); pisos: aposentadoria/pensão, BPC, seguro-desemprego, abono PIS; acima do mínimo depende da categoria (`salario-minimo-2027-o-que-muda`, 26/11 18h, item 18h da Fila do Matheus)
+- Bets proibidas, mas o golpe não: MP 1.394/2026 (em vigor 06/10/2026); 60 mil+ endereços suspeitos (IBJR/LegitBet, até 27/10); site clandestino pode não pagar, sem a quem reclamar; Pix para empresas de fachada (PCDF, ~R$ 740 mi); virada R$ 50/semana = ~R$ 217/mês = R$ 2.600/ano; CDB 100% CDI 13,65% ~R$ 2.750 líquido em 1 ano, ~R$ 17.500 em 5 anos; metade = R$ 1.300/ano (`bets-golpe-50-por-semana`, 27/11 18h, item 18h da Fila do Matheus)
 - Série: planta, carro, consignado, consórcio, cartão de crédito, MEI (acima)
 
 ## Ideias soltas (a automação pode usar)
