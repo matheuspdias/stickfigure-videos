@@ -4,10 +4,10 @@ A tarefa agendada "Faz a Conta TikTok automático" consulta esta lista todo dia 
 O Matheus pode mexer à vontade: pôr ideias em "Fila do Matheus" (têm prioridade), apagar, marcar como proibido.
 
 ## Checklist do Consultor (10h, todo dia; um por dia, na ordem)
-- 3 passos pra declarar o MEI/DAS sem multa (vencimento dia 20)
 - 4 passos de janeiro: IPVA, IPTU, material escolar e fatura, na ordem certa
 
 ## Checklist já feitos
+- MEI: 3 passos antes do dia 20: DAS serviços R$ 86 (2026); multa 0,33%/dia até 20% + juros, 12 meses esquecidos > R$ 1.200; app do MEI, parcelamento até 60x (mín. R$ 50), dívida ativa, 12 meses sem pagar pode perder o INSS; separa R$ 86 na 1ª venda = < R$ 3/dia; DASN até 31/05 (`checklist-das-mei-dia-20`, 28/11 10h)
 - Vale-alimentação: 3 passos no dia que cai: VA R$ 600 = R$ 20/dia; básico do mês (arroz, feijão, óleo, café, macarrão, leite) ~R$ 250 no dia 1; separa o carrinho (limpeza e higiene não entram no VA, paga com o salário); R$ 350 ÷ 4 = ~R$ 87/semana, olha o saldo toda segunda (`checklist-vale-alimentacao`, 27/11 10h)
 - 3 passos pra montar a reserva com salário de R$ 2 mil: gastos que não dá pra cortar R$ 1.500 (1ª meta 1 mês, depois 3 meses R$ 4.500); Pix de R$ 100 (5%) no dia do salário pra conta separada 100% CDI com liquidez + R$ 500 da 2ª parcela do 13º = R$ 1.500 em 10 meses; emergência = saúde, demissão, conserto pra trabalhar (promoção não); usou, repõe; R$ 1.500 no rotativo ~R$ 1.725 em 1 mês (`checklist-reserva-2mil`, 26/11 10h)
 - 5 passos pra sair do rotativo: guarda o cartão; rotativo 451,7% a.a. (BC set/2026) ~15%/mês, R$ 1.000 -> +R$ 150 em 30 dias; não paga só o mínimo (após 1 mês o banco oferece parcelamento); troca por consignado (~R$ 20-30/mês); teto da Lei 14.690 (juros+encargos até 100% da dívida, R$ 1.000 -> no máx. R$ 2.000, ~5 meses no rotativo) (`checklist-sair-do-rotativo`, 25/11 10h)
