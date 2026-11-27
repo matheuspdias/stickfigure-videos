@@ -1,23 +1,23 @@
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 75.21s (esperado 75.18s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao/bloco1.mp3: 75.207s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao_narracao.wav 75.207s
+[publicar] bloco 1: 73.33s (esperado 73.28s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bets-golpe-50-por-semana/bloco1.mp3: 73.326s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bets-golpe-50-por-semana_narracao.wav 73.326s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.78
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-vale-alimentacao_tiktok.mp4 6.6 MB 75.2 s
-[publicar] pronto: 75.2s, 6.6 MB
-release not found
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vale-alimentacao
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-vale-alimentacao
+efeitos sonoros: 0 eventos, volume 0.81
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bets-golpe-50-por-semana_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/bets-golpe-50-por-semana_tiktok.mp4 6.5 MB 73.3 s
+[publicar] pronto: 73.3s, 6.5 MB
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bets-golpe-50-por-semana
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bets-golpe-50-por-semana
 [publicar] baixando bloco 1/1
-[publicar] bloco 1: 76.93s (esperado 76.90s)
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda/bloco1.mp3: 76.931s, início 0.000s, diferença -101 dB -> ok
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda_narracao.wav 76.931s
+[publicar] bloco 1: 71.24s (esperado 71.21s)
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-das-mei-dia-20/bloco1.mp3: 71.236s, início 0.000s, diferença -101 dB -> ok
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-das-mei-dia-20_narracao.wav 71.236s
 [publicar] renderizando o vertical
-efeitos sonoros: 0 eventos, volume 0.80
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda_base.mp4 5 MB
-/home/runner/work/stickfigure-videos/stickfigure-videos/out/salario-minimo-2027-o-que-muda_tiktok.mp4 6.5 MB 76.9 s
-[publicar] pronto: 76.9s, 6.5 MB
-https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-salario-minimo-2027-o-que-muda
-[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-salario-minimo-2027-o-que-muda
+efeitos sonoros: 0 eventos, volume 0.81
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-das-mei-dia-20_base.mp4 5 MB
+/home/runner/work/stickfigure-videos/stickfigure-videos/out/checklist-das-mei-dia-20_tiktok.mp4 6.2 MB 71.2 s
+[publicar] pronto: 71.2s, 6.2 MB
+release not found
+https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-das-mei-dia-20
+[publicar] release: https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-checklist-das-mei-dia-20

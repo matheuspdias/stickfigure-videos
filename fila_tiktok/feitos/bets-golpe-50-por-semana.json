@@ -3,10 +3,8 @@
   "data": "2026-11-27",
   "horario": "18:00",
   "titulo": "Bets proibidas: o golpe que ficou",
-  "audio_blocos": [
-    "https://raw.githubusercontent.com/matheuspdias/stickfigure-videos/main/audio_narracao/bets-golpe-50-por-semana/bloco1.mp3"
-  ],
   "duracoes": [
     73.275
-  ]
+  ],
+  "release": "https://github.com/matheuspdias/stickfigure-videos/releases/tag/tiktok-bets-golpe-50-por-semana"
 }
