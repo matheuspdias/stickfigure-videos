@@ -39,7 +39,8 @@ Tom de quem avisa um amigo: informa os custos e as regras escondidas sem dizer s
 - ep. 4 consórcio (`consorcio`)
 - ep. 5 cartão de crédito: rotativo, parcelamento da fatura, teto de 100%, anuidade (`cartao-de-credito`)
 - ep. 6 abrir MEI (`antes-de-abrir-mei`, 13/11 18h)
-- próximos (em ordem, se o Matheus não mudar): empréstimo pessoal (o ep. 6 perguntou "empréstimo pessoal ou cheque especial?"), financiar moto, cheque especial, previdência privada, comprar carro usado
+- ep. 7 empréstimo pessoal: média BC 110% a.a. (6,42% a.m., set/2026); R$ 5 mil em 12x a 6,5% = ~R$ 613, devolve R$ 7.354; CET/IOF/seguro (venda casada); ranking BC <40% a >250% a.a.; consignado INSS 24%, CLT 48%; mais barato que rotativo/cheque especial; prometeu ep. 8 financiar moto (`antes-emprestimo-pessoal`, 28/11 18h, caderno)
+- próximos (em ordem, se o Matheus não mudar): financiar moto, cheque especial, previdência privada, comprar carro usado
 
 ## Já feitos no TikTok (não repetir o mesmo ângulo)
 - Holerite de janeiro com a jornada de 42h: salário igual, extra acima de 42h (+50%), divisor 210 (`holerite-janeiro-42h`, extra 19/11 21h, remodelado de vídeo em alta; narração x1,12)
