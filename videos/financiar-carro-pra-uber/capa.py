@@ -15,7 +15,7 @@ def capa(c, t):
     text(c, "faturou", 300, 830, 50, HAND, DGRAY)
     text(c, "R$ 7.000", 300, 910, 80, MARKER, GREEN)
     text(c, "sobrou", 780, 830, 50, HAND, DGRAY)
-    text(c, "R$ 1.550", 780, 910, 80, MARKER, RED)
+    text(c, "QUANTO?", 780, 910, 80, MARKER, RED)
     other(c, 10, 540, 1330, 0.6, [(0, "head")], [(0, "shocked")], shirt=ORANGE, fid=2, look=0)
     c.save(); c.translate(540, 1480); hl(c, "FAZ A CONTA", 0, 0, 70, LYELLOW); c.restore()
 

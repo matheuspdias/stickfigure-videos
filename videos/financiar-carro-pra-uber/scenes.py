@@ -1,6 +1,7 @@
 """Financiar carro pra rodar de Uber: Lucas (financia popular de R$ 80 mil) x Bruno (aluga de locadora).
 Só TikTok: vertical 1080x1920, ~75,9 s, ESTILO CADERNO. Faturamento de R$ 7 mil/mês, 10 h/dia, 5 dias, ~4.000 km. Contas em contas.py.
-Quadro 0: o carro e o faturamento do Lucas já subindo para R$ 7 mil (e depois derretendo para R$ 1.500).
+Quadro 0: o carro e o faturamento do Lucas já subindo para R$ 7 mil; gancho v2 (27/11): "quanto você acha que sobrou?"
+sem revelar os R$ 1.550 até os ~33 s. Narração = gancho_v2.mp3 + bloco1.mp3 a partir de 7,45 s (palavras.json já deslocado).
 Layout: título y~250, palco y 360-1290 (pés em 1280), legendas y~1400-1460, nada abaixo de 1500 nem em x > 930."""
 from engine import *  # noqa
 
@@ -11,7 +12,8 @@ FY = 1280
 LX, BX = 270, 770
 PINKISH = (1, 0.8, 0.76)
 
-SFX = [(6.0, "tum"), (32.6, "tum"), (47.8, "tum"), (74.9, "soft_ding")]
+D = 0.587   # o novo gancho (v2, curiosidade) ficou 0,587 s mais longo: as cenas 2 em diante andam D
+SFX = [(5.25, "tum"), (32.6 + D, "tum"), (47.8 + D, "tum"), (74.9 + D, "soft_ding")]
 SFX_SKIP = ("anim:pop", "anim:drop", "anim:stamp", "anim:fade", "anim:up", "anim:left", "anim:right", "arrow", "appear", "key", "transition")
 
 
@@ -80,15 +82,18 @@ def contador(c, t, t0, d, v0, v1, x, y, size, col):
 
 
 # ======================================================================= CENAS
-def s01(c, t):  # 0 - 7.6  gancho: faturou 7 mil, sobrou 1.500
+def s01(c, t):  # 0 - 8.2  gancho de curiosidade: faturou 7 mil... quanto sobrou?
     floor(c)
     show(c, t, -1.0, CX, 250, lambda c: ribbon(c, "FINANCIOU PRA RODAR DE APP", NAVY, 46), anim="stamp")
     show(c, t, -1.0, 300, 520, sc(car, RED, s=0.8), anim="left")
     show(c, t, -1.0, 690, 500, sc(phone, NAVY, s=0.9), anim="pop")
-    show(c, t, 2.8, CX, 700, T("faturou no mês:", 50, DGRAY), anim="up", t1=5.2)
-    show(c, t, 5.3, CX, 700, T("sobrou:", 56, RED), anim="up")
-    valor(c, t, [(0.0, 0), (3.7, 7000), (6.0, 7000), (7.2, 1500)], CX, 820, 120, lambda v: GREEN if v > 6000 else RED)
-    lucas(c, t, CX, 0.5, [(0, "stand"), (3.7, "arms_up"), (6.0, "head")], [(0, "neutral"), (3.7, "grin"), (6.0, "shocked")], look=0)
+    show(c, t, 2.9, CX, 700, T("faturou no mês:", 50, DGRAY), anim="up")
+    valor(c, t, [(0.0, 0), (4.3, 7000)], CX, 810, 110, lambda v: GREEN)
+    if t > 5.25:
+        show(c, t, 5.25, CX, 950, M("QUANTO SOBROU?", 76, RED), anim="stamp")
+        show(c, t, 5.6, 860, 820, sc(qmark, 110, RED), anim="pop")
+    show(c, t, 6.66, 600, 1070, lambda c: hl(c, "faz a conta comigo", 0, 0, 56, LYELLOW), anim="stamp")
+    lucas(c, t, 170, 0.45, [(0, "stand"), (4.3, "arms_up"), (5.25, "think")], [(0, "neutral"), (4.3, "grin"), (5.25, "think")], look=0.5)
 
 
 def s02(c, t):  # 7.6 - 15.9  a rotina do Lucas
@@ -198,7 +203,14 @@ def s09(c, t):  # 71.4 - fim  comenta
     hero(c, t, CX, FY, 0.45, [(0, "point_ru")], [(0, "happy")], look=0)
 
 
-SCENES = [
+_SCENES = [
     (0.0, 7.6, s01), (7.6, 15.9, s02), (15.9, 32.6, s03), (32.6, 37.4, s04), (37.4, 47.8, s05),
     (47.8, 53.8, s06), (53.8, 63.7, s07), (63.7, 71.4, s08), (71.4, 999.0, s09),
 ]
+
+
+def _desloca(fn):
+    return lambda c, t: fn(c, t - D)
+
+
+SCENES = [(0.0, 7.6 + D, s01)] + [(a + D, b + D if b < 900 else b, _desloca(fn)) for a, b, fn in _SCENES[1:]]
