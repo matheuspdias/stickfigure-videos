@@ -129,3 +129,4 @@ Prioridade: temas que DIVIDEM OPINIÃO (pedido do Matheus em 09/11/2026). Exempl
 - Recomendar banco, corretora, produto ou ação específica como "o melhor"
 - Promessa de ganho, enriquecimento rápido, apostas, cripto especulativa
 - Política partidária e eleições
+- consorcio-ou-financiamento (28/11/2026): consórcio x financiamento, carro de R$ 80 mil
